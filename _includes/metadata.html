@@ -1,0 +1,348 @@
+
+{%- assign record = include.entry | default: page -%}
+
+{%- assign show_author = include.show_author -%}
+{%- assign show_language = include.show_language -%}
+{%- assign show_form = include.show_form -%}
+{%- assign show_date = include.show_date -%}
+
+{%- assign language_record = site.data.languages.languages
+  | where: "id", record.language_id
+  | first
+-%}
+
+{%- assign display_language = record.language
+  | default: language_record.name
+-%}
+
+<!-- ============================================================
+     VERSE & VARIABLE
+     REUSABLE LITERARY METADATA COMPONENT
+
+     Author identification
+     Original language
+     Literary form
+     Publication date
+     Original work
+     Music contributors
+     Attribution information
+
+     ============================================================ -->
+
+
+<div
+  class="literary-metadata"
+  aria-label="Literary entry information"
+>
+
+
+  <!-- ======================================================
+       01. AUTHOR
+       ====================================================== -->
+
+  {% if record.author_name and show_author != false %}
+
+    <span class="metadata-item">
+
+      <span class="metadata-label">
+
+        {{ record.author_role | default: "Author" | escape }}
+
+      </span>
+
+      <span class="metadata-value">
+
+        {{ record.author_name | escape }}
+
+      </span>
+
+    </span>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       02. ORIGINAL LANGUAGE
+       ====================================================== -->
+
+  {% if display_language and show_language != false %}
+
+    <span class="metadata-separator" aria-hidden="true">
+      ·
+    </span>
+
+    <span class="metadata-item">
+
+      <span class="metadata-label">
+        Language
+      </span>
+
+      <span
+        class="metadata-value"
+        lang="{{ record.language_code | default: 'en' | escape }}"
+      >
+
+        {{ display_language | escape }}
+
+      </span>
+
+    </span>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       03. LITERARY FORM
+       ====================================================== -->
+
+  {% if record.literary_form and show_form != false %}
+
+    <span class="metadata-separator" aria-hidden="true">
+      ·
+    </span>
+
+    <span class="metadata-item">
+
+      <span class="metadata-label">
+        Form
+      </span>
+
+      <span class="metadata-value">
+
+        {{ record.literary_form | escape }}
+
+      </span>
+
+    </span>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       04. ORIGINAL LITERARY WORK
+       ====================================================== -->
+
+  {% if record.work_title %}
+
+    <span class="metadata-separator" aria-hidden="true">
+      ·
+    </span>
+
+    <span class="metadata-item">
+
+      <span class="metadata-label">
+        Work
+      </span>
+
+      <span class="metadata-value">
+
+        <cite>{{ record.work_title | escape }}</cite>
+
+      </span>
+
+    </span>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       05. ORIGINAL PUBLICATION DATE
+       ====================================================== -->
+
+  {% if record.original_publication_date %}
+
+    <span class="metadata-separator" aria-hidden="true">
+      ·
+    </span>
+
+    <span class="metadata-item">
+
+      <span class="metadata-label">
+        Original publication
+      </span>
+
+      <span class="metadata-value">
+
+        {{ record.original_publication_date | escape }}
+
+      </span>
+
+    </span>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       06. JOURNAL PUBLICATION DATE
+       ====================================================== -->
+
+  {% if record.date and show_date != false %}
+
+    <span class="metadata-separator" aria-hidden="true">
+      ·
+    </span>
+
+    <span class="metadata-item">
+
+      <span class="metadata-label">
+        Journal entry
+      </span>
+
+      <time
+        class="metadata-value"
+        datetime="{{ record.date | date_to_xmlschema }}"
+      >
+
+        {{ record.date | date: "%d %B %Y" }}
+
+      </time>
+
+    </span>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       07. TRANSLATOR
+       ====================================================== -->
+
+  {% if record.translator_name %}
+
+    <span class="metadata-separator" aria-hidden="true">
+      ·
+    </span>
+
+    <span class="metadata-item">
+
+      <span class="metadata-label">
+        Translator
+      </span>
+
+      <span class="metadata-value">
+
+        {{ record.translator_name | escape }}
+
+      </span>
+
+    </span>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       08. MUSICAL CONTRIBUTORS
+
+       Performer, lyricist and composer are independently
+       identified. A singer is never automatically
+       credited as the author of the lyrics.
+       ====================================================== -->
+
+  {% if record.performer_name %}
+
+    <span class="metadata-separator" aria-hidden="true">
+      ·
+    </span>
+
+    <span class="metadata-item">
+
+      <span class="metadata-label">
+        Performer
+      </span>
+
+      <span class="metadata-value">
+
+        {{ record.performer_name | escape }}
+
+      </span>
+
+    </span>
+
+  {% endif %}
+
+
+  {% if record.lyricist_name %}
+
+    <span class="metadata-separator" aria-hidden="true">
+      ·
+    </span>
+
+    <span class="metadata-item">
+
+      <span class="metadata-label">
+        Lyricist
+      </span>
+
+      <span class="metadata-value">
+
+        {{ record.lyricist_name | escape }}
+
+      </span>
+
+    </span>
+
+  {% endif %}
+
+
+  {% if record.composer_name %}
+
+    <span class="metadata-separator" aria-hidden="true">
+      ·
+    </span>
+
+    <span class="metadata-item">
+
+      <span class="metadata-label">
+        Composer
+      </span>
+
+      <span class="metadata-value">
+
+        {{ record.composer_name | escape }}
+
+      </span>
+
+    </span>
+
+  {% endif %}
+
+
+</div>
+
+
+<!-- ============================================================
+     09. ATTRIBUTION STATUS
+     ============================================================ -->
+
+{% if record.attribution_status or record.attribution_note %}
+
+  <div class="metadata-attribution-note">
+
+    {% if record.attribution_status %}
+
+      <span class="metadata-attribution-status">
+
+        Attribution: {{ record.attribution_status | escape }}
+
+      </span>
+
+    {% endif %}
+
+
+    {% if record.attribution_note %}
+
+      <p>
+
+        {{ record.attribution_note | escape }}
+
+      </p>
+
+    {% endif %}
+
+  </div>
+
+{% endif %}
+
+
+<!-- ============================================================
+     END OF REUSABLE METADATA COMPONENT
+     ============================================================ -->
