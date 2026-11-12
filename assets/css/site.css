@@ -3012,3 +3012,60 @@ button {
   }
 }
 
+
+
+/* ============================================================
+   LANGUAGE DIRECTORY REFINEMENTS
+   ============================================================ */
+
+.language-scope {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+
+  margin-top: 16px;
+}
+
+.language-collection-status,
+.language-latest-link {
+  display: inline-block;
+  margin-top: 20px;
+
+  font-size: 0.75rem;
+  line-height: 1.7;
+}
+
+.language-collection-status {
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+.language-latest-link {
+  color: var(--wave-cyan);
+  font-weight: 600;
+}
+
+.language-latest-link:hover {
+  color: var(--literary-coral);
+}
+
+.editorial-content h2 {
+  color: var(--ink-primary);
+}
+
+.editorial-content hr {
+  height: 1px;
+  margin-block: 45px;
+
+  background: var(--border-primary);
+  border: 0;
+}
+
+@media (max-width: 740px) {
+  .language-scope {
+    gap: 5px;
+  }
+}
+
+
+
