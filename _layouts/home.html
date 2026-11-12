@@ -1,0 +1,861 @@
+
+---
+layout: default
+---
+
+{% assign hero = site.data.site.hero %}
+{% assign identity = site.data.site.identity %}
+
+{% assign latest_week = site.weeks
+  | sort: "date"
+  | reverse
+  | first
+%}
+
+{% if latest_week %}
+
+  {% assign latest_week_id = latest_week.week_id
+    | default: latest_week.slug
+  %}
+
+  {% assign latest_entries = site.entries
+    | where: "week", latest_week_id
+    | sort: "entry_number"
+  %}
+
+{% endif %}
+
+
+<!-- ============================================================
+     VERSE & VARIABLE
+     IMMERSIVE HOMEPAGE
+
+     A line of verse. A line of inquiry.
+     Lafz se Lehar tak — From the word to the wave.
+
+     Homepage sections:
+     01. Literary-scientific hero
+     02. Latest weekly collection
+     03. Three individual literary explorations
+     04. The intellectual bridge
+     05. Language traditions
+     06. About the publication
+
+     ============================================================ -->
+
+
+<!-- ============================================================
+     01. HOMEPAGE HERO
+     ============================================================ -->
+
+<section class="hero" aria-labelledby="homepage-title">
+
+  <div class="container hero-inner">
+
+    <div class="hero-eyebrow reveal">
+
+      {{ hero.eyebrow }}
+
+    </div>
+
+
+    <h1 class="hero-title reveal reveal-delay-1"
+        id="homepage-title">
+
+      VERSE
+
+      <span class="ampersand">&amp;</span>
+
+      VARIABLE
+
+    </h1>
+
+
+    <p class="hero-tagline reveal reveal-delay-1">
+
+      {{ hero.subtitle }}
+
+    </p>
+
+
+    <div
+      class="hero-urdu reveal reveal-delay-2"
+      lang="ur"
+      dir="rtl"
+    >
+
+      {{ hero.original_tagline }}
+
+    </div>
+
+
+    <span class="hero-transliteration reveal reveal-delay-2">
+
+      {{ hero.transliteration }}
+
+      <span aria-hidden="true"> — </span>
+
+      {{ hero.tagline_translation }}
+
+    </span>
+
+
+    <p class="hero-description reveal reveal-delay-2">
+
+      {{ hero.introduction }}
+
+    </p>
+
+
+    <p class="hero-support reveal reveal-delay-3">
+
+      {{ hero.supporting_text }}
+
+    </p>
+
+
+    <div class="hero-actions reveal reveal-delay-3">
+
+      <a
+        class="button button--primary"
+        href="{{ hero.primary_action.url | relative_url }}"
+      >
+
+        {{ hero.primary_action.label }}
+
+        <span aria-hidden="true">↗</span>
+
+      </a>
+
+
+      <a
+        class="button button--outline"
+        href="{{ hero.secondary_action.url | relative_url }}"
+      >
+
+        {{ hero.secondary_action.label }}
+
+      </a>
+
+    </div>
+
+
+  </div>
+
+
+  <!-- SUBTLE HERO DECORATION -->
+
+  <div class="hero-ornament" aria-hidden="true"></div>
+
+
+  <div class="hero-bottom-mark" aria-hidden="true">
+
+    LITERATURE · HUMANITY · SCIENCE
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     02. LATEST WEEKLY COLLECTION
+     ============================================================ -->
+
+<section
+  class="weekly-section"
+  id="latest-collection"
+  aria-labelledby="latest-collection-title"
+>
+
+  <div class="container">
+
+
+    <!-- COLLECTION INTRODUCTION -->
+
+    <div class="section-heading reveal">
+
+      <span class="section-kicker">
+
+        THE JOURNAL
+
+      </span>
+
+
+      <h2
+        class="section-title"
+        id="latest-collection-title"
+      >
+
+        The Weekly Collection
+
+      </h2>
+
+
+      <p class="section-description">
+
+        Three literary expressions, three independent
+        explorations and an expanding conversation between
+        culture, humanity and scientific thought.
+
+      </p>
+
+    </div>
+
+
+    {% if latest_week %}
+
+
+      <!-- ==================================================
+           03. LATEST WEEK DETAILS
+           ================================================== -->
+
+      <div class="week-intro reveal">
+
+        <div>
+
+          <span class="week-meta">
+
+            LATEST COLLECTION
+
+            {% if latest_week.week_number %}
+
+              · WEEK {{ latest_week.week_number }}
+
+            {% endif %}
+
+          </span>
+
+
+          <h3 class="week-title">
+
+            {{ latest_week.title | escape }}
+
+          </h3>
+
+
+          {% if latest_week.date %}
+
+            <span class="week-date">
+
+              Published
+              {{ latest_week.date | date: "%d %B %Y" }}
+
+            </span>
+
+          {% endif %}
+
+        </div>
+
+
+        <a
+          class="button button--outline"
+          href="{{ latest_week.url | relative_url }}"
+        >
+
+          Explore This Week
+
+          <span aria-hidden="true">↗</span>
+
+        </a>
+
+      </div>
+
+
+      <!-- ==================================================
+           04. THREE ARTICLE CARDS
+           ================================================== -->
+
+      {% if latest_entries.size > 0 %}
+
+
+        <div class="entry-grid">
+
+
+          {% for entry in latest_entries %}
+
+
+            <article
+              class="entry-card reveal reveal-delay-{{ forloop.index }}"
+            >
+
+
+              <span class="entry-card-number">
+
+                {% if entry.entry_number %}
+
+                  {% capture entry_number %}
+                    {{ entry.entry_number | prepend: "0" | slice: -2, 2 }}
+                  {% endcapture %}
+
+                  {{ entry_number | strip }}
+
+                {% else %}
+
+                  {{ forloop.index | prepend: "0" | slice: -2, 2 }}
+
+                {% endif %}
+
+              </span>
+
+
+              <!-- LANGUAGE AND LITERARY FORM -->
+
+              <span class="entry-card-language">
+
+                {{ entry.language | default: "Literary exploration" | escape }}
+
+                {% if entry.literary_form %}
+
+                  · {{ entry.literary_form | escape }}
+
+                {% endif %}
+
+              </span>
+
+
+              <!-- ARTICLE TITLE -->
+
+              <h3 class="entry-card-title">
+
+                <a href="{{ entry.url | relative_url }}">
+
+                  {{ entry.title | escape }}
+
+                </a>
+
+              </h3>
+
+
+              <!-- ORIGINAL AUTHOR -->
+
+              {% if entry.author_name %}
+
+                <span class="entry-card-author">
+
+                  {{ entry.author_name | escape }}
+
+                </span>
+
+              {% endif %}
+
+
+              <!-- ARTICLE DESCRIPTION -->
+
+              {% if entry.description %}
+
+                <p class="entry-card-excerpt">
+
+                  {{ entry.description | escape }}
+
+                </p>
+
+              {% endif %}
+
+
+              <!-- OPTIONAL ORIGINAL-LANGUAGE PREVIEW -->
+
+              {% if entry.original_text %}
+
+                <div class="home-original-preview">
+
+                  <span
+                    lang="{{ entry.language_code | default: 'und' | escape }}"
+
+                    class="
+                      original-text
+                      original-text--{{ entry.language_id | default: 'default' | escape }}
+                    "
+
+                    {% if entry.language_code == "ur" %}
+                      dir="rtl"
+                    {% endif %}
+                  >
+
+                    {{ entry.original_text | strip_html | escape | truncate: 130 }}
+
+                  </span>
+
+                </div>
+
+              {% endif %}
+
+
+              <!-- ARTICLE LINK -->
+
+              <a
+                class="entry-card-link"
+                href="{{ entry.url | relative_url }}"
+              >
+
+                Read the reflection
+
+                <span aria-hidden="true">→</span>
+
+              </a>
+
+
+            </article>
+
+
+          {% endfor %}
+
+
+        </div>
+
+
+      {% else %}
+
+
+        <div class="empty-state">
+
+          <p>
+
+            The literary selections for this collection
+            are being prepared.
+
+          </p>
+
+          <a
+            class="button button--outline"
+            href="{{ latest_week.url | relative_url }}"
+          >
+
+            Explore the Weekly Collection
+
+          </a>
+
+        </div>
+
+
+      {% endif %}
+
+
+      <!-- COLLECTION FOOTER -->
+
+      <div class="weekly-footer reveal">
+
+        <a
+          class="button button--text"
+          href="{{ latest_week.url | relative_url }}"
+        >
+
+          Read the complete weekly collection
+
+          <span aria-hidden="true">↗</span>
+
+        </a>
+
+      </div>
+
+
+    {% else %}
+
+
+      <!-- ==================================================
+           NO COLLECTION PUBLISHED YET
+           ================================================== -->
+
+      <div class="empty-state reveal">
+
+        <p>
+
+          The first literary collection is taking shape.
+
+        </p>
+
+        <p>
+
+          Three carefully selected expressions, each
+          opening its own intellectual journey.
+
+        </p>
+
+      </div>
+
+
+    {% endif %}
+
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     05. THE INTELLECTUAL BRIDGE
+     ============================================================ -->
+
+<section
+  class="intellectual-section section"
+  aria-labelledby="intellectual-title"
+>
+
+  <div class="container container--narrow">
+
+
+    <div class="section-heading reveal">
+
+      <span class="section-kicker">
+
+        THE CENTRAL IDEA
+
+      </span>
+
+
+      <h2
+        class="section-title"
+        id="intellectual-title"
+      >
+
+        From the Word to the Wave
+
+      </h2>
+
+
+      <p class="section-description">
+
+        A literary expression can begin with a human emotion
+        and lead towards an unexpectedly expansive exploration
+        of nature, mathematics and the physical sciences.
+
+      </p>
+
+    </div>
+
+
+    <!-- SCIENCE AND LITERATURE CONCEPT -->
+
+    <div class="intellectual-grid">
+
+
+      <article class="intellectual-card reveal">
+
+        <span class="intellectual-card-index">
+          01 / THE EXPRESSION
+        </span>
+
+
+        <h3 class="intellectual-card-title">
+
+          Lafz
+
+        </h3>
+
+
+        <p
+          class="intellectual-card-native"
+          lang="ur"
+          dir="rtl"
+        >
+
+          لفظ
+
+        </p>
+
+
+        <p class="intellectual-card-description">
+
+          Shayari, poetry, ghazals, books and lyrical
+          expressions that carry the richness of human
+          experience across languages and generations.
+
+        </p>
+
+      </article>
+
+
+      <div
+        class="intellectual-connector"
+        aria-hidden="true"
+      >
+
+        <span>→</span>
+
+      </div>
+
+
+      <article class="intellectual-card reveal reveal-delay-1">
+
+        <span class="intellectual-card-index">
+          02 / THE PHENOMENON
+        </span>
+
+
+        <h3 class="intellectual-card-title">
+
+          Lehar
+
+        </h3>
+
+
+        <p
+          class="intellectual-card-native"
+          lang="hi"
+          dir="ltr"
+        >
+
+          लहर
+
+        </p>
+
+
+        <p class="intellectual-card-description">
+
+          Nonlinear vibrations, elastic waves,
+          harmonic generation, wave mixing, hysteresis
+          and the interactions that shape physical systems.
+
+        </p>
+
+      </article>
+
+
+    </div>
+
+
+    <p class="intellectual-closing reveal">
+
+      The relationship is not a claim that poetry describes
+      physics. It is an invitation to discover new ways of
+      thinking while allowing literature and science to
+      retain their own intellectual integrity.
+
+    </p>
+
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     06. LITERARY LANGUAGE TRADITIONS
+     ============================================================ -->
+
+<section
+  class="language-section section"
+  aria-labelledby="language-section-title"
+>
+
+  <div class="container">
+
+
+    <div class="section-heading reveal">
+
+      <span class="section-kicker">
+
+        MANY LANGUAGES · ONE EXPANDING ARCHIVE
+
+      </span>
+
+
+      <h2
+        class="section-title"
+        id="language-section-title"
+      >
+
+        India's Literary Voices
+
+      </h2>
+
+
+      <p class="section-description">
+
+        An evolving collection rooted in the diverse
+        literary and linguistic traditions of India.
+
+      </p>
+
+    </div>
+
+
+    <div class="language-grid">
+
+
+      {% for language in site.data.languages.languages %}
+
+
+        <div class="language-card reveal">
+
+          <span
+            class="language-native"
+            lang="{{ language.code }}"
+            dir="{{ language.direction }}"
+          >
+
+            {{ language.native_name }}
+
+          </span>
+
+
+          <h3 class="language-name">
+
+            {{ language.name }}
+
+          </h3>
+
+
+          <p class="language-description">
+
+            {{ language.script }}
+
+          </p>
+
+        </div>
+
+
+      {% endfor %}
+
+
+    </div>
+
+
+    <div class="language-section-footer">
+
+      <p>
+
+        Original language and script are preserved.
+        English provides the translation and interpretation.
+
+      </p>
+
+    </div>
+
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     07. ABOUT THE PUBLICATION
+     ============================================================ -->
+
+<section
+  class="about-preview section"
+  aria-labelledby="about-preview-title"
+>
+
+  <div class="container container--narrow">
+
+
+    <div class="about-preview-content reveal">
+
+
+      <span class="section-kicker">
+
+        ABOUT THE JOURNAL
+
+      </span>
+
+
+      <h2
+        class="section-title"
+        id="about-preview-title"
+      >
+
+        Beyond the Words. Beneath the Waves.
+
+      </h2>
+
+
+      <p class="section-description">
+
+        Verse &amp; Variable is a personal intellectual
+        exploration of literature, humanity and science.
+
+        It brings together a multilingual Indian literary
+        archive and reflections informed by a continuing
+        engagement with theoretical, computational and
+        experimental mechanics.
+
+      </p>
+
+
+      <p class="section-description">
+
+        Some expressions lead towards relationships,
+        memory and identity. Others invite philosophical
+        questions or connections with nonlinear dynamics,
+        wave propagation and the complexity of physical systems.
+
+      </p>
+
+
+      <a
+        class="button button--outline"
+        href="{{ '/about/' | relative_url }}"
+      >
+
+        Discover the Editorial Philosophy
+
+        <span aria-hidden="true">↗</span>
+
+      </a>
+
+
+    </div>
+
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     08. AUTHOR SIGNATURE
+     ============================================================ -->
+
+<section class="author-signature section--compact">
+
+  <div class="container container--narrow">
+
+
+    <div class="author-signature-inner reveal">
+
+      <span class="author-signature-label">
+
+        WRITTEN AND CURATED BY
+
+      </span>
+
+
+      <h2 class="author-signature-name">
+
+        Pravinkumar Ghodake
+
+      </h2>
+
+
+      <p class="author-signature-description">
+
+        Independent researcher · Reader · Literary enthusiast
+
+      </p>
+
+
+      <a
+        href="https://orcid.org/0000-0002-6755-4003"
+        class="author-signature-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        ORCID 0000-0002-6755-4003
+
+        <span aria-hidden="true">↗</span>
+
+      </a>
+
+
+    </div>
+
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     END OF HOMEPAGE
+     ============================================================ -->
