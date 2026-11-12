@@ -3461,3 +3461,16 @@ footer p {
   word-spacing: normal;
 }
 
+
+
+/* ============================================================
+   INTELLECTUAL BRIDGE — PRESERVE LEFT-ALIGNED URDU
+   ============================================================ */
+
+.intellectual-card-native[lang="ur"],
+.intellectual-card-native[lang="ur"] p {
+  direction: rtl;
+  text-align: left;
+  text-align-last: left;
+  unicode-bidi: isolate;
+}
