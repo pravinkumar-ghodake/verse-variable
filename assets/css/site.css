@@ -1993,6 +1993,7 @@ button {
   line-height: 1.15;
 }
 
+
 .footer-tagline {
   display: block;
   margin-top: 13px;
@@ -2002,7 +2003,13 @@ button {
   font-family: var(--font-urdu);
   font-size: 1.3rem;
   line-height: 2;
+
+  /* Footer-specific Urdu alignment */
+  direction: rtl;
+  text-align: left;
+  unicode-bidi: isolate;
 }
+
 
 .footer-description {
   max-width: 360px;
