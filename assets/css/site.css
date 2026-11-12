@@ -1,4 +1,3 @@
-
 /* ============================================================
    VERSE & VARIABLE
    A line of verse. A line of inquiry.
