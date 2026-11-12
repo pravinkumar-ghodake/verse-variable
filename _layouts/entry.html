@@ -1,0 +1,651 @@
+
+---
+layout: default
+---
+
+{% assign language_record = site.data.languages.languages
+  | where: "id", page.language_id
+  | first
+%}
+
+{% assign original_direction = "ltr" %}
+
+{% if page.language_code == "ur" %}
+  {% assign original_direction = "rtl" %}
+{% endif %}
+
+{% assign week_url = "/weeks/" | append: page.week | append: "/" %}
+
+<!-- ============================================================
+     VERSE & VARIABLE
+     Individual Literary Article Layout
+
+     Original expression
+     English translation
+     Transliteration
+     Literary attribution
+     Four-paragraph personal reflection
+     Optional scientific illustration
+     Source references
+
+     ============================================================ -->
+
+
+<!-- ============================================================
+     01. ARTICLE HEADER
+     ============================================================ -->
+
+<header class="article-header">
+
+  <div class="container container--narrow">
+
+    <!-- BREADCRUMBS -->
+
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+
+      <a href="{{ '/' | relative_url }}">
+        Home
+      </a>
+
+      <span class="breadcrumb-separator" aria-hidden="true">
+        /
+      </span>
+
+      <a href="{{ '/archive/' | relative_url }}">
+        Journal
+      </a>
+
+      {% if page.week %}
+
+        <span class="breadcrumb-separator" aria-hidden="true">
+          /
+        </span>
+
+        <a href="{{ week_url | relative_url }}">
+          {{ page.week_title | default: page.week | escape }}
+        </a>
+
+      {% endif %}
+
+    </nav>
+
+
+    <!-- ARTICLE IDENTITY -->
+
+    <div class="article-header-inner">
+
+      <span class="article-kicker">
+
+        LITERARY EXPLORATION
+
+        {% if page.entry_number %}
+          · ENTRY {{ page.entry_number }}
+        {% endif %}
+
+      </span>
+
+
+      <h1 class="article-title">
+
+        {{ page.title | escape }}
+
+      </h1>
+
+
+      {% if page.description %}
+
+        <p class="article-description">
+
+          {{ page.description | escape }}
+
+        </p>
+
+      {% endif %}
+
+
+      <!-- ARTICLE METADATA -->
+
+      <div class="article-metadata">
+
+        {% if page.author_name %}
+
+          <span>
+            <span class="accent">
+              {{ page.author_role | default: "Author" | escape }}
+            </span>
+
+            {{ page.author_name | escape }}
+          </span>
+
+        {% endif %}
+
+
+        {% if page.language %}
+
+          <span>
+            {{ page.language | escape }}
+          </span>
+
+        {% endif %}
+
+
+        {% if page.literary_form %}
+
+          <span>
+            {{ page.literary_form | escape }}
+          </span>
+
+        {% endif %}
+
+
+        {% if page.date %}
+
+          <span>
+            {{ page.date | date: "%d %B %Y" }}
+          </span>
+
+        {% endif %}
+
+      </div>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- ============================================================
+     02. ARTICLE READING AREA
+     ============================================================ -->
+
+<article
+  class="article-reading"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+
+  <div class="container container--reading">
+
+
+    <!-- ======================================================
+         03. ORIGINAL LITERARY EXPRESSION
+         ====================================================== -->
+
+    <section
+      class="article-quotation-section"
+      aria-labelledby="original-expression-heading"
+    >
+
+      <div class="literary-expression">
+
+        <span
+          class="literary-label"
+          id="original-expression-heading"
+        >
+
+          Original Expression ·
+          {{ language_record.name | default: page.language | escape }}
+
+        </span>
+
+
+        {% if page.original_text %}
+
+          <blockquote class="literary-text">
+
+            <span
+              class="original-text original-text--{{ page.language_id | default: 'default' | escape }}"
+              lang="{{ page.language_code | default: 'und' | escape }}"
+              dir="{{ original_direction }}"
+            >
+
+              {{ page.original_text | escape | newline_to_br }}
+
+            </span>
+
+          </blockquote>
+
+        {% else %}
+
+          <p class="empty-state">
+            Original literary text has not been added.
+          </p>
+
+        {% endif %}
+
+
+        <!-- ==================================================
+             OPTIONAL ROMAN TRANSLITERATION
+             ================================================== -->
+
+        {% if page.transliteration %}
+
+          <div class="transliteration">
+
+            <span class="transliteration-label">
+              Transliteration
+            </span>
+
+            <div lang="und">
+
+              {{ page.transliteration | escape | newline_to_br }}
+
+            </div>
+
+          </div>
+
+        {% endif %}
+
+
+        <!-- ==================================================
+             04. ENGLISH TRANSLATION
+             ================================================== -->
+
+        {% if page.translation %}
+
+          <div class="translation">
+
+            <span class="translation-label">
+              English Translation
+            </span>
+
+            <p class="translation-text" lang="en">
+
+              {{ page.translation | escape | newline_to_br }}
+
+            </p>
+
+            {% if page.translator_name %}
+
+              <span class="transliteration">
+
+                Translation by:
+                {{ page.translator_name | escape }}
+
+              </span>
+
+            {% endif %}
+
+          </div>
+
+        {% endif %}
+
+
+        <!-- ==================================================
+             05. LITERARY ATTRIBUTION
+             ================================================== -->
+
+        <div class="attribution">
+
+          {% if page.author_name %}
+
+            <span>
+
+              <strong>
+                {{ page.author_role | default: "Author" | escape }}:
+              </strong>
+
+              {{ page.author_name | escape }}
+
+            </span>
+
+          {% endif %}
+
+
+          {% if page.work_title %}
+
+            <span class="attribution-separator">·</span>
+
+            <span>
+
+              <strong>Work:</strong>
+
+              <em>{{ page.work_title | escape }}</em>
+
+            </span>
+
+          {% endif %}
+
+
+          {% if page.literary_form %}
+
+            <span class="attribution-separator">·</span>
+
+            <span>
+
+              <strong>Form:</strong>
+
+              {{ page.literary_form | escape }}
+
+            </span>
+
+          {% endif %}
+
+        </div>
+
+
+        <!-- ==================================================
+             06. MUSIC CONTRIBUTORS
+             Performers are not automatically treated as authors.
+             ================================================== -->
+
+        {% if page.performer_name or page.composer_name %}
+
+          <div class="attribution">
+
+            {% if page.performer_name %}
+
+              <span>
+
+                <strong>Performer:</strong>
+
+                {{ page.performer_name | escape }}
+
+              </span>
+
+            {% endif %}
+
+
+            {% if page.composer_name %}
+
+              <span class="attribution-separator">·</span>
+
+              <span>
+
+                <strong>Composer:</strong>
+
+                {{ page.composer_name | escape }}
+
+              </span>
+
+            {% endif %}
+
+          </div>
+
+        {% endif %}
+
+
+        <!-- ==================================================
+             07. ATTRIBUTION STATUS
+             ================================================== -->
+
+        {% if page.attribution_note %}
+
+          <p class="transliteration">
+
+            {{ page.attribution_note | escape }}
+
+          </p>
+
+        {% endif %}
+
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         08. PERSONAL REFLECTION
+         
+         The article body comes from the Markdown document.
+
+         Each article must contain exactly four substantial
+         prose paragraphs.
+
+         Scientific connections belong naturally within
+         these paragraphs rather than being forced into
+         separate technical commentary sections.
+         ====================================================== -->
+
+    <section
+      class="article-reflection"
+      aria-labelledby="reflection-heading"
+    >
+
+      <h2
+        class="reflection-heading"
+        id="reflection-heading"
+      >
+
+        A Personal Reflection
+
+      </h2>
+
+
+      <div
+        class="reflection-prose"
+        itemprop="articleBody"
+      >
+
+        {{ content }}
+
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         09. OPTIONAL SCIENTIFIC ILLUSTRATION
+         ====================================================== -->
+
+    {% if page.science_figure %}
+
+      <figure class="science-figure">
+
+        <img
+          src="{{ page.science_figure | relative_url }}"
+          alt="{{ page.science_figure_alt | default: 'Scientific illustration accompanying this literary reflection' | escape }}"
+          loading="lazy"
+          decoding="async"
+        >
+
+
+        {% if page.science_figure_caption %}
+
+          <figcaption>
+
+            <span class="figure-label">
+              Scientific Illustration
+            </span>
+
+            {{ page.science_figure_caption | escape }}
+
+          </figcaption>
+
+        {% endif %}
+
+      </figure>
+
+    {% endif %}
+
+
+    <!-- ======================================================
+         10. THEMATIC TAGS
+         ====================================================== -->
+
+    {% if page.tags %}
+
+      <div class="tag-list" aria-label="Article themes">
+
+        {% for tag in page.tags %}
+
+          <span class="tag">
+            {{ tag | escape }}
+          </span>
+
+        {% endfor %}
+
+      </div>
+
+    {% endif %}
+
+
+    <!-- ======================================================
+         11. ORIGINAL SOURCES AND REFERENCES
+         ====================================================== -->
+
+    {% if page.sources or page.source_url %}
+
+      <section
+        class="source-section"
+        aria-labelledby="source-heading"
+      >
+
+        <h2
+          class="source-heading"
+          id="source-heading"
+        >
+
+          Sources &amp; References
+
+        </h2>
+
+
+        <div class="source-list">
+
+          {% if page.source_url %}
+
+            <a
+              class="source-link"
+              href="{{ page.source_url | escape }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              {{ page.source_title | default: "Original literary source" | escape }}
+
+              <span aria-hidden="true">↗</span>
+
+            </a>
+
+          {% endif %}
+
+
+          {% for source in page.sources %}
+
+            <div class="source-reference">
+
+              {% if source.url %}
+
+                <a
+                  class="source-link"
+                  href="{{ source.url | escape }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+
+                  {{ source.title | default: "Reference" | escape }}
+
+                  <span aria-hidden="true">↗</span>
+
+                </a>
+
+              {% else %}
+
+                <span>
+                  {{ source.title | escape }}
+                </span>
+
+              {% endif %}
+
+
+              {% if source.publisher %}
+
+                <span class="transliteration">
+                  {{ source.publisher | escape }}
+                </span>
+
+              {% endif %}
+
+            </div>
+
+          {% endfor %}
+
+        </div>
+
+
+        {% if page.attribution_status %}
+
+          <p class="transliteration">
+
+            Attribution status:
+            {{ page.attribution_status | escape }}
+
+          </p>
+
+        {% endif %}
+
+      </section>
+
+    {% endif %}
+
+
+    <!-- ======================================================
+         12. ARTICLE SHARING
+         ====================================================== -->
+
+    <div class="article-share">
+
+      <button
+        class="button button--outline"
+        type="button"
+        data-copy-link="{{ page.url | absolute_url | escape }}"
+      >
+
+        Copy Article Link
+
+      </button>
+
+    </div>
+
+
+    <!-- ======================================================
+         13. WEEKLY COLLECTION NAVIGATION
+         ====================================================== -->
+
+    <nav
+      class="article-navigation"
+      aria-label="Article navigation"
+    >
+
+      {% if page.week %}
+
+        <a href="{{ week_url | relative_url }}">
+
+          <small>
+            Weekly Collection
+          </small>
+
+          <strong>
+            {{ page.week_title | default: "Explore this week's three literary selections" | escape }}
+          </strong>
+
+        </a>
+
+      {% endif %}
+
+
+      <a href="{{ '/archive/' | relative_url }}">
+
+        <small>
+          Journal Archive
+        </small>
+
+        <strong>
+          Explore Previous Collections
+        </strong>
+
+      </a>
+
+    </nav>
+
+
+  </div>
+
+</article>
+
+
+<!-- ============================================================
+     END OF INDIVIDUAL LITERARY ARTICLE
+     ============================================================ -->
