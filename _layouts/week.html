@@ -1,0 +1,421 @@
+
+---
+layout: default
+---
+
+{% assign week_id = page.week_id | default: page.slug %}
+
+{% assign weekly_entries = site.entries
+  | where: "week", week_id
+  | sort: "entry_number"
+%}
+
+<!-- ============================================================
+     VERSE & VARIABLE
+     Weekly Literary Collection Layout
+
+     One weekly collection
+     Three individual literary explorations
+     Three permanent article URLs
+
+     ============================================================ -->
+
+
+<!-- ============================================================
+     01. WEEKLY COLLECTION HEADER
+     ============================================================ -->
+
+<header class="week-page-header">
+
+  <div class="container container--narrow">
+
+    <!-- BREADCRUMBS -->
+
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+
+      <a href="{{ '/' | relative_url }}">
+        Home
+      </a>
+
+      <span class="breadcrumb-separator" aria-hidden="true">
+        /
+      </span>
+
+      <a href="{{ '/archive/' | relative_url }}">
+        Journal Archive
+      </a>
+
+      <span class="breadcrumb-separator" aria-hidden="true">
+        /
+      </span>
+
+      <span aria-current="page">
+        {{ page.title | escape }}
+      </span>
+
+    </nav>
+
+
+    <!-- WEEK IDENTIFICATION -->
+
+    <span class="section-kicker">
+
+      WEEKLY LITERARY COLLECTION
+
+      {% if page.week_number %}
+        · WEEK {{ page.week_number }}
+      {% endif %}
+
+    </span>
+
+
+    <!-- MAIN TITLE -->
+
+    <h1 class="week-page-title">
+
+      {{ page.title | escape }}
+
+    </h1>
+
+
+    <!-- COLLECTION DATE -->
+
+    {% if page.date %}
+
+      <div class="week-date">
+
+        {{ page.date | date: "%d %B %Y" }}
+
+      </div>
+
+    {% endif %}
+
+
+    <!-- COLLECTION INTRODUCTION -->
+
+    {% if page.description %}
+
+      <p class="week-page-intro">
+
+        {{ page.description | escape }}
+
+      </p>
+
+    {% endif %}
+
+
+    <!-- OPTIONAL EDITORIAL INTRODUCTION -->
+
+    {% if content != "" %}
+
+      <div class="reflection-prose week-editorial-intro">
+
+        {{ content }}
+
+      </div>
+
+    {% endif %}
+
+
+    <!-- COLLECTION SUMMARY -->
+
+    <div class="week-collection-summary">
+
+      <span class="week-meta">
+
+        {{ weekly_entries.size }} Literary Explorations
+
+      </span>
+
+      <span class="week-meta">
+
+        Three Selections · Three Perspectives
+
+      </span>
+
+    </div>
+
+
+  </div>
+
+</header>
+
+
+<!-- ============================================================
+     02. THE THREE LITERARY EXPLORATIONS
+     ============================================================ -->
+
+<section
+  class="week-entries-section"
+  aria-labelledby="weekly-entries-heading"
+>
+
+  <div class="container container--narrow">
+
+
+    <div class="section-heading">
+
+      <span class="section-kicker">
+        THE COLLECTION
+      </span>
+
+      <h2
+        class="section-title"
+        id="weekly-entries-heading"
+      >
+
+        Three Literary Explorations
+
+      </h2>
+
+      <p class="section-description">
+
+        Each expression has its own language, literary character
+        and intellectual journey. Explore each reflection
+        independently.
+
+      </p>
+
+    </div>
+
+
+    <!-- ==================================================
+         03. ENTRY LIST
+         ================================================== -->
+
+    {% if weekly_entries.size > 0 %}
+
+      <div class="week-entries">
+
+
+        {% for entry in weekly_entries %}
+
+          <article
+            class="week-entry-row reveal"
+            id="entry-{{ entry.entry_number }}"
+          >
+
+
+            <!-- ENTRY NUMBER -->
+
+            <div class="week-entry-number" aria-hidden="true">
+
+              {% if entry.entry_number %}
+
+                {{ entry.entry_number | prepend: "0" | slice: -2, 2 }}
+
+              {% else %}
+
+                {{ forloop.index | prepend: "0" | slice: -2, 2 }}
+
+              {% endif %}
+
+            </div>
+
+
+            <!-- ENTRY CONTENT -->
+
+            <div class="week-entry-content">
+
+
+              <h3 class="week-entry-title">
+
+                <a href="{{ entry.url | relative_url }}">
+
+                  {{ entry.title | escape }}
+
+                </a>
+
+              </h3>
+
+
+              <!-- AUTHOR AND LANGUAGE -->
+
+              <span class="week-entry-subtitle">
+
+                {% if entry.author_name %}
+
+                  {{ entry.author_name | escape }}
+
+                {% endif %}
+
+
+                {% if entry.author_name and entry.language %}
+
+                  <span aria-hidden="true"> · </span>
+
+                {% endif %}
+
+
+                {% if entry.language %}
+
+                  {{ entry.language | escape }}
+
+                {% endif %}
+
+
+                {% if entry.literary_form %}
+
+                  <span aria-hidden="true"> · </span>
+
+                  {{ entry.literary_form | escape }}
+
+                {% endif %}
+
+              </span>
+
+
+              <!-- SHORT ARTICLE DESCRIPTION -->
+
+              {% if entry.description %}
+
+                <p class="entry-card-excerpt">
+
+                  {{ entry.description | escape }}
+
+                </p>
+
+              {% endif %}
+
+
+              <!-- OPTIONAL ORIGINAL EXPRESSION PREVIEW -->
+
+              {% if entry.original_text %}
+
+                <div class="week-original-preview">
+
+                  <span
+                    class="week-original-label"
+                    lang="{{ entry.language_code | default: 'und' | escape }}"
+                    {% if entry.language_code == "ur" %}
+                      dir="rtl"
+                    {% endif %}
+                  >
+
+                    {{ entry.original_text | strip_html | truncate: 150 }}
+
+                  </span>
+
+                </div>
+
+              {% endif %}
+
+
+            </div>
+
+
+            <!-- ARTICLE LINK -->
+
+            <div class="week-entry-arrow">
+
+              <a
+                href="{{ entry.url | relative_url }}"
+                aria-label="Read {{ entry.title | escape }}"
+              >
+
+                <span aria-hidden="true">↗</span>
+
+              </a>
+
+            </div>
+
+
+          </article>
+
+        {% endfor %}
+
+
+      </div>
+
+
+    {% else %}
+
+
+      <!-- ==================================================
+           EMPTY COLLECTION
+           Used before the weekly articles are added.
+           ================================================== -->
+
+      <div class="empty-state">
+
+        <p>
+
+          The literary selections for this collection
+          are being prepared.
+
+        </p>
+
+        <p>
+
+          Please explore the previous collections
+          in the journal archive.
+
+        </p>
+
+        <a
+          class="button button--outline"
+          href="{{ '/archive/' | relative_url }}"
+        >
+
+          Explore the Archive
+
+        </a>
+
+      </div>
+
+
+    {% endif %}
+
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     04. COLLECTION NAVIGATION
+     ============================================================ -->
+
+<section class="section section--compact">
+
+  <div class="container container--narrow">
+
+    <div class="article-navigation">
+
+
+      <a href="{{ '/archive/' | relative_url }}">
+
+        <small>
+          Previous Collections
+        </small>
+
+        <strong>
+          Explore the Literary Archive
+        </strong>
+
+      </a>
+
+
+      <a href="{{ '/' | relative_url }}">
+
+        <small>
+          Publication
+        </small>
+
+        <strong>
+          Return to Homepage
+        </strong>
+
+      </a>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     END OF WEEKLY COLLECTION
+     ============================================================ -->
