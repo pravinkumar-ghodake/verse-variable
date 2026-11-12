@@ -1,0 +1,494 @@
+
+---
+layout: page
+
+title: "The Literary Archive"
+
+kicker: "AN EXPANDING COLLECTION OF WORDS AND IDEAS"
+
+seo_title: "Indian Poetry, Shayari and Literary Reflections | Archive"
+
+description: >-
+  Explore the complete Verse & Variable archive of Indian
+  poetry, Urdu shayari, Hindi, Marathi, Kannada, Tamil,
+  Malayalam and Telugu literature, with English translations
+  and original reflections connecting literature and science.
+
+permalink: /archive/
+
+lang: en
+
+image: /assets/images/social-preview.svg
+
+keywords:
+  - Indian poetry archive
+  - Urdu shayari
+  - Hindi poetry
+  - Mirza Ghalib
+  - Jaun Elia
+  - Indian literary collections
+  - Literature and science
+  - Nonlinear science
+
+---
+
+{% assign all_weeks = site.weeks | sort: "date" | reverse %}
+
+{% assign total_entries = site.entries | size %}
+
+{% assign total_weeks = all_weeks | size %}
+
+
+<!-- ============================================================
+     VERSE & VARIABLE
+     PERMANENT LITERARY ARCHIVE
+
+     Chronological weekly collections
+     Automatic individual article indexing
+     Seven-language navigation
+
+     ============================================================ -->
+
+
+<!-- ============================================================
+     01. ARCHIVE INTRODUCTION
+     ============================================================ -->
+
+<section class="archive-introduction">
+
+  <div class="section-heading">
+
+    <span class="section-kicker">
+      THE JOURNAL LIBRARY
+    </span>
+
+    <h2 class="section-title">
+      Every Week. Every Expression. Every Reflection.
+    </h2>
+
+    <p class="section-description">
+
+      A growing collection of literary expressions
+      from Indian languages and the wider South Asian
+      literary tradition, explored through original
+      English reflections.
+
+    </p>
+
+  </div>
+
+
+  <!-- ARCHIVE STATISTICS -->
+
+  <div class="archive-statistics">
+
+    <div class="archive-stat">
+
+      <span class="archive-stat-number">
+        {{ total_weeks }}
+      </span>
+
+      <span class="archive-stat-label">
+        Weekly Collections
+      </span>
+
+    </div>
+
+
+    <div class="archive-stat">
+
+      <span class="archive-stat-number">
+        {{ total_entries }}
+      </span>
+
+      <span class="archive-stat-label">
+        Literary Explorations
+      </span>
+
+    </div>
+
+
+    <div class="archive-stat">
+
+      <span class="archive-stat-number">
+        {{ site.data.languages.languages.size }}
+      </span>
+
+      <span class="archive-stat-label">
+        Original Languages
+      </span>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     02. LANGUAGE SHORTCUTS
+     ============================================================ -->
+
+<section
+  class="archive-language-navigation"
+  aria-labelledby="archive-language-heading"
+>
+
+  <div class="archive-section-heading">
+
+    <span class="section-kicker">
+      EXPLORE BY LANGUAGE
+    </span>
+
+    <h2
+      class="section-title"
+      id="archive-language-heading"
+    >
+
+      Literary Traditions
+
+    </h2>
+
+  </div>
+
+
+  <div class="archive-language-links">
+
+    {% for language in site.data.languages.languages %}
+
+      {% assign language_count = site.entries
+        | where: "language_id", language.id
+        | size
+      %}
+
+      <a
+        class="tag"
+        href="{{ '/languages/' | relative_url }}#language-{{ language.id }}"
+        lang="en"
+      >
+
+        {{ language.name }}
+
+        <span>
+          ({{ language_count }})
+        </span>
+
+      </a>
+
+    {% endfor %}
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     03. CHRONOLOGICAL WEEKLY ARCHIVE
+     ============================================================ -->
+
+<section
+  class="archive-collections"
+  aria-labelledby="archive-collections-heading"
+>
+
+  <div class="archive-section-heading">
+
+    <span class="section-kicker">
+      CHRONOLOGICAL READING
+    </span>
+
+    <h2
+      class="section-title"
+      id="archive-collections-heading"
+    >
+
+      Weekly Collections
+
+    </h2>
+
+    <p class="section-description">
+
+      Each collection brings together three independent
+      literary explorations. Every article remains
+      permanently accessible through its own page.
+
+    </p>
+
+  </div>
+
+
+  {% if total_weeks > 0 %}
+
+
+    <div class="archive-list">
+
+
+      {% for week in all_weeks %}
+
+        {% assign week_id = week.week_id | default: week.slug %}
+
+        {% assign week_entries = site.entries
+          | where: "week", week_id
+          | sort: "entry_number"
+        %}
+
+
+        <article
+          class="archive-week"
+          id="{{ week_id | escape }}"
+        >
+
+
+          <!-- WEEK INFORMATION -->
+
+          <div class="archive-week-main">
+
+
+            <span class="archive-week-date">
+
+              {% if week.date %}
+
+                {{ week.date | date: "%d %B %Y" }}
+
+              {% else %}
+
+                Weekly Collection
+
+              {% endif %}
+
+              {% if week.week_number %}
+
+                · WEEK {{ week.week_number }}
+
+              {% endif %}
+
+            </span>
+
+
+            <h3 class="archive-week-title">
+
+              <a href="{{ week.url | relative_url }}">
+
+                {{ week.title | escape }}
+
+              </a>
+
+            </h3>
+
+
+            {% if week.description %}
+
+              <p class="archive-week-description">
+
+                {{ week.description | escape }}
+
+              </p>
+
+            {% endif %}
+
+
+            <!-- INDIVIDUAL ARTICLES -->
+
+            {% if week_entries.size > 0 %}
+
+
+              <div class="archive-article-list">
+
+
+                {% for entry in week_entries %}
+
+
+                  <div class="archive-article-item">
+
+                    <span
+                      class="archive-article-number"
+                      aria-hidden="true"
+                    >
+
+                      {% if entry.entry_number %}
+
+                        {{ entry.entry_number | prepend: "0" | slice: -2, 2 }}
+
+                      {% else %}
+
+                        {{ forloop.index }}
+
+                      {% endif %}
+
+                    </span>
+
+
+                    <a
+                      class="archive-article-link"
+                      href="{{ entry.url | relative_url }}"
+                    >
+
+                      {{ entry.title | escape }}
+
+                    </a>
+
+
+                    <span class="archive-article-meta">
+
+                      {% if entry.author_name %}
+
+                        {{ entry.author_name | escape }}
+
+                      {% endif %}
+
+                      {% if entry.author_name and entry.language %}
+
+                        ·
+
+                      {% endif %}
+
+                      {% if entry.language %}
+
+                        {{ entry.language | escape }}
+
+                      {% endif %}
+
+                    </span>
+
+                  </div>
+
+
+                {% endfor %}
+
+
+              </div>
+
+
+            {% else %}
+
+              <p class="archive-week-empty">
+
+                Literary selections are being prepared.
+
+              </p>
+
+            {% endif %}
+
+
+          </div>
+
+
+          <!-- COLLECTION SUMMARY -->
+
+          <div class="archive-week-side">
+
+            <span class="archive-week-count">
+
+              {{ week_entries.size }}
+
+              {% if week_entries.size == 1 %}
+
+                Entry
+
+              {% else %}
+
+                Entries
+
+              {% endif %}
+
+            </span>
+
+
+            <a
+              class="archive-week-action"
+              href="{{ week.url | relative_url }}"
+              aria-label="Explore {{ week.title | escape }}"
+            >
+
+              Explore Collection
+
+              <span aria-hidden="true">↗</span>
+
+            </a>
+
+          </div>
+
+
+        </article>
+
+
+      {% endfor %}
+
+
+    </div>
+
+
+  {% else %}
+
+
+    <!-- ==================================================
+         INITIAL EMPTY ARCHIVE
+         ================================================== -->
+
+    <div class="empty-state">
+
+      <h3>
+        The archive begins with the first collection.
+      </h3>
+
+
+      <p>
+
+        Three carefully selected literary expressions
+        will open the first chapter of this growing journal.
+
+      </p>
+
+
+      <p>
+
+        Each new week will add another collection
+        to this permanent reading archive.
+
+      </p>
+
+
+      <a
+        class="button button--outline"
+        href="{{ '/' | relative_url }}"
+      >
+
+        Return to Homepage
+
+      </a>
+
+    </div>
+
+
+  {% endif %}
+
+
+</section>
+
+
+<!-- ============================================================
+     04. ARCHIVE EDITORIAL NOTE
+     ============================================================ -->
+
+<section class="archive-closing">
+
+  <div class="journal-note">
+
+    <p>
+
+      This archive is organised chronologically rather
+      than by popularity. Each literary selection deserves
+      its own place in the collection, whether it comes
+      from a widely recognised poet or a less familiar
+      literary tradition.
+
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- ============================================================
+     END OF PERMANENT LITERARY ARCHIVE
+     ============================================================ -->
