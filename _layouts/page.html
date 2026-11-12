@@ -1,0 +1,217 @@
+
+---
+layout: default
+---
+
+<!-- ============================================================
+     VERSE & VARIABLE
+     General Editorial Page Layout
+
+     Used for:
+     - About
+     - Language collections
+     - Editorial philosophy
+     - Other informational pages
+
+     Website language: English
+
+     ============================================================ -->
+
+
+<article class="editorial-page">
+
+
+  <!-- ======================================================
+       01. PAGE HEADER
+       ====================================================== -->
+
+  <header class="about-header">
+
+    <div class="container container--narrow">
+
+
+      <!-- BREADCRUMBS -->
+
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+
+        <a href="{{ '/' | relative_url }}">
+          Home
+        </a>
+
+        <span
+          class="breadcrumb-separator"
+          aria-hidden="true"
+        >
+          /
+        </span>
+
+        <span aria-current="page">
+          {{ page.title | escape }}
+        </span>
+
+      </nav>
+
+
+      <!-- PAGE CATEGORY -->
+
+      {% if page.kicker %}
+
+        <span class="section-kicker">
+
+          {{ page.kicker | escape }}
+
+        </span>
+
+      {% else %}
+
+        <span class="section-kicker">
+
+          VERSE &amp; VARIABLE
+
+        </span>
+
+      {% endif %}
+
+
+      <!-- PAGE TITLE -->
+
+      <h1 class="article-title">
+
+        {{ page.title | escape }}
+
+      </h1>
+
+
+      <!-- OPTIONAL PAGE DESCRIPTION -->
+
+      {% if page.description %}
+
+        <p class="article-description">
+
+          {{ page.description | escape }}
+
+        </p>
+
+      {% endif %}
+
+
+      <!-- OPTIONAL PAGE METADATA -->
+
+      {% if page.date %}
+
+        <div class="article-metadata">
+
+          <span>
+
+            {{ page.date | date: "%d %B %Y" }}
+
+          </span>
+
+        </div>
+
+      {% endif %}
+
+
+    </div>
+
+  </header>
+
+
+  <!-- ======================================================
+       02. PAGE CONTENT
+       ====================================================== -->
+
+  <section class="editorial-content-section">
+
+    <div class="container container--narrow">
+
+
+      <div class="about-content editorial-content">
+
+        {{ content }}
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- ======================================================
+       03. OPTIONAL RELATED NAVIGATION
+       ====================================================== -->
+
+  {% if page.related_links %}
+
+    <section class="section section--compact">
+
+      <div class="container container--narrow">
+
+
+        <div class="section-heading">
+
+          <span class="section-kicker">
+            CONTINUE EXPLORING
+          </span>
+
+          <h2 class="section-title">
+            Related Pages
+          </h2>
+
+        </div>
+
+
+        <div class="related-links-grid">
+
+
+          {% for item in page.related_links %}
+
+            <a
+              class="related-link-card"
+              href="{{ item.url | relative_url }}"
+            >
+
+              <h3>
+
+                {{ item.title | escape }}
+
+              </h3>
+
+
+              {% if item.description %}
+
+                <p>
+
+                  {{ item.description | escape }}
+
+                </p>
+
+              {% endif %}
+
+
+              <span aria-hidden="true">
+                Explore →
+              </span>
+
+            </a>
+
+          {% endfor %}
+
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+  {% endif %}
+
+
+</article>
+
+
+<!-- ============================================================
+     END OF EDITORIAL PAGE LAYOUT
+     ============================================================ -->
