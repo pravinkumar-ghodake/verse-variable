@@ -1,0 +1,49 @@
+
+cff-version: 1.2.0
+message: >-
+  If you use, reference, or discuss Verse & Variable in your research,
+  writing, teaching, or other scholarly work, please cite the publication
+  using the following metadata.
+
+title: "Verse & Variable: A Line of Verse. A Line of Inquiry"
+
+authors:
+  - family-names: Ghodake
+    given-names: Pravinkumar
+
+type: generic
+
+url: "https://pravinkumar-ghodake.github.io/verse-variable/"
+
+repository-code: "https://github.com/pravinkumar-ghodake/verse-variable"
+
+abstract: >-
+  Verse & Variable is an independent literary and scientific journal
+  exploring Indian and South Asian literary traditions, poetry, shayari,
+  philosophy, human experience, and interdisciplinary scientific thought.
+  Its scientific interests include nonlinear vibrations, nonlinear waves,
+  nonlinear ultrasonics, harmonic generation and scattering, mechanical
+  metamaterials, computational mechanics, and related fields. The
+  publication brings literary interpretation and scientific inquiry
+  into thoughtful dialogue while preserving their distinct intellectual
+  and cultural identities.
+
+keywords:
+  - Indian literature
+  - South Asian literature
+  - Urdu poetry
+  - Hindi poetry
+  - Marathi literature
+  - Kannada literature
+  - Tamil literature
+  - Malayalam literature
+  - Telugu literature
+  - Shayari
+  - Literary studies
+  - Philosophy
+  - Nonlinear waves
+  - Nonlinear mechanics
+  - Metamaterials
+  - Interdisciplinary research
+
+license: CC-BY-4.0
