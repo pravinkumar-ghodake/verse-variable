@@ -1,0 +1,152 @@
+
+# ============================================================
+# VERSE & VARIABLE
+# Official crawler and indexing preferences
+#
+# A line of verse. A line of inquiry.
+# Lafz se Lehar tak — From the word to the wave.
+#
+# Publication:
+# https://pravinkumar-ghodake.github.io/verse-variable/
+#
+# ============================================================
+
+
+# ------------------------------------------------------------
+# 01. GENERAL WEB CRAWLERS
+# ------------------------------------------------------------
+
+User-agent: *
+Allow: /verse-variable/
+
+
+# ------------------------------------------------------------
+# 02. GOOGLE SEARCH
+#
+# Permit Google Search indexing.
+# ------------------------------------------------------------
+
+User-agent: Googlebot
+Allow: /verse-variable/
+
+
+User-agent: Googlebot-Image
+Allow: /verse-variable/
+
+
+# ------------------------------------------------------------
+# 03. MICROSOFT BING SEARCH
+# ------------------------------------------------------------
+
+User-agent: Bingbot
+Allow: /verse-variable/
+
+
+# ------------------------------------------------------------
+# 04. OPENAI — CHATGPT SEARCH
+#
+# OAI-SearchBot:
+# Permitted to discover and surface the publication
+# in ChatGPT search results.
+#
+# GPTBot:
+# Disallowed from accessing the publication for
+# its model-training crawling purpose.
+#
+# ChatGPT-User:
+# User-initiated retrieval is permitted where
+# robots directives are applicable.
+# ------------------------------------------------------------
+
+User-agent: OAI-SearchBot
+Allow: /verse-variable/
+
+
+User-agent: GPTBot
+Disallow: /verse-variable/
+
+
+User-agent: ChatGPT-User
+Allow: /verse-variable/
+
+
+# ------------------------------------------------------------
+# 05. ANTHROPIC — CLAUDE
+#
+# Claude-SearchBot:
+# Permitted for search discovery.
+#
+# Claude-User:
+# Permitted for user-requested retrieval.
+#
+# ClaudeBot:
+# Disallowed for model-training crawling.
+# ------------------------------------------------------------
+
+User-agent: Claude-SearchBot
+Allow: /verse-variable/
+
+
+User-agent: Claude-User
+Allow: /verse-variable/
+
+
+User-agent: ClaudeBot
+Disallow: /verse-variable/
+
+
+# ------------------------------------------------------------
+# 06. PERPLEXITY
+#
+# PerplexityBot:
+# Permitted for search indexing.
+#
+# Perplexity-User:
+# User-requested retrieval is welcomed.
+# ------------------------------------------------------------
+
+User-agent: PerplexityBot
+Allow: /verse-variable/
+
+
+User-agent: Perplexity-User
+Allow: /verse-variable/
+
+
+# ------------------------------------------------------------
+# 07. GOOGLE EXTENDED
+#
+# Disallow Gemini model-training and grounding uses
+# controlled by Google-Extended.
+#
+# Google Search remains permitted through Googlebot.
+# ------------------------------------------------------------
+
+User-agent: Google-Extended
+Disallow: /verse-variable/
+
+
+# ------------------------------------------------------------
+# 08. EMERGING AI TRAINING PREFERENCE SIGNAL
+#
+# Based on the October 2026 IETF Internet-Draft:
+# Machine-Readable Training Preference Signal.
+#
+# This expresses a preference against AI training.
+# Support is emerging and is not universal.
+# ------------------------------------------------------------
+
+User-agent: __usage_ai-training
+Disallow: /verse-variable/
+
+
+# ------------------------------------------------------------
+# 09. XML SITEMAP
+# ------------------------------------------------------------
+
+Sitemap: https://pravinkumar-ghodake.github.io/verse-variable/sitemap.xml
+
+
+# ============================================================
+# END OF CRAWLER POLICY
+# ============================================================
