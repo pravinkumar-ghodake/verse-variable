@@ -3404,3 +3404,16 @@ button {
   }
 }
 
+
+
+/* ============================================================
+   URDU ALIGNMENT — LANGUAGE DIRECTORY AND INTELLECTUAL CARDS
+   ============================================================ */
+
+.language-native[lang="ur"],
+.intellectual-card-native[lang="ur"] {
+  direction: rtl;
+  text-align: left;
+  unicode-bidi: isolate;
+}
+
