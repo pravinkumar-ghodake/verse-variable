@@ -12,6 +12,7 @@ layout: default
 %}
 
 {% if latest_week %}
+
   {% assign latest_week_id = latest_week.week_id
     | default: latest_week.slug
   %}
@@ -20,117 +21,141 @@ layout: default
     | where: "week_id", latest_week_id
     | sort: "entry_number"
   %}
+
 {% endif %}
+
 
 <!-- ============================================================
      VERSE & VARIABLE
-     HOMEPAGE — THE WAVE MANUSCRIPT
+     ORIGINAL IMMERSIVE HOMEPAGE
 
-     Literature · Humanity · Science
+     A line of verse. A line of inquiry.
      Lafz se Lehar tak — From the word to the wave.
 
-     Sections:
-     01. Immersive literary-scientific hero
+     Design: Original animated nonlinear wavefield
+     Typography: Literary editorial presentation
+     Architecture: Original November 12 implementation
+
+     Homepage sections:
+     01. Literary-scientific hero
      02. Latest weekly collection
      03. Three individual literary explorations
      04. The intellectual bridge
-     05. Seven literary language traditions
+     05. Language traditions
      06. About the publication
      07. Author signature
+
      ============================================================ -->
 
 
 <!-- ============================================================
-     01. IMMERSIVE HOMEPAGE HERO
+     01. HOMEPAGE HERO
      ============================================================ -->
 
-<section class="hero hero--immersive"
-         aria-labelledby="homepage-title">
-
-  <!-- Original flowing-wave artwork -->
-  <div class="hero-artwork" aria-hidden="true">
-    <img
-      class="hero-artwork-image"
-      src="{{ '/assets/images/hero-flowing-waves.svg' | relative_url }}"
-      alt=""
-      width="1600"
-      height="900"
-      fetchpriority="high"
-      decoding="async"
-    >
-    <div class="hero-artwork-overlay"></div>
-  </div>
+<section class="hero" aria-labelledby="homepage-title">
 
   <div class="container hero-inner">
 
-    <div class="hero-content">
+    <div class="hero-eyebrow reveal">
 
-      <div class="hero-eyebrow reveal">
-        {{ hero.eyebrow | default: identity.descriptor | escape }}
-      </div>
-
-      <h1 class="hero-title reveal reveal-delay-1"
-          id="homepage-title">
-        VERSE
-        <span class="ampersand">&amp;</span>
-        VARIABLE
-      </h1>
-
-      <p class="hero-tagline reveal reveal-delay-1">
-        {{ hero.subtitle | escape }}
-      </p>
-
-      <div class="hero-tagline-identity reveal reveal-delay-2">
-
-        <span
-          class="hero-urdu"
-          lang="ur"
-          dir="rtl"
-        >
-          {{ hero.original_tagline | escape }}
-        </span>
-
-        <span class="hero-transliteration">
-          {{ hero.transliteration | escape }}
-          <span aria-hidden="true"> — </span>
-          {{ hero.tagline_translation | escape }}
-        </span>
-
-      </div>
-
-      <p class="hero-description reveal reveal-delay-2">
-        {{ hero.introduction | escape }}
-      </p>
-
-      <p class="hero-support reveal reveal-delay-3">
-        {{ hero.supporting_text | escape }}
-      </p>
-
-      <div class="hero-actions reveal reveal-delay-3">
-
-        <a
-          class="button button--primary"
-          href="{{ hero.primary_action.url | default: '/archive/' | relative_url }}"
-        >
-          {{ hero.primary_action.label | default: "Explore the Journal" | escape }}
-          <span aria-hidden="true">↗</span>
-        </a>
-
-        <a
-          class="button button--outline"
-          href="{{ hero.secondary_action.url | default: '/about/' | relative_url }}"
-        >
-          {{ hero.secondary_action.label | default: "About the Journal" | escape }}
-        </a>
-
-      </div>
+      {{ hero.eyebrow }}
 
     </div>
 
+
+    <h1 class="hero-title reveal reveal-delay-1"
+        id="homepage-title">
+
+      VERSE
+
+      <span class="ampersand">&amp;</span>
+
+      VARIABLE
+
+    </h1>
+
+
+    <p class="hero-tagline reveal reveal-delay-1">
+
+      {{ hero.subtitle }}
+
+    </p>
+
+
+    <div
+      class="hero-urdu reveal reveal-delay-2"
+      lang="ur"
+      dir="rtl"
+    >
+
+      {{ hero.original_tagline }}
+
+    </div>
+
+
+    <span class="hero-transliteration reveal reveal-delay-2">
+
+      {{ hero.transliteration }}
+
+      <span aria-hidden="true"> — </span>
+
+      {{ hero.tagline_translation }}
+
+    </span>
+
+
+    <p class="hero-description reveal reveal-delay-2">
+
+      {{ hero.introduction }}
+
+    </p>
+
+
+    <p class="hero-support reveal reveal-delay-3">
+
+      {{ hero.supporting_text }}
+
+    </p>
+
+
+    <div class="hero-actions reveal reveal-delay-3">
+
+      <a
+        class="button button--primary"
+        href="{{ hero.primary_action.url | relative_url }}"
+      >
+
+        {{ hero.primary_action.label }}
+
+        <span aria-hidden="true">↗</span>
+
+      </a>
+
+
+      <a
+        class="button button--outline"
+        href="{{ hero.secondary_action.url | relative_url }}"
+      >
+
+        {{ hero.secondary_action.label }}
+
+      </a>
+
+    </div>
+
+
   </div>
 
+
+  <!-- ORIGINAL CSS-BASED HERO DECORATION -->
+
+  <div class="hero-ornament" aria-hidden="true"></div>
+
+
   <div class="hero-bottom-mark" aria-hidden="true">
+
     LITERATURE · HUMANITY · SCIENCE
+
   </div>
 
 </section>
@@ -148,21 +173,34 @@ layout: default
 
   <div class="container">
 
+
+    <!-- COLLECTION INTRODUCTION -->
+
     <div class="section-heading reveal">
 
       <span class="section-kicker">
+
         THE JOURNAL
+
       </span>
 
-      <h2 class="section-title"
-          id="latest-collection-title">
+
+      <h2
+        class="section-title"
+        id="latest-collection-title"
+      >
+
         The Weekly Collection
+
       </h2>
 
+
       <p class="section-description">
+
         Three literary expressions, three independent
         explorations and an expanding conversation between
         culture, humanity and scientific thought.
+
       </p>
 
     </div>
@@ -170,95 +208,155 @@ layout: default
 
     {% if latest_week %}
 
-      <!-- Latest collection information -->
+
+      <!-- ==================================================
+           03. LATEST WEEK DETAILS
+           ================================================== -->
 
       <div class="week-intro reveal">
 
         <div>
 
           <span class="week-meta">
+
             LATEST COLLECTION
 
             {% if latest_week.week_number %}
+
               · WEEK {{ latest_week.week_number }}
+
             {% endif %}
+
           </span>
 
+
           <h3 class="week-title">
+
             {{ latest_week.title | escape }}
+
           </h3>
 
+
           {% if latest_week.date %}
+
             <span class="week-date">
+
               Published
               {{ latest_week.date | date: "%d %B %Y" }}
+
             </span>
+
           {% endif %}
 
         </div>
+
 
         <a
           class="button button--outline"
           href="{{ latest_week.url | relative_url }}"
         >
+
           Explore This Week
+
           <span aria-hidden="true">↗</span>
+
         </a>
 
       </div>
 
 
-      <!-- Three individual literary explorations -->
+      <!-- ==================================================
+           04. THREE ARTICLE CARDS
+           ================================================== -->
 
       {% if latest_entries.size > 0 %}
 
+
         <div class="entry-grid">
+
 
           {% for entry in latest_entries %}
 
-            <article class="entry-card reveal">
+
+            <article
+              class="entry-card reveal reveal-delay-{{ forloop.index }}"
+            >
+
 
               <span class="entry-card-number">
+
                 {% if entry.entry_number %}
+
                   {% capture entry_number %}
                     {{ entry.entry_number | prepend: "0" | slice: -2, 2 }}
                   {% endcapture %}
+
                   {{ entry_number | strip }}
+
                 {% else %}
+
                   {{ forloop.index | prepend: "0" | slice: -2, 2 }}
+
                 {% endif %}
+
               </span>
 
 
+              <!-- LANGUAGE AND LITERARY FORM -->
+
               <span class="entry-card-language">
+
                 {{ entry.language | default: "Literary exploration" | escape }}
 
                 {% if entry.literary_form %}
+
                   · {{ entry.literary_form | escape }}
+
                 {% endif %}
+
               </span>
 
 
+              <!-- ARTICLE TITLE -->
+
               <h3 class="entry-card-title">
+
                 <a href="{{ entry.url | relative_url }}">
+
                   {{ entry.title | escape }}
+
                 </a>
+
               </h3>
 
 
+              <!-- ORIGINAL AUTHOR -->
+
               {% if entry.author_name %}
+
                 <span class="entry-card-author">
+
                   {{ entry.author_name | escape }}
+
                 </span>
+
               {% endif %}
 
+
+              <!-- ARTICLE DESCRIPTION -->
 
               {% if entry.description %}
+
                 <p class="entry-card-excerpt">
+
                   {{ entry.description | escape }}
+
                 </p>
+
               {% endif %}
 
+
+              <!-- OPTIONAL ORIGINAL-LANGUAGE PREVIEW -->
 
               {% if entry.original_text %}
 
@@ -266,15 +364,19 @@ layout: default
 
                   <span
                     lang="{{ entry.language_code | default: 'und' | escape }}"
+
                     class="
                       original-text
                       original-text--{{ entry.language_id | default: 'default' | escape }}
                     "
+
                     {% if entry.language_code == "ur" %}
                       dir="rtl"
                     {% endif %}
                   >
+
                     {{ entry.original_text | strip_html | escape | truncate: 130 }}
+
                   </span>
 
                 </div>
@@ -282,41 +384,57 @@ layout: default
               {% endif %}
 
 
+              <!-- ARTICLE LINK -->
+
               <a
                 class="entry-card-link"
                 href="{{ entry.url | relative_url }}"
               >
+
                 Read the reflection
+
                 <span aria-hidden="true">→</span>
+
               </a>
+
 
             </article>
 
+
           {% endfor %}
+
 
         </div>
 
 
       {% else %}
 
+
         <div class="empty-state">
 
           <p>
+
             The literary selections for this collection
             are being prepared.
+
           </p>
 
           <a
             class="button button--outline"
             href="{{ latest_week.url | relative_url }}"
           >
+
             Explore the Weekly Collection
+
           </a>
 
         </div>
 
+
       {% endif %}
 
+
+      <!-- COLLECTION FOOTER -->
 
       <div class="weekly-footer reveal">
 
@@ -324,8 +442,11 @@ layout: default
           class="button button--text"
           href="{{ latest_week.url | relative_url }}"
         >
+
           Read the complete weekly collection
+
           <span aria-hidden="true">↗</span>
+
         </a>
 
       </div>
@@ -333,20 +454,31 @@ layout: default
 
     {% else %}
 
+
+      <!-- ==================================================
+           NO COLLECTION PUBLISHED YET
+           ================================================== -->
+
       <div class="empty-state reveal">
 
         <p>
+
           The first literary collection is taking shape.
+
         </p>
 
         <p>
+
           Three carefully selected expressions, each
           opening its own intellectual journey.
+
         </p>
 
       </div>
 
+
     {% endif %}
+
 
   </div>
 
@@ -354,7 +486,7 @@ layout: default
 
 
 <!-- ============================================================
-     03. THE INTELLECTUAL BRIDGE
+     05. THE INTELLECTUAL BRIDGE
      ============================================================ -->
 
 <section
@@ -364,27 +496,41 @@ layout: default
 
   <div class="container container--narrow">
 
+
     <div class="section-heading reveal">
 
       <span class="section-kicker">
+
         THE CENTRAL IDEA
+
       </span>
 
-      <h2 class="section-title"
-          id="intellectual-title">
+
+      <h2
+        class="section-title"
+        id="intellectual-title"
+      >
+
         From the Word to the Wave
+
       </h2>
 
+
       <p class="section-description">
+
         A literary expression can begin with a human emotion
         and lead towards an unexpectedly expansive exploration
         of nature, mathematics and the physical sciences.
+
       </p>
 
     </div>
 
 
+    <!-- SCIENCE AND LITERATURE CONCEPT -->
+
     <div class="intellectual-grid">
+
 
       <article class="intellectual-card reveal">
 
@@ -392,30 +538,43 @@ layout: default
           01 / THE EXPRESSION
         </span>
 
+
         <h3 class="intellectual-card-title">
+
           Lafz
+
         </h3>
+
 
         <p
           class="intellectual-card-native"
           lang="ur"
           dir="rtl"
         >
+
           لفظ
+
         </p>
 
+
         <p class="intellectual-card-description">
+
           Shayari, poetry, ghazals, books and lyrical
           expressions that carry the richness of human
           experience across languages and generations.
+
         </p>
 
       </article>
 
 
-      <div class="intellectual-connector"
-           aria-hidden="true">
+      <div
+        class="intellectual-connector"
+        aria-hidden="true"
+      >
+
         <span>→</span>
+
       </div>
 
 
@@ -425,37 +584,50 @@ layout: default
           02 / THE PHENOMENON
         </span>
 
+
         <h3 class="intellectual-card-title">
+
           Lehar
+
         </h3>
+
 
         <p
           class="intellectual-card-native"
           lang="hi"
           dir="ltr"
         >
+
           लहर
+
         </p>
 
+
         <p class="intellectual-card-description">
+
           Nonlinear vibrations, elastic waves and ultrasonics;
           harmonic generation and scattering; wave mixing,
           hysteresis, mechanical metamaterials and inverse design.
           Connections with nonlinear optics offer further
           perspectives on frequency conversion and interacting fields.
+
         </p>
 
       </article>
+
 
     </div>
 
 
     <p class="intellectual-closing reveal">
+
       The relationship is not a claim that poetry describes
       physics. It is an invitation to discover new ways of
-      thinking while allowing literature, human experience
-      and science to retain their own intellectual integrity.
+      thinking while allowing literature and science to
+      retain their own intellectual integrity.
+
     </p>
+
 
   </div>
 
@@ -463,7 +635,7 @@ layout: default
 
 
 <!-- ============================================================
-     04. LITERARY LANGUAGE TRADITIONS
+     06. LITERARY LANGUAGE TRADITIONS
      ============================================================ -->
 
 <section
@@ -473,20 +645,31 @@ layout: default
 
   <div class="container">
 
+
     <div class="section-heading reveal">
 
       <span class="section-kicker">
+
         MANY LANGUAGES · ONE EXPANDING ARCHIVE
+
       </span>
 
-      <h2 class="section-title"
-          id="language-section-title">
+
+      <h2
+        class="section-title"
+        id="language-section-title"
+      >
+
         India's Literary Voices
+
       </h2>
 
+
       <p class="section-description">
+
         An evolving collection rooted in the diverse
         literary and linguistic traditions of India.
+
       </p>
 
     </div>
@@ -494,7 +677,9 @@ layout: default
 
     <div class="language-grid">
 
+
       {% for language in site.data.languages.languages %}
+
 
         <article class="language-card reveal">
 
@@ -503,20 +688,30 @@ layout: default
             lang="{{ language.code }}"
             dir="{{ language.direction }}"
           >
+
             {{ language.native_name }}
+
           </span>
 
+
           <h3 class="language-name">
+
             {{ language.name | escape }}
+
           </h3>
 
+
           <p class="language-description">
+
             {{ language.script | escape }}
+
           </p>
 
         </article>
 
+
       {% endfor %}
+
 
     </div>
 
@@ -524,19 +719,25 @@ layout: default
     <div class="language-section-footer">
 
       <p>
+
         Original language and script are preserved.
         English provides the translation and interpretation.
+
       </p>
 
       <a
         class="button button--text"
         href="{{ '/languages/' | relative_url }}"
       >
+
         Explore the language traditions
+
         <span aria-hidden="true">↗</span>
+
       </a>
 
     </div>
+
 
   </div>
 
@@ -544,7 +745,7 @@ layout: default
 
 
 <!-- ============================================================
-     05. ABOUT THE PUBLICATION
+     07. ABOUT THE PUBLICATION
      ============================================================ -->
 
 <section
@@ -554,43 +755,65 @@ layout: default
 
   <div class="container container--narrow">
 
+
     <div class="about-preview-content reveal">
 
+
       <span class="section-kicker">
+
         ABOUT THE JOURNAL
+
       </span>
 
-      <h2 class="section-title"
-          id="about-preview-title">
+
+      <h2
+        class="section-title"
+        id="about-preview-title"
+      >
+
         Beyond the Words. Beneath the Waves.
+
       </h2>
 
+
       <p class="section-description">
+
         Verse &amp; Variable is a personal intellectual
         exploration of literature, humanity and science.
+
         It brings together a multilingual Indian literary
         archive and reflections informed by a continuing
         engagement with theoretical, computational and
         experimental mechanics.
+
       </p>
 
+
       <p class="section-description">
+
         Some expressions lead towards relationships,
         memory and identity. Others invite philosophical
         questions or connections with nonlinear dynamics,
         nonlinear optics, wave propagation and the
         complexity of physical systems.
+
       </p>
+
 
       <a
         class="button button--outline"
         href="{{ '/about/' | relative_url }}"
       >
+
         Discover the Editorial Philosophy
+
         <span aria-hidden="true">↗</span>
+
       </a>
 
+
     </div>
+
 
   </div>
 
@@ -598,26 +821,36 @@ layout: default
 
 
 <!-- ============================================================
-     06. AUTHOR SIGNATURE
+     08. AUTHOR SIGNATURE
      ============================================================ -->
 
 <section class="author-signature section--compact">
 
   <div class="container container--narrow">
 
+
     <div class="author-signature-inner reveal">
 
       <span class="author-signature-label">
+
         WRITTEN AND CURATED BY
+
       </span>
 
+
       <h2 class="author-signature-name">
+
         Pravinkumar Ghodake
+
       </h2>
 
+
       <p class="author-signature-description">
+
         Independent researcher · Reader · Literary enthusiast
+
       </p>
+
 
       <a
         href="https://orcid.org/0000-0002-6755-4003"
@@ -625,9 +858,13 @@ layout: default
         target="_blank"
         rel="noopener noreferrer"
       >
+
         ORCID 0000-0002-6755-4003
+
         <span aria-hidden="true">↗</span>
+
       </a>
+
 
       <a
         href="https://sites.google.com/view/pravinkumarghodake"
@@ -635,15 +872,21 @@ layout: default
         target="_blank"
         rel="noopener noreferrer"
       >
+
         Research portfolio
+
         <span aria-hidden="true">↗</span>
+
       </a>
 
+
     </div>
+
 
   </div>
 
 </section>
+
 
 <!-- ============================================================
      END OF VERSE & VARIABLE HOMEPAGE
