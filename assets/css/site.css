@@ -2780,3 +2780,235 @@ button {
 /* ============================================================
    END OF VERSE & VARIABLE MAIN STYLESHEET
    ============================================================ */
+
+
+
+
+/* ============================================================
+   VERSE & VARIABLE — HOMEPAGE REFINEMENTS
+   ============================================================ */
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 15px;
+  z-index: 1000;
+
+  padding: 12px 18px;
+
+  background: var(--literary-coral);
+  color: #FFFFFF;
+
+  border-radius: 4px;
+}
+
+.skip-link:focus {
+  top: 15px;
+}
+
+.brand-mark {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 26px;
+  right: 26px;
+  z-index: 90;
+
+  display: grid;
+  place-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+
+  color: var(--ink-primary);
+  background: var(--bg-card);
+
+  cursor: pointer;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+
+  transition:
+    opacity 0.25s ease,
+    visibility 0.25s ease,
+    transform 0.25s ease;
+}
+
+.back-to-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.week-collection-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 28px;
+
+  margin-top: 23px;
+  padding-top: 17px;
+
+  border-top: 1px solid var(--border-primary);
+}
+
+.week-original-preview,
+.home-original-preview {
+  margin-top: 17px;
+  padding: 12px 0;
+
+  border-top: 1px solid var(--border-primary);
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.home-original-preview {
+  color: var(--literary-rose);
+  font-size: 1.05rem;
+  overflow-wrap: anywhere;
+}
+
+.intellectual-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 55px minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
+}
+
+.intellectual-card {
+  min-height: 300px;
+  padding: 30px;
+
+  border: 1px solid var(--border-primary);
+  border-radius: 9px;
+
+  background: var(--bg-card);
+}
+
+.intellectual-card-index,
+.author-signature-label {
+  color: var(--spectrum-gold);
+
+  font-family: var(--font-interface);
+  font-size: 0.67rem;
+  font-weight: 600;
+
+  letter-spacing: 0.12em;
+}
+
+.intellectual-card-title {
+  margin: 24px 0 0;
+
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.intellectual-card-native {
+  margin: 8px 0 15px;
+
+  color: var(--literary-rose);
+  font-family: var(--font-urdu);
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.intellectual-card-description,
+.intellectual-closing,
+.language-section-footer {
+  color: var(--ink-secondary);
+
+  font-family: var(--font-reading);
+  font-size: 0.94rem;
+  line-height: 1.9;
+}
+
+.intellectual-connector {
+  display: grid;
+  place-items: center;
+
+  color: var(--literary-coral);
+  font-size: 1.8rem;
+}
+
+.intellectual-closing {
+  margin-top: 30px;
+  max-width: 760px;
+}
+
+.language-section-footer {
+  margin-top: 28px;
+}
+
+.author-signature-inner {
+  padding: 32px;
+
+  border-top: 1px solid var(--border-primary);
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.author-signature-name {
+  margin: 14px 0 5px;
+
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.author-signature-description {
+  color: var(--ink-muted);
+  font-size: 0.84rem;
+}
+
+.author-signature-link {
+  display: inline-block;
+  margin-top: 14px;
+
+  color: var(--wave-cyan);
+  font-size: 0.79rem;
+}
+
+.weekly-footer {
+  margin-top: 32px;
+}
+
+.article-share {
+  margin-top: 35px;
+}
+
+.source-reference {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+@media (max-width: 740px) {
+  .intellectual-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .intellectual-card {
+    min-height: auto;
+  }
+
+  .intellectual-connector {
+    transform: rotate(90deg);
+    padding: 5px;
+  }
+
+  .back-to-top {
+    right: 15px;
+    bottom: 16px;
+  }
+
+  .author-signature-inner {
+    padding: 25px 5px;
+  }
+}
+
