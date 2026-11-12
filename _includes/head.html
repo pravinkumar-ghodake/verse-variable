@@ -1,0 +1,546 @@
+
+{%- assign site_name = site.data.site.identity.name | default: site.title -%}
+{%- assign page_title = page.seo_title | default: page.title | default: site_name -%}
+{%- assign page_description = page.description | default: site.description | strip_html | normalize_whitespace -%}
+{%- assign canonical_path = page.url | replace: "index.html", "" -%}
+{%- assign canonical_url = canonical_path | absolute_url -%}
+{%- assign social_image = page.image | default: site.data.site.metadata.default_image -%}
+
+{%- unless social_image contains "://" -%}
+  {%- assign social_image = social_image | relative_url | absolute_url -%}
+{%- endunless -%}
+
+<!DOCTYPE html>
+<html
+  lang="{{ page.lang | default: site.lang | default: 'en' }}"
+  dir="ltr"
+  data-theme="dark"
+>
+
+<head>
+
+  <!-- ======================================================
+       01. DOCUMENT BASICS
+       ====================================================== -->
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="author" content="{{ site.author.name | escape }}">
+
+  <meta name="generator" content="Jekyll {{ jekyll.version }}">
+
+  <meta name="language" content="English">
+
+  <meta name="publication" content="Verse &amp; Variable">
+
+  <meta
+    name="theme-color"
+    content="#101A30"
+  >
+
+  <meta name="color-scheme" content="dark light">
+
+
+  <!-- ======================================================
+       02. PAGE TITLE
+       ====================================================== -->
+
+  {% if page.url == "/" %}
+
+    <title>
+      {{ site_name | escape }} — {{ site.data.site.identity.primary_tagline | escape }}
+    </title>
+
+  {% else %}
+
+    <title>
+      {{ page_title | escape }} | {{ site_name | escape }}
+    </title>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       03. SEO DESCRIPTION
+       ====================================================== -->
+
+  <meta
+    name="description"
+    content="{{ page_description | truncate: 300 | escape }}"
+  >
+
+  {% if page.keywords %}
+
+    <meta
+      name="keywords"
+      content="{{ page.keywords | join: ', ' | escape }}"
+    >
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       04. SEARCH ENGINE INDEXING
+       ====================================================== -->
+
+  {% if page.noindex %}
+
+    <meta name="robots" content="noindex, nofollow">
+
+  {% else %}
+
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    >
+
+  {% endif %}
+
+  <meta
+    name="googlebot"
+    content="index, follow, max-image-preview:large"
+  >
+
+  <meta
+    name="bingbot"
+    content="index, follow, max-image-preview:large"
+  >
+
+
+  <!-- ======================================================
+       05. CANONICAL URL
+       ====================================================== -->
+
+  <link
+    rel="canonical"
+    href="{{ canonical_url | escape }}"
+  >
+
+
+  <!-- ======================================================
+       06. WEBSITE IDENTITY
+       ====================================================== -->
+
+  <meta
+    name="application-name"
+    content="{{ site_name | escape }}"
+  >
+
+  <meta
+    name="creator"
+    content="{{ site.author.name | escape }}"
+  >
+
+  <meta
+    name="publisher"
+    content="{{ site_name | escape }}"
+  >
+
+
+  <!-- ======================================================
+       07. OPEN GRAPH — SOCIAL SHARING
+       ====================================================== -->
+
+  <meta property="og:site_name" content="{{ site_name | escape }}">
+
+  <meta property="og:type" content="{% if page.collection == 'entries' %}article{% else %}website{% endif %}">
+
+  <meta
+    property="og:title"
+    content="{{ page_title | escape }}{% unless page.url == '/' %} | {{ site_name | escape }}{% endunless %}"
+  >
+
+  <meta
+    property="og:description"
+    content="{{ page_description | truncate: 300 | escape }}"
+  >
+
+  <meta
+    property="og:url"
+    content="{{ canonical_url | escape }}"
+  >
+
+  <meta
+    property="og:image"
+    content="{{ social_image | escape }}"
+  >
+
+  <meta property="og:image:alt" content="Verse &amp; Variable — Indian literature and nonlinear science">
+
+  <meta property="og:locale" content="en_IN">
+
+  <meta property="og:locale:alternate" content="hi_IN">
+
+  {% if page.date and page.collection == "entries" %}
+
+    <meta
+      property="article:published_time"
+      content="{{ page.date | date_to_xmlschema }}"
+    >
+
+    <meta
+      property="article:modified_time"
+      content="{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
+    >
+
+    <meta
+      property="article:author"
+      content="{{ site.author.name | escape }}"
+    >
+
+    {% if page.language %}
+
+      <meta
+        property="article:section"
+        content="{{ page.language | escape }}"
+      >
+
+    {% endif %}
+
+    {% for tag in page.tags %}
+
+      <meta
+        property="article:tag"
+        content="{{ tag | escape }}"
+      >
+
+    {% endfor %}
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       08. X / TWITTER CARD
+       ====================================================== -->
+
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  >
+
+  <meta
+    name="twitter:title"
+    content="{{ page_title | escape }}"
+  >
+
+  <meta
+    name="twitter:description"
+    content="{{ page_description | truncate: 200 | escape }}"
+  >
+
+  <meta
+    name="twitter:image"
+    content="{{ social_image | escape }}"
+  >
+
+  <meta
+    name="twitter:image:alt"
+    content="Verse &amp; Variable literary and scientific journal"
+  >
+
+
+  <!-- ======================================================
+       09. FONT CONNECTIONS
+       ====================================================== -->
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+
+  <!-- ======================================================
+       10. PUBLICATION TYPOGRAPHY
+       ====================================================== -->
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&family=Literata:ital,wght@0,400;0,500;1,400&family=Noto+Nastaliq+Urdu:wght@400;500&family=Noto+Serif+Devanagari:wght@400;500;600&family=Noto+Serif+Kannada:wght@400;500&family=Noto+Serif+Malayalam:wght@400;500&family=Noto+Serif+Tamil:wght@400;500&family=Noto+Serif+Telugu:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+
+
+  <!-- ======================================================
+       11. FONT RENDERING AND DISPLAY
+       ====================================================== -->
+
+  <meta name="format-detection" content="telephone=no">
+
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+
+  <!-- ======================================================
+       12. FAVICON
+       ====================================================== -->
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="{{ '/favicon.svg' | relative_url }}"
+  >
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta
+    name="apple-mobile-web-app-title"
+    content="Verse &amp; Variable"
+  >
+
+
+  <!-- ======================================================
+       13. RSS DISCOVERY
+       ====================================================== -->
+
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Verse &amp; Variable — Latest Literary Explorations"
+    href="{{ '/feed.xml' | absolute_url }}"
+  >
+
+
+  <!-- ======================================================
+       14. THEME INITIALIZATION
+       Prevents the wrong theme flashing before CSS loads.
+       ====================================================== -->
+
+  <script>
+
+    (function () {
+
+      try {
+
+        const savedTheme = localStorage.getItem("vv-theme");
+
+        if (
+          savedTheme === "dark" ||
+          savedTheme === "light"
+        ) {
+
+          document.documentElement.setAttribute(
+            "data-theme",
+            savedTheme
+          );
+
+        }
+
+      } catch (error) {
+
+        document.documentElement.setAttribute(
+          "data-theme",
+          "dark"
+        );
+
+      }
+
+    })();
+
+  </script>
+
+
+  <!-- ======================================================
+       15. MAIN STYLESHEET
+       ====================================================== -->
+
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/site.css' | relative_url }}"
+  >
+
+
+  <!-- ======================================================
+       16. PUBLICATION STRUCTURED DATA
+       ====================================================== -->
+
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "{{ '/' | absolute_url }}#website",
+    "name": {{ site_name | jsonify }},
+    "alternateName": [
+      "Verse and Variable",
+      "Lafz se Lehar tak",
+      "لفظ سے لہر تک"
+    ],
+    "url": {{ '/' | absolute_url | jsonify }},
+    "description": {{ site.description | jsonify }},
+    "inLanguage": "en",
+    "creator": {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6755-4003",
+      "name": {{ site.author.name | jsonify }},
+      "url": {{ site.author.url | jsonify }},
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-6755-4003"
+      },
+      "sameAs": [
+        "https://orcid.org/0000-0002-6755-4003",
+        "https://github.com/pravinkumar-ghodake",
+        "https://www.linkedin.com/in/pravinkumarghodake",
+        "https://www.researchgate.net/profile/Pravinkumar_Ghodake"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": {{ site.author.name | jsonify }}
+    },
+    "publisherImprint": {{ site_name | jsonify }}
+  }
+
+  </script>
+
+
+  <!-- ======================================================
+       17. INDIVIDUAL ARTICLE STRUCTURED DATA
+       ====================================================== -->
+
+  {% if page.collection == "entries" %}
+
+    <script type="application/ld+json">
+
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+
+      "headline": {{ page.title | jsonify }},
+
+      "description": {{ page_description | jsonify }},
+
+      "url": {{ canonical_url | jsonify }},
+
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": {{ canonical_url | jsonify }}
+      },
+
+      "datePublished": {{ page.date | default: site.time | date_to_xmlschema | jsonify }},
+
+      "dateModified": {{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema | jsonify }},
+
+      "inLanguage": "en",
+
+      "author": {
+        "@type": "Person",
+        "name": {{ site.author.name | jsonify }},
+        "url": {{ site.author.url | jsonify }}
+      },
+
+      "publisher": {
+        "@type": "Person",
+        "name": {{ site.author.name | jsonify }}
+      },
+
+      "image": {{ social_image | jsonify }},
+
+      "isPartOf": {
+        "@id": {{ '/' | absolute_url | append: '#website' | jsonify }}
+      }
+
+      {% if page.language %}
+
+        ,"about": {
+          "@type": "Language",
+          "name": {{ page.language | jsonify }}
+        }
+
+      {% endif %}
+
+    }
+
+    </script>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       18. GENERAL PAGE STRUCTURED DATA
+       ====================================================== -->
+
+  {% unless page.collection == "entries" %}
+
+    <script type="application/ld+json">
+
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+
+      "name": {{ page_title | jsonify }},
+
+      "description": {{ page_description | jsonify }},
+
+      "url": {{ canonical_url | jsonify }},
+
+      "inLanguage": "en",
+
+      "isPartOf": {
+        "@id": {{ '/' | absolute_url | append: '#website' | jsonify }}
+      },
+
+      "author": {
+        "@type": "Person",
+        "name": {{ site.author.name | jsonify }}
+      }
+
+    }
+
+    </script>
+
+  {% endunless %}
+
+
+  <!-- ======================================================
+       19. CUSTOM PAGE METADATA
+       ====================================================== -->
+
+  {% if page.language_code %}
+
+    <meta
+      name="content-language"
+      content="{{ page.language_code | escape }}"
+    >
+
+  {% endif %}
+
+
+  {% if page.original_language %}
+
+    <meta
+      name="original-literary-language"
+      content="{{ page.original_language | escape }}"
+    >
+
+  {% endif %}
+
+
+  {% if page.author_name %}
+
+    <meta
+      name="literary-author"
+      content="{{ page.author_name | escape }}"
+    >
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       END OF DOCUMENT HEAD
+       ====================================================== -->
+
+</head>
+</html>
