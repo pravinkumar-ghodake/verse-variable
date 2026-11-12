@@ -35,6 +35,39 @@ jobs:
           source: ./
           destination: ./_site
 
+        
+      - name: Diagnose generated homepage
+        shell: bash
+        run: |
+          echo "======================================"
+          echo "GENERATED WEBSITE FILES"
+          echo "======================================"
+
+          find ./_site -maxdepth 2 -type f | sort | head -60
+
+          echo "======================================"
+          echo "GENERATED INDEX.HTML - FIRST 50 LINES"
+          echo "======================================"
+
+          if [ -f ./_site/index.html ]; then
+            sed -n '1,50p' ./_site/index.html
+          else
+            echo "ERROR: _site/index.html was not generated"
+          fi
+
+          echo "======================================"
+          echo "FRONT MATTER CHECK"
+          echo "======================================"
+
+          if [ -f ./_site/index.html ]; then
+            if head -n 5 ./_site/index.html | grep -q '^---$'; then
+              echo "WARNING: YAML front matter remains in generated HTML"
+            else
+              echo "PASS: No YAML front matter at the beginning"
+            fi
+          fi
+
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
