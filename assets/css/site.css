@@ -3441,3 +3441,23 @@ p {
   word-spacing: normal;
 }
 
+
+
+/* ============================================================
+   FOOTER — PRESERVE NATURAL TEXT ALIGNMENT
+   ============================================================ */
+
+footer p {
+  text-align: left;
+  text-align-last: left;
+  text-justify: auto;
+  text-wrap: wrap;
+
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: manual;
+
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
