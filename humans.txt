@@ -1,4 +1,3 @@
-
 /* TEAM */
 
 Publication: Verse & Variable
