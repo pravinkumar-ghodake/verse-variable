@@ -1,4 +1,3 @@
-
 # ============================================================
 # VERSE & VARIABLE
 # Official crawler and indexing preferences
