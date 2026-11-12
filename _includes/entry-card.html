@@ -1,0 +1,219 @@
+
+{%- assign entry = include.entry -%}
+{%- assign card_number = include.number | default: entry.entry_number | default: 1 -%}
+{%- assign card_number = card_number | plus: 0 | prepend: "0" | slice: -2, 2 -%}
+{%- assign card_id = entry.slug | default: entry.title | slugify -%}
+{%- assign language_class = entry.language_id | default: "default" -%}
+{%- assign language_direction = "ltr" -%}
+
+{%- if entry.language_code == "ur" -%}
+  {%- assign language_direction = "rtl" -%}
+{%- endif -%}
+
+{%- assign show_original = true -%}
+
+{%- if include.show_original == false -%}
+  {%- assign show_original = false -%}
+{%- endif -%}
+
+<!-- ============================================================
+     VERSE & VARIABLE
+     REUSABLE LITERARY ARTICLE CARD
+
+     Used across:
+     - Homepage
+     - Weekly collections
+     - Related literary explorations
+     - Future recommendation sections
+
+     ============================================================ -->
+
+<article
+  class="entry-card reveal"
+  id="entry-card-{{ card_id }}-{{ card_number }}"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+
+
+  <!-- ======================================================
+       01. ENTRY NUMBER
+       ====================================================== -->
+
+  <span
+    class="entry-card-number"
+    aria-hidden="true"
+  >
+
+    {{ card_number }}
+
+  </span>
+
+
+  <!-- ======================================================
+       02. LANGUAGE AND LITERARY FORM
+       ====================================================== -->
+
+  <span class="entry-card-language">
+
+    {% if entry.language %}
+
+      {{ entry.language | escape }}
+
+    {% else %}
+
+      Literary exploration
+
+    {% endif %}
+
+
+    {% if entry.literary_form %}
+
+      <span aria-hidden="true"> · </span>
+
+      {{ entry.literary_form | escape }}
+
+    {% endif %}
+
+  </span>
+
+
+  <!-- ======================================================
+       03. ARTICLE TITLE
+       ====================================================== -->
+
+  <h3
+    class="entry-card-title"
+    itemprop="headline"
+  >
+
+    <a href="{{ entry.url | relative_url }}">
+
+      {{ entry.title | escape }}
+
+    </a>
+
+  </h3>
+
+
+  <!-- ======================================================
+       04. LITERARY AUTHOR
+       ====================================================== -->
+
+  {% if entry.author_name %}
+
+    <span
+      class="entry-card-author"
+      itemprop="author"
+    >
+
+      {{ entry.author_name | escape }}
+
+    </span>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       05. ARTICLE DESCRIPTION
+       ====================================================== -->
+
+  {% if entry.description %}
+
+    <p
+      class="entry-card-excerpt"
+      itemprop="description"
+    >
+
+      {{ entry.description | escape }}
+
+    </p>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       06. ORIGINAL-LANGUAGE PREVIEW
+       ====================================================== -->
+
+  {% if show_original and entry.original_text %}
+
+    <div class="home-original-preview">
+
+      <span
+        class="original-text original-text--{{ language_class | escape }}"
+        lang="{{ entry.language_code | default: 'und' | escape }}"
+        dir="{{ language_direction }}"
+      >
+
+        {{ entry.original_text | strip_html | truncate: 145 | escape }}
+
+      </span>
+
+    </div>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       07. THEMATIC TAGS
+       ====================================================== -->
+
+  {% if include.show_tags and entry.tags %}
+
+    <div class="tag-list" aria-label="Literary themes">
+
+      {% for tag in entry.tags limit: 3 %}
+
+        <span class="tag">
+
+          {{ tag | escape }}
+
+        </span>
+
+      {% endfor %}
+
+    </div>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       08. ARTICLE PUBLICATION DATE
+       ====================================================== -->
+
+  {% if include.show_date and entry.date %}
+
+    <span class="entry-card-date">
+
+      {{ entry.date | date: "%d %B %Y" }}
+
+    </span>
+
+  {% endif %}
+
+
+  <!-- ======================================================
+       09. INDIVIDUAL ARTICLE LINK
+       ====================================================== -->
+
+  <a
+    class="entry-card-link"
+    href="{{ entry.url | relative_url }}"
+    aria-label="Read the reflection: {{ entry.title | escape }}{% if entry.author_name %}, by {{ entry.author_name | escape }}{% endif %}"
+    itemprop="url"
+  >
+
+    {{ include.link_label | default: "Read the reflection" | escape }}
+
+    <span aria-hidden="true">→</span>
+
+  </a>
+
+
+</article>
+
+
+<!-- ============================================================
+     END OF REUSABLE LITERARY CARD
+     ============================================================ -->
