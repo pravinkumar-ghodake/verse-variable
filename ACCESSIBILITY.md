@@ -1,4 +1,3 @@
-
 # Accessibility
 
 **Verse & Variable**  
