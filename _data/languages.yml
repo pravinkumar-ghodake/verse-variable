@@ -1,0 +1,410 @@
+
+# ============================================================
+# VERSE & VARIABLE
+# Multilingual Literary Registry
+# ============================================================
+#
+# This file defines the original languages represented in
+# the literary archive and their typographic requirements.
+#
+# Website interface and editorial writing: English.
+# Original literary expressions: Original language and script.
+#
+# Encoding: UTF-8
+# ============================================================
+
+version: 1
+
+# ------------------------------------------------------------
+# 1. EDITORIAL LANGUAGE
+# ------------------------------------------------------------
+
+editorial_language:
+
+  name: "English"
+  code: "en"
+  script: "Latin"
+  script_code: "Latn"
+  direction: "ltr"
+
+  font:
+    family: "Literata"
+    css_stack: '"Literata", Georgia, serif'
+
+  purpose:
+    - "Website interface"
+    - "Article titles"
+    - "English translations"
+    - "Personal reflections"
+    - "Editorial descriptions"
+    - "Source references"
+
+# ------------------------------------------------------------
+# 2. ORIGINAL LITERARY LANGUAGES
+# ------------------------------------------------------------
+
+languages:
+
+  # ==========================================================
+  # HINDI
+  # ==========================================================
+
+  - id: "hindi"
+
+    name: "Hindi"
+    native_name: "हिन्दी"
+
+    code: "hi"
+    script: "Devanagari"
+    script_code: "Deva"
+
+    direction: "ltr"
+
+    typography:
+      font_family: "Noto Serif Devanagari"
+      css_stack: '"Noto Serif Devanagari", "Noto Serif", serif'
+      style: "serif"
+      text_align: "left"
+      line_height: 1.9
+      letter_spacing: "normal"
+
+    transliteration:
+      supported: true
+      recommended: false
+      format: "IAST or readable Roman transliteration"
+
+    editorial_scope:
+      - "Shayari"
+      - "Doha"
+      - "Poetry"
+      - "Ghazal"
+      - "Classical literature"
+      - "Modern Hindi writing"
+      - "Philosophical expressions"
+
+    display:
+      label: "Original text · Hindi"
+      show_native_name: true
+      preserve_original_script: true
+      english_translation: true
+
+  # ==========================================================
+  # URDU
+  # ==========================================================
+
+  - id: "urdu"
+
+    name: "Urdu"
+    native_name: "اردو"
+
+    code: "ur"
+    script: "Arabic (Nastaliq)"
+    script_code: "Arab"
+
+    direction: "rtl"
+
+    typography:
+      font_family: "Noto Nastaliq Urdu"
+      css_stack: '"Noto Nastaliq Urdu", "Noto Naskh Arabic", serif'
+      style: "nastaliq"
+      text_align: "right"
+      line_height: 2.5
+      letter_spacing: "normal"
+
+    transliteration:
+      supported: true
+      recommended: true
+      format: "Roman Urdu"
+
+    editorial_scope:
+      - "Sher"
+      - "Shayari"
+      - "Ghazal"
+      - "Nazm"
+      - "Rubai"
+      - "Qawwali poetry"
+      - "Philosophical poetry"
+      - "Literary expressions"
+
+    display:
+      label: "Original text · Urdu"
+      show_native_name: true
+      preserve_original_script: true
+      english_translation: true
+      right_to_left: true
+
+  # ==========================================================
+  # MARATHI
+  # ==========================================================
+
+  - id: "marathi"
+
+    name: "Marathi"
+    native_name: "मराठी"
+
+    code: "mr"
+    script: "Devanagari"
+    script_code: "Deva"
+
+    direction: "ltr"
+
+    typography:
+      font_family: "Noto Serif Devanagari"
+      css_stack: '"Noto Serif Devanagari", "Noto Serif", serif'
+      style: "serif"
+      text_align: "left"
+      line_height: 1.9
+      letter_spacing: "normal"
+
+    transliteration:
+      supported: true
+      recommended: false
+      format: "IAST or readable Roman transliteration"
+
+    editorial_scope:
+      - "Kavita"
+      - "Abhang"
+      - "Bhakti poetry"
+      - "Modern Marathi poetry"
+      - "Philosophical literature"
+      - "Lyrical compositions"
+
+    display:
+      label: "Original text · Marathi"
+      show_native_name: true
+      preserve_original_script: true
+      english_translation: true
+
+  # ==========================================================
+  # KANNADA
+  # ==========================================================
+
+  - id: "kannada"
+
+    name: "Kannada"
+    native_name: "ಕನ್ನಡ"
+
+    code: "kn"
+    script: "Kannada"
+    script_code: "Knda"
+
+    direction: "ltr"
+
+    typography:
+      font_family: "Noto Serif Kannada"
+      css_stack: '"Noto Serif Kannada", serif'
+      style: "serif"
+      text_align: "left"
+      line_height: 2.0
+      letter_spacing: "normal"
+
+    transliteration:
+      supported: true
+      recommended: false
+      format: "Readable Roman transliteration"
+
+    editorial_scope:
+      - "Vachana"
+      - "Classical poetry"
+      - "Modern Kannada poetry"
+      - "Philosophical expressions"
+      - "Literary passages"
+      - "Song lyrics"
+
+    display:
+      label: "Original text · Kannada"
+      show_native_name: true
+      preserve_original_script: true
+      english_translation: true
+
+  # ==========================================================
+  # TAMIL
+  # ==========================================================
+
+  - id: "tamil"
+
+    name: "Tamil"
+    native_name: "தமிழ்"
+
+    code: "ta"
+    script: "Tamil"
+    script_code: "Taml"
+
+    direction: "ltr"
+
+    typography:
+      font_family: "Noto Serif Tamil"
+      css_stack: '"Noto Serif Tamil", serif'
+      style: "serif"
+      text_align: "left"
+      line_height: 2.0
+      letter_spacing: "normal"
+
+    transliteration:
+      supported: true
+      recommended: false
+      format: "Readable Roman transliteration"
+
+    editorial_scope:
+      - "Classical Tamil poetry"
+      - "Sangam literature"
+      - "Modern poetry"
+      - "Philosophical writing"
+      - "Literary songs"
+      - "Contemporary lyrical writing"
+
+    display:
+      label: "Original text · Tamil"
+      show_native_name: true
+      preserve_original_script: true
+      english_translation: true
+
+  # ==========================================================
+  # MALAYALAM
+  # ==========================================================
+
+  - id: "malayalam"
+
+    name: "Malayalam"
+    native_name: "മലയാളം"
+
+    code: "ml"
+    script: "Malayalam"
+    script_code: "Mlym"
+
+    direction: "ltr"
+
+    typography:
+      font_family: "Noto Serif Malayalam"
+      css_stack: '"Noto Serif Malayalam", serif'
+      style: "serif"
+      text_align: "left"
+      line_height: 2.0
+      letter_spacing: "normal"
+
+    transliteration:
+      supported: true
+      recommended: false
+      format: "Readable Roman transliteration"
+
+    editorial_scope:
+      - "Classical Malayalam poetry"
+      - "Modern poetry"
+      - "Philosophical literature"
+      - "Romantic poetry"
+      - "Literary songs"
+      - "Contemporary lyrics"
+
+    display:
+      label: "Original text · Malayalam"
+      show_native_name: true
+      preserve_original_script: true
+      english_translation: true
+
+  # ==========================================================
+  # TELUGU
+  # ==========================================================
+
+  - id: "telugu"
+
+    name: "Telugu"
+    native_name: "తెలుగు"
+
+    code: "te"
+    script: "Telugu"
+    script_code: "Telu"
+
+    direction: "ltr"
+
+    typography:
+      font_family: "Noto Serif Telugu"
+      css_stack: '"Noto Serif Telugu", serif'
+      style: "serif"
+      text_align: "left"
+      line_height: 2.0
+      letter_spacing: "normal"
+
+    transliteration:
+      supported: true
+      recommended: false
+      format: "Readable Roman transliteration"
+
+    editorial_scope:
+      - "Classical Telugu poetry"
+      - "Modern poetry"
+      - "Philosophical writing"
+      - "Romantic literature"
+      - "Literary songs"
+      - "Contemporary lyrics"
+
+    display:
+      label: "Original text · Telugu"
+      show_native_name: true
+      preserve_original_script: true
+      english_translation: true
+
+# ------------------------------------------------------------
+# 3. SHARED LITERARY PRESENTATION RULES
+# ------------------------------------------------------------
+
+literary_presentation:
+
+  preserve_original_text: true
+
+  preserve_original_punctuation: true
+
+  preserve_line_breaks: true
+
+  preserve_poetic_stanza_structure: true
+
+  translation_language: "English"
+
+  translation_style: "Literary and meaning-preserving"
+
+  transliteration:
+    optional: true
+    independently_verified: true
+
+  attribution:
+    author_required_when_known: true
+    original_work_required_when_identifiable: true
+    uncertain_attribution_must_be_disclosed: true
+
+  formatting:
+    original_text_precedes_translation: true
+    language_label_in_english: true
+    translation_visually_distinct: true
+
+# ------------------------------------------------------------
+# 4. SCRIPT AND TYPOGRAPHY NOTES
+# ------------------------------------------------------------
+
+typography_notes:
+
+  urdu:
+    description: >-
+      Urdu literary expressions should use Nastaliq typography.
+      Text direction must be right-to-left. Preserve appropriate
+      line alignment, spacing and poetic composition.
+
+  devanagari:
+    languages:
+      - "Hindi"
+      - "Marathi"
+    description: >-
+      Hindi and Marathi share the Devanagari script but remain
+      independently identified by their language metadata.
+
+  regional_scripts:
+    description: >-
+      Kannada, Tamil, Malayalam and Telugu must retain their
+      own native scripts and appropriate typefaces.
+
+  english:
+    description: >-
+      English remains the exclusive language of the website
+      interface, editorial titles, translations and reflections.
+
+# ------------------------------------------------------------
+# END OF MULTILINGUAL REGISTRY
+# ============================================================
