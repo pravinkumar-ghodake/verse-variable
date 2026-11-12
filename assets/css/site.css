@@ -3316,3 +3316,85 @@ button {
   font-size: 0.79rem;
   line-height: 1.8;
 }
+
+
+
+
+/* ============================================================
+   CUSTOM 404 PAGE REFINEMENTS
+   ============================================================ */
+
+.error-literary-signature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 30px;
+}
+
+.error-literary-signature span:first-child {
+  color: var(--literary-rose);
+
+  font-family: var(--font-urdu);
+  font-size: 1.8rem;
+
+  line-height: 2.2;
+}
+
+.error-literary-signature span:last-child {
+  color: var(--spectrum-gold);
+
+  font-size: 0.73rem;
+  letter-spacing: 0.12em;
+
+  text-transform: uppercase;
+}
+
+.error-actions {
+  justify-content: center;
+}
+
+.error-closing {
+  margin-top: 75px;
+  padding-top: 28px;
+
+  border-top: 1px solid var(--border-primary);
+}
+
+.error-closing p {
+  color: var(--ink-muted);
+
+  font-family: var(--font-reading);
+  font-size: 0.92rem;
+
+  line-height: 1.9;
+}
+
+.error-publication-name {
+  display: block;
+  margin-top: 22px;
+
+  color: var(--spectrum-gold);
+
+  font-family: var(--font-interface);
+  font-size: 0.68rem;
+
+  letter-spacing: 0.18em;
+  font-weight: 600;
+}
+
+@media (max-width: 740px) {
+  .error-actions {
+    flex-direction: column;
+  }
+
+  .error-actions .button {
+    width: 100%;
+  }
+
+  .error-closing {
+    margin-top: 50px;
+  }
+}
+
