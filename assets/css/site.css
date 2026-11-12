@@ -1,0 +1,2782 @@
+
+/* ============================================================
+   VERSE & VARIABLE
+   A line of verse. A line of inquiry.
+
+   Lafz se Lehar tak — From the word to the wave.
+
+   Main stylesheet
+   Design concept: THE WAVE MANUSCRIPT
+   Scientific inspiration: NONLINEAR RESONANCE
+
+   Copyright (c) 2026 Pravinkumar Ramchandra Ghodake
+   ============================================================ */
+
+
+/* ============================================================
+   01. FONT LOADING
+   Fonts are declared here and loaded through head.html.
+   ============================================================ */
+
+:root {
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-reading: "Literata", Georgia, serif;
+  --font-interface: "IBM Plex Sans", Arial, sans-serif;
+
+  --font-urdu: "Noto Nastaliq Urdu", serif;
+  --font-devanagari: "Noto Serif Devanagari", serif;
+  --font-kannada: "Noto Serif Kannada", serif;
+  --font-tamil: "Noto Serif Tamil", serif;
+  --font-malayalam: "Noto Serif Malayalam", serif;
+  --font-telugu: "Noto Serif Telugu", serif;
+
+  --font-monospace: "IBM Plex Mono", monospace;
+}
+
+
+/* ============================================================
+   02. DESIGN TOKENS — DARK THEME
+   ============================================================ */
+
+:root,
+[data-theme="dark"] {
+
+  color-scheme: dark;
+
+  --bg-primary: #101A30;
+  --bg-secondary: #16233D;
+  --bg-elevated: #1C2A46;
+  --bg-card: rgba(25, 39, 65, 0.84);
+  --bg-card-hover: rgba(37, 53, 84, 0.94);
+
+  --ink-primary: #F0F0EC;
+  --ink-secondary: #C0CCDA;
+  --ink-muted: #91A2B9;
+  --ink-faint: #72839A;
+
+  --wave-blue: #5475CE;
+  --wave-cyan: #42A9C5;
+  --wave-teal: #25A6A0;
+  --wave-deep: #176F79;
+
+  --literary-coral: #E36D54;
+  --literary-vermilion: #D45A43;
+  --literary-rose: #E7A18F;
+
+  --spectrum-gold: #D5AA61;
+  --spectrum-amber: #E2BD78;
+
+  --border-primary: rgba(164, 185, 215, 0.15);
+  --border-strong: rgba(164, 185, 215, 0.28);
+
+  --surface-glass: rgba(16, 26, 48, 0.76);
+  --surface-overlay: rgba(10, 18, 34, 0.42);
+
+  --shadow-soft:
+    0 12px 40px rgba(0, 0, 0, 0.18);
+
+  --shadow-card:
+    0 18px 50px rgba(0, 0, 0, 0.24);
+
+  --text-selection-bg: rgba(66, 169, 197, 0.35);
+  --text-selection-color: #FFFFFF;
+
+  --focus-ring: #42A9C5;
+
+  --header-bg: rgba(16, 26, 48, 0.78);
+
+  --reading-panel: rgba(22, 35, 61, 0.94);
+}
+
+
+/* ============================================================
+   03. DESIGN TOKENS — LIGHT THEME
+   ============================================================ */
+
+[data-theme="light"] {
+
+  color-scheme: light;
+
+  --bg-primary: #F0F0EC;
+  --bg-secondary: #E7E8E4;
+  --bg-elevated: #FFFFFF;
+  --bg-card: rgba(255, 255, 255, 0.91);
+  --bg-card-hover: #FFFFFF;
+
+  --ink-primary: #202532;
+  --ink-secondary: #465269;
+  --ink-muted: #68758A;
+  --ink-faint: #8690A0;
+
+  --wave-blue: #304D9B;
+  --wave-cyan: #248BAA;
+  --wave-teal: #177C79;
+  --wave-deep: #145C64;
+
+  --literary-coral: #CE563F;
+  --literary-vermilion: #B94636;
+  --literary-rose: #C46A57;
+
+  --spectrum-gold: #A67B32;
+  --spectrum-amber: #BA8C45;
+
+  --border-primary: rgba(40, 52, 75, 0.12);
+  --border-strong: rgba(40, 52, 75, 0.22);
+
+  --surface-glass: rgba(245, 245, 240, 0.86);
+  --surface-overlay: rgba(230, 233, 235, 0.38);
+
+  --shadow-soft:
+    0 12px 40px rgba(34, 46, 66, 0.07);
+
+  --shadow-card:
+    0 18px 50px rgba(34, 46, 66, 0.10);
+
+  --text-selection-bg: rgba(37, 130, 155, 0.22);
+  --text-selection-color: #142039;
+
+  --focus-ring: #177C91;
+
+  --header-bg: rgba(240, 240, 236, 0.85);
+
+  --reading-panel: rgba(255, 255, 255, 0.92);
+}
+
+
+/* ============================================================
+   04. RESET AND GLOBAL NORMALIZATION
+   ============================================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+
+  background: var(--bg-primary);
+
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background: var(--bg-primary);
+  color: var(--ink-primary);
+
+  font-family: var(--font-interface);
+  font-size: 16px;
+  line-height: 1.75;
+
+  overflow-x: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  transition:
+    background-color 0.35s ease,
+    color 0.35s ease;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--text-selection-bg);
+  color: var(--text-selection-color);
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 4px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+
+/* ============================================================
+   05. BASE LAYOUT
+   ============================================================ */
+
+.site-shell {
+  position: relative;
+  min-height: 100vh;
+  isolation: isolate;
+}
+
+.container {
+  width: min(1180px, calc(100% - 56px));
+  margin-inline: auto;
+}
+
+.container--narrow {
+  width: min(820px, calc(100% - 48px));
+  margin-inline: auto;
+}
+
+.container--reading {
+  width: min(760px, calc(100% - 48px));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: clamp(64px, 9vw, 112px);
+}
+
+.section--compact {
+  padding-block: 48px;
+}
+
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background: var(--border-primary);
+  border: 0;
+}
+
+
+/* ============================================================
+   06. NONLINEAR PROPAGATION FIELD
+   Main visual identity of the publication.
+
+   CSS gradients provide the static visual foundation.
+   The later JavaScript canvas will add evolving wavefronts.
+   ============================================================ */
+
+.wavefield {
+  position: fixed;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  z-index: -3;
+
+  overflow: hidden;
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      ellipse at 18% 26%,
+      rgba(48, 77, 155, 0.32),
+      transparent 48%
+    ),
+    radial-gradient(
+      ellipse at 82% 48%,
+      rgba(23, 111, 121, 0.27),
+      transparent 48%
+    ),
+    radial-gradient(
+      ellipse at 56% 88%,
+      rgba(211, 90, 67, 0.10),
+      transparent 45%
+    ),
+    var(--bg-primary);
+}
+
+.wavefield::before {
+  content: "";
+  position: absolute;
+  inset: -25%;
+
+  background:
+    radial-gradient(
+      ellipse at 40% 50%,
+      transparent 14%,
+      rgba(66, 169, 197, 0.12) 14.2%,
+      transparent 14.8%,
+      transparent 23%,
+      rgba(48, 77, 155, 0.13) 23.2%,
+      transparent 23.8%,
+      transparent 34%,
+      rgba(37, 166, 160, 0.10) 34.2%,
+      transparent 34.8%,
+      transparent 46%,
+      rgba(227, 109, 84, 0.08) 46.2%,
+      transparent 46.8%
+    );
+
+  opacity: 0.84;
+
+  transform-origin: center;
+
+  animation: wavefield-drift 48s ease-in-out infinite alternate;
+}
+
+.wavefield::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      115deg,
+      rgba(16, 26, 48, 0.26),
+      transparent 45%,
+      rgba(16, 26, 48, 0.36)
+    );
+
+  opacity: 0.72;
+}
+
+.wavefield__canvas {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  opacity: 0.72;
+
+  display: block;
+}
+
+.wavefield__grain {
+  position: absolute;
+  inset: 0;
+
+  opacity: 0.035;
+
+  background-image:
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+
+  background-repeat: repeat;
+
+  pointer-events: none;
+}
+
+@keyframes wavefield-drift {
+  0% {
+    transform:
+      translate3d(-2%, 1%, 0)
+      rotate(-3deg)
+      scale(1);
+  }
+
+  50% {
+    transform:
+      translate3d(1%, -1%, 0)
+      rotate(2deg)
+      scale(1.04);
+  }
+
+  100% {
+    transform:
+      translate3d(3%, 2%, 0)
+      rotate(5deg)
+      scale(1.08);
+  }
+}
+
+
+/* ============================================================
+   07. BACKGROUND OVERLAYS AND CONTENT READABILITY
+   ============================================================ */
+
+.page-backdrop {
+  position: relative;
+  z-index: -1;
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      180deg,
+      transparent,
+      rgba(16, 26, 48, 0.18) 30%,
+      rgba(16, 26, 48, 0.48) 100%
+    );
+}
+
+.content-surface {
+  background: var(--surface-glass);
+
+  border: 1px solid var(--border-primary);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-radius: 18px;
+}
+
+
+/* ============================================================
+   08. SITE HEADER
+   ============================================================ */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  width: 100%;
+
+  background: var(--header-bg);
+
+  border-bottom: 1px solid var(--border-primary);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 82px;
+
+  gap: 30px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  flex-shrink: 0;
+}
+
+.brand-name {
+  font-family: var(--font-display);
+
+  font-size: 1.75rem;
+  line-height: 1;
+
+  letter-spacing: -0.035em;
+  font-weight: 400;
+
+  color: var(--ink-primary);
+}
+
+.brand-name .brand-ampersand {
+  color: var(--literary-coral);
+  padding-inline: 2px;
+}
+
+.brand-subtitle {
+  display: block;
+
+  margin-top: 6px;
+
+  color: var(--ink-muted);
+
+  font-size: 0.62rem;
+  line-height: 1.25;
+
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.site-nav a {
+  position: relative;
+
+  padding-block: 8px;
+
+  color: var(--ink-secondary);
+
+  font-size: 0.83rem;
+  font-weight: 500;
+
+  transition: color 0.25s ease;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: var(--literary-coral);
+}
+
+.site-nav a::after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 0;
+  height: 1px;
+
+  background: var(--literary-coral);
+
+  transition: width 0.25s ease;
+}
+
+.site-nav a:hover::after,
+.site-nav a[aria-current="page"]::after {
+  width: 100%;
+}
+
+
+/* ============================================================
+   09. HEADER CONTROLS
+   ============================================================ */
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-button {
+  display: inline-grid;
+  place-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  border: 1px solid var(--border-primary);
+  border-radius: 50%;
+
+  background: transparent;
+  color: var(--ink-secondary);
+
+  transition:
+    color 0.25s ease,
+    border-color 0.25s ease,
+    background 0.25s ease;
+}
+
+.icon-button:hover {
+  color: var(--literary-coral);
+
+  border-color: var(--literary-coral);
+
+  background: rgba(227, 109, 84, 0.08);
+}
+
+.menu-toggle {
+  display: none;
+}
+
+
+/* ============================================================
+   10. SHARED BUTTON SYSTEM
+   ============================================================ */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 48px;
+
+  padding: 0 22px;
+
+  border-radius: 5px;
+
+  font-family: var(--font-interface);
+  font-size: 0.83rem;
+  font-weight: 600;
+
+  letter-spacing: 0.025em;
+
+  border: 1px solid transparent;
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button--primary {
+  background: var(--literary-coral);
+  color: #FFFFFF;
+}
+
+.button--primary:hover {
+  background: var(--literary-vermilion);
+}
+
+.button--outline {
+  background: transparent;
+  color: var(--ink-primary);
+  border-color: var(--border-strong);
+}
+
+.button--outline:hover {
+  color: var(--literary-coral);
+  border-color: var(--literary-coral);
+}
+
+.button--text {
+  min-height: auto;
+  padding: 5px 0;
+
+  color: var(--literary-coral);
+  background: transparent;
+}
+
+
+/* ============================================================
+   11. HOMEPAGE HERO
+   ============================================================ */
+
+.hero {
+  position: relative;
+
+  min-height: min(790px, calc(100svh - 82px));
+
+  display: flex;
+  align-items: center;
+
+  padding-block: 100px 115px;
+
+  overflow: hidden;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 12px;
+
+  color: var(--spectrum-gold);
+
+  font-size: 0.73rem;
+  font-weight: 600;
+
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hero-eyebrow::before {
+  content: "";
+
+  width: 29px;
+  height: 1px;
+
+  background: var(--literary-coral);
+}
+
+.hero-title {
+  margin: 29px 0 18px;
+
+  max-width: 900px;
+
+  font-family: var(--font-display);
+
+  font-size: clamp(4.2rem, 10vw, 8.6rem);
+
+  font-weight: 400;
+  line-height: 0.93;
+
+  letter-spacing: -0.055em;
+}
+
+.hero-title .ampersand {
+  color: var(--literary-coral);
+  font-style: italic;
+}
+
+.hero-tagline {
+  margin: 26px 0 0;
+
+  font-family: var(--font-display);
+
+  font-size: clamp(1.6rem, 3vw, 2.45rem);
+
+  line-height: 1.3;
+
+  color: var(--ink-secondary);
+}
+
+.hero-urdu {
+  display: block;
+
+  margin-top: 26px;
+
+  font-family: var(--font-urdu);
+
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 2;
+
+  color: var(--literary-rose);
+
+  direction: rtl;
+  unicode-bidi: isolate;
+
+  max-width: max-content;
+}
+
+.hero-transliteration {
+  display: block;
+
+  margin-top: 4px;
+
+  color: var(--spectrum-gold);
+
+  font-size: 0.83rem;
+  letter-spacing: 0.05em;
+}
+
+.hero-description {
+  max-width: 690px;
+
+  margin-top: 29px;
+
+  color: var(--ink-secondary);
+
+  font-family: var(--font-reading);
+
+  font-size: clamp(1rem, 1.5vw, 1.17rem);
+
+  line-height: 1.95;
+}
+
+.hero-support {
+  margin-top: 20px;
+
+  color: var(--ink-muted);
+
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 15px;
+
+  margin-top: 36px;
+}
+
+.hero-ornament {
+  position: absolute;
+
+  width: 520px;
+  height: 520px;
+
+  right: -80px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  opacity: 0.24;
+
+  border-radius: 50%;
+
+  border: 1px solid rgba(66, 169, 197, 0.35);
+
+  pointer-events: none;
+}
+
+.hero-ornament::before,
+.hero-ornament::after {
+  content: "";
+
+  position: absolute;
+  inset: 12%;
+
+  border: 1px solid rgba(37, 166, 160, 0.42);
+
+  border-radius: 47% 53% 54% 46% / 44% 45% 55% 56%;
+
+  transform: rotate(28deg);
+}
+
+.hero-ornament::after {
+  inset: 25%;
+
+  border-color: rgba(227, 109, 84, 0.40);
+
+  transform: rotate(-29deg);
+}
+
+.hero-bottom-mark {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  color: var(--ink-faint);
+
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+
+/* ============================================================
+   12. SECTION INTRODUCTIONS
+   ============================================================ */
+
+.section-heading {
+  max-width: 760px;
+  margin-bottom: 45px;
+}
+
+.section-kicker {
+  display: inline-block;
+
+  margin-bottom: 14px;
+
+  color: var(--literary-coral);
+
+  font-size: 0.70rem;
+  font-weight: 600;
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  margin: 0;
+
+  font-family: var(--font-display);
+
+  font-size: clamp(2.3rem, 5vw, 3.8rem);
+
+  line-height: 1.12;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+
+.section-description {
+  max-width: 670px;
+
+  margin-top: 18px;
+
+  color: var(--ink-secondary);
+
+  font-family: var(--font-reading);
+  font-size: 1rem;
+
+  line-height: 1.9;
+}
+
+
+/* ============================================================
+   13. WEEKLY COLLECTION
+   ============================================================ */
+
+.weekly-section {
+  position: relative;
+
+  padding-block: 100px;
+
+  background:
+    linear-gradient(
+      180deg,
+      transparent,
+      var(--surface-overlay),
+      transparent
+    );
+}
+
+.week-intro {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+
+  gap: 30px;
+
+  margin-bottom: 34px;
+}
+
+.week-meta {
+  color: var(--ink-muted);
+
+  font-size: 0.76rem;
+  font-weight: 500;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.week-title {
+  margin: 8px 0 0;
+
+  font-family: var(--font-display);
+  font-size: clamp(2.1rem, 4vw, 3.3rem);
+
+  font-weight: 400;
+  line-height: 1.14;
+}
+
+.week-date {
+  color: var(--spectrum-gold);
+
+  font-size: 0.82rem;
+}
+
+
+/* ============================================================
+   14. LITERARY ARTICLE CARDS
+   ============================================================ */
+
+.entry-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 22px;
+}
+
+.entry-card {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 370px;
+
+  padding: 29px 27px;
+
+  overflow: hidden;
+
+  border: 1px solid var(--border-primary);
+  border-radius: 9px;
+
+  background: var(--bg-card);
+
+  box-shadow: var(--shadow-soft);
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    background 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.entry-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+
+  background:
+    linear-gradient(
+      90deg,
+      var(--literary-coral),
+      var(--wave-cyan),
+      var(--spectrum-gold)
+    );
+
+  transform: scaleX(0);
+  transform-origin: left;
+
+  transition: transform 0.4s ease;
+}
+
+.entry-card:hover {
+  transform: translateY(-7px);
+
+  background: var(--bg-card-hover);
+
+  border-color: var(--border-strong);
+
+  box-shadow: var(--shadow-card);
+}
+
+.entry-card:hover::before {
+  transform: scaleX(1);
+}
+
+.entry-card-number {
+  color: var(--spectrum-gold);
+
+  font-family: var(--font-interface);
+
+  font-size: 0.70rem;
+  font-weight: 600;
+
+  letter-spacing: 0.15em;
+}
+
+.entry-card-language {
+  align-self: flex-start;
+
+  display: inline-flex;
+
+  margin-top: 24px;
+
+  padding: 5px 11px;
+
+  border: 1px solid var(--border-primary);
+  border-radius: 3px;
+
+  color: var(--ink-muted);
+
+  font-size: 0.70rem;
+  letter-spacing: 0.04em;
+}
+
+.entry-card-title {
+  margin: 21px 0 13px;
+
+  font-family: var(--font-display);
+
+  font-size: 1.8rem;
+  font-weight: 400;
+
+  line-height: 1.2;
+}
+
+.entry-card-author {
+  color: var(--literary-rose);
+
+  font-size: 0.83rem;
+  font-weight: 500;
+}
+
+.entry-card-excerpt {
+  margin-top: 18px;
+
+  color: var(--ink-secondary);
+
+  font-family: var(--font-reading);
+
+  font-size: 0.90rem;
+
+  line-height: 1.8;
+}
+
+.entry-card-link {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 9px;
+
+  margin-top: auto;
+  padding-top: 28px;
+
+  color: var(--literary-coral);
+
+  font-size: 0.77rem;
+  font-weight: 600;
+
+  letter-spacing: 0.045em;
+}
+
+.entry-card-link span {
+  transition: transform 0.25s ease;
+}
+
+.entry-card:hover .entry-card-link span {
+  transform: translateX(5px);
+}
+
+
+/* ============================================================
+   15. LITERARY TEXT PRESENTATION
+   ============================================================ */
+
+.literary-expression {
+  position: relative;
+
+  padding: clamp(25px, 5vw, 50px);
+
+  margin-block: 35px;
+
+  background: var(--reading-panel);
+
+  border: 1px solid var(--border-primary);
+  border-radius: 10px;
+
+  box-shadow: var(--shadow-soft);
+}
+
+.literary-expression::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 3px;
+  height: 100%;
+
+  border-radius: 10px 0 0 10px;
+
+  background:
+    linear-gradient(
+      180deg,
+      var(--literary-coral),
+      var(--wave-cyan),
+      var(--spectrum-gold)
+    );
+}
+
+.literary-label {
+  display: block;
+
+  margin-bottom: 25px;
+
+  color: var(--literary-coral);
+
+  font-family: var(--font-interface);
+
+  font-size: 0.68rem;
+  font-weight: 600;
+
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.literary-text {
+  margin: 0;
+
+  font-family: var(--font-display);
+
+  font-size: clamp(1.75rem, 4vw, 2.65rem);
+
+  line-height: 1.75;
+  font-weight: 400;
+
+  color: var(--ink-primary);
+}
+
+
+/* ============================================================
+   16. ORIGINAL SCRIPT SUPPORT
+   ============================================================ */
+
+.original-text {
+  display: block;
+
+  white-space: pre-line;
+
+  unicode-bidi: plaintext;
+
+  overflow-wrap: break-word;
+}
+
+.original-text--urdu {
+  direction: rtl;
+  text-align: right;
+
+  font-family: var(--font-urdu);
+
+  font-size: clamp(1.65rem, 4vw, 2.3rem);
+
+  line-height: 2.55;
+
+  letter-spacing: 0;
+
+  padding-block: 12px 20px;
+}
+
+.original-text--hindi {
+  direction: ltr;
+  text-align: left;
+
+  font-family: var(--font-devanagari);
+
+  font-size: clamp(1.55rem, 3vw, 2.1rem);
+
+  line-height: 2;
+}
+
+.original-text--marathi {
+  direction: ltr;
+  text-align: left;
+
+  font-family: var(--font-devanagari);
+
+  font-size: clamp(1.55rem, 3vw, 2.1rem);
+
+  line-height: 2;
+}
+
+.original-text--kannada {
+  font-family: var(--font-kannada);
+
+  font-size: clamp(1.45rem, 3vw, 1.95rem);
+
+  line-height: 2;
+}
+
+.original-text--tamil {
+  font-family: var(--font-tamil);
+
+  font-size: clamp(1.45rem, 3vw, 1.95rem);
+
+  line-height: 2;
+}
+
+.original-text--malayalam {
+  font-family: var(--font-malayalam);
+
+  font-size: clamp(1.45rem, 3vw, 1.95rem);
+
+  line-height: 2;
+}
+
+.original-text--telugu {
+  font-family: var(--font-telugu);
+
+  font-size: clamp(1.45rem, 3vw, 1.95rem);
+
+  line-height: 2;
+}
+
+
+/* ============================================================
+   17. TRANSLATION PRESENTATION
+   ============================================================ */
+
+.translation {
+  margin-top: 30px;
+  padding-top: 26px;
+
+  border-top: 1px solid var(--border-primary);
+}
+
+.translation-label {
+  display: block;
+
+  margin-bottom: 13px;
+
+  color: var(--ink-muted);
+
+  font-size: 0.69rem;
+  font-weight: 600;
+
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.translation-text {
+  margin: 0;
+
+  font-family: var(--font-reading);
+
+  font-size: clamp(1.12rem, 2.5vw, 1.42rem);
+
+  line-height: 1.9;
+
+  color: var(--ink-primary);
+
+  font-style: italic;
+}
+
+.transliteration {
+  margin-top: 20px;
+
+  color: var(--ink-muted);
+
+  font-family: var(--font-reading);
+
+  font-size: 0.93rem;
+  line-height: 1.85;
+}
+
+.transliteration-label {
+  color: var(--spectrum-gold);
+
+  font-family: var(--font-interface);
+
+  font-size: 0.68rem;
+  font-weight: 600;
+
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+}
+
+
+/* ============================================================
+   18. ARTICLE ATTRIBUTION
+   ============================================================ */
+
+.attribution {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  gap: 9px;
+
+  margin-top: 27px;
+  padding-top: 18px;
+
+  border-top: 1px solid var(--border-primary);
+
+  color: var(--ink-muted);
+
+  font-size: 0.79rem;
+  line-height: 1.8;
+}
+
+.attribution strong {
+  color: var(--ink-primary);
+  font-weight: 600;
+}
+
+.attribution-separator {
+  color: var(--literary-coral);
+}
+
+
+/* ============================================================
+   19. INDIVIDUAL ARTICLE HEADER
+   ============================================================ */
+
+.article-header {
+  position: relative;
+
+  padding-block: clamp(70px, 11vw, 130px) 50px;
+
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.article-header-inner {
+  max-width: 850px;
+}
+
+.article-kicker {
+  color: var(--literary-coral);
+
+  font-size: 0.72rem;
+  font-weight: 600;
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.article-title {
+  margin: 24px 0;
+
+  font-family: var(--font-display);
+
+  font-size: clamp(2.8rem, 7vw, 5.4rem);
+
+  line-height: 1.05;
+  font-weight: 400;
+
+  letter-spacing: -0.035em;
+}
+
+.article-description {
+  max-width: 690px;
+
+  color: var(--ink-secondary);
+
+  font-family: var(--font-reading);
+
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+.article-metadata {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 12px 24px;
+
+  margin-top: 30px;
+
+  color: var(--ink-muted);
+
+  font-size: 0.78rem;
+}
+
+.article-metadata span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.article-metadata .accent {
+  color: var(--spectrum-gold);
+}
+
+
+/* ============================================================
+   20. ARTICLE READING AREA
+   ============================================================ */
+
+.article-reading {
+  padding-block: 55px 100px;
+}
+
+.article-quotation-section {
+  margin-bottom: 65px;
+}
+
+.article-reflection {
+  padding-top: 5px;
+}
+
+.reflection-heading {
+  margin-bottom: 30px;
+
+  color: var(--literary-coral);
+
+  font-size: 0.70rem;
+  font-weight: 600;
+
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.reflection-prose {
+  color: var(--ink-primary);
+
+  font-family: var(--font-reading);
+
+  font-size: clamp(1rem, 1.5vw, 1.11rem);
+
+  line-height: 2.05;
+}
+
+.reflection-prose p {
+  margin: 0 0 29px;
+}
+
+.reflection-prose p:last-child {
+  margin-bottom: 0;
+}
+
+.reflection-prose a {
+  color: var(--literary-coral);
+
+  text-decoration: underline;
+  text-decoration-color: rgba(227, 109, 84, 0.35);
+
+  text-underline-offset: 4px;
+}
+
+.reflection-prose strong {
+  color: var(--ink-primary);
+  font-weight: 600;
+}
+
+
+/* ============================================================
+   21. SCIENTIFIC ILLUSTRATIONS
+   ============================================================ */
+
+.science-figure {
+  position: relative;
+
+  margin-block: 45px;
+
+  overflow: hidden;
+
+  border: 1px solid var(--border-primary);
+  border-radius: 10px;
+
+  background: var(--bg-secondary);
+}
+
+.science-figure img,
+.science-figure svg {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+.science-figure figcaption {
+  padding: 15px 19px;
+
+  background: var(--surface-glass);
+
+  border-top: 1px solid var(--border-primary);
+
+  color: var(--ink-muted);
+
+  font-size: 0.73rem;
+  line-height: 1.7;
+}
+
+.science-figure .figure-label {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: var(--spectrum-gold);
+
+  font-size: 0.66rem;
+  font-weight: 600;
+
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+
+/* ============================================================
+   22. SCIENTIFIC CONNECTION NOTES
+   ============================================================ */
+
+.science-note {
+  margin-block: 38px;
+
+  padding: 24px 26px;
+
+  background:
+    linear-gradient(
+      110deg,
+      rgba(48, 77, 155, 0.12),
+      rgba(37, 166, 160, 0.08)
+    );
+
+  border-left: 2px solid var(--wave-cyan);
+
+  border-radius: 0 7px 7px 0;
+}
+
+.science-note-label {
+  display: block;
+
+  margin-bottom: 12px;
+
+  color: var(--wave-cyan);
+
+  font-size: 0.68rem;
+  font-weight: 600;
+
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.science-note p {
+  margin: 0;
+
+  font-family: var(--font-reading);
+
+  font-size: 0.96rem;
+  line-height: 1.9;
+
+  color: var(--ink-secondary);
+}
+
+
+/* ============================================================
+   23. WEEKLY COLLECTION PAGE
+   ============================================================ */
+
+.week-page-header {
+  padding-block: 85px 60px;
+}
+
+.week-page-title {
+  margin: 15px 0;
+
+  font-family: var(--font-display);
+
+  font-size: clamp(3rem, 7vw, 5.2rem);
+
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.week-page-intro {
+  max-width: 680px;
+
+  margin-top: 19px;
+
+  font-family: var(--font-reading);
+
+  font-size: 1.04rem;
+  line-height: 1.9;
+
+  color: var(--ink-secondary);
+}
+
+.week-entries {
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: 24px;
+
+  padding-block: 25px 95px;
+}
+
+.week-entry-row {
+  display: grid;
+
+  grid-template-columns: 72px 1fr auto;
+
+  align-items: center;
+
+  gap: 25px;
+
+  min-height: 150px;
+
+  padding: 26px 30px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border-primary);
+  border-radius: 7px;
+
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.week-entry-row:hover {
+  background: var(--bg-card-hover);
+
+  border-color: var(--border-strong);
+
+  transform: translateX(4px);
+}
+
+.week-entry-number {
+  color: var(--spectrum-gold);
+
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+}
+
+.week-entry-title {
+  margin: 0;
+
+  font-family: var(--font-display);
+
+  font-size: 1.8rem;
+  font-weight: 400;
+
+  line-height: 1.2;
+}
+
+.week-entry-subtitle {
+  display: block;
+  margin-top: 8px;
+
+  color: var(--ink-muted);
+
+  font-size: 0.78rem;
+}
+
+.week-entry-arrow {
+  color: var(--literary-coral);
+
+  font-size: 1.5rem;
+}
+
+
+/* ============================================================
+   24. ARCHIVE PAGE
+   ============================================================ */
+
+.archive-header {
+  padding-block: 90px 60px;
+}
+
+.archive-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+
+  padding-bottom: 100px;
+}
+
+.archive-week {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 25px;
+
+  padding: 23px 25px;
+
+  border-bottom: 1px solid var(--border-primary);
+
+  transition:
+    padding 0.25s ease,
+    color 0.25s ease;
+}
+
+.archive-week:hover {
+  padding-left: 33px;
+  color: var(--literary-coral);
+}
+
+.archive-week-title {
+  font-family: var(--font-display);
+
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.archive-week-date {
+  display: block;
+  margin-top: 5px;
+
+  color: var(--ink-muted);
+
+  font-family: var(--font-interface);
+
+  font-size: 0.73rem;
+}
+
+.archive-week-count {
+  color: var(--spectrum-gold);
+
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+
+/* ============================================================
+   25. LANGUAGE INDEX
+   ============================================================ */
+
+.language-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 16px;
+
+  padding-bottom: 90px;
+}
+
+.language-card {
+  padding: 23px;
+
+  border: 1px solid var(--border-primary);
+  border-radius: 7px;
+
+  background: var(--bg-card);
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.language-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--wave-cyan);
+}
+
+.language-native {
+  display: block;
+
+  margin-bottom: 13px;
+
+  font-size: 1.55rem;
+  line-height: 1.8;
+}
+
+.language-name {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.language-description {
+  margin-top: 7px;
+
+  color: var(--ink-muted);
+
+  font-size: 0.76rem;
+}
+
+
+/* ============================================================
+   26. ABOUT PAGE
+   ============================================================ */
+
+.about-header {
+  padding-block: 95px 65px;
+}
+
+.about-content {
+  max-width: 800px;
+
+  padding-bottom: 100px;
+}
+
+.about-content h2 {
+  margin-top: 55px;
+  margin-bottom: 18px;
+
+  font-family: var(--font-display);
+
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 400;
+}
+
+.about-content p {
+  color: var(--ink-secondary);
+
+  font-family: var(--font-reading);
+
+  font-size: 1rem;
+  line-height: 2;
+
+  margin-bottom: 23px;
+}
+
+.about-author {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap: 20px;
+
+  margin-top: 65px;
+  padding: 28px;
+
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+
+  background: var(--bg-card);
+}
+
+.about-author-name {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+}
+
+.about-author-description {
+  margin-top: 6px;
+
+  color: var(--ink-muted);
+  font-size: 0.82rem;
+}
+
+
+/* ============================================================
+   27. SOURCE REFERENCES
+   ============================================================ */
+
+.source-section {
+  margin-top: 60px;
+  padding-top: 35px;
+
+  border-top: 1px solid var(--border-primary);
+}
+
+.source-heading {
+  font-family: var(--font-display);
+
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.source-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 13px;
+
+  margin-top: 18px;
+}
+
+.source-link {
+  color: var(--wave-cyan);
+
+  font-size: 0.83rem;
+
+  overflow-wrap: anywhere;
+}
+
+.source-link:hover {
+  color: var(--literary-coral);
+  text-decoration: underline;
+}
+
+
+/* ============================================================
+   28. AUTHOR AND JOURNAL INFORMATION
+   ============================================================ */
+
+.journal-note {
+  padding: 27px 30px;
+
+  border-left: 2px solid var(--spectrum-gold);
+
+  background: var(--bg-card);
+
+  border-radius: 0 7px 7px 0;
+}
+
+.journal-note p {
+  margin: 0;
+
+  font-family: var(--font-reading);
+  font-size: 0.93rem;
+
+  color: var(--ink-secondary);
+  line-height: 1.9;
+}
+
+
+/* ============================================================
+   29. FOOTER
+   ============================================================ */
+
+.site-footer {
+  position: relative;
+
+  border-top: 1px solid var(--border-primary);
+
+  background: var(--surface-glass);
+
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.footer-main {
+  display: grid;
+
+  grid-template-columns: 1.5fr 1fr 1fr;
+
+  gap: 55px;
+
+  padding-block: 70px 55px;
+}
+
+.footer-brand {
+  font-family: var(--font-display);
+
+  font-size: 2rem;
+  font-weight: 400;
+
+  line-height: 1.15;
+}
+
+.footer-tagline {
+  display: block;
+  margin-top: 13px;
+
+  color: var(--literary-rose);
+
+  font-family: var(--font-urdu);
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+.footer-description {
+  max-width: 360px;
+
+  margin-top: 18px;
+
+  color: var(--ink-muted);
+
+  font-family: var(--font-reading);
+
+  font-size: 0.83rem;
+  line-height: 1.9;
+}
+
+.footer-heading {
+  margin-bottom: 18px;
+
+  color: var(--spectrum-gold);
+
+  font-size: 0.70rem;
+  font-weight: 600;
+
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+
+  gap: 11px;
+}
+
+.footer-links a {
+  color: var(--ink-secondary);
+  font-size: 0.82rem;
+
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: var(--literary-coral);
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 25px;
+
+  padding-block: 22px;
+
+  border-top: 1px solid var(--border-primary);
+
+  color: var(--ink-muted);
+
+  font-size: 0.70rem;
+  line-height: 1.8;
+}
+
+.footer-bottom a:hover {
+  color: var(--literary-coral);
+}
+
+
+/* ============================================================
+   30. READING PROGRESS
+   ============================================================ */
+
+.reading-progress {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 3px;
+
+  z-index: 200;
+
+  background: transparent;
+
+  pointer-events: none;
+}
+
+.reading-progress-bar {
+  width: 0;
+  height: 100%;
+
+  background:
+    linear-gradient(
+      90deg,
+      var(--literary-coral),
+      var(--wave-cyan),
+      var(--spectrum-gold)
+    );
+
+  transition: width 0.08s linear;
+}
+
+
+/* ============================================================
+   31. BREADCRUMBS AND ARTICLE NAVIGATION
+   ============================================================ */
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  gap: 9px;
+
+  margin-bottom: 25px;
+
+  color: var(--ink-muted);
+
+  font-size: 0.75rem;
+}
+
+.breadcrumbs a:hover {
+  color: var(--literary-coral);
+}
+
+.breadcrumb-separator {
+  color: var(--literary-coral);
+}
+
+.article-navigation {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+
+  gap: 18px;
+
+  margin-top: 75px;
+  padding-top: 30px;
+
+  border-top: 1px solid var(--border-primary);
+}
+
+.article-navigation a {
+  flex: 1;
+
+  max-width: 48%;
+
+  padding: 18px;
+
+  border: 1px solid var(--border-primary);
+  border-radius: 7px;
+
+  background: var(--bg-card);
+
+  transition: border-color 0.25s ease;
+}
+
+.article-navigation a:hover {
+  border-color: var(--wave-cyan);
+}
+
+.article-navigation small {
+  display: block;
+
+  margin-bottom: 9px;
+
+  color: var(--ink-muted);
+
+  font-size: 0.67rem;
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+}
+
+.article-navigation strong {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+
+/* ============================================================
+   32. PAGINATION AND EMPTY STATES
+   ============================================================ */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  margin-block: 45px;
+}
+
+.pagination a,
+.pagination span {
+  display: grid;
+  place-items: center;
+
+  min-width: 40px;
+  min-height: 40px;
+
+  border: 1px solid var(--border-primary);
+  border-radius: 5px;
+
+  font-size: 0.8rem;
+}
+
+.pagination .current {
+  background: var(--literary-coral);
+  border-color: var(--literary-coral);
+  color: #FFFFFF;
+}
+
+.empty-state {
+  padding: 60px 25px;
+
+  text-align: center;
+
+  color: var(--ink-muted);
+
+  border: 1px dashed var(--border-strong);
+  border-radius: 10px;
+}
+
+
+/* ============================================================
+   33. TAGS AND METADATA CHIPS
+   ============================================================ */
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  margin-top: 17px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 5px 11px;
+
+  border: 1px solid var(--border-primary);
+  border-radius: 3px;
+
+  color: var(--ink-muted);
+
+  font-size: 0.70rem;
+  line-height: 1.5;
+}
+
+.tag--accent {
+  border-color: rgba(227, 109, 84, 0.32);
+  color: var(--literary-rose);
+}
+
+.tag--science {
+  border-color: rgba(66, 169, 197, 0.32);
+  color: var(--wave-cyan);
+}
+
+
+/* ============================================================
+   34. 404 PAGE
+   ============================================================ */
+
+.error-page {
+  min-height: 75vh;
+
+  display: grid;
+  place-items: center;
+
+  padding-block: 80px;
+
+  text-align: center;
+}
+
+.error-code {
+  font-family: var(--font-display);
+
+  font-size: clamp(6rem, 18vw, 13rem);
+  line-height: 0.9;
+
+  color: var(--literary-coral);
+}
+
+.error-title {
+  margin-top: 20px;
+
+  font-family: var(--font-display);
+
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.error-description {
+  max-width: 490px;
+
+  margin: 18px auto 27px;
+
+  color: var(--ink-secondary);
+
+  font-family: var(--font-reading);
+}
+
+
+/* ============================================================
+   35. REVEAL ANIMATIONS
+   Elements can receive .reveal and .is-visible.
+   JavaScript will control their entrance.
+   ============================================================ */
+
+.reveal {
+  opacity: 0;
+
+  transform: translateY(22px);
+
+  transition:
+    opacity 0.75s ease,
+    transform 0.75s cubic-bezier(0.2, 0.65, 0.3, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 {
+  transition-delay: 0.12s;
+}
+
+.reveal-delay-2 {
+  transition-delay: 0.24s;
+}
+
+.reveal-delay-3 {
+  transition-delay: 0.36s;
+}
+
+
+/* ============================================================
+   36. FORM ELEMENTS
+   ============================================================ */
+
+.search-form {
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  padding: 7px 8px 7px 17px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border-primary);
+  border-radius: 6px;
+}
+
+.search-input {
+  min-width: 0;
+  flex: 1;
+
+  padding: 9px 0;
+
+  background: transparent;
+  color: var(--ink-primary);
+
+  border: 0;
+  outline: none;
+
+  font-family: var(--font-reading);
+  font-size: 0.91rem;
+}
+
+.search-input::placeholder {
+  color: var(--ink-faint);
+}
+
+
+/* ============================================================
+   37. PRINT STYLES
+   ============================================================ */
+
+@media print {
+
+  .site-header,
+  .site-footer,
+  .wavefield,
+  .reading-progress,
+  .article-navigation,
+  .hero-actions,
+  .icon-button {
+    display: none !important;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #202020 !important;
+  }
+
+  .container--reading {
+    width: 100%;
+    max-width: none;
+  }
+
+  .reflection-prose,
+  .translation-text,
+  .about-content p {
+    color: #202020 !important;
+  }
+
+  .literary-expression {
+    box-shadow: none;
+    border: 1px solid #CCCCCC;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+/* ============================================================
+   38. RESPONSIVE — TABLET
+   ============================================================ */
+
+@media (max-width: 980px) {
+
+  .container {
+    width: min(100% - 42px, 900px);
+  }
+
+  .site-nav {
+    gap: 22px;
+  }
+
+  .hero-title {
+    font-size: clamp(4rem, 11vw, 6.5rem);
+  }
+
+  .hero-ornament {
+    right: -200px;
+    opacity: 0.16;
+  }
+
+  .entry-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-main {
+    grid-template-columns: 1.2fr 1fr;
+    gap: 42px;
+  }
+
+  .language-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+/* ============================================================
+   39. RESPONSIVE — MOBILE NAVIGATION
+   ============================================================ */
+
+@media (max-width: 740px) {
+
+  .container,
+  .container--narrow,
+  .container--reading {
+    width: calc(100% - 36px);
+  }
+
+  .header-inner {
+    min-height: 72px;
+  }
+
+  .brand-name {
+    font-size: 1.55rem;
+  }
+
+  .brand-subtitle {
+    font-size: 0.55rem;
+  }
+
+  .menu-toggle {
+    display: inline-grid;
+  }
+
+  .site-nav {
+    position: absolute;
+
+    top: calc(100% + 1px);
+    left: 0;
+    right: 0;
+
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+
+    gap: 0;
+
+    padding: 13px 22px 22px;
+
+    background: var(--bg-secondary);
+
+    border-bottom: 1px solid var(--border-primary);
+
+    box-shadow: var(--shadow-soft);
+  }
+
+  .site-nav.is-open {
+    display: flex;
+  }
+
+  .site-nav a {
+    padding: 15px 5px;
+
+    border-bottom: 1px solid var(--border-primary);
+
+    font-size: 0.9rem;
+  }
+
+  .site-nav a::after {
+    display: none;
+  }
+
+  .hero {
+    min-height: 690px;
+
+    padding-block: 95px 110px;
+  }
+
+  .hero-title {
+    font-size: clamp(3.8rem, 14vw, 6rem);
+  }
+
+  .hero-ornament {
+    width: 350px;
+    height: 350px;
+
+    top: 70%;
+    right: -190px;
+
+    opacity: 0.12;
+  }
+
+  .hero-description {
+    font-size: 0.98rem;
+  }
+
+  .hero-urdu {
+    font-size: 2.15rem;
+  }
+
+  .week-intro {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .entry-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .entry-card {
+    min-height: 330px;
+    padding: 25px;
+  }
+
+  .week-entry-row {
+    grid-template-columns: 48px 1fr;
+
+    gap: 17px;
+
+    padding: 21px 19px;
+  }
+
+  .week-entry-arrow {
+    display: none;
+  }
+
+  .week-entry-title {
+    font-size: 1.55rem;
+  }
+
+  .article-header {
+    padding-block: 70px 40px;
+  }
+
+  .article-title {
+    font-size: clamp(2.7rem, 12vw, 4.3rem);
+  }
+
+  .article-reading {
+    padding-block: 40px 75px;
+  }
+
+  .literary-expression {
+    padding: 26px 20px;
+  }
+
+  .original-text--urdu {
+    font-size: 1.55rem;
+    line-height: 2.65;
+  }
+
+  .reflection-prose {
+    font-size: 0.98rem;
+    line-height: 2;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 38px;
+
+    padding-block: 53px 42px;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .language-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .archive-week {
+    gap: 15px;
+  }
+}
+
+
+/* ============================================================
+   40. RESPONSIVE — SMALL MOBILE
+   ============================================================ */
+
+@media (max-width: 420px) {
+
+  .container,
+  .container--narrow,
+  .container--reading {
+    width: calc(100% - 30px);
+  }
+
+  .brand-name {
+    font-size: 1.43rem;
+  }
+
+  .hero-title {
+    font-size: clamp(3.3rem, 15vw, 4.8rem);
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .section-title {
+    font-size: 2.35rem;
+  }
+
+  .original-text--urdu {
+    font-size: 1.4rem;
+  }
+
+  .language-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .article-navigation {
+    flex-direction: column;
+  }
+
+  .article-navigation a {
+    max-width: 100%;
+  }
+
+  .archive-week-title {
+    font-size: 1.25rem;
+  }
+}
+
+
+/* ============================================================
+   41. REDUCED MOTION ACCESSIBILITY
+   ============================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+  }
+
+  .wavefield::before {
+    animation: none !important;
+    transform: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+/* ============================================================
+   42. DARK THEME BACKGROUND OPTIMIZATION
+   ============================================================ */
+
+[data-theme="dark"] .wavefield {
+  background-color: #101A30;
+}
+
+[data-theme="dark"] .site-header {
+  background: rgba(16, 26, 48, 0.82);
+}
+
+
+/* ============================================================
+   43. LIGHT THEME BACKGROUND OPTIMIZATION
+   ============================================================ */
+
+[data-theme="light"] .wavefield {
+  background:
+    radial-gradient(
+      ellipse at 18% 26%,
+      rgba(48, 77, 155, 0.12),
+      transparent 48%
+    ),
+    radial-gradient(
+      ellipse at 82% 48%,
+      rgba(23, 111, 121, 0.12),
+      transparent 48%
+    ),
+    var(--bg-primary);
+}
+
+[data-theme="light"] .wavefield::after {
+  background:
+    linear-gradient(
+      115deg,
+      rgba(240, 240, 236, 0.16),
+      transparent 48%,
+      rgba(240, 240, 236, 0.32)
+    );
+}
+
+[data-theme="light"] .site-header {
+  background: rgba(240, 240, 236, 0.86);
+}
+
+
+/* ============================================================
+   END OF VERSE & VARIABLE MAIN STYLESHEET
+   ============================================================ */
