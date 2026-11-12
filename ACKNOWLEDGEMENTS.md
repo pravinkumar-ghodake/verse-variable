@@ -1,4 +1,3 @@
-
 # Acknowledgements
 
 **Verse & Variable**  
