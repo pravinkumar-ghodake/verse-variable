@@ -3069,3 +3069,180 @@ button {
 
 
 
+/* ============================================================
+   PERMANENT LITERARY ARCHIVE
+   ============================================================ */
+
+.archive-introduction {
+  padding-bottom: 42px;
+}
+
+.archive-statistics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+
+  margin-top: 38px;
+}
+
+.archive-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  padding: 22px;
+
+  background: var(--bg-card);
+  border: 1px solid var(--border-primary);
+  border-radius: 7px;
+}
+
+.archive-stat-number {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  line-height: 1.1;
+  color: var(--spectrum-gold);
+}
+
+.archive-stat-label {
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+}
+
+.archive-section-heading {
+  margin-block: 48px 28px;
+}
+
+.archive-language-navigation {
+  padding-block: 26px 38px;
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.archive-language-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.archive-collections {
+  padding-top: 15px;
+}
+
+.archive-week {
+  align-items: flex-start;
+  gap: 28px;
+  padding-block: 32px;
+}
+
+.archive-week-main {
+  min-width: 0;
+  flex: 1;
+}
+
+.archive-week-description {
+  max-width: 650px;
+  margin-top: 12px;
+
+  color: var(--ink-secondary);
+  font-family: var(--font-reading);
+  font-size: 0.91rem;
+  line-height: 1.85;
+}
+
+.archive-article-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 23px;
+}
+
+.archive-article-item {
+  display: grid;
+  grid-template-columns: 26px minmax(0, auto) minmax(0, 1fr);
+  align-items: baseline;
+  gap: 10px;
+}
+
+.archive-article-number {
+  color: var(--spectrum-gold);
+  font-family: var(--font-monospace);
+  font-size: 0.69rem;
+}
+
+.archive-article-link {
+  color: var(--ink-primary);
+  font-family: var(--font-reading);
+  font-size: 0.87rem;
+}
+
+.archive-article-link:hover {
+  color: var(--literary-coral);
+}
+
+.archive-article-meta {
+  color: var(--ink-muted);
+  font-size: 0.72rem;
+  overflow-wrap: anywhere;
+}
+
+.archive-week-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 17px;
+}
+
+.archive-week-action {
+  color: var(--wave-cyan);
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.archive-week-action:hover {
+  color: var(--literary-coral);
+}
+
+.archive-week-empty {
+  color: var(--ink-faint);
+  font-size: 0.78rem;
+  font-style: italic;
+}
+
+.archive-closing {
+  margin-block: 35px 75px;
+}
+
+@media (max-width: 740px) {
+  .archive-statistics {
+    gap: 8px;
+  }
+
+  .archive-stat {
+    padding: 15px 11px;
+  }
+
+  .archive-stat-number {
+    font-size: 1.9rem;
+  }
+
+  .archive-stat-label {
+    font-size: 0.66rem;
+  }
+
+  .archive-week {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .archive-week-side {
+    align-items: flex-start;
+  }
+
+  .archive-article-item {
+    grid-template-columns: 22px minmax(0, 1fr);
+  }
+
+  .archive-article-meta {
+    grid-column: 2;
+  }
+}
+
