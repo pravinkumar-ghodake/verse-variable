@@ -1,0 +1,213 @@
+
+---
+layout: null
+permalink: /feed.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss
+  version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+
+  <channel>
+
+    <!-- ======================================================
+         VERSE & VARIABLE — RSS PUBLICATION FEED
+         ====================================================== -->
+
+    <title>Verse &amp; Variable</title>
+
+    <link>{{ '/' | absolute_url | xml_escape }}</link>
+
+    <description>
+      An independent Indian literary and scientific journal
+      exploring shayari, poetry, multilingual literature,
+      philosophy, human experience and nonlinear science.
+    </description>
+
+    <language>en-IN</language>
+
+    <copyright>
+      Copyright {{ site.time | date: "%Y" }}
+      {{ site.author.name | xml_escape }}.
+    </copyright>
+
+    <managingEditor>
+      {{ site.author.name | xml_escape }}
+    </managingEditor>
+
+    <webMaster>
+      {{ site.author.name | xml_escape }}
+    </webMaster>
+
+    <lastBuildDate>
+      {{ site.time | date_to_rfc822 }}
+    </lastBuildDate>
+
+    <generator>Jekyll</generator>
+
+    <docs>
+      https://www.rssboard.org/rss-specification
+    </docs>
+
+    <atom:link
+      href="{{ '/feed.xml' | absolute_url | xml_escape }}"
+      rel="self"
+      type="application/rss+xml"
+    />
+
+    <category>Indian Literature</category>
+
+    <category>Poetry</category>
+
+    <category>Shayari</category>
+
+    <category>Philosophy</category>
+
+    <category>Science</category>
+
+    <!-- ======================================================
+         01. INDIVIDUAL LITERARY ARTICLES
+
+         Latest 30 published articles.
+         Each article receives its own RSS item.
+         ====================================================== -->
+
+    {% assign recent_entries = site.entries
+      | sort: "date"
+      | reverse
+    %}
+
+    {% for entry in recent_entries limit: 30 %}
+
+      {% unless entry.noindex %}
+
+        <item>
+
+          <!-- ARTICLE TITLE -->
+
+          <title>
+            {{ entry.title | xml_escape }}
+          </title>
+
+
+          <!-- PERMANENT ARTICLE URL -->
+
+          <link>
+            {{ entry.url | absolute_url | xml_escape }}
+          </link>
+
+
+          <!-- UNIQUE ARTICLE IDENTIFIER -->
+
+          <guid isPermaLink="true">
+            {{ entry.url | absolute_url | xml_escape }}
+          </guid>
+
+
+          <!-- PUBLICATION DATE -->
+
+          {% if entry.date %}
+
+            <pubDate>
+              {{ entry.date | date_to_rfc822 }}
+            </pubDate>
+
+          {% endif %}
+
+
+          <!-- AUTHOR -->
+
+          <dc:creator>
+            {{ site.author.name | xml_escape }}
+          </dc:creator>
+
+
+          <!-- ARTICLE DESCRIPTION -->
+
+          {% if entry.description %}
+
+            <description>
+              {{ entry.description | xml_escape }}
+            </description>
+
+          {% endif %}
+
+
+          <!-- LITERARY LANGUAGE -->
+
+          {% if entry.language %}
+
+            <category>
+              {{ entry.language | xml_escape }}
+            </category>
+
+          {% endif %}
+
+
+          <!-- LITERARY FORM -->
+
+          {% if entry.literary_form %}
+
+            <category>
+              {{ entry.literary_form | xml_escape }}
+            </category>
+
+          {% endif %}
+
+
+          <!-- ARTICLE THEMES -->
+
+          {% for tag in entry.tags %}
+
+            <category>
+              {{ tag | xml_escape }}
+            </category>
+
+          {% endfor %}
+
+
+          <!-- ORIGINAL LITERARY EXPRESSION -->
+
+          {% if entry.original_text %}
+
+            <content:encoded>
+
+              {{ entry.original_text | xml_escape }}
+
+            </content:encoded>
+
+          {% endif %}
+
+
+          <!-- ENGLISH TRANSLATION -->
+
+          {% if entry.translation %}
+
+            <content:encoded>
+
+              {{ entry.translation | xml_escape }}
+
+            </content:encoded>
+
+          {% endif %}
+
+
+        </item>
+
+      {% endunless %}
+
+    {% endfor %}
+
+
+    <!-- ======================================================
+         END OF FEED
+         ====================================================== -->
+
+  </channel>
+
+</rss>
