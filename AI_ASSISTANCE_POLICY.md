@@ -1,4 +1,3 @@
-
 # Artificial Intelligence and Assisted Work Policy
 
 **Verse & Variable**  
