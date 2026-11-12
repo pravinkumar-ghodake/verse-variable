@@ -3417,3 +3417,15 @@ button {
   unicode-bidi: isolate;
 }
 
+
+
+/* ============================================================
+   GLOBAL PARAGRAPH TYPOGRAPHY — JUSTIFIED ALIGNMENT
+   ============================================================ */
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: start;
+}
+
