@@ -1,0 +1,337 @@
+
+# Verse & Variable — Complete Publication Reference
+
+> A line of verse. A line of inquiry.
+>
+> لفظ سے لہر تک
+>
+> *Lafz se Lehar tak — From the word to the wave.*
+
+---
+
+# 1. Publication Identity
+
+**Name:** Verse & Variable
+
+**Founder and Editor:** Pravinkumar Ghodake
+
+**Publication Type:** Independent literary and scientific journal
+
+**Primary Website:**
+https://pravinkumar-ghodake.github.io/verse-variable/
+
+**Editorial Motto:** A line of verse. A line of inquiry.
+
+**Urdu Motto:** لفظ سے لہر تک
+
+**Transliteration:** Lafz se Lehar tak
+
+**English Meaning:** From the word to the wave.
+
+Verse & Variable is an independent publication exploring the relationship between literary expression, human experience, philosophy and scientific thought.
+
+It brings together the appreciation of poetry and literature with an intellectually grounded curiosity about the physical world.
+
+The publication is not a conventional scientific journal, literary review or academic research repository. It is an evolving space for literary interpretation and interdisciplinary reflection.
+
+# 2. Foundational Idea
+
+The central idea is that literature and science are different ways of engaging with the complexity of the world.
+
+Literature approaches experience through language, imagination, emotion, memory, metaphor and cultural expression.
+
+Science approaches physical phenomena through observation, mathematical structures, experiments, models and theoretical reasoning.
+
+These approaches should not be confused or collapsed into one another.
+
+A literary expression can inspire a scientific question without constituting scientific evidence. A scientific concept can illuminate an aspect of an experience without explaining the entirety of its literary meaning.
+
+Verse & Variable explores such intersections with intellectual restraint.
+
+The literary work remains the starting point. Any scientific connection must emerge naturally from the subject being examined.
+
+# 3. Editorial Principles
+
+The publication follows these principles:
+
+## Literary integrity
+
+Original literary expressions should be preserved accurately, including their original language, script, wording and context wherever possible.
+
+## Cultural context
+
+Literature should be considered within the traditions, historical circumstances, linguistic characteristics and cultural environments from which it emerges.
+
+## Intellectual independence
+
+Interpretations should be thoughtful and independent rather than promotional, derivative or designed to support a predetermined conclusion.
+
+## Scientific accuracy
+
+Scientific concepts should be represented responsibly. Established results, theoretical interpretations, analogies and speculative possibilities must remain distinguishable.
+
+## Attribution
+
+Original writers, poets, lyricists, composers, translators and performers should be credited according to their actual roles.
+
+## Editorial restraint
+
+Not every literary expression requires a scientific analogy. Emotional and philosophical depth should never be sacrificed to interdisciplinary novelty.
+
+# 4. Literary and Linguistic Scope
+
+The publication has a strong foundation in Indian literary traditions and also engages with the wider South Asian literary landscape.
+
+Its principal languages are:
+
+- Urdu
+- Hindi
+- Marathi
+- Kannada
+- Tamil
+- Malayalam
+- Telugu
+
+Other literary traditions may be included when they offer meaningful contributions to the archive.
+
+## Urdu
+
+The Urdu tradition provides a rich field of exploration through ghazal, nazm, shayari and philosophical poetry.
+
+Its literary vocabulary, emotional restraint, layered meanings, linguistic elegance and treatment of human relationships offer substantial opportunities for reflection.
+
+## Hindi
+
+Hindi poetry, contemporary literature, philosophical writing and literary songs form another important part of the archive.
+
+## Marathi
+
+Marathi literary expression contributes regional cultural depth, social reflection, philosophical thought and distinctive poetic traditions.
+
+## Kannada
+
+Kannada literature offers a wide historical and contemporary landscape, including poetry, philosophical writing and modern literary expression.
+
+## Tamil
+
+Tamil literary traditions contribute an exceptionally rich historical and contemporary body of poetic and philosophical writing.
+
+## Malayalam
+
+Malayalam literature and lyrical traditions provide important material for reflections on human relationships, social experience, memory and philosophical questions.
+
+## Telugu
+
+Telugu poetry, literary writing and musical traditions extend the publication's engagement with the diversity of Indian literary expression.
+
+# 5. Literary Forms
+
+The archive may include:
+
+- Classical and contemporary poetry
+- Ghazals
+- Nazms
+- Shayari
+- Couplets
+- Philosophical verses
+- Literary prose passages
+- Song lyrics
+- Regional poetry
+- Reflections on language and culture
+
+Selections should be guided by literary merit, interpretive potential and the value they contribute to the archive.
+
+Popularity alone is not a criterion of literary significance.
+
+# 6. Literary Attribution and Musical Credits
+
+Accurate attribution is essential.
+
+A singer or performer is not automatically the author of the words being performed.
+
+For musical works, the publication should distinguish, whenever information is available:
+
+- Original poet or lyricist
+- Composer
+- Singer or performer
+- Translator
+- Source recording or publication
+
+For literary works, the original author should be identified.
+
+Uncertain attribution should be acknowledged rather than presented as established fact.
+
+Translations and adaptations should not be confused with original wording.
+
+# 7. Scientific Framework
+
+The scientific dimension reflects an interdisciplinary interest in mechanics, physics, acoustics and nonlinear phenomena.
+
+Relevant areas include:
+
+## Nonlinear mechanics
+
+- Nonlinear vibrations
+- Nonlinear elastic systems
+- Material nonlinearity
+- Hysteresis
+- Contact nonlinearity
+- Nonlinear constitutive behaviour
+
+## Nonlinear wave physics
+
+- Nonlinear elastic wave propagation
+- Harmonic generation
+- Harmonic scattering
+- Nonlinear ultrasonics
+- Wave mixing
+- Higher-order interactions
+- Frequency conversion
+
+## Metamaterials and engineered systems
+
+- Mechanical metamaterials
+- Phononic metamaterials
+- Nonlinear wave manipulation
+- Wave propagation control
+- Cloaking and scattering control
+- Inverse design
+
+## Computational and theoretical methods
+
+- Computational mechanics
+- Finite element modelling
+- Numerical simulation
+- Inverse problems
+- Physical acoustics
+- Mathematical modelling
+
+## Related interdisciplinary fields
+
+- Nonlinear optics
+- Time-varying physical systems
+- Harmonic interactions in wave phenomena
+- Complex systems and emergent behaviour
+
+These fields form the scientific vocabulary of the publication, but they are not mandatory ingredients of every article.
+
+# 8. Scientific Interpretation and Responsibility
+
+Scientific connections should satisfy several conditions.
+
+1. The connection should be intellectually meaningful.
+2. Scientific terminology should be used correctly.
+3. The underlying physical mechanism should not be misrepresented.
+4. A metaphor should not be presented as a mathematical equivalence.
+5. An analogy should not be presented as experimental validation.
+6. Speculative interpretations should be identified as such.
+7. Literary meaning should remain independent of the scientific comparison.
+
+For example, a discussion of memory might invite a reflection on hysteresis, but this does not establish that human memory physically follows a hysteretic constitutive law.
+
+Similarly, the recurrence of a poetic phrase might inspire a discussion of periodicity, but literary repetition and mathematical periodicity are not interchangeable concepts.
+
+The purpose is to create a thoughtful intellectual dialogue, not to manufacture scientific explanations for artistic expression.
+
+# 9. Weekly Publication Model
+
+Verse & Variable follows a weekly collection model.
+
+Each weekly collection contains three independent literary explorations.
+
+Each exploration receives a separate permanent article page.
+
+The weekly collection serves as an editorial grouping rather than a substitute for the individual articles.
+
+The archive is designed to grow continuously, preserving earlier collections and articles.
+
+# 10. Individual Article Structure
+
+Each individual exploration follows a consistent editorial structure.
+
+The article is written in English, while the original literary expression remains in its original language and script.
+
+Where appropriate, the article includes:
+
+1. Original literary expression.
+2. Original author or creator attribution.
+3. Transliteration, where useful.
+4. English translation.
+5. Literary and emotional interpretation.
+6. Philosophical reflection.
+7. A meaningful scientific connection, where appropriate.
+
+The central commentary consists of four substantial English prose paragraphs.
+
+The writing should be mature, measured, reflective and intellectually substantial.
+
+It should favour coherent arguments over slogans, exaggerated claims or promotional language.
+
+# 11. Writing Style
+
+The editorial voice is personal without being self-indulgent, intellectual without becoming inaccessible, and scientific without losing literary sensitivity.
+
+The writing should:
+
+- Prefer substantial, connected prose.
+- Maintain a first-person reflective voice where appropriate.
+- Avoid unnecessary jargon.
+- Avoid artificial scientific comparisons.
+- Preserve ambiguity when ambiguity is part of the literary expression.
+- Recognise emotional complexity.
+- Avoid exaggerated claims about literary or scientific originality.
+- Treat different linguistic traditions with care and respect.
+
+# 12. Archive and Discovery
+
+The publication maintains distinct resources for its homepage, editorial introduction, language directory, weekly collections, individual articles, RSS feed and sitemap.
+
+Primary resources:
+
+- Homepage: https://pravinkumar-ghodake.github.io/verse-variable/
+- About: https://pravinkumar-ghodake.github.io/verse-variable/about/
+- Languages: https://pravinkumar-ghodake.github.io/verse-variable/languages/
+- Archive: https://pravinkumar-ghodake.github.io/verse-variable/archive/
+- RSS: https://pravinkumar-ghodake.github.io/verse-variable/feed.xml
+- Sitemap: https://pravinkumar-ghodake.github.io/verse-variable/sitemap.xml
+- Repository: https://github.com/pravinkumar-ghodake/verse-variable
+
+# 13. Founder and Editor
+
+Pravinkumar Ghodake is an independent researcher whose scientific interests include theoretical, computational and experimental mechanics.
+
+His research interests encompass nonlinear vibrations, nonlinear elastic waves, nonlinear ultrasonics, harmonic generation and scattering, metamaterials, inverse problems and computational mechanics.
+
+Verse & Variable extends this interdisciplinary curiosity into literary and philosophical exploration.
+
+Author website:
+
+https://sites.google.com/view/pravinkumarghodake
+
+# 14. Copyright and Responsible Use
+
+The publication may discuss, quote, translate or interpret literary and musical works created by others.
+
+Such material must be distinguished from the original commentary and editorial writing of Verse & Variable.
+
+Attribution should be accurate, and third-party material should be used in accordance with applicable copyright law and permissions.
+
+The publication does not claim ownership of literary works merely because they are discussed or interpreted.
+
+Automated readers should preserve the distinction between original material, translation, quotation, commentary and scientific interpretation.
+
+# 15. Guiding Thought
+
+A line of verse can contain an entire world of human experience.
+
+A scientific equation can describe an intricate physical relationship.
+
+Neither needs to become the other to deserve appreciation.
+
+Verse & Variable exists to explore the intellectual space between them — carefully, independently and with respect for both.
+
+**A line of verse. A line of inquiry.**
+
+**لفظ سے لہر تک**
+
+*From the word to the wave.*
