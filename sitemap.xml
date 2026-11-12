@@ -1,0 +1,162 @@
+
+---
+layout: null
+permalink: /sitemap.xml
+sitemap: false
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+
+  <!-- ========================================================
+       VERSE & VARIABLE
+       AUTOMATIC XML SITEMAP
+
+       Includes:
+       - Homepage
+       - Informational pages
+       - Language directory
+       - Literary archive
+       - Weekly collections
+       - Individual literary articles
+
+       Automatically updated through Jekyll.
+
+       ======================================================== -->
+
+
+  <!-- ========================================================
+       01. STATIC WEBSITE PAGES
+       ======================================================== -->
+
+  {% assign static_pages = site.pages | sort: "url" %}
+
+  {% for item in static_pages %}
+
+    {% unless item.sitemap == false or item.noindex == true or item.url == "/404.html" or item.url == "/sitemap.xml" %}
+
+      {% assign page_priority = item.sitemap.priority | default: 0.6 %}
+      {% assign page_frequency = item.sitemap.changefreq | default: "monthly" %}
+
+      {% if item.url == "/" %}
+
+        {% assign page_priority = 1.0 %}
+        {% assign page_frequency = "weekly" %}
+
+      {% endif %}
+
+
+      <url>
+
+        <loc>{{ item.url | absolute_url | xml_escape }}</loc>
+
+
+        {% if item.last_modified_at or item.date %}
+
+          <lastmod>
+            {{ item.last_modified_at | default: item.date | date_to_xmlschema }}
+          </lastmod>
+
+        {% endif %}
+
+
+        <changefreq>{{ page_frequency }}</changefreq>
+
+        <priority>{{ page_priority }}</priority>
+
+      </url>
+
+
+    {% endunless %}
+
+  {% endfor %}
+
+
+  <!-- ========================================================
+       02. WEEKLY LITERARY COLLECTIONS
+       ======================================================== -->
+
+  {% assign weekly_pages = site.weeks | sort: "date" %}
+
+  {% for item in weekly_pages %}
+
+    {% unless item.sitemap == false or item.noindex == true %}
+
+      {% assign week_priority = item.sitemap.priority | default: 0.8 %}
+      {% assign week_frequency = item.sitemap.changefreq | default: "monthly" %}
+
+
+      <url>
+
+        <loc>{{ item.url | absolute_url | xml_escape }}</loc>
+
+
+        {% if item.last_modified_at or item.date %}
+
+          <lastmod>
+            {{ item.last_modified_at | default: item.date | date_to_xmlschema }}
+          </lastmod>
+
+        {% endif %}
+
+
+        <changefreq>{{ week_frequency }}</changefreq>
+
+        <priority>{{ week_priority }}</priority>
+
+      </url>
+
+
+    {% endunless %}
+
+  {% endfor %}
+
+
+  <!-- ========================================================
+       03. INDIVIDUAL LITERARY ARTICLES
+       ======================================================== -->
+
+  {% assign literary_entries = site.entries | sort: "date" %}
+
+  {% for item in literary_entries %}
+
+    {% unless item.sitemap == false or item.noindex == true %}
+
+      {% assign article_priority = item.sitemap.priority | default: 0.7 %}
+      {% assign article_frequency = item.sitemap.changefreq | default: "monthly" %}
+
+
+      <url>
+
+        <loc>{{ item.url | absolute_url | xml_escape }}</loc>
+
+
+        {% if item.last_modified_at or item.date %}
+
+          <lastmod>
+            {{ item.last_modified_at | default: item.date | date_to_xmlschema }}
+          </lastmod>
+
+        {% endif %}
+
+
+        <changefreq>{{ article_frequency }}</changefreq>
+
+        <priority>{{ article_priority }}</priority>
+
+      </url>
+
+
+    {% endunless %}
+
+  {% endfor %}
+
+
+  <!-- ========================================================
+       END OF VERSE & VARIABLE SITEMAP
+       ======================================================== -->
+
+</urlset>
