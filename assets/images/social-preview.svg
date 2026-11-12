@@ -1,0 +1,557 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1200"
+  height="630"
+  viewBox="0 0 1200 630"
+  role="img"
+  aria-labelledby="title description"
+>
+
+  <title id="title">
+    Verse &amp; Variable — A line of verse. A line of inquiry.
+  </title>
+
+  <desc id="description">
+    An Indian literary and scientific journal connecting
+    poetry, shayari, human experience and nonlinear science.
+  </desc>
+
+
+  <!-- ======================================================
+       01. DEFINITIONS
+       ====================================================== -->
+
+  <defs>
+
+    <linearGradient
+      id="background"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1"
+    >
+
+      <stop offset="0%" stop-color="#101A30"/>
+      <stop offset="52%" stop-color="#16233D"/>
+      <stop offset="100%" stop-color="#0D182B"/>
+
+    </linearGradient>
+
+
+    <radialGradient
+      id="blue-field"
+      cx="35%"
+      cy="42%"
+      r="70%"
+    >
+
+      <stop offset="0%" stop-color="#304D9B" stop-opacity=".43"/>
+      <stop offset="100%" stop-color="#304D9B" stop-opacity="0"/>
+
+    </radialGradient>
+
+
+    <radialGradient
+      id="teal-field"
+      cx="65%"
+      cy="50%"
+      r="65%"
+    >
+
+      <stop offset="0%" stop-color="#25A6A0" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#25A6A0" stop-opacity="0"/>
+
+    </radialGradient>
+
+
+    <linearGradient
+      id="wave-one"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1"
+    >
+
+      <stop offset="0%" stop-color="#5475CE"/>
+      <stop offset="50%" stop-color="#42A9C5"/>
+      <stop offset="100%" stop-color="#25A6A0"/>
+
+    </linearGradient>
+
+
+    <linearGradient
+      id="wave-two"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
+
+      <stop offset="0%" stop-color="#25A6A0"/>
+      <stop offset="55%" stop-color="#42A9C5"/>
+      <stop offset="100%" stop-color="#E36D54"/>
+
+    </linearGradient>
+
+
+    <linearGradient
+      id="literary-accent"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
+
+      <stop offset="0%" stop-color="#E36D54"/>
+      <stop offset="100%" stop-color="#D5AA61"/>
+
+    </linearGradient>
+
+
+    <filter
+      id="soft-glow"
+      x="-50%"
+      y="-50%"
+      width="200%"
+      height="200%"
+    >
+
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+
+    <pattern
+      id="fine-grid"
+      width="42"
+      height="42"
+      patternUnits="userSpaceOnUse"
+    >
+
+      <path
+        d="M42 0H0V42"
+        fill="none"
+        stroke="#A9B9D4"
+        stroke-opacity=".045"
+        stroke-width=".8"
+      />
+
+    </pattern>
+
+
+    <clipPath id="canvas-clip">
+
+      <rect
+        width="1200"
+        height="630"
+      />
+
+    </clipPath>
+
+  </defs>
+
+
+  <!-- ======================================================
+       02. BACKGROUND
+       ====================================================== -->
+
+  <g clip-path="url(#canvas-clip)">
+
+    <rect
+      width="1200"
+      height="630"
+      fill="url(#background)"
+    />
+
+
+    <rect
+      width="1200"
+      height="630"
+      fill="url(#blue-field)"
+    />
+
+
+    <rect
+      width="1200"
+      height="630"
+      fill="url(#teal-field)"
+    />
+
+
+    <rect
+      width="1200"
+      height="630"
+      fill="url(#fine-grid)"
+    />
+
+
+    <!-- ==================================================
+         03. NONLINEAR PROPAGATION FIELD
+         ================================================== -->
+
+
+    <!-- Distorted wavefront family 01 -->
+
+    <g
+      fill="none"
+      stroke="url(#wave-one)"
+      stroke-width="1.6"
+      opacity=".44"
+    >
+
+      <path
+        d="M650 -180
+        C850 -80 1090 -80 1280 70
+        C1450 210 1340 440 1190 610
+        C1040 780 820 700 710 560
+        C590 410 720 255 850 190
+        C1010 110 1140 210 1100 330"
+      />
+
+      <path
+        d="M600 -250
+        C835 -115 1130 -120 1350 50
+        C1540 210 1400 490 1210 670
+        C1030 840 780 730 650 570
+        C500 385 660 180 830 120
+        C1030 45 1210 180 1160 355"
+      />
+
+      <path
+        d="M540 -310
+        C820 -155 1190 -155 1420 40
+        C1630 230 1470 555 1240 745
+        C1010 920 740 760 590 570
+        C415 350 590 120 800 45
+        C1050 -45 1260 160 1205 390"
+      />
+
+    </g>
+
+
+    <!-- Distorted wavefront family 02 -->
+
+    <g
+      fill="none"
+      stroke="url(#wave-two)"
+      stroke-width="1.4"
+      opacity=".37"
+    >
+
+      <path
+        d="M-250 310
+        C-80 90 125 100 260 245
+        C390 385 290 535 120 580
+        C-35 625 -125 470 -40 355
+        C50 235 205 275 290 365
+        C380 465 500 455 580 355"
+      />
+
+      <path
+        d="M-300 240
+        C-100 -5 150 30 310 210
+        C470 390 350 590 145 650
+        C-75 715 -195 480 -85 330
+        C30 150 245 195 365 335
+        C480 475 610 470 685 330"
+      />
+
+    </g>
+
+
+    <!-- Fine harmonic-inspired contours -->
+
+    <g
+      fill="none"
+      stroke="#D5AA61"
+      stroke-width="1"
+      opacity=".22"
+    >
+
+      <path
+        d="M650 80
+        C760 130 830 205 840 295
+        C855 410 765 485 685 485"
+      />
+
+      <path
+        d="M690 60
+        C805 120 885 210 895 310
+        C910 435 805 530 710 525"
+      />
+
+      <path
+        d="M725 35
+        C855 105 935 215 950 330
+        C970 470 845 565 740 565"
+      />
+
+    </g>
+
+
+    <!-- Subtle illuminated interaction point -->
+
+    <circle
+      cx="880"
+      cy="310"
+      r="4"
+      fill="#D5AA61"
+      filter="url(#soft-glow)"
+    />
+
+    <circle
+      cx="880"
+      cy="310"
+      r="1.8"
+      fill="#F0F0EC"
+    />
+
+
+    <!-- ==================================================
+         04. SOFT LEFT-HAND TEXT PROTECTION
+         ================================================== -->
+
+    <rect
+      x="0"
+      y="0"
+      width="830"
+      height="630"
+      fill="url(#background)"
+      opacity=".52"
+    />
+
+
+    <rect
+      x="0"
+      y="0"
+      width="1200"
+      height="630"
+      fill="none"
+      stroke="#70829F"
+      stroke-opacity=".13"
+      stroke-width="2"
+    />
+
+
+    <!-- ==================================================
+         05. PUBLICATION IDENTITY
+         ================================================== -->
+
+
+    <text
+      x="85"
+      y="105"
+      font-family="Arial, sans-serif"
+      font-size="15"
+      font-weight="600"
+      letter-spacing="4"
+      fill="#D5AA61"
+    >
+
+      AN INDIAN LITERARY &amp; SCIENTIFIC JOURNAL
+
+    </text>
+
+
+    <text
+      x="80"
+      y="250"
+      font-family="Georgia, serif"
+      font-size="91"
+      font-weight="normal"
+      letter-spacing="-4"
+      fill="#F0F0EC"
+    >
+
+      VERSE
+
+    </text>
+
+
+    <text
+      x="357"
+      y="250"
+      font-family="Georgia, serif"
+      font-size="90"
+      font-style="italic"
+      fill="#E36D54"
+    >
+
+      &amp;
+
+    </text>
+
+
+    <text
+      x="430"
+      y="250"
+      font-family="Georgia, serif"
+      font-size="91"
+      font-weight="normal"
+      letter-spacing="-4"
+      fill="#F0F0EC"
+    >
+
+      VARIABLE
+
+    </text>
+
+
+    <!-- ==================================================
+         06. EDITORIAL TAGLINE
+         ================================================== -->
+
+    <text
+      x="87"
+      y="319"
+      font-family="Georgia, serif"
+      font-size="30"
+      fill="#D4DFED"
+    >
+
+      A line of verse. A line of inquiry.
+
+    </text>
+
+
+    <!-- Urdu tagline -->
+
+    <text
+      x="1088"
+      y="411"
+      text-anchor="end"
+      direction="rtl"
+      unicode-bidi="bidi-override"
+      font-family="'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif"
+      font-size="34"
+      fill="#E7A18F"
+    >
+
+      لفظ سے لہر تک
+
+    </text>
+
+
+    <text
+      x="87"
+      y="416"
+      font-family="Arial, sans-serif"
+      font-size="17"
+      letter-spacing="1.2"
+      fill="#D5AA61"
+    >
+
+      LAFZ SE LEHAR TAK
+
+    </text>
+
+
+    <!-- ==================================================
+         07. EDITORIAL DESCRIPTOR
+         ================================================== -->
+
+    <text
+      x="87"
+      y="493"
+      font-family="Arial, sans-serif"
+      font-size="16"
+      font-weight="500"
+      letter-spacing="2"
+      fill="#C0CCDA"
+    >
+
+      LITERATURE
+
+    </text>
+
+
+    <circle cx="225" cy="488" r="3" fill="#E36D54"/>
+
+
+    <text
+      x="248"
+      y="493"
+      font-family="Arial, sans-serif"
+      font-size="16"
+      font-weight="500"
+      letter-spacing="2"
+      fill="#C0CCDA"
+    >
+
+      HUMANITY
+
+    </text>
+
+
+    <circle cx="410" cy="488" r="3" fill="#42A9C5"/>
+
+
+    <text
+      x="432"
+      y="493"
+      font-family="Arial, sans-serif"
+      font-size="16"
+      font-weight="500"
+      letter-spacing="2"
+      fill="#C0CCDA"
+    >
+
+      SCIENCE
+
+    </text>
+
+
+    <!-- ==================================================
+         08. AUTHOR SIGNATURE
+         ================================================== -->
+
+    <path
+      d="M87 545 H1110"
+      stroke="#7487A8"
+      stroke-opacity=".25"
+      stroke-width="1"
+    />
+
+
+    <text
+      x="87"
+      y="580"
+      font-family="Arial, sans-serif"
+      font-size="13"
+      font-weight="500"
+      letter-spacing="2"
+      fill="#9EADC2"
+    >
+
+      WRITTEN AND CURATED BY PRAVINKUMAR GHODAKE
+
+    </text>
+
+
+    <text
+      x="1110"
+      y="580"
+      text-anchor="end"
+      font-family="Georgia, serif"
+      font-size="18"
+      font-style="italic"
+      fill="#D5AA61"
+    >
+
+      From the word to the wave.
+
+    </text>
+
+
+  </g>
+
+</svg>
