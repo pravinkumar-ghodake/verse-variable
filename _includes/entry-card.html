@@ -1,4 +1,3 @@
-
 {%- assign entry = include.entry -%}
 {%- assign card_number = include.number | default: entry.entry_number | default: 1 -%}
 {%- assign card_number = card_number | plus: 0 | prepend: "0" | slice: -2, 2 -%}
