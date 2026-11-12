@@ -1,0 +1,233 @@
+
+<!-- ============================================================
+     VERSE & VARIABLE
+     Shared Website Header
+
+     Wordmark
+     English navigation
+     Mobile navigation
+     Dark / Light theme control
+
+     ============================================================ -->
+
+<a class="skip-link" href="#main-content">
+  Skip to main content
+</a>
+
+
+<header class="site-header" id="site-header">
+
+  <div class="container header-inner">
+
+
+    <!-- ======================================================
+         01. PUBLICATION WORDMARK
+         ====================================================== -->
+
+    <a
+      class="brand"
+      href="{{ '/' | relative_url }}"
+      aria-label="Verse and Variable — Homepage"
+    >
+
+      <span class="brand-mark" aria-hidden="true">
+
+        <svg
+          viewBox="0 0 42 42"
+          width="38"
+          height="38"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+
+          <path
+            d="M3 12 C10 12 10 29 19 29 C27 29 28 9 39 9"
+            stroke="#5475CE"
+            stroke-width="1.7"
+            stroke-linecap="round"
+          />
+
+          <path
+            d="M3 20 C11 20 12 34 21 34 C30 34 31 15 39 15"
+            stroke="#25A6A0"
+            stroke-width="1.7"
+            stroke-linecap="round"
+          />
+
+          <path
+            d="M3 28 C10 28 13 38 22 38 C31 38 33 23 39 23"
+            stroke="#E36D54"
+            stroke-width="1.7"
+            stroke-linecap="round"
+            opacity="0.9"
+          />
+
+          <circle
+            cx="39"
+            cy="9"
+            r="2"
+            fill="#D5AA61"
+          />
+
+        </svg>
+
+      </span>
+
+
+      <span class="brand-copy">
+
+        <span class="brand-name">
+          VERSE
+          <span class="brand-ampersand">&amp;</span>
+          VARIABLE
+        </span>
+
+        <span class="brand-subtitle">
+          FROM THE WORD TO THE WAVE
+        </span>
+
+      </span>
+
+    </a>
+
+
+    <!-- ======================================================
+         02. PRIMARY NAVIGATION
+         ====================================================== -->
+
+    <nav
+      class="site-nav"
+      id="primary-navigation"
+      aria-label="Primary navigation"
+    >
+
+      {% for item in site.data.site.navigation.primary %}
+
+        {% assign current_url = page.url | replace: "index.html", "" %}
+
+        {% assign nav_active = false %}
+
+        {% if current_url == item.url %}
+
+          {% assign nav_active = true %}
+
+        {% elsif item.url != "/" and current_url contains item.url %}
+
+          {% assign nav_active = true %}
+
+        {% endif %}
+
+
+        <a
+          href="{{ item.url | relative_url }}"
+          {% if nav_active %}
+            aria-current="page"
+          {% endif %}
+        >
+
+          {{ item.label }}
+
+        </a>
+
+      {% endfor %}
+
+    </nav>
+
+
+    <!-- ======================================================
+         03. HEADER ACTIONS
+         ====================================================== -->
+
+    <div class="header-actions">
+
+
+      <!-- DARK / LIGHT THEME -->
+
+      <button
+        class="icon-button theme-toggle"
+        type="button"
+        data-theme-toggle
+        aria-label="Switch to light theme"
+        aria-pressed="false"
+        title="Switch theme"
+      >
+
+        <svg
+          class="theme-toggle-icon"
+          viewBox="0 0 24 24"
+          width="19"
+          height="19"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+
+          <circle cx="12" cy="12" r="4"/>
+
+          <path
+            d="
+              M12 2v2
+              M12 20v2
+              M4.93 4.93l1.42 1.42
+              M17.65 17.65l1.42 1.42
+              M2 12h2
+              M20 12h2
+              M4.93 19.07l1.42-1.42
+              M17.65 6.35l1.42-1.42
+            "
+          />
+
+        </svg>
+
+      </button>
+
+
+      <!-- ==================================================
+           04. MOBILE MENU BUTTON
+           ================================================== -->
+
+      <button
+        class="icon-button menu-toggle"
+        type="button"
+        data-menu-toggle
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        title="Open navigation"
+      >
+
+        <svg
+          viewBox="0 0 24 24"
+          width="21"
+          height="21"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
+
+          <path d="M4 7h16"/>
+
+          <path d="M4 12h16"/>
+
+          <path d="M4 17h16"/>
+
+        </svg>
+
+      </button>
+
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- ============================================================
+     END OF SHARED HEADER
+     ============================================================ -->
