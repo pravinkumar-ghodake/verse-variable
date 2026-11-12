@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+
+<html
+  lang="{{ page.lang | default: site.lang | default: 'en' }}"
+  dir="ltr"
+  data-theme="dark"
+>
+
+<head>
+
+  {% include head.html %}
+
+</head>
+
+
+<body
+  class="site-body page-{{ page.layout | default: 'default' }}"
+  data-publication="verse-and-variable"
+>
+
+
+  <!-- ========================================================
+       01. GLOBAL WEBSITE SHELL
+       ======================================================== -->
+
+  <div class="site-shell">
+
+
+    <!-- ======================================================
+         02. NONLINEAR ELASTIC WAVEFIELD BACKGROUND
+
+         Main visual identity of the publication.
+
+         The canvas is rendered by site.js.
+         The CSS background provides its static fallback.
+         ====================================================== -->
+
+    <div
+      class="wavefield"
+      aria-hidden="true"
+      data-wavefield
+    >
+
+      <canvas
+        class="wavefield__canvas"
+        aria-hidden="true"
+      ></canvas>
+
+
+      <div class="wavefield__grain"></div>
+
+    </div>
+
+
+    <!-- ======================================================
+         03. READING PROGRESS INDICATOR
+         ====================================================== -->
+
+    <div
+      class="reading-progress"
+      aria-hidden="true"
+    >
+
+      <div class="reading-progress-bar"></div>
+
+    </div>
+
+
+    <!-- ======================================================
+         04. SHARED WEBSITE HEADER
+         ====================================================== -->
+
+    {% include header.html %}
+
+
+    <!-- ======================================================
+         05. MAIN PAGE CONTENT
+
+         Every homepage, weekly collection, article,
+         archive and informational page appears here.
+         ====================================================== -->
+
+    <main
+      id="main-content"
+      class="main-content"
+      tabindex="-1"
+    >
+
+      {{ content }}
+
+    </main>
+
+
+    <!-- ======================================================
+         06. SHARED WEBSITE FOOTER
+         ====================================================== -->
+
+    {% include footer.html %}
+
+
+    <!-- ======================================================
+         07. BACK TO TOP CONTROL
+         ====================================================== -->
+
+    <button
+      class="back-to-top"
+      type="button"
+      data-back-to-top
+      aria-label="Back to top"
+      title="Back to top"
+    >
+
+      <svg
+        viewBox="0 0 24 24"
+        width="20"
+        height="20"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+
+        <path d="m18 15-6-6-6 6"/>
+
+      </svg>
+
+    </button>
+
+
+  </div>
+
+
+  <!-- ========================================================
+       08. MAIN JAVASCRIPT ENGINE
+
+       defer prevents JavaScript from blocking initial
+       document rendering.
+       ======================================================== -->
+
+  <script
+    src="{{ '/assets/js/site.js' | relative_url }}"
+    defer
+  ></script>
+
+
+  <!-- ========================================================
+       09. PAGE-SPECIFIC JAVASCRIPT
+
+       Optional support for future interactive articles.
+       ======================================================== -->
+
+  {% if page.custom_js %}
+
+    {% for js_file in page.custom_js %}
+
+      <script
+        src="{{ js_file | relative_url }}"
+        defer
+      ></script>
+
+    {% endfor %}
+
+  {% endif %}
+
+
+  <!-- ========================================================
+       END OF VERSE & VARIABLE DOCUMENT
+       ======================================================== -->
+
+</body>
+
+</html>
