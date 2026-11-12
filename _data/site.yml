@@ -1,0 +1,628 @@
+
+# ============================================================
+# VERSE & VARIABLE
+# Global Publication Identity and Visual Configuration
+#
+# A line of verse. A line of inquiry.
+# Lafz se Lehar tak — From the word to the wave.
+# ============================================================
+
+# ------------------------------------------------------------
+# 1. PUBLICATION IDENTITY
+# ------------------------------------------------------------
+
+identity:
+
+  name: "Verse & Variable"
+
+  short_name: "V&V"
+
+  descriptor: "An Indian Literary and Scientific Journal"
+
+  primary_tagline: "A line of verse. A line of inquiry."
+
+  urdu_tagline: "لفظ سے لہر تک"
+
+  urdu_transliteration: "Lafz se Lehar tak"
+
+  english_tagline: "From the word to the wave."
+
+  editorial_statement: >-
+    Indian poetry. Human experience. Philosophical thought.
+    Nonlinear science.
+
+  author_line: "Written and curated by Pravinkumar Ghodake"
+
+  established: 2026
+
+  publication_type: "Independent literary and scientific journal"
+
+  primary_language: "English"
+
+  cultural_foundation: "Indian literary heritage"
+
+# ------------------------------------------------------------
+# 2. WEBSITE EXPERIENCE
+# ------------------------------------------------------------
+
+experience:
+
+  visual_concept: "The Wave Manuscript"
+
+  scientific_theme: "Nonlinear Resonance"
+
+  literary_theme: "Lafz se Lehar tak"
+
+  overall_character:
+    - "Modern"
+    - "Intellectual"
+    - "Culturally rooted"
+    - "Scientifically inspired"
+    - "Literary"
+    - "Contemporary"
+    - "Reflective"
+    - "Minimal but expressive"
+
+  design_principles:
+    - "Original poetry remains the visual centre of each article."
+    - "Scientific visuals complement rather than dominate literature."
+    - "Original scripts receive appropriate typographic treatment."
+    - "English remains the language of website navigation and discussion."
+    - "The homepage uses an evolving nonlinear wavefield."
+    - "Article pages prioritise comfortable long-form reading."
+    - "The design must remain responsive across desktop, tablet and mobile."
+    - "Animations must respect reduced-motion preferences."
+
+# ------------------------------------------------------------
+# 3. VISUAL COLOUR PALETTE
+# ------------------------------------------------------------
+
+colors:
+
+  background:
+    primary: "#101A30"
+    secondary: "#16233D"
+    elevated: "#1C2A46"
+
+  wave:
+    blue: "#304D9B"
+    cyan: "#42A9C5"
+    teal: "#25A6A0"
+    deep_teal: "#176F79"
+
+  literary:
+    coral: "#E36D54"
+    vermilion: "#D45A43"
+    rose: "#E7A18F"
+
+  spectrum:
+    gold: "#D5AA61"
+    amber: "#E2BD78"
+
+  reading:
+    white: "#F0F0EC"
+    ivory: "#F4F1E9"
+    parchment: "#E9E4D8"
+    ink: "#202532"
+    muted: "#AAB8CA"
+
+  interface:
+    border_dark: "#33435F"
+    border_light: "#D7D5CD"
+    surface_dark: "#17243C"
+    surface_light: "#FFFFFF"
+
+# ------------------------------------------------------------
+# 4. TYPOGRAPHY
+# ------------------------------------------------------------
+
+typography:
+
+  display:
+    family: "Instrument Serif"
+    fallback: "Georgia, serif"
+    purpose:
+      - "Main publication title"
+      - "Homepage headlines"
+      - "Article headings"
+      - "Editorial section titles"
+
+  reading:
+    family: "Literata"
+    fallback: "Georgia, serif"
+    purpose:
+      - "Long-form article reflections"
+      - "English literary translations"
+      - "Editorial descriptions"
+
+  interface:
+    family: "IBM Plex Sans"
+    fallback: "Arial, sans-serif"
+    purpose:
+      - "Navigation"
+      - "Metadata"
+      - "Captions"
+      - "Buttons"
+      - "Interface labels"
+
+  original_scripts:
+    urdu:
+      family: "Noto Nastaliq Urdu"
+      fallback: "serif"
+      direction: "rtl"
+
+    hindi:
+      family: "Noto Serif Devanagari"
+      fallback: "serif"
+      direction: "ltr"
+
+    marathi:
+      family: "Noto Serif Devanagari"
+      fallback: "serif"
+      direction: "ltr"
+
+    kannada:
+      family: "Noto Serif Kannada"
+      fallback: "serif"
+      direction: "ltr"
+
+    tamil:
+      family: "Noto Serif Tamil"
+      fallback: "serif"
+      direction: "ltr"
+
+    malayalam:
+      family: "Noto Serif Malayalam"
+      fallback: "serif"
+      direction: "ltr"
+
+    telugu:
+      family: "Noto Serif Telugu"
+      fallback: "serif"
+      direction: "ltr"
+
+# ------------------------------------------------------------
+# 5. HOMEPAGE HERO
+# ------------------------------------------------------------
+
+hero:
+
+  eyebrow: "AN INDIAN LITERARY & SCIENTIFIC JOURNAL"
+
+  title: "Verse & Variable"
+
+  subtitle: "A line of verse. A line of inquiry."
+
+  original_tagline: "لفظ سے لہر تک"
+
+  transliteration: "Lafz se Lehar tak"
+
+  tagline_translation: "From the word to the wave."
+
+  introduction: >-
+    An exploration of Indian poetry, shayari, literature and
+    human experience, through a personal intellectual journey
+    into philosophy, mathematics and the physical sciences.
+
+  supporting_text: >-
+    From the expressive depth of a couplet to the intricate
+    behaviour of nonlinear waves.
+
+  primary_action:
+    label: "Explore the Journal"
+    url: "/archive/"
+
+  secondary_action:
+    label: "About the Journal"
+    url: "/about/"
+
+  background:
+    type: "animated-nonlinear-wavefield"
+    enabled: true
+
+# ------------------------------------------------------------
+# 6. NONLINEAR PROPAGATION FIELD
+# ------------------------------------------------------------
+
+wavefield:
+
+  enabled: true
+
+  type: "scientific-inspired nonlinear elastic wave propagation"
+
+  placement: "Full website background, with homepage emphasis"
+
+  description: >-
+    A continuous, flowing visual field inspired by nonlinear
+    elastic wave propagation. Wavefronts distort, interact and
+    develop spatial complexity as they evolve through a medium.
+
+  visual_character:
+    - "Evolving wavefronts"
+    - "Amplitude-dependent distortion"
+    - "Interacting wave packets"
+    - "Spatially varying wave patterns"
+    - "Complex propagation fields"
+    - "Subtle harmonic structures"
+    - "Layered scientific depth"
+
+  palette:
+    primary: "#304D9B"
+    secondary: "#25A6A0"
+    highlight: "#42A9C5"
+    accent: "#E36D54"
+    spectrum: "#D5AA61"
+    background: "#101A30"
+
+  presentation:
+
+    homepage:
+      opacity: 0.85
+      visibility: "prominent"
+
+    collection:
+      opacity: 0.30
+      visibility: "subtle"
+
+    article:
+      opacity: 0.14
+      visibility: "very subtle"
+
+  animation:
+
+    enabled: true
+
+    style: "continuous evolving wave propagation"
+
+    speed: "slow"
+
+    loop: true
+
+    avoid:
+      - "Fast flashing"
+      - "Distracting motion"
+      - "Aggressive colour changes"
+      - "Excessive particle effects"
+      - "Generic decorative sine-wave patterns"
+
+  accessibility:
+
+    reduced_motion: true
+
+    static_fallback: true
+
+    preserve_text_contrast: true
+
+    mobile_performance_priority: true
+
+  scientific_accuracy:
+    representation: "Conceptual visual inspiration"
+
+    claim_simulation_results: false
+
+    imply_experimental_validation: false
+
+# ------------------------------------------------------------
+# 7. WEEKLY LITERARY COLLECTION
+# ------------------------------------------------------------
+
+weekly_collection:
+
+  heading: "The Weekly Collection"
+
+  introduction: >-
+    Three literary expressions, three independent explorations
+    and an expanding conversation between culture, humanity
+    and scientific thought.
+
+  entries_per_week: 3
+
+  entries_are_individual_pages: true
+
+  collection_has_own_page: true
+
+  layout: "three-editorial-explorations"
+
+  card_information:
+    - "Article title"
+    - "Author"
+    - "Original language"
+    - "Literary form"
+    - "Short introduction"
+    - "Article link"
+
+  display_latest_collection: true
+
+  archive_enabled: true
+
+  sort_order: "newest-first"
+
+  archive_heading: "Explore Previous Collections"
+
+# ------------------------------------------------------------
+# 8. INDIVIDUAL ARTICLE PRESENTATION
+# ------------------------------------------------------------
+
+article:
+
+  language: "English"
+
+  paragraph_count: 4
+
+  writing_perspective: "First person"
+
+  original_text:
+    enabled: true
+    position: "before-translation"
+    preserve_script: true
+    preserve_line_breaks: true
+
+  translation:
+    enabled: true
+    language: "English"
+    preserve_literary_meaning: true
+
+  transliteration:
+    enabled: true
+    optional: true
+
+  attribution:
+    enabled: true
+    show_author: true
+    show_original_work: true
+    show_language: true
+    show_literary_form: true
+    show_source: true
+
+  reflection:
+    style: "Continuous personal essay"
+
+    voice:
+      - "Calm"
+      - "Mature"
+      - "Human"
+      - "Reflective"
+      - "Intellectually rich"
+      - "Natural"
+      - "Unbiased"
+      - "Non-promotional"
+
+    principles:
+      - "Literary interpretation comes first."
+      - "Personal experiences enter naturally."
+      - "Research connections are intellectually grounded."
+      - "Scientific explanations remain technically responsible."
+      - "No forced analogies."
+      - "No unnecessary technical descriptions."
+      - "No generic motivational writing."
+
+  page_layout: "literary-editorial"
+
+# ------------------------------------------------------------
+# 9. SCIENTIFIC ILLUSTRATION LIBRARY
+# ------------------------------------------------------------
+
+scientific_illustrations:
+
+  enabled: true
+
+  style: "Original scientific-inspired SVG illustrations"
+
+  subjects:
+
+    - id: "nonlinear-propagation"
+      title: "Nonlinear Elastic Wave Propagation"
+      visual: "Distorting and evolving elastic wavefronts"
+
+    - id: "harmonic-generation"
+      title: "Harmonic Generation"
+      visual: "Fundamental frequency and higher harmonics"
+
+    - id: "nonlinear-optics"
+      title: "Nonlinear Optical Phenomena"
+      visual: "Nonlinear polarization and frequency generation"
+
+    - id: "wave-mixing"
+      title: "Nonlinear Wave Mixing"
+      visual: "Interacting waves and generated frequency components"
+
+    - id: "harmonic-scattering"
+      title: "Harmonic Scattering"
+      visual: "Elastic wave interaction with nonlinear inclusions"
+
+    - id: "hysteresis"
+      title: "Rate-Independent Hysteresis"
+      visual: "Path-dependent nonlinear response loops"
+
+    - id: "metamaterials"
+      title: "Mechanical and Phononic Metamaterials"
+      visual: "Engineered structures and controlled wave propagation"
+
+    - id: "inverse-design"
+      title: "Inverse Design"
+      visual: "Target response and corresponding material architecture"
+
+  principles:
+    original_artwork: true
+    copy_stock_scientific_figures: false
+    distinguish_conceptual_from_numerical_results: true
+    use_only_when_editorially_relevant: true
+
+# ------------------------------------------------------------
+# 10. NAVIGATION
+# ------------------------------------------------------------
+
+navigation:
+
+  primary:
+
+    - label: "Home"
+      url: "/"
+
+    - label: "Journal"
+      url: "/archive/"
+
+    - label: "Languages"
+      url: "/languages/"
+
+    - label: "About"
+      url: "/about/"
+
+  footer:
+
+    - label: "Journal Archive"
+      url: "/archive/"
+
+    - label: "Editorial Philosophy"
+      url: "/about/"
+
+    - label: "Research Portfolio"
+      url: "https://sites.google.com/view/pravinkumarghodake"
+
+    - label: "ORCID"
+      url: "https://orcid.org/0000-0002-6755-4003"
+
+# ------------------------------------------------------------
+# 11. AUTHOR PROFILE
+# ------------------------------------------------------------
+
+author:
+
+  name: "Pravinkumar Ramchandra Ghodake"
+
+  display_name: "Pravinkumar Ghodake"
+
+  professional_identity: "Independent Researcher"
+
+  research_affiliation: "Indian Institute of Technology Bombay"
+
+  research_description: >-
+    Theoretical, computational and experimental mechanics,
+    nonlinear ultrasonics, nonlinear elastic waves,
+    mechanical metamaterials and inverse design.
+
+  wider_interests:
+    - "Indian literature"
+    - "Poetry and shayari"
+    - "Philosophy"
+    - "Books"
+    - "Music"
+    - "Cinema"
+    - "Sports"
+    - "Interdisciplinary science"
+
+  orcid: "0000-0002-6755-4003"
+
+  website: "https://sites.google.com/view/pravinkumarghodake"
+
+# ------------------------------------------------------------
+# 12. SOCIAL AND RESEARCH LINKS
+# ------------------------------------------------------------
+
+social:
+
+  github:
+    label: "GitHub"
+    url: "https://github.com/pravinkumar-ghodake"
+
+  orcid:
+    label: "ORCID"
+    url: "https://orcid.org/0000-0002-6755-4003"
+
+  linkedin:
+    label: "LinkedIn"
+    url: "https://www.linkedin.com/in/pravinkumarghodake"
+
+  researchgate:
+    label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Pravinkumar_Ghodake"
+
+  research_portfolio:
+    label: "Research Portfolio"
+    url: "https://sites.google.com/view/pravinkumarghodake"
+
+# ------------------------------------------------------------
+# 13. READING EXPERIENCE
+# ------------------------------------------------------------
+
+reading:
+
+  desktop:
+    comfortable_width: "760px"
+
+  tablet:
+    adaptive_layout: true
+
+  mobile:
+    responsive: true
+    preserve_original_text: true
+
+  accessibility:
+
+    keyboard_navigation: true
+
+    semantic_headings: true
+
+    sufficient_contrast: true
+
+    reduced_motion_support: true
+
+    screen_reader_labels: true
+
+  themes:
+    dark: true
+    light: true
+    default: "dark"
+
+# ------------------------------------------------------------
+# 14. PUBLICATION METADATA
+# ------------------------------------------------------------
+
+metadata:
+
+  publisher: "Verse & Variable"
+
+  publisher_type: "Independent publication"
+
+  default_language: "en"
+
+  canonical_domain: "https://pravinkumar-ghodake.github.io/verse-variable/"
+
+  publication_description: >-
+    An independent Indian literary and scientific journal
+    exploring poetry, shayari, philosophy, human experience
+    and nonlinear science.
+
+  default_image: "/assets/images/social-preview.svg"
+
+  twitter_card: "summary_large_image"
+
+  open_graph: true
+
+  structured_data: true
+
+# ------------------------------------------------------------
+# 15. CONTENT AND EDITORIAL DISCOVERABILITY
+# ------------------------------------------------------------
+
+discoverability:
+
+  sitemap: "/sitemap.xml"
+
+  robots: "/robots.txt"
+
+  rss: "/feed.xml"
+
+  llms: "/llms.txt"
+
+  permanent_article_urls: true
+
+  individual_article_metadata: true
+
+  source_attribution: true
+
+  article_language_metadata: true
+
+# ------------------------------------------------------------
+# END OF GLOBAL SITE CONFIGURATION
+# ============================================================
