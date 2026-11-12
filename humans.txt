@@ -1,0 +1,101 @@
+
+/* TEAM */
+
+Publication: Verse & Variable
+Tagline: A line of verse. A line of inquiry.
+Urdu: لفظ سے لہر تک
+Transliteration: Lafz se Lehar tak
+Meaning: From the word to the wave.
+
+Founder, Author & Editor: Pravinkumar Ghodake
+Editorial Direction: Pravinkumar Ghodake
+
+Author Website:
+https://sites.google.com/view/pravinkumarghodake
+
+/* ABOUT */
+
+Verse & Variable is an independent literary and scientific journal.
+
+The publication explores connections between Indian and South Asian literary traditions, poetry, shayari, philosophy, human experience and scientific thought.
+
+Its editorial approach places literary expression first and welcomes meaningful interdisciplinary reflection.
+
+/* LITERARY SCOPE */
+
+Primary Languages:
+Urdu, Hindi, Marathi, Kannada, Tamil, Malayalam and Telugu.
+
+Literary Forms:
+Ghazal, nazm, shayari, poetry, couplets, philosophical writing, literary passages and song lyrics.
+
+/* SCIENTIFIC INTERESTS */
+
+The scientific perspective includes:
+
+- Nonlinear vibrations
+- Nonlinear elastic waves
+- Nonlinear ultrasonics
+- Harmonic generation and scattering
+- Hysteresis and contact nonlinearity
+- Wave mixing
+- Mechanical and phononic metamaterials
+- Nonlinear optics
+- Inverse problems and inverse design
+- Computational mechanics
+- Physical acoustics
+
+/* DESIGN PHILOSOPHY */
+
+Visual Direction:
+A meeting of literary atmosphere and scientific complexity.
+
+Visual Identity:
+Continuous, flowing scientific forms inspired by nonlinear elastic wave propagation.
+
+Editorial Character:
+Quiet, thoughtful, intellectually curious and culturally attentive.
+
+Typography:
+Designed to accommodate English and multiple Indian scripts, including Urdu right-to-left typography.
+
+/* TECHNICAL INFORMATION */
+
+Platform: GitHub Pages
+Repository:
+https://github.com/pravinkumar-ghodake/verse-variable
+
+Website:
+https://pravinkumar-ghodake.github.io/verse-variable/
+
+Framework: Jekyll
+Markup: HTML, Markdown, Liquid and XML
+Styling: CSS
+Interactive Elements: JavaScript
+Publication Feed: RSS 2.0
+Discovery Resources: XML Sitemap, llms.txt and llms-full.txt
+
+/* CONTENT PRINCIPLES */
+
+Original literary authorship must be distinguished from performance and interpretation.
+
+Scientific analogies must not be presented as scientific evidence.
+
+Original commentary must be distinguished from third-party literary material.
+
+Cultural and linguistic traditions must be treated with respect.
+
+/* COPYRIGHT */
+
+Original editorial writing, publication design and original visual identity belong to their respective creators and rights holders.
+
+Third-party literary and musical works remain subject to their original copyright and applicable permissions.
+
+/* LAST NOTE */
+
+A line of verse.
+A line of inquiry.
+
+لفظ سے لہر تک
+
+From the word to the wave.
