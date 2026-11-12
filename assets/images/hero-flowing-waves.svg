@@ -1,0 +1,484 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1600 900"
+     fill="none"
+     role="img"
+     aria-labelledby="title description">
+
+  <title id="title">Verse & Variable — Flowing Waves</title>
+  <desc id="description">
+    Abstract luminous flowing wave contours in cobalt,
+    electric blue, cyan and violet against a midnight
+    navy background.
+  </desc>
+
+  <defs>
+    <!-- Deep atmospheric background -->
+    <linearGradient id="background"
+      x1="0" y1="0" x2="1600" y2="900"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080D22"/>
+      <stop offset=".48" stop-color="#101A35"/>
+      <stop offset="1" stop-color="#070D24"/>
+    </linearGradient>
+
+    <!-- Blue to cyan spectrum -->
+    <linearGradient id="blue-flow"
+      x1="80" y1="700" x2="1500" y2="150"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#263FC0"/>
+      <stop offset=".25" stop-color="#356FE8"/>
+      <stop offset=".52" stop-color="#20B9E9"/>
+      <stop offset=".76" stop-color="#45D6D0"/>
+      <stop offset="1" stop-color="#6870E9"/>
+    </linearGradient>
+
+    <!-- Violet spectrum -->
+    <linearGradient id="violet-flow"
+      x1="200" y1="800" x2="1450" y2="100"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2147B9"/>
+      <stop offset=".30" stop-color="#526AF1"/>
+      <stop offset=".58" stop-color="#9560E8"/>
+      <stop offset=".82" stop-color="#C45ACB"/>
+      <stop offset="1" stop-color="#42B9E8"/>
+    </linearGradient>
+
+    <!-- Cyan spectrum -->
+    <linearGradient id="cyan-flow"
+      x1="200" y1="200" x2="1500" y2="750"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3E54D5"/>
+      <stop offset=".30" stop-color="#247CE7"/>
+      <stop offset=".58" stop-color="#1BC9E7"/>
+      <stop offset=".82" stop-color="#42D8D0"/>
+      <stop offset="1" stop-color="#5274E8"/>
+    </linearGradient>
+
+    <!-- Atmospheric light -->
+    <radialGradient id="blue-atmosphere">
+      <stop stop-color="#2449AC" stop-opacity=".32"/>
+      <stop offset=".55" stop-color="#203A87"
+            stop-opacity=".13"/>
+      <stop offset="1" stop-color="#101A35"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cyan-atmosphere">
+      <stop stop-color="#16BBD8" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#16BBD8"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="violet-atmosphere">
+      <stop stop-color="#8755DB" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#8755DB"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Glow effects -->
+    <filter id="wide-glow"
+      x="-60%" y="-100%"
+      width="220%" height="300%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+
+    <filter id="soft-glow"
+      x="-40%" y="-80%"
+      width="180%" height="260%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+
+    <filter id="fine-glow"
+      x="-30%" y="-80%"
+      width="160%" height="260%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <clipPath id="frame">
+      <rect width="1600" height="900"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+
+    <!-- Background -->
+    <rect width="1600" height="900"
+          fill="url(#background)"/>
+
+    <!-- Atmospheric illumination -->
+    <ellipse cx="850" cy="440"
+             rx="850" ry="620"
+             fill="url(#blue-atmosphere)"/>
+
+    <ellipse cx="1170" cy="410"
+             rx="550" ry="480"
+             fill="url(#cyan-atmosphere)"/>
+
+    <ellipse cx="900" cy="740"
+             rx="600" ry="330"
+             fill="url(#violet-atmosphere)"/>
+
+
+    <!-- Broad luminous flowing ribbons -->
+
+    <g fill="none" stroke-linecap="round">
+
+      <path d="
+        M-120 640
+        C120 555 240 430 410 475
+        C580 520 565 755 790 695
+        C1000 638 1010 290 1240 252
+        C1430 220 1510 410 1720 310"
+        stroke="url(#blue-flow)"
+        stroke-width="65"
+        opacity=".23"
+        filter="url(#wide-glow)"/>
+
+      <path d="
+        M-120 700
+        C120 600 260 480 420 530
+        C590 585 600 800 820 745
+        C1035 690 1045 370 1260 330
+        C1460 290 1540 475 1720 370"
+        stroke="url(#violet-flow)"
+        stroke-width="52"
+        opacity=".22"
+        filter="url(#wide-glow)"/>
+
+      <path d="
+        M-120 565
+        C120 490 260 360 420 402
+        C590 445 585 670 800 620
+        C1010 570 1020 230 1240 190
+        C1440 150 1535 340 1720 240"
+        stroke="url(#cyan-flow)"
+        stroke-width="46"
+        opacity=".22"
+        filter="url(#wide-glow)"/>
+
+      <path d="
+        M-120 780
+        C150 690 275 555 450 605
+        C635 657 625 850 855 805
+        C1080 760 1100 470 1300 420
+        C1490 375 1550 535 1720 450"
+        stroke="url(#blue-flow)"
+        stroke-width="38"
+        opacity=".18"
+        filter="url(#wide-glow)"/>
+
+    </g>
+
+
+    <!-- Main flowing contour families -->
+
+    <g fill="none"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+
+      <path d="
+        M-100 640
+        C120 555 240 430 410 475
+        C580 520 565 755 790 695
+        C1000 638 1010 290 1240 252
+        C1430 220 1510 410 1720 310"
+        stroke="url(#blue-flow)"
+        stroke-width="3.6"
+        opacity=".96"/>
+
+      <path d="
+        M-100 660
+        C125 578 250 455 415 498
+        C585 542 580 775 800 718
+        C1010 665 1030 315 1250 275
+        C1445 240 1525 430 1720 330"
+        stroke="url(#cyan-flow)"
+        stroke-width="2.6"
+        opacity=".83"/>
+
+      <path d="
+        M-100 620
+        C120 530 245 410 400 450
+        C570 490 548 730 778 670
+        C982 615 990 270 1230 225
+        C1415 190 1500 385 1720 285"
+        stroke="url(#violet-flow)"
+        stroke-width="2.4"
+        opacity=".84"/>
+
+      <path d="
+        M-100 700
+        C130 610 260 490 430 535
+        C605 580 600 810 825 755
+        C1040 700 1050 375 1270 340
+        C1460 310 1545 485 1720 390"
+        stroke="url(#blue-flow)"
+        stroke-width="2.5"
+        opacity=".83"/>
+
+      <path d="
+        M-100 580
+        C115 495 240 365 390 415
+        C555 460 550 685 775 625
+        C980 570 980 240 1215 200
+        C1410 165 1490 355 1720 250"
+        stroke="url(#cyan-flow)"
+        stroke-width="2"
+        opacity=".74"/>
+
+      <path d="
+        M-100 735
+        C140 640 285 525 455 565
+        C635 610 630 830 855 785
+        C1070 740 1090 440 1290 390
+        C1480 345 1560 510 1720 420"
+        stroke="url(#violet-flow)"
+        stroke-width="2"
+        opacity=".75"/>
+
+      <path d="
+        M-100 755
+        C150 665 300 550 465 590
+        C645 635 650 850 870 810
+        C1090 770 1110 475 1310 425
+        C1500 380 1570 545 1720 450"
+        stroke="url(#cyan-flow)"
+        stroke-width="1.7"
+        opacity=".65"/>
+
+      <path d="
+        M-100 540
+        C100 460 220 325 375 375
+        C545 430 530 645 755 580
+        C970 520 955 205 1195 155
+        C1395 115 1470 325 1720 205"
+        stroke="url(#blue-flow)"
+        stroke-width="1.8"
+        opacity=".69"/>
+
+      <path d="
+        M-100 790
+        C165 700 315 590 480 625
+        C665 665 680 870 895 830
+        C1110 790 1140 510 1330 465
+        C1515 425 1590 585 1720 490"
+        stroke="url(#violet-flow)"
+        stroke-width="1.6"
+        opacity=".58"/>
+
+    </g>
+
+
+    <!-- Fine parallel filaments -->
+
+    <g fill="none"
+       stroke-linecap="round"
+       opacity=".52">
+
+      <path d="
+        M-100 600
+        C115 515 230 388 392 430
+        C565 475 560 705 780 646
+        C984 593 990 257 1225 210
+        C1414 173 1495 373 1720 270"
+        stroke="#78A8FF"
+        stroke-width="1.1"/>
+
+      <path d="
+        M-100 680
+        C130 590 245 468 415 510
+        C590 553 590 790 810 735
+        C1025 680 1035 340 1260 300
+        C1450 266 1530 450 1720 355"
+        stroke="#54D5EE"
+        stroke-width="1.1"/>
+
+      <path d="
+        M-100 720
+        C130 630 275 515 438 550
+        C625 595 615 820 835 768
+        C1050 715 1060 400 1280 365
+        C1470 330 1550 500 1720 405"
+        stroke="#AA91F2"
+        stroke-width="1"/>
+
+      <path d="
+        M-100 560
+        C110 475 230 345 380 390
+        C548 440 540 665 765 605
+        C970 550 970 220 1210 170
+        C1400 130 1480 340 1720 225"
+        stroke="#43CBEA"
+        stroke-width="1"/>
+
+      <path d="
+        M-100 765
+        C155 675 300 565 472 608
+        C650 650 670 860 885 820
+        C1100 780 1120 485 1320 440
+        C1500 400 1580 560 1720 465"
+        stroke="#6E85FF"
+        stroke-width="1"/>
+
+      <path d="
+        M-100 815
+        C165 730 330 620 495 657
+        C680 700 700 900 920 860
+        C1140 820 1160 545 1350 500
+        C1530 460 1600 610 1720 520"
+        stroke="#35B9DB"
+        stroke-width="1"/>
+
+    </g>
+
+
+    <!-- Upper flowing contours -->
+
+    <g fill="none"
+       stroke-linecap="round">
+
+      <path d="
+        M-100 150
+        C140 210 250 65 450 95
+        C635 125 660 280 845 260
+        C1045 240 1110 55 1320 65
+        C1470 75 1550 190 1720 115"
+        stroke="url(#blue-flow)"
+        stroke-width="2.5"
+        opacity=".57"/>
+
+      <path d="
+        M-100 190
+        C150 245 270 105 465 130
+        C650 155 680 310 865 295
+        C1060 280 1130 95 1335 100
+        C1485 105 1570 225 1720 155"
+        stroke="url(#violet-flow)"
+        stroke-width="2"
+        opacity=".53"/>
+
+      <path d="
+        M-100 230
+        C155 280 285 150 475 170
+        C660 190 700 340 885 330
+        C1075 320 1155 140 1350 140
+        C1500 140 1590 255 1720 200"
+        stroke="url(#cyan-flow)"
+        stroke-width="1.7"
+        opacity=".45"/>
+
+      <path d="
+        M-100 100
+        C155 160 250 20 455 50
+        C650 80 665 230 850 220
+        C1045 210 1100 20 1310 25
+        C1490 30 1580 140 1720 65"
+        stroke="url(#cyan-flow)"
+        stroke-width="1.7"
+        opacity=".42"/>
+
+    </g>
+
+
+    <!-- Lower flowing contours -->
+
+    <g fill="none"
+       stroke-linecap="round">
+
+      <path d="
+        M-100 850
+        C190 755 325 830 510 875
+        C720 928 910 810 1090 790
+        C1300 765 1450 840 1720 720"
+        stroke="url(#blue-flow)"
+        stroke-width="2.3"
+        opacity=".57"/>
+
+      <path d="
+        M-100 885
+        C190 795 340 870 525 915
+        C735 968 940 850 1110 835
+        C1320 810 1470 875 1720 770"
+        stroke="url(#cyan-flow)"
+        stroke-width="1.8"
+        opacity=".44"/>
+
+      <path d="
+        M-100 825
+        C170 725 310 795 495 835
+        C700 880 900 775 1080 755
+        C1290 735 1450 805 1720 675"
+        stroke="url(#violet-flow)"
+        stroke-width="1.6"
+        opacity=".45"/>
+
+    </g>
+
+
+    <!-- Soft luminous highlights -->
+
+    <g fill="none" stroke-linecap="round">
+
+      <path d="
+        M-100 640
+        C120 555 240 430 410 475
+        C580 520 565 755 790 695
+        C1000 638 1010 290 1240 252
+        C1430 220 1510 410 1720 310"
+        stroke="#B8F1FF"
+        stroke-width="1.5"
+        opacity=".65"
+        filter="url(#fine-glow)"/>
+
+      <path d="
+        M-100 580
+        C115 495 240 365 390 415
+        C555 460 550 685 775 625
+        C980 570 980 240 1215 200
+        C1410 165 1490 355 1720 250"
+        stroke="#B8D9FF"
+        stroke-width="1.3"
+        opacity=".61"
+        filter="url(#fine-glow)"/>
+
+      <path d="
+        M-100 735
+        C140 640 285 525 455 565
+        C635 610 630 830 855 785
+        C1070 740 1090 440 1290 390
+        C1480 345 1560 510 1720 420"
+        stroke="#D7C5FF"
+        stroke-width="1.3"
+        opacity=".57"
+        filter="url(#fine-glow)"/>
+
+    </g>
+
+
+    <!-- Subtle luminous details -->
+
+    <g fill="#D8F4FF">
+      <circle cx="410" cy="475" r="2"
+              opacity=".65"/>
+      <circle cx="790" cy="695" r="2.7"
+              opacity=".7"/>
+      <circle cx="1240" cy="252" r="2.2"
+              opacity=".65"/>
+      <circle cx="1290" cy="390" r="2"
+              opacity=".55"/>
+    </g>
+
+    <!-- Subtle vignette -->
+    <radialGradient id="vignette">
+      <stop offset=".48" stop-color="#080D22"
+            stop-opacity="0"/>
+      <stop offset="1" stop-color="#050A1C"
+            stop-opacity=".40"/>
+    </radialGradient>
+
+    <rect width="1600" height="900"
+          fill="url(#vignette)"/>
+
+  </g>
+</svg>
