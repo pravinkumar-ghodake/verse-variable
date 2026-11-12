@@ -1,0 +1,132 @@
+
+# Verse & Variable
+
+> A line of verse. A line of inquiry.
+>
+> لفظ سے لہر تک
+>
+> *Lafz se Lehar tak — From the word to the wave.*
+
+## About the Publication
+
+Verse & Variable is an independent literary and scientific journal founded and edited by Pravinkumar Ghodake.
+
+The publication explores the meeting points between literature, poetry, shayari, philosophy, human experience and scientific thought.
+
+It approaches literary expression as something that can be appreciated in its own cultural, linguistic, emotional and philosophical context, while also allowing thoughtful connections with ideas from mathematics, mechanics, physics and the natural sciences.
+
+The publication is rooted in the literary traditions of India and the wider South Asian cultural landscape.
+
+It is an evolving archive of literary interpretation and interdisciplinary inquiry.
+
+## Editorial Philosophy
+
+Literature comes first.
+
+Every poem, couplet, lyric or literary passage deserves to be understood in its original language, cultural setting, emotional register and philosophical depth.
+
+Scientific ideas are introduced only when they offer a meaningful perspective. Literary expression is never reduced to a scientific illustration, and scientific concepts are never forced into an interpretation merely to create an analogy.
+
+The objective is thoughtful reading, intellectual curiosity and a genuine dialogue between different forms of human understanding.
+
+## Languages and Literary Traditions
+
+The publication engages with literary traditions across the following languages:
+
+- Urdu
+- Hindi
+- Marathi
+- Kannada
+- Tamil
+- Malayalam
+- Telugu
+
+It also welcomes meaningful engagement with other Indian and South Asian literary traditions.
+
+Original literary expressions are retained in their original scripts wherever possible. English translations and transliterations are provided when appropriate.
+
+## Literary Scope
+
+The archive may include:
+
+- Ghazals and shayari
+- Poetry and couplets
+- Literary passages
+- Philosophical reflections
+- Song lyrics and musical poetry
+- Contemporary and classical literary expressions
+- Regional literary traditions
+- Reflections on language, memory, identity, relationships and human experience
+
+Literary authors, lyricists, composers and performers are credited according to their respective contributions.
+
+## Scientific and Intellectual Scope
+
+The scientific perspective draws on interdisciplinary interests including:
+
+- Nonlinear vibrations and nonlinear waves
+- Nonlinear elastic wave propagation
+- Nonlinear ultrasonics
+- Harmonic generation and scattering
+- Hysteresis and contact nonlinearity
+- Wave mixing and nonlinear interactions
+- Mechanical and phononic metamaterials
+- Nonlinear optics and time-varying systems
+- Inverse problems and inverse design
+- Computational mechanics and physical acoustics
+
+These subjects provide possible intellectual connections, not compulsory themes for every literary exploration.
+
+## Publication Structure
+
+The journal follows a weekly collection format.
+
+Each weekly collection brings together three independent literary explorations.
+
+Every exploration has its own permanent article page and examines a selected literary expression through:
+
+1. The original literary expression and its attribution.
+2. An English translation or interpretation, where appropriate.
+3. A reflection on its literary, emotional and philosophical dimensions.
+4. A considered interdisciplinary perspective when a genuine connection exists.
+
+The articles are written in English, while original expressions retain their original language and script.
+
+## Author and Editor
+
+**Pravinkumar Ghodake**
+
+Independent researcher and author working across theoretical, computational and experimental mechanics, nonlinear waves and metamaterials.
+
+Website:
+https://sites.google.com/view/pravinkumarghodake
+
+## Primary Resources
+
+- [Publication homepage](https://pravinkumar-ghodake.github.io/verse-variable/)
+- [About the journal](https://pravinkumar-ghodake.github.io/verse-variable/about/)
+- [Language traditions](https://pravinkumar-ghodake.github.io/verse-variable/languages/)
+- [Literary archive](https://pravinkumar-ghodake.github.io/verse-variable/archive/)
+- [RSS publication feed](https://pravinkumar-ghodake.github.io/verse-variable/feed.xml)
+- [XML sitemap](https://pravinkumar-ghodake.github.io/verse-variable/sitemap.xml)
+- [Repository and source files](https://github.com/pravinkumar-ghodake/verse-variable)
+
+## Reading and Attribution
+
+When referring to a literary work, preserve the distinction between the original author, lyricist, composer, performer and translator.
+
+Do not attribute a literary expression to a performer merely because that performer popularised or recorded it.
+
+Preserve original-language wording and acknowledge translations and adaptations where their sources are known.
+
+When discussing the journal's scientific connections, distinguish established scientific findings from interpretation, analogy, hypothesis and personal reflection.
+
+## Content and Use
+
+Verse & Variable is an independent editorial publication.
+
+Its original commentary, reflections, editorial material and original visual identity should be distinguished from the literary works and other third-party material discussed within it.
+
+Respect applicable copyright, attribution requirements and the rights of original creators.
+
+The publication is intended to encourage careful reading, cultural appreciation and interdisciplinary intellectual exploration.
