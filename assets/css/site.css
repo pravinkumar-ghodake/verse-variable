@@ -3419,13 +3419,25 @@ button {
 
 
 
+
 /* ============================================================
-   GLOBAL PARAGRAPH TYPOGRAPHY — JUSTIFIED ALIGNMENT
+   GLOBAL PARAGRAPH TYPOGRAPHY — REFINED JUSTIFICATION
    ============================================================ */
 
 p {
   text-align: justify;
-  text-justify: inter-word;
+  text-justify: auto;
   text-align-last: start;
+
+  /* Prefer natural word boundaries */
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: manual;
+
+  /* Improve paragraph line-breaking */
+  text-wrap: pretty;
+
+  letter-spacing: normal;
+  word-spacing: normal;
 }
 
