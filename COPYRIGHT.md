@@ -6,52 +6,60 @@
 **Website:** https://pravinkumar-ghodake.github.io/verse-variable/  
 **Repository:** https://github.com/pravinkumar-ghodake/verse-variable/
 
-Copyright © 2026 Pravinkumar Ghodake. All rights reserved, except where otherwise stated.
+Copyright © 2026 Pravinkumar Ghodake. All rights reserved, except where otherwise licensed or permitted.
 
-## 1. Original Editorial Content
+## 1. Repository Licence
 
-Unless explicitly attributed to another creator, the following original material published by Verse & Variable is protected by applicable copyright laws:
+This repository includes the MIT License.
 
-- Original literary commentary and reflections.
-- Original essays and editorial writing.
-- Original interpretations and explanatory material.
-- Original translations, where independently created.
-- Original publication descriptions and editorial documentation.
-- Original research-oriented explanations and scientific discussions.
+The MIT License applies to material covered by that licence, subject to its terms and the rights of third-party materials.
 
-Public accessibility does not, by itself, grant permission to reproduce, republish, distribute, modify or commercially exploit this material.
+The existence of an MIT License does not establish that every literary work, photograph, recording, font, illustration or other third-party asset in the repository is owned by the publication or available for unrestricted reuse.
 
-## 2. Website Design and Visual Identity
+Where a particular file or asset has a separate licence or rights notice, that notice must be considered independently.
 
-The publication's original visual identity and creative design elements are reserved to their respective rights holders.
+## 2. Original Editorial Content
 
-These may include:
+Original editorial material created for Verse & Variable includes:
 
-- Original visual compositions and graphics.
-- Publication branding and presentation.
-- Original illustrations and visual artwork.
-- Original page designs and creative layouts.
-- Other independently created visual elements.
+- Literary commentary and reflections.
+- Original essays and explanatory writing.
+- Original philosophical discussions.
+- Original scientific interpretations and discussions.
+- Independently created translations.
+- Original editorial documentation.
 
-Names, marks and branding should not be reproduced in a manner that suggests an unauthorised affiliation or endorsement.
+Such material remains subject to the rights of its respective creators and any applicable licence explicitly covering it.
 
-## 3. Software and Source Code
+Public accessibility does not, by itself, establish permission to reproduce or commercially exploit material outside the scope of its applicable licence.
 
-The website contains source code, including HTML, CSS, JavaScript, Liquid templates and configuration files.
+## 3. Website Design and Visual Identity
 
-Unless a separate licence is expressly provided, no general open-source licence is granted for the original code in this repository.
+Original branding, visual artwork, illustrations and creative design elements remain subject to the rights of their respective creators and any applicable licences.
 
-The presence of publicly accessible source code does not constitute a blanket permission to redistribute, modify, commercially exploit or incorporate it into other projects.
+These include:
 
-Third-party libraries, fonts, frameworks and software components remain subject to their respective licences.
+- Original visual compositions.
+- Publication branding.
+- Original illustrations.
+- Independently created artwork.
+- Other separately licensed visual assets.
 
-## 4. Literary and Musical Works by Third Parties
+The use of third-party fonts, libraries and design resources remains subject to their respective licences.
+
+## 4. Source Code
+
+The website contains HTML, CSS, JavaScript, Liquid templates, configuration files and related technical material.
+
+Source code covered by the repository's MIT License may be used in accordance with the MIT License.
+
+Third-party dependencies and components remain subject to their respective licences.
+
+## 5. Third-Party Literary and Musical Works
 
 Verse & Variable may discuss, quote, interpret or refer to literary and musical works created by other authors and artists.
 
-Such works are not claimed as the intellectual property of this publication.
-
-Their original creators and rights holders retain their respective rights.
+These works are not claimed as the intellectual property of the publication.
 
 This includes:
 
@@ -59,20 +67,22 @@ This includes:
 - Shayari and couplets.
 - Song lyrics.
 - Literary passages.
-- Translations and adaptations created by others.
+- Translations and adaptations by other creators.
 - Musical compositions and recordings.
+
+The original authors and rights holders retain their respective rights.
 
 Attribution does not automatically establish permission to reproduce copyrighted material.
 
-Where required, appropriate permissions must be obtained from the relevant rights holders.
+Where required, appropriate permissions must be obtained.
 
-## 5. Attribution and Academic Reference
+## 6. Attribution and Academic Reference
 
-Readers, researchers, educators and writers may refer to the publication and cite its articles in accordance with applicable law and scholarly conventions.
+Readers, researchers, educators and writers are welcome to refer to and cite Verse & Variable in accordance with applicable law and the relevant licence terms.
 
-A citation or reference should identify:
+References should identify:
 
-- The publication, Verse & Variable.
+- The publication.
 - The relevant article or collection.
 - The author or editor, where appropriate.
 - The permanent article URL.
@@ -80,37 +90,27 @@ A citation or reference should identify:
 
 Short quotations may be used where permitted by applicable copyright exceptions and limitations, with appropriate attribution.
 
-## 6. No Blanket Licence
+## 7. No Implied Transfer of Rights
 
-Unless an individual page, file or asset explicitly states otherwise:
+Nothing in this notice should be interpreted as:
 
-- No Creative Commons licence is granted.
-- No general open-source software licence is granted.
-- No commercial reuse permission is implied.
-- No permission to reproduce entire articles or collections is implied.
-- No transfer of ownership is implied by public access.
+- A transfer of ownership of third-party literary works.
+- A waiver of rights belonging to original creators.
+- Permission to reproduce material beyond its applicable licence.
+- A blanket licence for separately restricted images, recordings or other assets.
+- An extension of the MIT License to material expressly excluded from it.
 
-Separate written permission may be required for uses beyond applicable legal exceptions.
+## 8. Permissions and Enquiries
 
-## 7. Third-Party Components
-
-The website may use third-party technologies, fonts, libraries, services and other components.
-
-Their respective ownership and licensing conditions remain unaffected by this notice.
-
-This notice applies only to material for which the publication or its creator holds the relevant rights.
-
-## 8. Contact and Permissions
-
-For questions concerning reproduction, republication, licensing or other proposed uses of original publication material, please contact the author through the official website:
+For enquiries concerning original editorial material, reproduction, republication or other proposed uses, please contact the publication's founder through:
 
 https://sites.google.com/view/pravinkumarghodake
 
-## 9. Scope
+## 9. Scope and Interpretation
 
-This notice is intended to communicate the publication's intellectual property position.
+This notice should be read together with the repository's LICENSE file and any applicable individual file or asset licences.
 
-It does not override applicable statutory copyright exceptions, third-party rights, existing licences or mandatory legal requirements.
+It does not override applicable copyright exceptions, third-party rights, contractual permissions or mandatory legal requirements.
 
 ---
 
