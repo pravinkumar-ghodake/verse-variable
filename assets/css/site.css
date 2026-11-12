@@ -3246,3 +3246,73 @@ button {
   }
 }
 
+
+
+/* ============================================================
+   LITERARY METADATA COMPONENT
+   ============================================================ */
+
+.literary-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 9px 13px;
+
+  margin-top: 24px;
+
+  color: var(--ink-muted);
+  font-family: var(--font-interface);
+  font-size: 0.77rem;
+  line-height: 1.8;
+}
+
+.metadata-item {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.metadata-label {
+  color: var(--ink-faint);
+  font-size: 0.68rem;
+}
+
+.metadata-value {
+  color: var(--ink-primary);
+  font-weight: 500;
+}
+
+.metadata-value cite {
+  font-family: var(--font-reading);
+  font-weight: 400;
+}
+
+.metadata-separator {
+  color: var(--literary-coral);
+}
+
+.metadata-attribution-note {
+  margin-top: 15px;
+  padding: 13px 16px;
+
+  border-left: 2px solid var(--spectrum-gold);
+  background: var(--bg-card);
+
+  border-radius: 0 5px 5px 0;
+}
+
+.metadata-attribution-status {
+  color: var(--spectrum-gold);
+  font-size: 0.73rem;
+  font-weight: 600;
+}
+
+.metadata-attribution-note p {
+  margin: 6px 0 0;
+
+  color: var(--ink-muted);
+  font-family: var(--font-reading);
+  font-size: 0.79rem;
+  line-height: 1.8;
+}
