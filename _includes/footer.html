@@ -1,0 +1,348 @@
+
+<!-- ============================================================
+     VERSE & VARIABLE
+     Shared Website Footer
+
+     Publication identity
+     Urdu tagline
+     Journal navigation
+     Multilingual collection
+     Author and research links
+     Copyright information
+
+     ============================================================ -->
+
+<footer class="site-footer" id="site-footer">
+
+  <div class="container">
+
+
+    <!-- ======================================================
+         01. MAIN FOOTER
+         ====================================================== -->
+
+    <div class="footer-main">
+
+
+      <!-- ==================================================
+           PUBLICATION IDENTITY
+           ================================================== -->
+
+      <section class="footer-column footer-publication">
+
+        <a
+          href="{{ '/' | relative_url }}"
+          class="footer-brand"
+          aria-label="Verse and Variable homepage"
+        >
+
+          VERSE
+          <span class="brand-ampersand">&amp;</span>
+          VARIABLE
+
+        </a>
+
+
+        <span
+          class="footer-tagline"
+          lang="ur"
+          dir="rtl"
+        >
+
+          لفظ سے لہر تک
+
+        </span>
+
+
+        <p class="footer-description">
+
+          A line of verse. A line of inquiry.
+
+          An independent exploration of Indian literature,
+          shayari, poetry, human experience, philosophical
+          thought and nonlinear science.
+
+        </p>
+
+
+        <div class="footer-publication-details">
+
+          <span class="footer-heading">
+            AN INDEPENDENT JOURNAL
+          </span>
+
+          <span class="footer-description">
+
+            Literature · Humanity · Science
+
+          </span>
+
+        </div>
+
+      </section>
+
+
+      <!-- ==================================================
+           JOURNAL NAVIGATION
+           ================================================== -->
+
+      <nav
+        class="footer-column"
+        aria-label="Journal navigation"
+      >
+
+        <h2 class="footer-heading">
+          EXPLORE
+        </h2>
+
+
+        <div class="footer-links">
+
+          <a href="{{ '/' | relative_url }}">
+            Homepage
+          </a>
+
+          <a href="{{ '/archive/' | relative_url }}">
+            Literary Archive
+          </a>
+
+          <a href="{{ '/about/' | relative_url }}">
+            About the Journal
+          </a>
+
+          <a href="{{ '/languages/' | relative_url }}">
+            Language Collections
+          </a>
+
+          <a href="{{ '/feed.xml' | relative_url }}">
+            RSS Feed
+          </a>
+
+        </div>
+
+      </nav>
+
+
+      <!-- ==================================================
+           AUTHOR AND RESEARCH IDENTITY
+           ================================================== -->
+
+      <section class="footer-column">
+
+        <h2 class="footer-heading">
+          AUTHOR &amp; RESEARCH
+        </h2>
+
+
+        <div class="footer-links">
+
+          <a
+            href="{{ site.author.url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Personal Research Portfolio
+          </a>
+
+
+          <a
+            href="https://orcid.org/0000-0002-6755-4003"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ORCID Research Identity
+          </a>
+
+
+          <a
+            href="https://github.com/pravinkumar-ghodake"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+
+          <a
+            href="https://www.linkedin.com/in/pravinkumarghodake"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+
+          <a
+            href="https://www.researchgate.net/profile/Pravinkumar_Ghodake"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ResearchGate
+          </a>
+
+        </div>
+
+      </section>
+
+
+    </div>
+
+
+    <!-- ======================================================
+         02. LANGUAGE SIGNATURE
+         ====================================================== -->
+
+    <div class="footer-language-strip">
+
+      <span class="footer-language-label">
+        LITERARY TRADITIONS
+      </span>
+
+
+      <div class="footer-language-list">
+
+        {% for language in site.data.languages.languages %}
+
+          <span class="footer-language-item">
+
+            {{ language.name }}
+
+          </span>
+
+          {% unless forloop.last %}
+
+            <span
+              class="footer-language-separator"
+              aria-hidden="true"
+            >
+              ·
+            </span>
+
+          {% endunless %}
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+
+    <!-- ======================================================
+         03. PUBLICATION COLOPHON
+         ====================================================== -->
+
+    <div class="footer-colophon">
+
+      <div class="footer-colophon-mark" aria-hidden="true">
+
+        <svg
+          viewBox="0 0 70 28"
+          width="70"
+          height="28"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+
+          <path
+            d="M2 9 C12 9 13 21 25 21 C37 21 39 5 55 5"
+            stroke="#5475CE"
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+
+          <path
+            d="M2 15 C12 15 14 25 27 25 C41 25 44 11 57 11"
+            stroke="#25A6A0"
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+
+          <path
+            d="M2 21 C13 21 15 28 28 28 C43 28 48 17 61 17"
+            stroke="#E36D54"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            opacity="0.9"
+          />
+
+          <circle
+            cx="62"
+            cy="17"
+            r="2"
+            fill="#D5AA61"
+          />
+
+        </svg>
+
+      </div>
+
+
+      <p class="footer-colophon-text">
+
+        Words travel through cultures.
+        Waves travel through matter.
+        Both invite us to look beyond the surface.
+
+      </p>
+
+    </div>
+
+
+    <!-- ======================================================
+         04. COPYRIGHT AND FINAL LINKS
+         ====================================================== -->
+
+    <div class="footer-bottom">
+
+
+      <div class="footer-copyright">
+
+        © <span data-current-year>2026</span>
+
+        <span class="footer-copyright-author">
+          Pravinkumar Ramchandra Ghodake
+        </span>
+
+        <span class="footer-copyright-separator">
+          ·
+        </span>
+
+        Verse &amp; Variable.
+
+      </div>
+
+
+      <div class="footer-bottom-links">
+
+        <a href="{{ '/about/' | relative_url }}">
+          Editorial Philosophy
+        </a>
+
+        <a
+          href="https://orcid.org/0000-0002-6755-4003"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ORCID
+        </a>
+
+        <a
+          href="{{ '/sitemap.xml' | relative_url }}"
+        >
+          Sitemap
+        </a>
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+</footer>
+
+
+<!-- ============================================================
+     END OF SHARED PUBLICATION FOOTER
+     ============================================================ -->
