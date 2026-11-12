@@ -1,0 +1,251 @@
+
+# ============================================================
+# VERSE & VARIABLE
+# A line of verse. A line of inquiry.
+# Lafz se Lehar tak — From the word to the wave.
+# ============================================================
+
+# ------------------------------------------------------------
+# 1. PUBLICATION IDENTITY
+# ------------------------------------------------------------
+
+title: "Verse & Variable"
+
+tagline: "Lafz se Lehar tak — From the word to the wave."
+
+description: >-
+  An independent Indian literary and scientific journal exploring
+  shayari, poetry, multilingual literature, philosophy, human
+  experience and nonlinear science, from the expressive power
+  of words to the dynamics of waves.
+
+author:
+  name: "Pravinkumar Ramchandra Ghodake"
+  short_name: "Pravinkumar Ghodake"
+  url: "https://sites.google.com/view/pravinkumarghodake"
+  orcid: "0000-0002-6755-4003"
+  github: "pravinkumar-ghodake"
+
+repository: "pravinkumar-ghodake/verse-variable"
+
+# ------------------------------------------------------------
+# 2. WEBSITE ADDRESS
+# ------------------------------------------------------------
+
+url: "https://pravinkumar-ghodake.github.io"
+
+baseurl: "/verse-variable"
+
+# ------------------------------------------------------------
+# 3. LANGUAGE AND ENCODING
+# ------------------------------------------------------------
+
+lang: "en"
+
+encoding: "utf-8"
+
+timezone: "Asia/Kolkata"
+
+# English is the publication language.
+# Original literary expressions retain their own scripts.
+
+publication:
+  language: "English"
+
+  tagline_original: "لفظ سے لہر تک"
+
+  tagline_transliteration: "Lafz se Lehar tak"
+
+  tagline_translation: "From the word to the wave"
+
+  entries_per_week: 3
+
+  paragraphs_per_entry: 4
+
+  publishing_frequency: "weekly"
+
+  original_languages:
+    - name: "Hindi"
+      code: "hi"
+      script: "Devanagari"
+
+    - name: "Urdu"
+      code: "ur"
+      script: "Nastaliq"
+
+    - name: "Marathi"
+      code: "mr"
+      script: "Devanagari"
+
+    - name: "Kannada"
+      code: "kn"
+      script: "Kannada"
+
+    - name: "Tamil"
+      code: "ta"
+      script: "Tamil"
+
+    - name: "Malayalam"
+      code: "ml"
+      script: "Malayalam"
+
+    - name: "Telugu"
+      code: "te"
+      script: "Telugu"
+
+# ------------------------------------------------------------
+# 4. JEKYLL COLLECTIONS
+# ------------------------------------------------------------
+
+collections:
+  entries:
+    output: true
+    permalink: "/entries/:path/"
+    sort_by: date
+
+  weeks:
+    output: true
+    permalink: "/weeks/:name/"
+    sort_by: date
+
+# ------------------------------------------------------------
+# 5. DEFAULT PAGE CONFIGURATION
+# ------------------------------------------------------------
+
+defaults:
+
+  # Regular website pages
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Pravinkumar Ghodake"
+      lang: "en"
+
+  # Individual literary articles
+  - scope:
+      path: ""
+      type: "entries"
+    values:
+      layout: "entry"
+      author: "Pravinkumar Ghodake"
+      lang: "en"
+      comments: false
+
+  # Weekly collections
+  - scope:
+      path: ""
+      type: "weeks"
+    values:
+      layout: "week"
+      author: "Pravinkumar Ghodake"
+      lang: "en"
+
+# ------------------------------------------------------------
+# 6. URL AND OUTPUT SETTINGS
+# ------------------------------------------------------------
+
+permalink: pretty
+
+relative_links:
+  enabled: false
+
+include:
+  - ".well-known"
+
+exclude:
+  - "README.md"
+  - "LICENSE"
+  - "LICENSE-CONTENT.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor"
+  - ".github"
+  - ".gitignore"
+  - "CONTRIBUTING.md"
+
+# ------------------------------------------------------------
+# 7. CONTENT PROCESSING
+# ------------------------------------------------------------
+
+markdown: kramdown
+
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  smart_quotes: ["lsquo", "rsquo", "ldquo", "rdquo"]
+
+excerpt_separator: "<!--more-->"
+
+show_drafts: false
+
+future: false
+
+strict_front_matter: true
+
+# ------------------------------------------------------------
+# 8. BUILD AND RENDERING
+# ------------------------------------------------------------
+
+incremental: false
+
+safe: true
+
+keep_files:
+  - ".nojekyll"
+
+# No external Jekyll plugins are required.
+# This keeps the initial GitHub Pages build simple.
+plugins: []
+
+# ------------------------------------------------------------
+# 9. AUTHOR AND SOCIAL IDENTITY
+# ------------------------------------------------------------
+
+social:
+  github: "https://github.com/pravinkumar-ghodake"
+
+  orcid: "https://orcid.org/0000-0002-6755-4003"
+
+  research_portfolio: "https://sites.google.com/view/pravinkumarghodake"
+
+  linkedin: "https://www.linkedin.com/in/pravinkumarghodake"
+
+  researchgate: "https://www.researchgate.net/profile/Pravinkumar_Ghodake"
+
+# ------------------------------------------------------------
+# 10. EDITORIAL CONFIGURATION
+# ------------------------------------------------------------
+
+editorial:
+
+  prose_paragraphs: 4
+
+  weekly_selections: 3
+
+  preserve_original_script: true
+
+  require_english_translation: true
+
+  require_source_attribution: true
+
+  first_person_reflections: true
+
+  publication_scope: "Indian literary heritage and wider South Asian literary traditions"
+
+  film_dialogue_collection: false
+
+  scientific_analogies:
+    forced: false
+    require_intellectual_relevance: true
+    preserve_physical_accuracy: true
+
+# ------------------------------------------------------------
+# END OF CONFIGURATION
+# ============================================================
