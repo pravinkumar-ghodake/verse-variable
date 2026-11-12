@@ -36,6 +36,24 @@ jobs:
           destination: ./_site
 
         
+      
+      - name: Inspect homepage source bytes
+        shell: bash
+        run: |
+          echo "===== SOURCE FILE: FIRST 8 LINES ====="
+          sed -n '1,8l' index.html
+
+          echo "===== SOURCE FILE: FIRST 32 BYTES ====="
+          od -An -tx1 -N 32 index.html
+
+          echo "===== GENERATED FILE: FIRST 8 LINES ====="
+          sed -n '1,8l' ./_site/index.html
+
+          echo "===== GENERATED FILE: FIRST 32 BYTES ====="
+          od -An -tx1 -N 32 ./_site/index.html
+
+      
+      
       - name: Diagnose generated homepage
         shell: bash
         run: |
