@@ -1,4 +1,5 @@
- <div align="center">
+
+<div align="center">
 
 # VERSE &amp; VARIABLE
 
@@ -6,12 +7,11 @@
 
 *Lafz se Lehar tak — From the word to the wave.*
 
-An independent Indian literary and scientific journal by **Pravinkumar Ghodake**.
+An independent Indian literary journal by **Pravinkumar Ghodake**, shaped by a wide-ranging intellectual perspective.
 
 ---
 
-**LITERATURE · SHAYARI · POETRY · PHILOSOPHY · HUMAN EXPERIENCE · NONLINEAR SCIENCE**
-
+**LITERATURE · SHAYARI · POETRY · PHILOSOPHY · HUMAN EXPERIENCE**
 
 [![Read the Journal](https://img.shields.io/badge/READ_THE_JOURNAL-VERSE_%26_VARIABLE-65536E?style=for-the-badge)](https://pravinkumar-ghodake.github.io/verse-variable/)
 
@@ -20,8 +20,7 @@ An independent Indian literary and scientific journal by **Pravinkumar Ghodake**
 [![Built with Jekyll](https://img.shields.io/badge/Powered_by-Jekyll-34313A?style=flat-square&logo=jekyll&logoColor=white)](#website-and-repository)
 [![GitHub Pages](https://img.shields.io/badge/Published_with-GitHub_Pages-34313A?style=flat-square&logo=githubpages&logoColor=white)](https://pages.github.com/)
 
-
-**An independent exploration of literature, humanity and science.**
+**An independent exploration of literature, language and human experience.**
 
 </div>
 
@@ -48,7 +47,7 @@ An independent Indian literary and scientific journal by **Pravinkumar Ghodake**
 - [What the Journal Includes](#what-the-journal-includes)
 - [The Weekly Reading Format](#the-weekly-reading-format)
 - [The Writing and Editorial Voice](#the-writing-and-editorial-voice)
-- [The Scientific Visual Language](#the-scientific-visual-language)
+- [The Visual Identity](#the-visual-identity)
 - [The Author](#the-author)
 - [Website and Repository](#website-and-repository)
 - [Discoverability and Machine Readability](#discoverability-and-machine-readability)
@@ -63,7 +62,7 @@ An independent Indian literary and scientific journal by **Pravinkumar Ghodake**
 
 <div align="justify">
 
-**Verse &amp; Variable** is an independent literary and intellectual journal exploring the connections between poetry, human experience, philosophical thought and the physical sciences.
+**Verse &amp; Variable** is an independent literary journal exploring poetry, shayari, language, philosophical thought and the many dimensions of human experience.
 
 Rooted in the extraordinary diversity of Indian literary and linguistic traditions, the journal brings together shayari, sher, ghazals, poems, lyrical compositions, literary passages and philosophical expressions from across the Indian subcontinent.
 
@@ -71,11 +70,11 @@ Hindi, Urdu, Marathi, Kannada, Tamil, Malayalam and Telugu form the initial ling
 
 The original literary expression remains at the centre of every entry. Its original language and script are preserved, while English serves as the language of translation, interpretation and reflection.
 
-The journal is built around a simple but far-reaching idea: a few lines of poetry can open an unexpectedly expansive intellectual journey.
+The journal is built around a simple but far-reaching idea: a few lines of poetry can remain with us, open unexpected questions and reveal dimensions of human experience that ordinary language sometimes struggles to express.
 
-A literary expression might begin with love, longing, solitude, identity, memory or the contradictions of human existence. It might lead towards philosophy, mathematics, physics, natural phenomena or an exploration of the complexity underlying apparently simple systems.
+A literary expression may speak of love, longing, solitude, identity, memory, dignity or the contradictions of human existence. It may invite an intimate reading, a personal observation, a philosophical question or a wider exploration of the world. Sometimes its meaning lies in the language itself, without needing to lead anywhere else.
 
-The intention is not merely to collect beautiful words or explain what a poet has written. It is to explore what those expressions can mean when examined through different dimensions of human experience and scientific understanding.
+The intention is to encounter these expressions with care, explore their literary and human significance, and allow each reflection to develop on its own terms.
 
 </div>
 
@@ -87,9 +86,9 @@ The intention is not merely to collect beautiful words or explain what a poet ha
 
 Words travel through languages, cultures, memories and generations. Waves travel through physical media, carrying energy and responding to the properties and interactions of the systems through which they propagate.
 
-The relationship between these worlds provides the journal with its central intellectual and visual inspiration.
+*Lafz se Lehar tak* is the poetic identity of the journal. It reflects the importance of words and the editor's personal intellectual vocabulary, which is also shaped by an enduring interest in the physical world.
 
-The scientific imagination of **Verse &amp; Variable** draws substantially from the author's research interests in theoretical, computational and experimental mechanics, particularly:
+The editor's research background draws substantially from theoretical, computational and experimental mechanics, particularly:
 
 </div>
 
@@ -108,15 +107,11 @@ The scientific imagination of **Verse &amp; Variable** draws substantially from 
 
 <div align="justify">
 
-These subjects provide possibilities for intellectually meaningful connections with literary expressions.
+These subjects form part of the editor's scientific and intellectual background. They have influenced how he observes the world, approaches unfamiliar questions and thinks about complex systems.
 
-For example, a reflection on memory might lead to the history-dependent response of a hysteretic system. A poem about transformation might open a discussion of nonlinear wave propagation. An expression about coexistence or contradiction might invite an exploration of interacting waves, interference or frequency mixing.
+This background may inform a literary reflection when a particular subject genuinely invites it. However, it does not prescribe how a poem should be understood, nor does it establish a requirement to find scientific connections in literary expressions.
 
-Such connections are developed as original intellectual reflections, not as claims that poets were describing modern scientific theories.
-
-The scientific discussion retains its mathematical and physical integrity. Literary metaphors retain their cultural, emotional and artistic meaning.
-
-The relationship between the two is an invitation to think differently.
+The phrase *Lafz se Lehar tak* therefore does not describe a compulsory journey from literature into physics. It brings together the journal's literary identity and a wider perspective shaped by the editor's interests and experiences.
 
 </div>
 
@@ -130,11 +125,11 @@ The journal is guided by a few essential principles.
 
 </div>
 
-### Literature before analogy.
+### Literature on its own terms.
 
 <div align="justify">
 
-Every entry begins with the literary expression itself. Its language, imagery, context, authorial intention and artistic qualities deserve consideration before any scientific interpretation is introduced.
+Every entry begins with the literary expression itself. Its language, imagery, context, authorial intention and artistic qualities deserve consideration in their own right. A literary work does not need to lead to another discipline to justify the attention it receives.
 
 </div>
 
@@ -142,15 +137,15 @@ Every entry begins with the literary expression itself. Its language, imagery, c
 
 <div align="justify">
 
-Love, relationships, solitude, ambition, grief, memory, identity, dignity, freedom and the contradictions of everyday existence are legitimate subjects in their own right. Not every experience needs to be translated into a scientific explanation.
+Love, relationships, solitude, ambition, grief, memory, identity, dignity, freedom and the contradictions of everyday existence are legitimate subjects in their own right. Not every experience needs to be translated into a scientific explanation. The emotional and human meaning of a literary expression should never be lost in the pursuit of an external interpretation.
 
 </div>
 
-### Science without dilution.
+### Intellectual honesty.
 
 <div align="justify">
 
-When a literary expression offers an interesting connection to science, the exploration should be technically responsible. Similarities between physical phenomena and human experiences may be discussed as analogies without confusing metaphorical interpretation with established scientific mechanisms.
+Reflections should follow the material rather than a predetermined formula. When scientific knowledge genuinely helps illuminate an idea, it may be considered with appropriate care. Any scientific discussion must retain its mathematical and physical integrity, while literary metaphors retain their cultural, emotional and artistic meaning. Similarities between physical phenomena and human experiences should not be confused with established scientific mechanisms.
 
 </div>
 
@@ -158,7 +153,7 @@ When a literary expression offers an interesting connection to science, the expl
 
 <div align="justify">
 
-The reflections are written in the first person, from the author's own perspective and intellectual experiences. They are not generic summaries, motivational commentary or reproductions of popular internet interpretations.
+The reflections are written in the first person, from the author's own perspective and intellectual experiences. They are not generic summaries, motivational commentary or reproductions of popular internet interpretations. The intention is to develop an honest and considered reading rather than impose an expected conclusion.
 
 </div>
 
@@ -166,7 +161,7 @@ The reflections are written in the first person, from the author's own perspecti
 
 <div align="justify">
 
-Indian literature remains at the centre of the journal. Artistic and literary contributions from the wider South Asian tradition are also recognised on their literary, cultural and intellectual merits. Appreciation of an author's work is not a political declaration.
+Indian literature remains at the centre of the journal. Artistic and literary contributions from the wider South Asian tradition are also recognised on their literary, cultural and intellectual merits. Literary selection should not favour or exclude a voice because of its caste, religion, language, nationality or political identity. The quality and integrity of the work must lead the selection. Appreciation of an author's work is not a political declaration.
 
 </div>
 
@@ -249,16 +244,16 @@ Every individual article follows a consistent editorial structure:
 
 </div>
 
-1. **Original expression:** The complete selected couplet, verse or permissible literary excerpt in its original script.
+1. **Original expression:** The selected couplet, verse or permissible literary excerpt in its original script.
 2. **English translation:** A considered translation that preserves the meaning, imagery, nuance and emotional character of the original.
 3. **Attribution:** Author, literary work, language, literary form and source references wherever verifiable.
-4. **Personal reflection:** Exactly four substantial prose paragraphs written in the author's own English style.
+4. **Personal reflection:** A concise reflection written in the author's own English style, in no more than four prose paragraphs.
 
 <div align="justify">
 
 The reflections are continuous essays, not lists of disconnected observations.
 
-They should be calm, mature, thoughtful, human and intellectually rich. Scientific ideas should enter naturally when the literary subject invites them.
+They should be calm, mature, thoughtful, human and intellectually rich. Each reading should follow the language, imagery and emotional movement of the literary expression. The direction may be personal, philosophical, cultural, historical or, where genuinely relevant, scientific. No particular interpretive approach is compulsory.
 
 Each weekly publication contains:
 
@@ -281,29 +276,27 @@ Previous weekly collections remain permanently accessible through the chronologi
 
 <div align="justify">
 
-The English writing in **Verse &amp; Variable** aims to bring literary sensitivity and scientific thinking into the same conversation without sacrificing either.
+The English writing in **Verse &amp; Variable** aims to approach literature with sensitivity, intellectual curiosity and respect for the human experience expressed through language.
 
 The tone is personal but not self-promotional, analytical but not excessively academic, reflective without becoming sentimental, and sophisticated without unnecessary complexity.
 
-The author's research experiences, reading, intellectual interests and observations of life provide the foundation for the reflections.
+The author's research experiences, reading, intellectual interests and observations of life provide part of the perspective behind the reflections. His scientific background is one dimension of that perspective, alongside literature, philosophy, music, cinema, sport and everyday human experiences.
 
-A single couplet might lead towards nonlinear vibrations, harmonic generation or hysteresis. Another might lead towards philosophy, human relationships, cultural memory or the simple experience of being alive.
+One literary expression might invite a closer examination of its imagery and emotional movement. Another might raise questions about memory, relationships, society, identity or the nature of existence. Some may invite a scientific perspective, while others are best understood through literary, philosophical or personal reflection alone.
 
-There is no requirement to force a scientific connection where none genuinely exists.
-
-The original literary expression should always remain more important than the cleverness of its interpretation.
+There is no requirement to introduce a scientific connection where none genuinely exists. The original literary expression should always remain more important than the cleverness of its interpretation.
 
 </div>
 
 ---
 
-## The Scientific Visual Language
+## The Visual Identity
 
 <div align="justify">
 
-The visual identity of **Verse &amp; Variable** draws inspiration from nonlinear elastic wave propagation.
+The visual identity of **Verse &amp; Variable** draws inspiration from wave propagation and the editor's background in mechanics and scientific research.
 
-The website uses an evolving scientific-inspired propagation field as its principal visual background.
+The website uses an evolving, science-inspired propagation field as its principal visual background. Wave behaviour provides a visual vocabulary through which the editor's wider intellectual interests find expression in the design.
 
 Its design language takes inspiration from:
 
@@ -320,11 +313,13 @@ Its design language takes inspiration from:
 
 <div align="justify">
 
-The background is an artistic scientific-inspired visualisation, not a representation of a specific experimental or numerical result unless explicitly identified as such.
+These elements form part of the website's visual identity; they do not prescribe the subject or interpretation of individual literary entries.
 
-A complementary collection of original scientific illustrations may accompany articles when it contributes to the subject being discussed.
+The background is an artistic, science-inspired visualisation, not a representation of a specific experimental or numerical result unless explicitly identified as such.
 
-These illustrations are intended to make the scientific dimensions of the journal visually distinctive while preserving the central importance of the literary material.
+A complementary collection of original illustrations may accompany articles when it genuinely contributes to the subject being discussed.
+
+The visual design reflects the personal intellectual background behind the journal while allowing its literary content to retain its own character and direction.
 
 </div>
 
@@ -340,7 +335,7 @@ His research interests span theoretical, computational and experimental mechanic
 
 His wider intellectual interests extend across mathematics, physics, philosophy, Indian literature, books, music, cinema, sports and the many dimensions of human experience.
 
-The journal brings these interests together through a personal and interdisciplinary approach to literary interpretation.
+These interests shape the editor's personal perspective, but the journal does not require them to converge in every literary reading. Literature remains free to be encountered on its own terms.
 
 </div>
 
@@ -476,25 +471,24 @@ For an individual literary exploration, cite its permanent article URL. For a we
 
 ## Colophon
 
-
 ### VERSE &amp; VARIABLE
 
 *Lafz se Lehar tak — From the word to the wave.*
 
 *Where a line of verse opens a line of inquiry.*
 
-Literature is the expression. Humanity is the experience. Science is another way of looking deeper.
+Literature is the expression. Humanity is the experience. Curiosity is the perspective.
 
 ---
 
-**LITERATURE · HUMANITY · SCIENCE**
+**LITERATURE · LANGUAGE · HUMAN EXPERIENCE**
 
 [![Read the Journal](https://img.shields.io/badge/READ_THE_JOURNAL-VERSE_%26_VARIABLE-65536E?style=for-the-badge)](https://pravinkumar-ghodake.github.io/verse-variable/)
 
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--6755--4003-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-6755-4003)
 [![GitHub](https://img.shields.io/badge/GitHub-pravinkumar--ghodake-34313A?style=flat-square&logo=github&logoColor=white)](https://github.com/pravinkumar-ghodake)
 
-*An independent exploration of Indian literature, human experience and nonlinear science.*
+*An independent exploration of Indian literature, language and human experience.*
 
 **A line of verse. A line of inquiry.**
 
