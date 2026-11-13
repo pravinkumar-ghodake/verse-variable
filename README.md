@@ -1,4 +1,3 @@
-
 # Verse & Variable
 
 ### A line of verse. A line of inquiry.
