@@ -30,6 +30,9 @@
   --font-telugu: "Noto Serif Telugu", serif;
 
   --font-monospace: "IBM Plex Mono", monospace;
+   /* Script-aware typography calibration */
+  --font-size-devanagari-literary: 1rem;
+  --font-size-devanagari-inline: 0.90em;
 }
 
 
@@ -1235,24 +1238,14 @@ button {
   padding-block: 12px 20px;
 }
 
-.original-text--hindi {
-  direction: ltr;
-  text-align: left;
-
-  font-family: var(--font-devanagari);
-
-  font-size: clamp(1.55rem, 3vw, 2.1rem);
-
-  line-height: 2;
-}
-
+.original-text--hindi,
 .original-text--marathi {
   direction: ltr;
   text-align: left;
 
   font-family: var(--font-devanagari);
 
-  font-size: clamp(1.55rem, 3vw, 2.1rem);
+  font-size: var(--font-size-devanagari-literary);
 
   line-height: 2;
 }
@@ -1359,7 +1352,7 @@ button {
 .transliteration--primary {
   margin-top: 0;
   font-family: var(--font-devanagari);
-  font-size: 1rem;
+  font-size: var(--font-size-devanagari-literary);
   line-height: 2;
   color: var(--ink-primary);
   direction: ltr;
@@ -1538,6 +1531,14 @@ button {
 .reflection-prose strong {
   color: var(--ink-primary);
   font-weight: 600;
+}
+
+/* Inline Devanagari within English reflections */
+.reflection-prose :lang(hi),
+.reflection-prose :lang(mr) {
+  font-family: var(--font-devanagari);
+  font-size: var(--font-size-devanagari-inline);
+  line-height: inherit;
 }
 
 
