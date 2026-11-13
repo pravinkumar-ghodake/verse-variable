@@ -1241,7 +1241,7 @@ button {
 .original-text--hindi,
 .original-text--marathi {
   direction: ltr;
-  text-align: left;
+  text-align: right;
 
   font-family: var(--font-devanagari);
 
