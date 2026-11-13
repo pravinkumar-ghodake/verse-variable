@@ -4,11 +4,7 @@
 
 ### *A line of verse. A line of inquiry.*
 
-<p><strong><span lang="ur" dir="rtl">لفظ سے لہر تک</span></strong></p>
-
 *Lafz se Lehar tak — From the word to the wave.*
-
----
 
 An independent Indian literary and scientific journal by **Pravinkumar Ghodake**.
 
@@ -483,13 +479,9 @@ For an individual literary exploration, cite its permanent article URL. For a we
 
 ### VERSE &amp; VARIABLE
 
-**لفظ سے لہر تک**
-
 *Lafz se Lehar tak — From the word to the wave.*
 
 *Where a line of verse opens a line of inquiry.*
-
----
 
 Literature is the expression. Humanity is the experience. Science is another way of looking deeper.
 
