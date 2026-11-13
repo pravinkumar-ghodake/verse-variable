@@ -210,13 +210,13 @@ layout: default
             </div>
           {% endif %}
 
-        {% elsif page.transliteration %}
+        {% elsif page.pronunciation_guide %}
 
           <span
             class="literary-label"
             id="original-expression-heading"
           >
-            {{ page.transliteration_label | default: "Pronunciation Guide · Devanagari" | escape }}
+            {{ page.pronunciation_guide_label | default: "Pronunciation Guide · Devanagari" | escape }}
           </span>
 
           <div
@@ -224,7 +224,7 @@ layout: default
             lang="ur-Deva"
             dir="ltr"
           >
-            {{ page.transliteration | escape | newline_to_br }}
+            {{ page.pronunciation_guide | escape | newline_to_br }}
           </div>
 
         {% else %}
