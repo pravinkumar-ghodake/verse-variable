@@ -94,6 +94,6 @@ Verse & Variable is not an extension of a research paper, nor is it intended to 
 
 *Words travel through languages, cultures, memories and generations. Waves travel through matter, carrying energy and responding to the systems through which they propagate. Somewhere between these expressions lies an enduring curiosity about the world and the many ways of understanding it.*
 
-**Verse & Variable**
 
-*لفظ سے لہر تک — Lafz se Lehar tak.*
+**Verse & Variable**
+Lafz se Lehar tak
