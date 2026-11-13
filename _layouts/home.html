@@ -345,34 +345,6 @@ layout: default
               {% endif %}
 
 
-              <!-- OPTIONAL ORIGINAL-LANGUAGE PREVIEW -->
-
-              {% if entry.original_text %}
-
-                <div class="home-original-preview">
-
-                  <span
-                    lang="{{ entry.language_code | default: 'und' | escape }}"
-
-                    class="
-                      original-text
-                      original-text--{{ entry.language_id | default: 'default' | escape }}
-                    "
-
-                    {% if entry.language_code == "ur" %}
-                      dir="rtl"
-                    {% endif %}
-                  >
-
-                    {{ entry.original_text | strip_html | escape | truncate: 130 }}
-
-                  </span>
-
-                </div>
-
-              {% endif %}
-
-
               <!-- ARTICLE LINK -->
 
               <a
