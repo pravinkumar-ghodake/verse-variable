@@ -1,0 +1,1421 @@
+
+/* ============================================================
+   VERSE & VARIABLE — PRIVATE READERSHIP ANALYTICS
+   File: analytics/dashboard/style.css
+
+   Visual direction:
+   Literary editorial design
+   Warm paper background
+   Charcoal typography
+   Muted rose accents
+   Restrained scientific visual language
+
+   Responsive:
+   Desktop / Tablet / Mobile
+
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   1. DESIGN TOKENS
+   ------------------------------------------------------------ */
+
+:root {
+    color-scheme: light;
+
+    --paper: #f7f5f0;
+    --paper-deep: #efede6;
+    --surface: #ffffff;
+    --surface-soft: #fbfaf7;
+
+    --ink: #222522;
+    --ink-soft: #555a55;
+    --ink-muted: #858982;
+
+    --rose: #a75e68;
+    --rose-deep: #874650;
+    --rose-soft: #f2e7e8;
+
+    --line: #e5e1d8;
+    --line-strong: #d5d0c5;
+
+    --success: #56816a;
+    --warning: #a7793f;
+    --error: #a34e4e;
+
+    --font-display:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    --font-body:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    --font-urdu:
+        "Noto Nastaliq Urdu",
+        "Noto Naskh Arabic",
+        serif;
+
+    --content-width: 1160px;
+
+    --radius-small: 7px;
+    --radius-medium: 12px;
+    --radius-large: 18px;
+
+    --shadow-soft:
+        0 3px 15px rgba(35, 35, 30, 0.035);
+
+    --shadow-card:
+        0 5px 22px rgba(35, 35, 30, 0.045);
+
+    --transition:
+        180ms ease;
+}
+
+
+/* ------------------------------------------------------------
+   2. RESET AND BASE
+   ------------------------------------------------------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 320px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 24px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background: var(--paper);
+    color: var(--ink);
+
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.7;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+a {
+    color: var(--rose-deep);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+a:hover {
+    color: var(--rose);
+}
+
+button {
+    cursor: pointer;
+}
+
+img,
+svg {
+    max-width: 100%;
+}
+
+::selection {
+    background: var(--rose-soft);
+    color: var(--ink);
+}
+
+
+/* ------------------------------------------------------------
+   3. ACCESSIBILITY
+   ------------------------------------------------------------ */
+
+.skip-link {
+    position: absolute;
+    z-index: 1000;
+
+    top: 12px;
+    left: 12px;
+
+    padding: 10px 15px;
+
+    background: var(--ink);
+    color: #ffffff;
+
+    border-radius: var(--radius-small);
+
+    transform: translateY(-160%);
+    transition: transform var(--transition);
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
+:focus-visible {
+    outline: 3px solid var(--rose);
+    outline-offset: 4px;
+}
+
+.visually-hidden {
+    position: absolute !important;
+
+    width: 1px !important;
+    height: 1px !important;
+
+    padding: 0 !important;
+    margin: -1px !important;
+
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+.noscript-message {
+    max-width: var(--content-width);
+    margin: 20px auto;
+    padding: 15px 20px;
+
+    background: var(--rose-soft);
+    color: var(--rose-deep);
+
+    border-left: 3px solid var(--rose);
+}
+
+
+/* ------------------------------------------------------------
+   4. HEADER
+   ------------------------------------------------------------ */
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 24px;
+
+    min-height: 104px;
+    padding: 22px max(6vw, 24px);
+
+    background: var(--surface);
+
+    border-bottom: 1px solid var(--line);
+}
+
+.header-brand {
+    min-width: 0;
+}
+
+.brand-link {
+    display: inline-flex;
+    flex-direction: column;
+
+    gap: 2px;
+
+    color: var(--ink);
+    text-decoration: none;
+}
+
+.brand-link:hover {
+    color: var(--ink);
+}
+
+.brand-name {
+    font-family: var(--font-display);
+    font-size: 1.32rem;
+    font-weight: 700;
+
+    letter-spacing: 0.075em;
+    line-height: 1.4;
+}
+
+.brand-tagline {
+    color: var(--ink-muted);
+
+    font-size: 0.76rem;
+    letter-spacing: 0.025em;
+}
+
+.header-context {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    gap: 7px;
+}
+
+.dashboard-label,
+.period-label {
+    color: var(--ink-muted);
+
+    font-size: 0.68rem;
+    font-weight: 700;
+
+    letter-spacing: 0.16em;
+}
+
+.privacy-indicator {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 8px;
+
+    color: var(--ink-soft);
+    font-size: 0.79rem;
+}
+
+.privacy-dot,
+.status-indicator {
+    width: 8px;
+    height: 8px;
+
+    flex: 0 0 auto;
+
+    border-radius: 50%;
+    background: var(--success);
+}
+
+
+/* ------------------------------------------------------------
+   5. MAIN CONTAINER
+   ------------------------------------------------------------ */
+
+.dashboard-main {
+    width: min(
+        var(--content-width),
+        calc(100% - 48px)
+    );
+
+    margin: 0 auto;
+    padding: 62px 0 84px;
+}
+
+.dashboard-main section + section {
+    margin-top: 46px;
+}
+
+
+/* ------------------------------------------------------------
+   6. INTRODUCTION
+   ------------------------------------------------------------ */
+
+.dashboard-introduction {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    gap: 32px;
+
+    padding-bottom: 34px;
+
+    border-bottom: 1px solid var(--line);
+}
+
+.introduction-copy {
+    max-width: 720px;
+}
+
+.eyebrow {
+    margin: 0 0 11px;
+
+    color: var(--rose-deep);
+
+    font-size: 0.69rem;
+    font-weight: 700;
+
+    letter-spacing: 0.17em;
+    line-height: 1.5;
+
+    text-transform: uppercase;
+}
+
+.dashboard-introduction h1 {
+    margin: 0;
+
+    color: var(--ink);
+
+    font-family: var(--font-display);
+    font-size: clamp(2.1rem, 4.2vw, 3.25rem);
+
+    font-weight: 500;
+    letter-spacing: -0.045em;
+    line-height: 1.15;
+}
+
+.introduction-description {
+    max-width: 660px;
+
+    margin: 18px 0 0;
+
+    color: var(--ink-soft);
+
+    font-size: 0.96rem;
+    line-height: 1.85;
+
+    text-align: justify;
+    text-wrap: pretty;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.dashboard-period {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    flex: 0 0 auto;
+    gap: 7px;
+
+    padding-bottom: 5px;
+}
+
+.period-value {
+    color: var(--ink-soft);
+    font-size: 0.84rem;
+}
+
+
+/* ------------------------------------------------------------
+   7. CONNECTION STATUS
+   ------------------------------------------------------------ */
+
+.connection-section {
+    margin-top: 28px !important;
+}
+
+.connection-message {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 15px;
+
+    padding: 19px 22px;
+
+    background: var(--surface-soft);
+
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--warning);
+
+    border-radius: var(--radius-small);
+}
+
+.connection-message .status-indicator {
+    margin-top: 7px;
+    background: var(--warning);
+}
+
+.connection-copy {
+    min-width: 0;
+}
+
+.connection-copy strong {
+    display: block;
+
+    color: var(--ink);
+    font-size: 0.88rem;
+    font-weight: 650;
+}
+
+.connection-copy p {
+    margin: 4px 0 0;
+
+    color: var(--ink-soft);
+    font-size: 0.82rem;
+    line-height: 1.7;
+
+    text-align: justify;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+
+/* Connection status variants for future JavaScript. */
+
+.connection-message.is-connected {
+    border-left-color: var(--success);
+}
+
+.connection-message.is-connected .status-indicator {
+    background: var(--success);
+}
+
+.connection-message.is-error {
+    border-left-color: var(--error);
+}
+
+.connection-message.is-error .status-indicator {
+    background: var(--error);
+}
+
+
+/* ------------------------------------------------------------
+   8. SECTION HEADINGS
+   ------------------------------------------------------------ */
+
+.section-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    gap: 22px;
+
+    margin-bottom: 20px;
+}
+
+.section-heading .eyebrow {
+    margin-bottom: 6px;
+}
+
+.section-heading h2 {
+    margin: 0;
+
+    color: var(--ink);
+
+    font-family: var(--font-display);
+    font-size: clamp(1.45rem, 2.4vw, 1.85rem);
+
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 1.35;
+}
+
+.section-note {
+    margin: 0 0 4px;
+
+    color: var(--ink-muted);
+    font-size: 0.77rem;
+
+    text-align: right;
+}
+
+
+/* ------------------------------------------------------------
+   9. OVERVIEW METRIC CARDS
+   ------------------------------------------------------------ */
+
+.metrics-section {
+    margin-top: 48px !important;
+}
+
+.metrics-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 15px;
+}
+
+.metric-card {
+    min-width: 0;
+    min-height: 166px;
+
+    padding: 22px 21px;
+
+    background: var(--surface);
+
+    border: 1px solid var(--line);
+    border-radius: var(--radius-medium);
+
+    box-shadow: var(--shadow-soft);
+
+    transition:
+        border-color var(--transition),
+        transform var(--transition),
+        box-shadow var(--transition);
+}
+
+.metric-card:hover {
+    border-color: var(--line-strong);
+
+    transform: translateY(-2px);
+
+    box-shadow: var(--shadow-card);
+}
+
+.metric-label {
+    margin: 0;
+
+    color: var(--ink-soft);
+
+    font-size: 0.79rem;
+    font-weight: 550;
+    line-height: 1.5;
+}
+
+.metric-value {
+    margin: 15px 0 5px;
+
+    color: var(--ink);
+
+    font-family: var(--font-display);
+    font-size: clamp(1.85rem, 3vw, 2.45rem);
+
+    font-weight: 500;
+    letter-spacing: -0.045em;
+    line-height: 1.15;
+
+    font-variant-numeric: tabular-nums;
+}
+
+.metric-description {
+    margin: 0;
+
+    color: var(--ink-muted);
+    font-size: 0.72rem;
+    line-height: 1.55;
+}
+
+
+/* ------------------------------------------------------------
+   10. GENERAL DASHBOARD PANELS
+   ------------------------------------------------------------ */
+
+.dashboard-panel {
+    padding: 29px 30px 31px;
+
+    background: var(--surface);
+
+    border: 1px solid var(--line);
+    border-radius: var(--radius-large);
+
+    box-shadow: var(--shadow-soft);
+}
+
+
+/* ------------------------------------------------------------
+   11. CHART PLACEHOLDER
+   ------------------------------------------------------------ */
+
+.chart-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 275px;
+    padding: 32px 20px;
+
+    background: var(--surface-soft);
+
+    border: 1px dashed var(--line-strong);
+    border-radius: var(--radius-medium);
+}
+
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 440px;
+
+    margin: 0 auto;
+    padding: 20px;
+
+    text-align: center;
+}
+
+.empty-state-symbol {
+    margin-bottom: 12px;
+
+    color: var(--rose);
+    font-family: var(--font-display);
+
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.empty-state-title {
+    margin: 0;
+
+    color: var(--ink-soft);
+    font-size: 0.88rem;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.empty-state-description {
+    max-width: 390px;
+
+    margin: 7px 0 0;
+
+    color: var(--ink-muted);
+    font-size: 0.77rem;
+    line-height: 1.8;
+
+    text-align: center;
+    text-wrap: pretty;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.compact-empty-state {
+    padding: 30px 18px;
+}
+
+
+/* ------------------------------------------------------------
+   12. FUTURE CHART ELEMENTS
+   ------------------------------------------------------------ */
+
+.chart-container {
+    width: 100%;
+    min-height: 250px;
+
+    overflow: hidden;
+}
+
+.chart-svg {
+    display: block;
+
+    width: 100%;
+    height: auto;
+    min-height: 220px;
+}
+
+.chart-grid-line {
+    stroke: var(--line);
+    stroke-width: 1;
+}
+
+.chart-axis-label {
+    fill: var(--ink-muted);
+
+    font-family: var(--font-body);
+    font-size: 11px;
+}
+
+.chart-data-line {
+    fill: none;
+
+    stroke: var(--rose);
+    stroke-width: 2.5;
+
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.chart-data-area {
+    fill: var(--rose-soft);
+    opacity: 0.65;
+}
+
+.chart-data-point {
+    fill: var(--rose);
+    stroke: var(--surface);
+    stroke-width: 2;
+}
+
+
+/* ------------------------------------------------------------
+   13. DATA TABLES
+   ------------------------------------------------------------ */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+
+    border: 1px solid var(--line);
+    border-radius: var(--radius-medium);
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--line-strong) transparent;
+}
+
+.data-table,
+.popular-pages-table {
+    width: 100%;
+    min-width: 540px;
+
+    border-collapse: collapse;
+
+    color: var(--ink-soft);
+    font-size: 0.82rem;
+    line-height: 1.65;
+}
+
+.data-table th,
+.data-table td,
+.popular-pages-table th,
+.popular-pages-table td {
+    padding: 15px 17px;
+
+    border-bottom: 1px solid var(--line);
+
+    text-align: left;
+    vertical-align: middle;
+}
+
+.data-table thead,
+.popular-pages-table thead {
+    background: var(--surface-soft);
+}
+
+.data-table th,
+.popular-pages-table th {
+    color: var(--ink-muted);
+
+    font-size: 0.69rem;
+    font-weight: 700;
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.data-table tbody tr:last-child td,
+.popular-pages-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.data-table tbody tr:hover,
+.popular-pages-table tbody tr:hover {
+    background: var(--surface-soft);
+}
+
+.data-table td:last-child,
+.data-table th:last-child {
+    text-align: right;
+}
+
+.popular-pages-table td:last-child,
+.popular-pages-table th:last-child {
+    text-align: right;
+}
+
+.data-table .numeric-cell,
+.popular-pages-table .numeric-cell {
+    text-align: right;
+
+    font-variant-numeric: tabular-nums;
+}
+
+.page-title-cell {
+    color: var(--ink);
+    font-weight: 550;
+
+    overflow-wrap: anywhere;
+}
+
+.page-path-cell {
+    display: block;
+
+    margin-top: 3px;
+
+    color: var(--ink-muted);
+    font-size: 0.72rem;
+
+    overflow-wrap: anywhere;
+}
+
+.table-rank {
+    color: var(--rose);
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+}
+
+
+/* ------------------------------------------------------------
+   14. LANGUAGE DISTRIBUTION
+   ------------------------------------------------------------ */
+
+.language-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 19px;
+}
+
+.language-row {
+    display: grid;
+
+    grid-template-columns: minmax(115px, 165px) minmax(0, 1fr) 65px;
+
+    align-items: center;
+    gap: 17px;
+}
+
+.language-name {
+    color: var(--ink-soft);
+    font-size: 0.83rem;
+    font-weight: 550;
+}
+
+.language-native {
+    display: inline-block;
+
+    margin-left: 5px;
+
+    color: var(--ink-muted);
+    font-family: var(--font-urdu);
+
+    font-size: 0.84rem;
+    line-height: 1.7;
+}
+
+.language-bar-track {
+    width: 100%;
+    height: 7px;
+
+    overflow: hidden;
+
+    background: var(--paper-deep);
+
+    border-radius: 20px;
+}
+
+.language-bar-fill {
+    display: block;
+
+    width: var(--bar-width, 0%);
+    height: 100%;
+
+    background: var(--rose);
+
+    border-radius: inherit;
+
+    transition: width 500ms ease;
+}
+
+.language-value {
+    color: var(--ink-soft);
+
+    font-size: 0.78rem;
+    font-weight: 600;
+
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+
+/* Urdu and other right-to-left labels. */
+
+.language-native[lang="ur"] {
+    direction: rtl;
+    text-align: left;
+    unicode-bidi: isolate;
+}
+
+
+/* ------------------------------------------------------------
+   15. REFERRAL SOURCES
+   ------------------------------------------------------------ */
+
+.referral-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0;
+}
+
+.referral-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+
+    padding: 15px 4px;
+
+    border-bottom: 1px solid var(--line);
+}
+
+.referral-row:last-child {
+    border-bottom: 0;
+}
+
+.referral-domain {
+    min-width: 0;
+
+    color: var(--ink-soft);
+    font-size: 0.84rem;
+    font-weight: 550;
+
+    overflow-wrap: anywhere;
+}
+
+.referral-count {
+    flex: 0 0 auto;
+
+    color: var(--ink);
+
+    font-size: 0.82rem;
+    font-weight: 650;
+
+    font-variant-numeric: tabular-nums;
+}
+
+
+/* ------------------------------------------------------------
+   16. EDITORIAL NOTE
+   ------------------------------------------------------------ */
+
+.editorial-note {
+    position: relative;
+
+    padding: 34px 38px;
+
+    background: var(--paper-deep);
+
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--rose);
+
+    border-radius: var(--radius-medium);
+}
+
+.editorial-note .eyebrow {
+    margin-bottom: 12px;
+}
+
+.editorial-note h2 {
+    max-width: 760px;
+
+    margin: 0;
+
+    color: var(--ink);
+
+    font-family: var(--font-display);
+    font-size: clamp(1.45rem, 2.5vw, 1.9rem);
+
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 1.35;
+}
+
+.editorial-note p:not(.eyebrow) {
+    max-width: 850px;
+
+    margin: 15px 0 0;
+
+    color: var(--ink-soft);
+
+    font-size: 0.88rem;
+    line-height: 1.9;
+
+    text-align: justify;
+    text-wrap: pretty;
+
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+
+/* ------------------------------------------------------------
+   17. FOOTER
+   ------------------------------------------------------------ */
+
+.dashboard-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 24px;
+
+    min-height: 126px;
+    padding: 26px max(6vw, 24px);
+
+    background: var(--surface);
+
+    border-top: 1px solid var(--line);
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3px;
+}
+
+.footer-title {
+    color: var(--ink);
+
+    font-family: var(--font-display);
+    font-size: 0.92rem;
+    font-weight: 700;
+
+    letter-spacing: 0.09em;
+}
+
+.footer-tagline {
+    color: var(--rose);
+
+    font-family: var(--font-urdu);
+    font-size: 1.12rem;
+    line-height: 1.9;
+
+    direction: rtl;
+    text-align: left;
+    unicode-bidi: isolate;
+}
+
+.footer-note {
+    margin: 0;
+
+    color: var(--ink-muted);
+    font-size: 0.75rem;
+
+    text-align: center;
+}
+
+.footer-site-link {
+    flex: 0 0 auto;
+
+    color: var(--rose-deep);
+    font-size: 0.79rem;
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.footer-site-link:hover {
+    text-decoration: underline;
+}
+
+
+/* ------------------------------------------------------------
+   18. RESPONSIVE — TABLETS
+   ------------------------------------------------------------ */
+
+@media (max-width: 900px) {
+
+    .dashboard-header {
+        padding-right: 4vw;
+        padding-left: 4vw;
+    }
+
+    .dashboard-footer {
+        padding-right: 4vw;
+        padding-left: 4vw;
+    }
+
+    .dashboard-main {
+        width: calc(100% - 40px);
+        padding-top: 48px;
+    }
+
+    .metrics-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .dashboard-panel {
+        padding: 25px 23px 27px;
+    }
+
+    .dashboard-introduction {
+        align-items: flex-start;
+    }
+
+    .dashboard-period {
+        align-items: flex-start;
+    }
+
+    .footer-note {
+        max-width: 260px;
+    }
+
+}
+
+
+/* ------------------------------------------------------------
+   19. RESPONSIVE — MOBILE
+   ------------------------------------------------------------ */
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .dashboard-header {
+        align-items: flex-start;
+
+        gap: 14px;
+
+        min-height: auto;
+        padding: 19px 20px;
+    }
+
+    .brand-name {
+        font-size: 1.06rem;
+    }
+
+    .brand-tagline {
+        font-size: 0.68rem;
+    }
+
+    .header-context {
+        align-items: flex-end;
+        gap: 5px;
+    }
+
+    .dashboard-label {
+        font-size: 0.59rem;
+        text-align: right;
+    }
+
+    .privacy-indicator {
+        font-size: 0.69rem;
+        white-space: nowrap;
+    }
+
+    .dashboard-main {
+        width: calc(100% - 32px);
+
+        padding-top: 38px;
+        padding-bottom: 58px;
+    }
+
+    .dashboard-main section + section {
+        margin-top: 35px;
+    }
+
+    .dashboard-introduction {
+        flex-direction: column;
+        gap: 20px;
+
+        padding-bottom: 25px;
+    }
+
+    .dashboard-introduction h1 {
+        font-size: clamp(2rem, 9vw, 2.65rem);
+    }
+
+    .introduction-description {
+        margin-top: 13px;
+
+        font-size: 0.88rem;
+        line-height: 1.85;
+    }
+
+    .dashboard-period {
+        align-items: flex-start;
+    }
+
+    .connection-section {
+        margin-top: 21px !important;
+    }
+
+    .connection-message {
+        gap: 12px;
+        padding: 15px 16px;
+    }
+
+    .connection-copy p {
+        font-size: 0.77rem;
+    }
+
+    .metrics-section {
+        margin-top: 36px !important;
+    }
+
+    .section-heading {
+        align-items: flex-start;
+        flex-direction: column;
+
+        gap: 5px;
+        margin-bottom: 16px;
+    }
+
+    .section-heading h2 {
+        font-size: 1.55rem;
+    }
+
+    .section-note {
+        font-size: 0.72rem;
+        text-align: left;
+    }
+
+    .metrics-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .metric-card {
+        min-height: 143px;
+        padding: 17px 15px;
+    }
+
+    .metric-label {
+        font-size: 0.73rem;
+    }
+
+    .metric-value {
+        margin-top: 12px;
+        font-size: 1.8rem;
+    }
+
+    .metric-description {
+        font-size: 0.67rem;
+    }
+
+    .dashboard-panel {
+        padding: 21px 16px 23px;
+        border-radius: var(--radius-medium);
+    }
+
+    .chart-placeholder {
+        min-height: 225px;
+        padding: 22px 12px;
+    }
+
+    .empty-state {
+        padding: 14px 8px;
+    }
+
+    .empty-state-description {
+        font-size: 0.73rem;
+    }
+
+    .language-row {
+        grid-template-columns: minmax(80px, 105px) minmax(0, 1fr) 45px;
+        gap: 9px;
+    }
+
+    .language-name {
+        font-size: 0.73rem;
+    }
+
+    .language-native {
+        display: block;
+        margin: 3px 0 0;
+    }
+
+    .language-value {
+        font-size: 0.72rem;
+    }
+
+    .editorial-note {
+        padding: 25px 21px;
+    }
+
+    .editorial-note h2 {
+        font-size: 1.5rem;
+    }
+
+    .editorial-note p:not(.eyebrow) {
+        font-size: 0.82rem;
+        line-height: 1.85;
+    }
+
+    .dashboard-footer {
+        align-items: flex-start;
+        flex-direction: column;
+
+        gap: 12px;
+
+        padding: 24px 20px 28px;
+    }
+
+    .footer-note {
+        max-width: none;
+        text-align: left;
+    }
+
+}
+
+
+/* ------------------------------------------------------------
+   20. RESPONSIVE — VERY SMALL SCREENS
+   ------------------------------------------------------------ */
+
+@media (max-width: 360px) {
+
+    .dashboard-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-context {
+        align-items: flex-start;
+    }
+
+    .dashboard-label {
+        text-align: left;
+    }
+
+    .metrics-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .metric-card {
+        min-height: 125px;
+    }
+
+    .language-row {
+        grid-template-columns: 82px minmax(0, 1fr) 40px;
+        gap: 7px;
+    }
+
+}
+
+
+/* ------------------------------------------------------------
+   21. MOTION PREFERENCES
+   ------------------------------------------------------------ */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+
+        transition-duration: 0.01ms !important;
+    }
+
+}
+
+
+/* ------------------------------------------------------------
+   22. PRINT
+   ------------------------------------------------------------ */
+
+@media print {
+
+    body {
+        background: #ffffff;
+    }
+
+    .dashboard-header,
+    .dashboard-footer {
+        background: #ffffff;
+    }
+
+    .dashboard-main {
+        width: 100%;
+        max-width: none;
+
+        padding: 20px 0;
+    }
+
+    .metric-card,
+    .dashboard-panel {
+        box-shadow: none;
+        break-inside: avoid;
+    }
+
+    .skip-link {
+        display: none;
+    }
+
+}
+
+
+/* ============================================================
+   END OF STYLESHEET
+   ============================================================ */
