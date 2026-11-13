@@ -1250,6 +1250,15 @@ button {
   line-height: 2;
 }
 
+/* Match Devanagari quotation container to its actual text size */
+.literary-text:has(.original-text--hindi),
+.literary-text:has(.original-text--marathi) {
+  font-family: var(--font-devanagari);
+  font-size: var(--font-size-devanagari-literary);
+  line-height: 2;
+}
+
+
 .original-text--kannada {
   font-family: var(--font-kannada);
 
