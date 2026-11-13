@@ -1,4 +1,3 @@
-
 -- ============================================================
 -- Verse & Variable — Private Readership Analytics
 -- File: analytics/worker/schema.sql
