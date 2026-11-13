@@ -186,7 +186,7 @@ typography:
 
 hero:
 
-  eyebrow: "AN INDIAN LITERARY & SCIENTIFIC JOURNAL"
+  eyebrow: "AN INDEPENDENT INDIAN LITERARY JOURNAL"
 
   title: "Verse & Variable"
 
@@ -198,12 +198,12 @@ hero:
 
   introduction: >-
     An exploration of Indian poetry, shayari, literature and
-    human experience, through a personal intellectual journey
-    into philosophy, mathematics and the physical sciences.
+    human experience, approached through a personal perspective
+    shaped by a wide-ranging intellectual life.
 
   supporting_text: >-
-    From the expressive depth of a couplet to the intricate
-    behaviour of nonlinear waves.
+    From the intimacy of a couplet to the questions it leaves
+    within us.
 
   primary_action:
     label: "Explore the Journal"
