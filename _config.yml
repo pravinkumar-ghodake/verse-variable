@@ -164,7 +164,6 @@ exclude:
   - ".github"
   - ".gitignore"
   - "CONTRIBUTING.md"
-  - "analytics/"
 
 # ------------------------------------------------------------
 # 7. CONTENT PROCESSING
