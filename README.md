@@ -8,11 +8,14 @@
 
 *Lafz se Lehar tak — From the word to the wave.*
 
+---
+
 An independent Indian literary and scientific journal by **Pravinkumar Ghodake**.
+
+---
 
 **LITERATURE · SHAYARI · POETRY · PHILOSOPHY · HUMAN EXPERIENCE · NONLINEAR SCIENCE**
 
-<br>
 
 [![Read the Journal](https://img.shields.io/badge/READ_THE_JOURNAL-VERSE_%26_VARIABLE-65536E?style=for-the-badge)](https://pravinkumar-ghodake.github.io/verse-variable/)
 
@@ -21,7 +24,6 @@ An independent Indian literary and scientific journal by **Pravinkumar Ghodake**
 [![Built with Jekyll](https://img.shields.io/badge/Powered_by-Jekyll-34313A?style=flat-square&logo=jekyll&logoColor=white)](#website-and-repository)
 [![GitHub Pages](https://img.shields.io/badge/Published_with-GitHub_Pages-34313A?style=flat-square&logo=githubpages&logoColor=white)](https://pages.github.com/)
 
-<br>
 
 **An independent exploration of literature, humanity and science.**
 
@@ -34,8 +36,6 @@ An independent Indian literary and scientific journal by **Pravinkumar Ghodake**
 **OFFICIAL READING EXPERIENCE**
 
 [**pravinkumar-ghodake.github.io/verse-variable/**](https://pravinkumar-ghodake.github.io/verse-variable/)
-
-<br>
 
 <sub><em>The website is the primary reading experience. This repository provides its underlying source code, structured literary content, publication metadata and version history.</em></sub>
 
@@ -480,7 +480,6 @@ For an individual literary exploration, cite its permanent article URL. For a we
 
 ## Colophon
 
-<br>
 
 ### VERSE &amp; VARIABLE
 
@@ -488,28 +487,20 @@ For an individual literary exploration, cite its permanent article URL. For a we
 
 *Lafz se Lehar tak — From the word to the wave.*
 
-<br>
-
 *Where a line of verse opens a line of inquiry.*
 
-<br>
+---
 
 Literature is the expression. Humanity is the experience. Science is another way of looking deeper.
 
-<br>
+---
 
 **LITERATURE · HUMANITY · SCIENCE**
 
-<br>
-
 [![Read the Journal](https://img.shields.io/badge/READ_THE_JOURNAL-VERSE_%26_VARIABLE-65536E?style=for-the-badge)](https://pravinkumar-ghodake.github.io/verse-variable/)
-
-<br>
 
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--6755--4003-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-6755-4003)
 [![GitHub](https://img.shields.io/badge/GitHub-pravinkumar--ghodake-34313A?style=flat-square&logo=github&logoColor=white)](https://github.com/pravinkumar-ghodake)
-
-<br>
 
 *An independent exploration of Indian literature, human experience and nonlinear science.*
 
