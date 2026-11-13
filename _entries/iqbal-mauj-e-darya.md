@@ -1,3 +1,4 @@
+
 ---
 layout: entry
 title: "The Restlessness of a Wave"
@@ -17,15 +18,13 @@ language_code: "ur"
 author_name: "Allama Iqbal"
 author_role: "Poet"
 literary_form: "Nazm"
-work_title: "Mauj-e-Darya (موجِ دریا)"
-
-original_text: |
-  مضطرب رکھتا ہے میرا دلِ بے تاب مجھے
-  عینِ ہستی ہے تڑپ صورتِ سیماب مجھے
+work_title: "Mauj-e-Darya"
 
 transliteration: |
   मुज़्तरिब रखता है मेरा दिल-ए-बेताब मुझे
   ऐन-ए-हस्ती है तड़प सूरत-ए-सीमाब मुझे
+
+transliteration_label: "Pronunciation Guide · Devanagari"
 
 translation: |
   My restless heart keeps me in ceaseless agitation;
@@ -33,9 +32,9 @@ translation: |
 
 translator_name: "Editorial rendering"
 
-attribution_note: "The Devanagari transliteration is provided as a pronunciation guide for readers unfamiliar with Urdu script; it is not a Hindi translation. The English rendering is an editorial translation."
+attribution_note: "This Devanagari rendering follows the sound of the Urdu couplet. It is a pronunciation guide, not a Hindi translation. The English version is an editorial translation."
 
-source_title: "Allama Iqbal — موجِ دریا, Bang-e-Dara"
+source_title: "Allama Iqbal — Mauj-e-Darya, Bang-e-Dara"
 source_url: "https://allamaiqbal.com/poetry.php?bookbup=22&conType=ur&lang=4&lang_code=ur&orderno=31"
 
 sources:
@@ -43,7 +42,7 @@ sources:
     url: "https://www.zinderood.com/en/urdu/poets/allama-iqbal/bang-dra/poem/1wpx8y7maejq2"
     publisher: "Kulliyat-e-Iqbal — Urdu, Ghulam Ali edition, 1975"
 
-attribution_status: "Poem attribution and quoted Urdu lines checked against the linked sources."
+attribution_status: "Poem attribution and the selected couplet's source were checked against the linked references."
 
 tags:
   - Wave motion
