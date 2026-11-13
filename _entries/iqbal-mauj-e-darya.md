@@ -19,11 +19,11 @@ author_role: "Poet"
 literary_form: "Nazm"
 work_title: "Mauj-e-Darya"
 
-transliteration: |
+pronunciation_guide: |
   मुज़्तरिब रखता है मेरा दिल-ए-बेताब मुझे
   ऐन-ए-हस्ती है तड़प सूरत-ए-सीमाब मुझे
 
-transliteration_label: "Pronunciation Guide · Devanagari"
+pronunciation_guide_label: "Pronunciation Guide · Devanagari"
 
 translation: |
   My restless heart keeps me in ceaseless agitation;
