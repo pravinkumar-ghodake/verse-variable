@@ -31,10 +31,6 @@ source_title: "Keshavsut — Satariche Bol (सतारीचे बोल)"
 source_url: "https://www.transliteral.org/pages/z120211225302/view"
 
 sources:
-  - title: "Sadjad Siddiq — A Physical Model of the Nonlinear Sitar String"
-    url: "https://doi.org/10.2478/v10168-012-0010-y"
-    publisher: "Archives of Acoustics, 37(1), 73–79 (2012)"
-
   - title: "Wikisource — सतारीचे बोल (Marathi text)"
     url: "https://mr.wikisource.org/wiki/सतारीचे_बोल"
     publisher: "Wikisource"
@@ -42,11 +38,11 @@ sources:
 attribution_status: "The selected lines and the poem's 20 March 1900 date were checked against the linked Marathi text."
 
 tags:
-  - Sound and vibration
-  - Sitar acoustics
-  - Nonlinear string vibration
-  - Contact dynamics
-  - Musical perception
+  - Music and emotion
+  - Solitude and consolation
+  - Inner transformation
+  - Beauty and transcendence
+  - Listening and memory
 ---
 
 The poem begins with a night in which darkness seems to have entered not only the streets but the speaker's heart. He walks without direction, absorbed in his own disappointments, barely noticing even the stars above him. Then, from a nearby window, comes the sound of a sitar. What surprises me is that he does not immediately welcome it. The music irritates him; his sadness is so deeply rooted that even something beautiful seems unwelcome. He becomes angry with the unseen musician, clenches his fist and wishes the instrument would simply be broken. I find this moment remarkably honest. Sometimes, when the heart is burdened, we do not know how to receive kindness, beauty or even the possibility of happiness. We may turn away from precisely those things that might help us find ourselves again.
