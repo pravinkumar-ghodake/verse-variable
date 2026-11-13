@@ -3523,3 +3523,21 @@ footer p {
   text-align-last: left;
   unicode-bidi: isolate;
 }
+
+
+/* ============================================================
+   MARATHI ORIGINAL EXPRESSION — FINAL ALIGNMENT
+   ============================================================ */
+
+.article-quotation-section
+.literary-expression
+> blockquote.literary-text
+> span.original-text--marathi {
+  display: block;
+  width: 100%;
+
+  direction: ltr;
+
+  text-align: right;
+  text-align-last: right;
+}
