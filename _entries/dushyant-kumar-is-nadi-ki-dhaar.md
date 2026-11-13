@@ -1,4 +1,3 @@
-
 ---
 layout: entry
 title: "The Boat Still Meets the Waves"
