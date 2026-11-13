@@ -2883,7 +2883,7 @@ button {
 .intellectual-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 55px minmax(0, 1fr);
-  align-items: center;
+  align-items: stretch;
   gap: 14px;
 }
 
