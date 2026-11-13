@@ -31,8 +31,6 @@ translation: |
 
 translator_name: "Editorial rendering"
 
-attribution_note: "This Devanagari rendering follows the sound of the Urdu couplet. It is a pronunciation guide, not a Hindi translation. The English version is an editorial translation."
-
 source_title: "Allama Iqbal — Mauj-e-Darya, Bang-e-Dara"
 source_url: "https://allamaiqbal.com/poetry.php?bookbup=22&conType=ur&lang=4&lang_code=ur&orderno=31"
 
