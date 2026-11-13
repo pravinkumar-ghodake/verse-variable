@@ -1,4 +1,3 @@
-
 # Verse & Variable — Private Analytics
 
 **A privately maintained readership measurement system for Verse & Variable.**
