@@ -1298,12 +1298,11 @@ button {
 
 .translation-text {
   margin: 0;
-
   font-family: var(--font-reading);
 
-  font-size: clamp(1.12rem, 2.5vw, 1.42rem);
+  font-size: 0.93rem;
 
-  line-height: 1.9;
+  line-height: 1.85;
 
   color: var(--ink-primary);
 
