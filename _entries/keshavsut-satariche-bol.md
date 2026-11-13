@@ -8,7 +8,7 @@ week: "week-2026-01"
 week_id: "week-2026-01"
 week_title: "Week 01 — The Hidden Life of Waves"
 
-description: "A troubled wanderer is drawn back by a sitar's recurring notes, as music transforms agitation into absorption, consolation and quiet."
+description: "A solitary wanderer, burdened by sorrow, first resists a distant sitar before its music draws him towards tenderness, wonder and peace."
 
 language: "Marathi"
 language_id: "marathi"
@@ -34,8 +34,11 @@ sources:
   - title: "Wikisource — सतारीचे बोल (Marathi text)"
     url: "https://mr.wikisource.org/wiki/सतारीचे_बोल"
     publisher: "Wikisource"
+  - title: "Keshavsutanchya Kavita — Archival poem record"
+    url: "https://sahitya.marathi.gov.in/scans/Keshavsutanchya%20kavita.pdf"
+    publisher: "Maharashtra Marathi literature archive"
 
-attribution_status: "The selected lines and the poem's 20 March 1900 date were checked against the linked Marathi text."
+attribution_status: "The selected Marathi lines and attribution to Keshavsut were checked against the linked poem text; the recorded composition date remains bibliographically uncertain."
 
 tags:
   - Music and emotion
