@@ -29,8 +29,6 @@ translation: |
   My restless heart keeps me in ceaseless agitation;
   To tremble like quicksilver is the very essence of my being.
 
-translator_name: "Editorial rendering"
-
 source_title: "Allama Iqbal — Mauj-e-Darya, Bang-e-Dara"
 source_url: "https://allamaiqbal.com/poetry.php?bookbup=22&conType=ur&lang=4&lang_code=ur&orderno=31"
 
