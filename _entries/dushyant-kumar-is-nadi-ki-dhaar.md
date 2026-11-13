@@ -35,18 +35,14 @@ sources:
     url: "https://www.rekhta.org/hindi-ghazals/is-nadii-kii-dhaar-men-thandii-havaa-aatii-to-hai-dushyant-kumar-hindi-ghazals"
     publisher: "Saaye Mein Dhoop, p. 16, Radha Krishna Prakashan, 2011 edition"
 
-  - title: "Heinrich Söding — Nonlinear Seakeeping and Hydroelasticity of Ships Using Potential Flow Simulations"
-    url: "https://doi.org/10.1080/09377255.2023.2180241"
-    publisher: "Ship Technology Research, 70(3), 147–162 (2023)"
-
 attribution_status: "The opening couplet, ghazal attribution and collection reference were checked against the linked literary sources."
 
 tags:
-  - River hydrodynamics
-  - Wave–structure interaction
-  - Floating-body response
-  - Nonlinear wave mechanics
-  - Resilience and hope
+  - Human vulnerability
+  - Hope and endurance
+  - Sorrow and consolation
+  - Darkness and dawn
+  - River imagery
 ---
 
 I find something deeply moving in Dushyant Kumar's opening image of a battered boat continuing to meet the waves. The cool breeze brings a little comfort, but it does not repair the boat or make the river any less demanding. The word *jarjar* stays with me because it acknowledges a condition that cannot be hidden: the boat has been worn down. Perhaps that is what makes its persistence so human. There are times when we continue not because we feel strong, hopeful or certain of where we are going, but because something within us is not yet ready to give up. We may carry the marks of everything we have endured, and still find ourselves facing another day. Dushyant does not make this struggle look glorious. He simply allows the battered boat to remain afloat.
