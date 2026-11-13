@@ -221,6 +221,6 @@ The intention is to build an archive in which a reader can arrive through a fami
 
 *Different languages carry different ways of seeing the world. Their words may change, their rhythms may differ, but the human experiences they express often invite us into the same fundamental questions.*
 
-**Verse & Variable**
 
-*لفظ سے لہر تک — Lafz se Lehar tak.*
+**Verse & Variable**
+Lafz se Lehar tak
