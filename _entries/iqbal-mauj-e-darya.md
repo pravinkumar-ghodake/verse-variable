@@ -1,4 +1,3 @@
-
 ---
 layout: entry
 title: "The Restlessness of a Wave"
