@@ -1513,7 +1513,7 @@ button {
 
   font-family: var(--font-reading);
 
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
 
   line-height: 2.05;
 }
@@ -2665,7 +2665,7 @@ button {
   }
 
   .reflection-prose {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     line-height: 2;
   }
 
