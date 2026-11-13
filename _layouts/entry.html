@@ -1,3 +1,4 @@
+
 ---
 layout: default
 ---
@@ -15,18 +16,19 @@ layout: default
 
 {% assign week_url = "/weeks/" | append: page.week | append: "/" %}
 
+
 <!-- ============================================================
      VERSE & VARIABLE
      Individual Literary Article Layout
 
-     Original expression
+     Original literary expression
+     Roman transliteration
+     Optional pronunciation guide
      English translation
-     Transliteration
      Literary attribution
-     Four-paragraph personal reflection
-     Optional scientific illustration
+     Personal reflection
+     Optional supporting illustration
      Source references
-
      ============================================================ -->
 
 
@@ -178,86 +180,56 @@ layout: default
 
       <div class="literary-expression">
 
-        
+
+        <!-- ORIGINAL SCRIPT -->
+
         {% if page.original_text %}
 
           <span
             class="literary-label"
             id="original-expression-heading"
           >
+
             Original Expression ·
             {{ language_record.name | default: page.language | escape }}
+
           </span>
 
+
           <blockquote class="literary-text">
+
             <span
               class="original-text original-text--{{ page.language_id | default: 'default' | escape }}"
               lang="{{ page.language_code | default: 'und' | escape }}"
               dir="{{ original_direction }}"
             >
+
               {{- page.original_text | strip | escape -}}
+
             </span>
+
           </blockquote>
-
-          {% if page.transliteration %}
-            <div class="transliteration">
-              <span class="transliteration-label">
-                {{ page.transliteration_label | default: "Transliteration" | escape }}
-              </span>
-              <div lang="und">
-                {{ page.transliteration | escape | newline_to_br }}
-              </div>
-            </div>
-          {% endif %}
-
-        {% elsif page.pronunciation_guide %}
-
-          <span
-            class="literary-label"
-            id="original-expression-heading"
-          >
-            {{ page.pronunciation_guide_label | default: "Pronunciation Guide · Devanagari" | escape }}
-          </span>
-
-          <div
-            class="transliteration transliteration--primary"
-            lang="ur-Deva"
-            dir="ltr"
-          >
-            {{ page.pronunciation_guide | escape | newline_to_br }}
-          </div>
-
-        {% else %}
-
-          <span
-            class="literary-label"
-            id="original-expression-heading"
-          >
-            Original Expression ·
-            {{ language_record.name | default: page.language | escape }}
-          </span>
-
-          <p class="empty-state">
-            Original literary text has not been added.
-          </p>
 
         {% endif %}
 
 
-
-        <!-- ==================================================
-             OPTIONAL ROMAN TRANSLITERATION
-             ================================================== -->
+        <!-- ROMAN TRANSLITERATION -->
 
         {% if page.transliteration %}
 
-          <div class="transliteration">
+          <div class="transliteration transliteration--roman">
 
             <span class="transliteration-label">
-              Transliteration
+
+              {{ page.transliteration_label | default: "Roman Transliteration" | escape }}
+
             </span>
 
-            <div lang="und">
+
+            <div
+              lang="{{ page.language_code | default: 'und' | append: '-Latn' }}"
+              dir="ltr"
+            >
 
               {{ page.transliteration | escape | newline_to_br }}
 
@@ -266,6 +238,57 @@ layout: default
           </div>
 
         {% endif %}
+
+
+        <!-- PRONUNCIATION GUIDE -->
+
+        {% if page.pronunciation_guide %}
+
+          <div class="transliteration transliteration--pronunciation transliteration--devanagari">
+
+            <span class="transliteration-label">
+
+              {{ page.pronunciation_guide_label | default: "Pronunciation Guide · Devanagari" | escape }}
+
+            </span>
+
+
+            <div
+              lang="{{ page.pronunciation_language | default: 'ur-Deva' | escape }}"
+              dir="ltr"
+            >
+
+              {{ page.pronunciation_guide | escape | newline_to_br }}
+
+            </div>
+
+          </div>
+
+        {% endif %}
+
+
+        <!-- EMPTY STATE -->
+
+        {% unless page.original_text or page.transliteration or page.pronunciation_guide %}
+
+          <span
+            class="literary-label"
+            id="original-expression-heading"
+          >
+
+            Original Expression ·
+            {{ language_record.name | default: page.language | escape }}
+
+          </span>
+
+
+          <p class="empty-state">
+
+            Original literary text has not been added.
+
+          </p>
+
+        {% endunless %}
 
 
         <!-- ==================================================
@@ -277,14 +300,18 @@ layout: default
           <div class="translation">
 
             <span class="translation-label">
+
               English Translation
+
             </span>
+
 
             <p class="translation-text" lang="en">
 
               {{ page.translation | escape | newline_to_br }}
 
             </p>
+
 
             {% if page.translator_name %}
 
@@ -397,7 +424,7 @@ layout: default
 
 
         <!-- ==================================================
-             07. ATTRIBUTION STATUS
+             07. ATTRIBUTION NOTE
              ================================================== -->
 
         {% if page.attribution_note %}
@@ -410,6 +437,7 @@ layout: default
 
         {% endif %}
 
+
       </div>
 
     </section>
@@ -417,15 +445,18 @@ layout: default
 
     <!-- ======================================================
          08. PERSONAL REFLECTION
-         
+
          The article body comes from the Markdown document.
 
-         Each article must contain exactly four substantial
+         Reflections contain no more than four concise
          prose paragraphs.
 
-         Scientific connections belong naturally within
-         these paragraphs rather than being forced into
-         separate technical commentary sections.
+         The writing follows the literary expression,
+         its imagery and emotional movement.
+
+         Scientific knowledge may be included when it
+         genuinely deepens the reflection, but is never
+         a compulsory element.
          ====================================================== -->
 
     <section
