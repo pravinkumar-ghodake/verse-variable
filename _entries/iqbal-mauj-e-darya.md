@@ -8,7 +8,7 @@ week: "week-2026-01"
 week_id: "week-2026-01"
 week_title: "Week 01 — The Hidden Life of Waves"
 
-description: "A river wave speaks in the first person, making restlessness an expression of existence and longing for the open sea."
+description: "A restless wave speaks of confinement, freedom and the enduring ache of longing for the vastness of the open sea."
 
 language: "Urdu"
 language_id: "urdu"
@@ -40,17 +40,17 @@ sources:
 attribution_status: "Poem attribution and the selected couplet's source were checked against the linked references."
 
 tags:
-  - Wave motion
-  - Fluid dynamics
-  - Nonlinear waves
-  - Restlessness
-  - Literary philosophy
+  - Restlessness and longing
+  - Freedom and confinement
+  - Journey and destination
+  - Identity and existence
+  - River and sea imagery
 ---
 
-I read these lines as the opening of a voice that refuses to be still. The speaker is not merely describing a river's surface; the wave speaks as though restlessness were its identity. The heart is *betaab*—impatient, unable to settle—and its agitation is compared with *simaab*, quicksilver. Iqbal's choice of a wave as speaker allows a small, moving form to carry a profound question: is movement a disturbance imposed on life, or one of the conditions through which life recognises itself?
+I find something deeply intimate in Iqbal's decision to let a wave speak about its own restlessness. The opening lines do not describe a passing disturbance or a moment of impatience; they make agitation almost inseparable from existence itself. The heart trembles like quicksilver, something that cannot easily be held still or confined to a single form. Yet behind this movement I sense a certain loneliness. The wave knows that it is restless, but even it seems unable to explain the reason for its longing. I am particularly drawn to this idea because many of us experience feelings that are difficult to put into words. We may appear to be moving through ordinary days, fulfilling our responsibilities and following familiar paths, while something within us remains unsettled, searching for a meaning that our surroundings cannot quite provide.
 
-The quicksilver image is more than an ornament. Mercury is a liquid metal, and its mobile, reflective surface makes it an evocative image for something that cannot easily be held still. Yet I do not read the poem as celebrating agitation without direction. In the wider *nazm*, the wave resists confinement by the whirlpool, encounters the shore, and longs for the vastness of the sea. Its restlessness therefore carries an aspiration: movement becomes inseparable from freedom, passage and the search for a more expansive horizon.
+As the poem unfolds, this restlessness begins to reveal its character. The wave refuses to be chained by the whirlpool, moves freely through the water and escapes the fishing hook that might catch it. Yet its freedom is not without pain. At times it leaps in response to the full moon's attraction; at other moments, carried by its own intensity, it strikes its head against the shore. I find this contrast especially beautiful. The very movement that gives the wave its freedom also exposes it to collision. Perhaps our own lives contain something similar. The people, ideas and possibilities that draw us towards a wider existence can also take us into unfamiliar and difficult experiences. To desire a different life is not necessarily to desire an easier one.
 
-From the perspective of wave mechanics, I find another interesting dimension in this image. A travelling surface wave propagates across water while the fluid particles undergo local oscillatory motion; the crest advances without carrying the same parcel of water along with it. In linear gravity-wave theory, particle trajectories are approximately circular in deep water and become increasingly elliptical as the water becomes shallower. Dispersion further distinguishes the motion of individual wave components from the propagation of a wave packet. The visible movement of a wave is therefore not the whole physical story.
+One of the most revealing moments comes when the wave describes itself as a traveller who is in love with the destination. It almost sounds like a confession. The wave is not simply trying to escape something; it is drawn towards something it deeply loves. And yet it asks, almost helplessly, why it continues to tremble. I read this as one of the poem's most human questions. Sometimes the source of our restlessness is not dissatisfaction with what we have, but an attachment to something we have not yet experienced. A place, a possibility, a relationship, an understanding of ourselves or a sense of belonging may exist in our imagination long before we know how to reach it. The distance between where we are and what we long for can become both the reason we keep moving and the source of our deepest unease.
 
-Linear theory, however, is only an approximation when finite-amplitude effects become important. Nonlinear free-surface dynamics can produce harmonic interactions, waveform distortion, crest–trough asymmetry and, eventually, wave breaking. This is distinct from nonlinear elastic waves in solids, where material constitutive behaviour, hysteresis or contact interactions can govern the nonlinear response. I do not suggest that Iqbal anticipated these physical theories; rather, his restless wave offers a compelling human image for a world in which motion, interaction and transformation are inseparable. The poem leaves me with a question that belongs equally to literature and science: what does it mean to remain in motion without surrendering the desire for a destination?
+The poem closes without offering an easy resolution. The wave remains uncomfortable within the narrow river and distressed by its separation from the vastness of the sea. I would not reduce this longing to ambition or the familiar encouragement to dream bigger. There is something more vulnerable here: the pain of feeling that the world around us, however familiar, cannot contain everything we carry within ourselves. The sea represents a vastness towards which the wave feels an almost irresistible attachment, but the poem leaves that distance unresolved. Perhaps that is why these lines remain with me. Not every longing is meant to disappear as soon as we understand it, and not every journey reaches its destination when we expect it to. Sometimes the desire itself becomes part of who we are. Iqbal leaves me wondering whether restlessness is always something from which we seek relief, or whether, on certain journeys, it is the quiet reminder of everything we still hold dear.
