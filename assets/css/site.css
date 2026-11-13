@@ -3541,3 +3541,9 @@ footer p {
   text-align: right;
   text-align-last: right;
 }
+
+
+/* Compact spacing above Marathi original expression */
+.article-quotation-section:has(.original-text--marathi) .literary-label {
+  margin-bottom: 4px;
+}
