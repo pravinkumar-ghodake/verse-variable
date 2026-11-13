@@ -178,40 +178,71 @@ layout: default
 
       <div class="literary-expression">
 
-        <span
-          class="literary-label"
-          id="original-expression-heading"
-        >
-
-          Original Expression ·
-          {{ language_record.name | default: page.language | escape }}
-
-        </span>
-
-
+        
         {% if page.original_text %}
 
-          <blockquote class="literary-text">
+          <span
+            class="literary-label"
+            id="original-expression-heading"
+          >
+            Original Expression ·
+            {{ language_record.name | default: page.language | escape }}
+          </span>
 
+          <blockquote class="literary-text">
             <span
               class="original-text original-text--{{ page.language_id | default: 'default' | escape }}"
               lang="{{ page.language_code | default: 'und' | escape }}"
               dir="{{ original_direction }}"
             >
-
               {{ page.original_text | escape | newline_to_br }}
-
             </span>
-
           </blockquote>
 
+          {% if page.transliteration %}
+            <div class="transliteration">
+              <span class="transliteration-label">
+                {{ page.transliteration_label | default: "Transliteration" | escape }}
+              </span>
+              <div lang="und">
+                {{ page.transliteration | escape | newline_to_br }}
+              </div>
+            </div>
+          {% endif %}
+
+        {% elsif page.transliteration %}
+
+          <span
+            class="literary-label"
+            id="original-expression-heading"
+          >
+            {{ page.transliteration_label | default: "Pronunciation Guide · Devanagari" | escape }}
+          </span>
+
+          <div
+            class="transliteration transliteration--primary"
+            lang="ur-Deva"
+            dir="ltr"
+          >
+            {{ page.transliteration | escape | newline_to_br }}
+          </div>
+
         {% else %}
+
+          <span
+            class="literary-label"
+            id="original-expression-heading"
+          >
+            Original Expression ·
+            {{ language_record.name | default: page.language | escape }}
+          </span>
 
           <p class="empty-state">
             Original literary text has not been added.
           </p>
 
         {% endif %}
+
 
 
         <!-- ==================================================
