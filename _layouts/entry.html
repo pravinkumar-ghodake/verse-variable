@@ -195,7 +195,7 @@ layout: default
               lang="{{ page.language_code | default: 'und' | escape }}"
               dir="{{ original_direction }}"
             >
-              {{ page.original_text | strip | escape }}
+              {{- page.original_text | strip | escape -}}
             </span>
           </blockquote>
 
