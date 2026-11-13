@@ -1127,7 +1127,7 @@ button {
 
   margin-block: 35px;
 
-  background: var(--surface-glass);
+  background: color-mix(in srgb, var(--surface-glass) 65%, transparent);
 
   border: 1px solid var(--border-primary);
   border-radius: 10px;
@@ -1326,6 +1326,10 @@ button {
   color: var(--ink-primary);
 
   font-style: italic;
+
+  direction: ltr;
+  text-align: right;
+  text-align-last: right;
 }
 
 .transliteration {
@@ -1359,7 +1363,7 @@ button {
   line-height: 2;
   color: var(--ink-primary);
   direction: ltr;
-  text-align: left;
+  text-align: right;
 }
 
 
@@ -1372,7 +1376,11 @@ button {
   flex-wrap: wrap;
 
   align-items: center;
+  justify-content: flex-end;
+
   gap: 9px;
+
+  width: 100%;
 
   margin-top: 27px;
   padding-top: 18px;
@@ -1383,6 +1391,9 @@ button {
 
   font-size: 0.79rem;
   line-height: 1.8;
+
+  text-align: right;
+  direction: ltr;
 }
 
 .attribution strong {
@@ -3290,8 +3301,13 @@ button {
 .literary-metadata {
   display: flex;
   flex-wrap: wrap;
+
   align-items: baseline;
+  justify-content: flex-end;
+
   gap: 9px 13px;
+
+  width: 100%;
 
   margin-top: 24px;
 
@@ -3299,6 +3315,9 @@ button {
   font-family: var(--font-interface);
   font-size: 0.77rem;
   line-height: 1.8;
+
+  direction: ltr;
+  text-align: right;
 }
 
 .metadata-item {
