@@ -276,30 +276,6 @@ layout: default
 
               {% endif %}
 
-
-              <!-- OPTIONAL ORIGINAL EXPRESSION PREVIEW -->
-
-              {% if entry.original_text %}
-
-                <div class="week-original-preview">
-
-                  <span
-                    class="week-original-label"
-                    lang="{{ entry.language_code | default: 'und' | escape }}"
-                    {% if entry.language_code == "ur" %}
-                      dir="rtl"
-                    {% endif %}
-                  >
-
-                    {{ entry.original_text | strip_html | truncate: 150 }}
-
-                  </span>
-
-                </div>
-
-              {% endif %}
-
-
             </div>
 
 
