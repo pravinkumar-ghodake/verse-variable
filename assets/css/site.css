@@ -1334,7 +1334,10 @@ button {
   text-align-last: right;
 }
 
+
 .transliteration {
+  display: block;
+
   margin-top: 20px;
 
   color: var(--ink-muted);
@@ -1346,6 +1349,10 @@ button {
 }
 
 .transliteration-label {
+  display: block;
+
+  margin-bottom: 9px;
+
   color: var(--spectrum-gold);
 
   font-family: var(--font-interface);
@@ -1357,16 +1364,62 @@ button {
   letter-spacing: 0.10em;
 }
 
-/* Primary Devanagari pronunciation guide */
-.transliteration--primary {
-  margin-top: 0;
-  font-family: var(--font-devanagari);
-  font-size: var(--font-size-devanagari-literary);
-  line-height: 2;
-  color: var(--ink-primary);
+
+/* ============================================================
+   ROMAN TRANSLITERATION
+   ============================================================ */
+
+.transliteration--roman {
+  margin-top: 22px;
+  padding-top: 17px;
+
+  border-top: 1px solid var(--border-primary);
+}
+
+.transliteration--roman > div {
+  color: var(--ink-secondary);
+
+  font-family: var(--font-reading);
+  font-size: 0.93rem;
+
+  line-height: 1.9;
+
   direction: ltr;
   text-align: right;
+
+  unicode-bidi: isolate;
 }
+
+
+/* ============================================================
+   DEVANAGARI PRONUNCIATION GUIDE
+   ============================================================ */
+
+.transliteration--pronunciation {
+  margin-top: 19px;
+  padding-top: 16px;
+
+  border-top: 1px solid var(--border-primary);
+}
+
+.transliteration--devanagari > div,
+.transliteration--primary {
+  display: block;
+
+  color: var(--ink-primary);
+
+  font-family: var(--font-devanagari);
+
+  font-size: var(--font-size-devanagari-literary);
+
+  line-height: 2.15;
+
+  direction: ltr;
+  text-align: right;
+
+  unicode-bidi: isolate;
+}
+
 
 
 /* ============================================================
