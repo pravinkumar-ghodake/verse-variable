@@ -80,7 +80,7 @@ Attribution and intellectual integrity are equally important. Literary expressio
 
 ## The Author
 
-**Pravinkumar Ghodake** (full name as it appears on records: **Pravinkumar Ramchandra Ghodake**)is an independent researcher whose intellectual interests span theoretical, computational and experimental mechanics, nonlinear ultrasonics, nonlinear elastic waves, mechanical metamaterials and inverse design. His wider interests extend to Indian literature, poetry, shayari, books, philosophy, music, cinema, sport and interdisciplinary scientific thought.
+**Pravinkumar Ghodake** (full name as it appears on records: **Pravinkumar Ramchandra Ghodake**) is an independent researcher whose intellectual interests span theoretical, computational and experimental mechanics, nonlinear ultrasonics, nonlinear elastic waves, mechanical metamaterials and inverse design. His wider interests extend to Indian literature, poetry, shayari, books, philosophy, music, cinema, sport and interdisciplinary scientific thought.
 
 Verse & Variable is not an extension of a research paper, nor is it intended to function as a conventional professional portfolio. It is a personal space in which these different interests can meet without being confined to a single academic discipline or cultural expression. The journal allows literary curiosity to coexist with scientific investigation, and analytical thinking to coexist with the simple pleasure of reading a beautiful line.
 
