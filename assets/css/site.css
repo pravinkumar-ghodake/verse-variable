@@ -1333,6 +1333,17 @@ button {
   letter-spacing: 0.10em;
 }
 
+/* Primary Devanagari pronunciation guide */
+.transliteration--primary {
+  margin-top: 0;
+  font-family: var(--font-devanagari);
+  font-size: 1rem;
+  line-height: 2;
+  color: var(--ink-primary);
+  direction: ltr;
+  text-align: left;
+}
+
 
 /* ============================================================
    18. ARTICLE ATTRIBUTION
