@@ -1,4 +1,3 @@
-
 /* ============================================================
    VERSE & VARIABLE — PRIVATE READERSHIP ANALYTICS
    File: analytics/worker/index.js
