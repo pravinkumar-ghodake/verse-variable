@@ -35,7 +35,7 @@ source_url: "https://allamaiqbal.com/poetry.php?bookbup=22&conType=ur&lang=4&lan
 sources:
   - title: "ZindeRood — Mauj-e-Darya (text and printed-source reference)"
     url: "https://www.zinderood.com/en/urdu/poets/allama-iqbal/bang-dra/poem/1wpx8y7maejq2"
-    publisher: "Kulliyat-e-Iqbal — Urdu, Ghulam Ali edition, 1975"
+    publisher: "Kulliyat-e-Iqbal — Urdu (Ghulam Ali, 1975), p. 94; Bang-e-Dara, p. 78"
 
 attribution_status: "Poem attribution and the selected couplet's source were checked against the linked references."
 
