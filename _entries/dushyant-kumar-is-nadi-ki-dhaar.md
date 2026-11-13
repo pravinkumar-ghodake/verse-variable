@@ -8,7 +8,7 @@ week: "week-2026-01"
 week_id: "week-2026-01"
 week_title: "Week 01 — The Hidden Life of Waves"
 
-description: "A battered boat continues to meet the river's waves, offering an image of fragile persistence amid uncertainty, resistance and hope."
+description: "A battered boat, a waiting flame and a river that still speaks become quiet images of the tenderness and hope that survive human sorrow."
 
 language: "Hindi"
 language_id: "hindi"
@@ -35,7 +35,7 @@ sources:
     url: "https://www.rekhta.org/hindi-ghazals/is-nadii-kii-dhaar-men-thandii-havaa-aatii-to-hai-dushyant-kumar-hindi-ghazals"
     publisher: "Saaye Mein Dhoop, p. 16, Radha Krishna Prakashan, 2011 edition"
 
-attribution_status: "The opening couplet, ghazal attribution and collection reference were checked against the linked literary sources."
+attribution_status: "The selected opening couplet, author attribution and collection reference were cross-checked against the linked literary sources."
 
 tags:
   - Human vulnerability
