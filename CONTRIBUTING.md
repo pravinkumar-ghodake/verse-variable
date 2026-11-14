@@ -8,9 +8,9 @@ Its editorial direction is guided by a commitment to literary integrity, cultura
 
 The editor's wider intellectual interests include international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests inform the editorial perspective but do not expand the journal's present literary scope beyond Indian literature.
 
-Scientific knowledge and specialist expertise may contribute to an individual literary exploration when they genuinely deepen its interpretation. They are not independent publication requirements.
+Scientific knowledge and specialist expertise may contribute to an individual literary exploration when they genuinely deepen its interpretation. They are not independent publication requirements or compulsory elements of a literary contribution.
 
-This document explains how contributions, corrections and suggestions should be submitted and evaluated.
+This document explains the journal's approach to literary suggestions, corrections, editorial feedback and technical contributions. It does not establish a separate submission channel or guarantee publication.
 
 ---
 
@@ -34,6 +34,12 @@ The journal prioritises:
 Literary quality and the integrity of the individual work take precedence over popularity, institutional affiliation or an obligation to establish a connection with another discipline.
 
 The journal does not require every contribution to include scientific terminology, interdisciplinary comparisons or a predetermined interpretation.
+
+Weekly collections generally bring together three independent literary explorations. The selected works need not share a common theme, subject or interdisciplinary connection.
+
+Each literary work is approached on its own terms, with attention to its language, imagery, context, emotional character and interpretative possibilities.
+
+Individual editorial commentaries are intended to remain concise, generally comprising no more than four English prose paragraphs. This is an editorial limit rather than a fixed four-part formula. The number and movement of paragraphs should follow the needs of the particular work.
 
 ## 2. Literary Suggestions
 
@@ -64,7 +70,7 @@ Suggestions should ideally include:
 
 An international literary work may inform the editor's broader reading and intellectual perspective, but the current editorial selection of Verse & Variable is focused on Indian literature.
 
-A suggestion does not guarantee selection or publication.
+A suggestion does not guarantee selection or publication. Editorial selection remains independent and may take into account literary merit, cultural and linguistic context, source reliability, rights considerations and the coherence of the archive.
 
 ## 3. Attribution and Source Verification
 
@@ -129,9 +135,9 @@ Relevant areas of the editor's research background include:
 - Computational mechanics.
 - Physical acoustics.
 
-Contributors with relevant expertise may help with the verification or explanation of a particular scientific concept when it is actually relevant to an article.
+Contributors with relevant expertise may help verify or explain a particular scientific concept when it is actually relevant to an article.
 
-Scientific suggestions should not be introduced merely to create an interdisciplinary appearance.
+Scientific suggestions should not be introduced merely to create an interdisciplinary appearance. A literary metaphor should not be represented as a scientifically established mechanism, nor should a poet be described as having anticipated a modern scientific discovery without adequate evidence.
 
 Standalone scientific research papers, engineering articles or technical studies are not independent literary submission categories within the present scope of Verse & Variable.
 
@@ -146,9 +152,7 @@ Where possible, provide:
 - Relevant experimental or computational evidence.
 - Important assumptions and limitations.
 
-A literary metaphor should not be represented as a scientifically established mechanism.
-
-Scientific terminology should clarify the discussion rather than displace the literary expression.
+Scientific terminology should clarify the discussion rather than displace the literary expression. The literary work should remain central.
 
 ## 6. Corrections and Editorial Feedback
 
@@ -169,7 +173,7 @@ Examples include:
 
 Please explain the issue and provide a reliable source or supporting evidence wherever possible.
 
-Reasoned disagreement about literary interpretation is not automatically a factual error.
+Reasoned disagreement about literary interpretation is not automatically a factual error. Different interpretations may coexist without requiring one to be treated as a correction.
 
 Editorial decisions remain with the publication's editor.
 
@@ -198,11 +202,11 @@ Contributors should disclose any restrictions, prior publication arrangements or
 
 ## 8. Contribution Licence and Intellectual Property
 
-The repository uses the MIT License for material covered by the repository's licence terms.
+The repository uses the MIT License for material covered by its licence terms.
 
 Code and technical contributions intended to become part of the repository should be submitted with the understanding that the applicable repository licensing terms will govern their use.
 
-However, the presence of the MIT License does not automatically establish rights over third-party poems, lyrics, translations, photographs, recordings, research figures or other separately protected material.
+The presence of the MIT License does not automatically establish rights over third-party poems, lyrics, translations, photographs, recordings, research figures or other separately protected material.
 
 Before accepting a literary or other third-party contribution, the publication should establish:
 
@@ -219,7 +223,7 @@ Where a literary work, translation or other contribution is intended to have rig
 
 Submitting a contribution does not transfer ownership of material to the publication unless a separate agreement expressly establishes that arrangement.
 
-The repository's licensing documentation should be consistent with any separate notices or permissions applying to individual contributions.
+The repository's licensing documentation should remain consistent with any separate notices or permissions applying to individual contributions.
 
 ## 9. Technical Contributions
 
@@ -242,9 +246,13 @@ Avoid introducing unnecessary dependencies.
 
 Preserve the multilingual character and visual identity of the publication, including its research-inspired wave design and existing visual language.
 
-Technical contributions are distinct from literary submissions. Their acceptance does not imply a change in the journal's editorial scope.
+Technical contributions are distinct from literary suggestions and editorial contributions. Their acceptance does not imply a change in the journal's editorial scope.
 
 ## 10. Pull Request Guidelines
+
+Pull requests are intended for changes to the repository, such as technical improvements, documentation updates and appropriate corrections to existing website content.
+
+A pull request is a repository-change mechanism; it does not, by itself, constitute a formal literary submission or guarantee editorial consideration.
 
 When submitting a pull request:
 
