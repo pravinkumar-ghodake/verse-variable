@@ -1,4 +1,3 @@
-
 # Language and Style Guide
 
 **Verse & Variable**  
@@ -9,9 +8,13 @@
 
 This document establishes the language and presentation conventions used throughout Verse & Variable.
 
-The publication brings together original literary expressions, translations, transliterations, cultural commentary, historical references, and scientific discussions across multiple languages.
+The publication focuses on Indian literary expressions, translations, transliterations, cultural commentary and historical references across multiple languages.
 
 A consistent editorial framework is necessary to make these materials accessible and recognisable without imposing the conventions of one language upon another.
+
+The editor's wider intellectual interests extend to Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests inform the editorial perspective, but do not expand the present literary scope of the archive beyond Indian literature.
+
+Scientific terminology and explanations may appear when they genuinely contribute to an individual reflection. They are not required components of the journal's general literary content.
 
 This guide covers:
 
@@ -22,12 +25,12 @@ This guide covers:
 - Punctuation and quotation practices.
 - Names and literary attribution.
 - English commentary and prose style.
-- Scientific terminology and notation.
-- Dates, numerals, and measurements.
-- Headings, metadata, and article structure.
+- Scientific terminology and notation, where applicable.
+- Dates, numerals and measurements.
+- Headings, metadata and article structure.
 - Digital text encoding and presentation.
 
-These conventions should be applied alongside `EDITORIAL_POLICY.md`, `TRANSLATION_GUIDELINES.md`, and `ACCESSIBILITY.md`.
+These conventions should be applied alongside `EDITORIAL_POLICY.md`, `TRANSLATION_GUIDELINES.md` and `ACCESSIBILITY.md`.
 
 ## 2. Fundamental Language Principles
 
@@ -37,11 +40,11 @@ The original language of a literary work is an essential part of its identity.
 
 Do not treat English as the default replacement for an original expression.
 
-Where appropriate, preserve the original script and provide transliteration, translation, or explanatory notes as supplementary material.
+Where appropriate, preserve the original script and provide transliteration, translation or explanatory notes as supplementary material.
 
 ### 2.2 Linguistic Accuracy Before Visual Uniformity
 
-Different languages have different grammatical systems, writing conventions, punctuation practices, and typographic requirements.
+Different languages have different grammatical systems, writing conventions, punctuation practices and typographic requirements.
 
 A consistent publication design should not force every language into identical linguistic conventions.
 
@@ -49,9 +52,9 @@ Preserve language-specific features wherever they are meaningful.
 
 ### 2.3 Consistency Without Artificial Standardisation
 
-Consistency is desirable in metadata, navigation, article organisation, and editorial terminology.
+Consistency is desirable in metadata, navigation, article organisation and editorial terminology.
 
-It should not be achieved by erasing regional vocabulary, dialectal variation, historical spelling, poetic conventions, or distinctive expressions.
+It should not be achieved by erasing regional vocabulary, dialectal variation, historical spelling, poetic conventions or distinctive expressions.
 
 ### 2.4 Clear Distinction Between Language Layers
 
@@ -62,14 +65,14 @@ Readers should be able to distinguish clearly between:
 - English translation.
 - Translator's notes.
 - Editorial commentary.
-- Scientific explanations.
+- Optional contextual or scientific explanations.
 - Bibliographic references.
 
 These elements should not be visually or semantically merged.
 
 ## 3. Supported Languages
 
-The publication's initial language framework covers the following traditions.
+The publication's initial language framework covers the following Indian literary traditions.
 
 | Language | Preferred English name | ISO 639-1 code | Primary script |
 |---|---|---|---|
@@ -81,11 +84,13 @@ The publication's initial language framework covers the following traditions.
 | Malayalam | Malayalam | `ml` | Malayalam |
 | Telugu | Telugu | `te` | Telugu |
 
-Additional languages and traditions may be included when they contribute meaningfully to the archive.
+Additional Indian languages and literary traditions may be included as the archive develops.
+
+The editor's wider literary interests include works from India and around the world. However, international literature is part of the editor's broader reading and intellectual background, not an expansion of the journal's present editorial scope.
 
 ### 3.1 Language Names
 
-Use established English language names consistently in navigation, metadata, article descriptions, and language indexes.
+Use established English language names consistently in navigation, metadata, article descriptions and language indexes.
 
 Use the language's own name in its original script when it adds value.
 
@@ -156,7 +161,7 @@ Visually similar characters from different writing systems must not be substitut
 
 Use Unicode text rather than images of ordinary literary passages wherever practical.
 
-This allows text to remain selectable, searchable, scalable, and more accessible to assistive technologies.
+This allows text to remain selectable, searchable, scalable and more accessible to assistive technologies.
 
 Avoid unnecessary conversion between Unicode characters when preserving the original text.
 
@@ -166,7 +171,7 @@ Where text is normalised for technical consistency, Unicode NFC is a suitable de
 
 Before publication, compare the digital text against a reliable source.
 
-Do not assume that copied text from a website, PDF, image transcription, or social media post is free from typographical or encoding errors.
+Do not assume that copied text from a website, PDF, image transcription or social media post is free from typographical or encoding errors.
 
 ## 5. Urdu Typography and Right-to-Left Presentation
 
@@ -201,7 +206,7 @@ The publication should remain readable if an external font does not load.
 
 ### 5.3 Mixed Urdu and English
 
-Urdu passages may contain English words, technical terminology, dates, or numerals.
+Urdu passages may contain English words, technical terminology, dates or numerals.
 
 Mixed-direction text should be structured carefully to prevent unexpected reordering.
 
@@ -227,7 +232,7 @@ An English transliteration or translation may be supplied as an additional refer
 
 ## 6. Indic Scripts and Regional Typography
 
-Hindi, Marathi, Kannada, Tamil, Malayalam, and Telugu use distinct writing systems and typographic conventions.
+Hindi, Marathi, Kannada, Tamil, Malayalam and Telugu use distinct writing systems and typographic conventions.
 
 ### 6.1 Devanagari
 
@@ -235,13 +240,13 @@ Hindi and Marathi both use Devanagari, but their linguistic identities must rema
 
 Do not identify a Marathi work as Hindi merely because both use the same script.
 
-Preserve language-specific vocabulary, grammar, spelling, and literary conventions.
+Preserve language-specific vocabulary, grammar, spelling and literary conventions.
 
 ### 6.2 Kannada
 
 Use appropriate Kannada characters and shaping behaviour.
 
-Check conjuncts, vowel signs, character combinations, and rendering across different browsers and devices.
+Check conjuncts, vowel signs, character combinations and rendering across different browsers and devices.
 
 ### 6.3 Tamil
 
@@ -251,7 +256,7 @@ Do not substitute characters or spellings based on approximate visual similariti
 
 ### 6.4 Malayalam
 
-Check Malayalam character shaping, combining signs, line spacing, and font support.
+Check Malayalam character shaping, combining signs, line spacing and font support.
 
 Ensure that the complete text remains readable at different display sizes.
 
@@ -341,7 +346,7 @@ Where multiple established spellings exist, choose one consistently and preserve
 
 ### 7.7 No Invented Standardisation
 
-The publication does not claim that one transliteration scheme is universally correct for all Indian and South Asian languages.
+The publication does not claim that one transliteration scheme is universally correct for all Indian languages.
 
 Language-specific systems should be recognised.
 
@@ -356,7 +361,7 @@ Translations should be clearly distinguished from original material.
 Where all elements are available and useful, the presentation order should generally be:
 
 1. Original literary text.
-2. Transliteration.
+2. Transliteration or pronunciation guide.
 3. English translation.
 4. Attribution and source information.
 5. Literary commentary.
@@ -371,6 +376,7 @@ Use clear labels such as:
 
 - Original text.
 - Transliteration.
+- Pronunciation guide.
 - English translation.
 - Translator's note.
 - Adapted translation.
@@ -391,8 +397,6 @@ When comparing multiple translations, identify each translator and source separa
 
 Do not combine selected phrases from different translators into a single text without disclosing the changes.
 
-For further guidance, consult `TRANSLATION_GUIDELINES.md`.
-
 ## 9. Names, Authors, and Attribution
 
 Accurate naming is essential for literary and scholarly integrity.
@@ -403,7 +407,7 @@ Use a person's established publication name or preferred professional spelling w
 
 Where useful, include the original-script form.
 
-Do not infer a person's full name, family relationship, title, or professional status without evidence.
+Do not infer a person's full name, family relationship, title or professional status without evidence.
 
 ### 9.2 Creative Roles
 
@@ -448,7 +452,7 @@ Historical titles should be retained where they are relevant and verifiable.
 
 English is the principal language of the publication's original interpretative commentary.
 
-The editorial voice should remain mature, reflective, precise, and accessible.
+The editorial voice should remain mature, reflective, precise and accessible.
 
 ### 10.1 General Tone
 
@@ -456,11 +460,11 @@ Prefer:
 
 - Thoughtful and natural expression.
 - Clear sentence construction.
-- Substantial interpretation.
+- Meaningful literary development.
 - Precise vocabulary.
 - Balanced intellectual curiosity.
 - Respectful cultural description.
-- Appropriate technical explanation.
+- Appropriate technical explanation, where relevant.
 
 Avoid:
 
@@ -470,7 +474,8 @@ Avoid:
 - Repetitive paraphrasing.
 - Excessive jargon.
 - Unsupported claims.
-- Generic inspirational language that adds little to the analysis.
+- Generic inspirational language that adds little to the interpretation.
+- Forced scientific or interdisciplinary comparisons.
 
 ### 10.2 First-Person Reflection
 
@@ -478,13 +483,21 @@ The principal commentary may use a first-person reflective perspective.
 
 First-person language should emerge naturally from the interpretation rather than appearing in every paragraph as a mechanical stylistic requirement.
 
+The editor's personal observations and experiences may enrich the reading, but should not overwhelm the literary expression.
+
 ### 10.3 Paragraph Structure
 
-Individual literary explorations should contain exactly four substantial paragraphs of principal English commentary.
+Individual literary explorations should contain no more than four concise paragraphs of principal English commentary.
 
-Each paragraph should make a distinct contribution to the exploration.
+Fewer paragraphs are entirely acceptable. There is no minimum paragraph count and no requirement to produce exactly four paragraphs.
 
-Supplementary quotations, translations, attribution, notes, references, and headings do not count as part of those four paragraphs.
+The reflection should form a coherent emotional and intellectual progression. Its length and structure should follow the literary expression rather than a prescribed paragraph-by-paragraph formula.
+
+A useful reflection may move through the initial literary encounter, deeper interpretation, personal perspective and a lasting thought. These are possible movements of thought, not four mandatory paragraphs.
+
+Do not artificially expand a reflection merely to satisfy a paragraph count.
+
+Supplementary quotations, translations, attribution, notes, references and headings do not count as part of the prose reflection.
 
 ### 10.4 Sentence Construction
 
@@ -506,7 +519,7 @@ For example:
 - centre
 - behaviour
 
-However, preserve the original spelling of titles, quotations, published references, institutional names, and source material.
+However, preserve the original spelling of titles, quotations, published references, institutional names and source material.
 
 Consistency is more important than mechanically changing quoted material.
 
@@ -540,7 +553,7 @@ Do not use dashes excessively as a substitute for clear sentence structure.
 
 Preserve the original punctuation where relevant.
 
-Do not impose English quotation marks, commas, or full stops mechanically on every language.
+Do not impose English quotation marks, commas or full stops mechanically on every language.
 
 ### 11.5 Poetic Line Breaks
 
@@ -566,11 +579,11 @@ An English rendering or transliteration may be presented separately.
 
 Do not invent an official English title when none exists.
 
-### 12.3 Book, Film, and Publication Titles
+### 12.3 Book, Film and Publication Titles
 
 Retain the established title of a referenced work.
 
-Use italics for English-language book, film, journal, and publication titles where appropriate.
+Use italics for English-language book, film, journal and publication titles where appropriate.
 
 Preserve the original formatting conventions of source publications in formal bibliographic references.
 
@@ -623,7 +636,7 @@ Examples:
 - 5 s
 - 300 K
 
-Use scientific notation and unit symbols consistently.
+Use scientific notation and unit symbols consistently when scientific quantities are discussed.
 
 ### 13.5 Scientific Notation
 
@@ -631,15 +644,17 @@ Define variables and abbreviations at their first meaningful use.
 
 Do not change established mathematical notation merely for visual uniformity.
 
-For further detail, consult the relevant scientific references and research standards.
+For further detail, consult the relevant scientific references and research standards when applicable.
 
 ## 14. Scientific and Technical Terminology
 
-The scientific dimension of Verse & Variable requires consistency in technical language.
+Scientific terminology is relevant only when an individual reflection includes genuine scientific discussion or makes substantive technical claims.
+
+The editor's research identity remains an important part of the wider intellectual background of Verse & Variable. However, technical terminology should not be inserted into literary commentary merely to signal that background.
 
 ### 14.1 Preferred Technical Language
 
-Use established terminology from the relevant discipline.
+When scientific discussion is appropriate, use established terminology from the relevant discipline.
 
 For example:
 
@@ -662,7 +677,7 @@ Do not use technical terms as decorative substitutes for ordinary literary descr
 
 Explain specialised terminology when its meaning is essential to the reader's understanding.
 
-Avoid assuming that every reader has an engineering, physics, or mathematics background.
+Avoid assuming that every reader has an engineering, physics or mathematics background.
 
 ### 14.3 Distinguish Similar Terms
 
@@ -689,7 +704,7 @@ Avoid excessive acronym use in literary commentary.
 
 ## 15. Metadata and Digital Language Identification
 
-Accurate metadata helps browsers, assistive technologies, search systems, and indexing services understand the content.
+Accurate metadata helps browsers, assistive technologies, search systems and indexing services understand the content.
 
 ### 15.1 Language Metadata
 
@@ -727,7 +742,7 @@ The character representation must preserve original text across different browse
 
 Language metadata in individual articles should agree with the actual content.
 
-The language directory, entry frontmatter, HTML attributes, and other structured metadata should remain consistent.
+The language directory, entry frontmatter, HTML attributes and other structured metadata should remain consistent.
 
 ## 16. Search and Archive Terminology
 
@@ -743,9 +758,11 @@ Use the same language names across:
 - Search descriptions.
 - Structured data.
 
-Where an author, poem, or work is known by several spellings or transliterations, relevant alternatives may be recorded to improve discoverability.
+Where an author, poem or work is known by several spellings or transliterations, relevant alternatives may be recorded to improve discoverability.
 
 Alternative spellings should not replace the preferred display form without editorial justification.
+
+Scientific terms should be used in article metadata only when the article genuinely contains relevant scientific discussion. The editor's broader research interests may be documented separately in author and publication metadata.
 
 ## 17. Accessibility and Readability
 
@@ -771,7 +788,7 @@ For additional requirements, consult `ACCESSIBILITY.md`.
 
 Before publishing an article, review the following.
 
-### Original language
+### Original Language
 
 - [ ] Language is correctly identified.
 - [ ] Original script is accurate.
@@ -779,15 +796,16 @@ Before publishing an article, review the following.
 - [ ] Literary form is identified where relevant.
 - [ ] Original line and stanza structure is preserved where meaningful.
 
-### Transliteration and translation
+### Transliteration and Translation
 
 - [ ] Transliteration follows a consistent approach.
+- [ ] Pronunciation guidance is accurate, where applicable.
 - [ ] Translation is clearly distinguished from transliteration.
 - [ ] Translator attribution is accurate.
 - [ ] Important ambiguities are preserved or explained.
 - [ ] Adaptations are identified correctly.
 
-### Typography and formatting
+### Typography and Formatting
 
 - [ ] Correct font and fallback behaviour.
 - [ ] Urdu right-to-left layout is checked where applicable.
@@ -796,13 +814,16 @@ Before publishing an article, review the following.
 - [ ] Line breaks and paragraph spacing are readable.
 - [ ] Mixed-direction passages are handled appropriately.
 
-### English commentary
+### English Commentary
 
 - [ ] English prose is clear and natural.
 - [ ] British spelling preference is applied consistently where relevant.
-- [ ] Exactly four principal commentary paragraphs are present.
-- [ ] Technical terms are used accurately.
-- [ ] Tone remains reflective and intellectually balanced.
+- [ ] The reflection contains no more than four concise prose paragraphs.
+- [ ] The length is appropriate to the literary expression.
+- [ ] Emotional and intellectual continuity is maintained.
+- [ ] The writing is reflective without becoming repetitive or artificially expanded.
+- [ ] Technical terms are used accurately, where applicable.
+- [ ] Scientific comparisons are not forced.
 
 ### Metadata
 
@@ -811,6 +832,7 @@ Before publishing an article, review the following.
 - [ ] Article title is consistent.
 - [ ] Source references are identifiable.
 - [ ] Dates and numerical values are unambiguous.
+- [ ] Scientific keywords appear only where supported by the article's actual content.
 
 ## 19. Exceptions and Editorial Judgement
 
@@ -828,17 +850,21 @@ Some works may require:
 
 These exceptions are acceptable when they serve linguistic accuracy and literary integrity.
 
+The same flexibility applies to the length and structure of editorial reflections. A shorter, complete interpretation should not be expanded to satisfy a fixed paragraph count.
+
 Where an important departure from the general style guide is made, explain the reason when necessary.
 
-The guide provides consistency, not a restriction on legitimate linguistic variation.
+The guide provides consistency, not a restriction on legitimate linguistic variation or individual literary expression.
 
 ## 20. Maintenance
 
-This document may evolve as the publication incorporates additional languages, scripts, literary traditions, and technical capabilities.
+This document may evolve as the publication incorporates additional Indian languages, scripts, literary traditions and technical capabilities.
 
 Language-specific guidance may be developed further when the archive grows.
 
-Revisions should preserve the fundamental commitment to original expression, accurate attribution, translation transparency, accessibility, and intellectual integrity.
+Revisions should preserve the fundamental commitment to original expression, accurate attribution, translation transparency, accessibility and intellectual integrity.
+
+Scientific terminology and research-related conventions should remain available for the occasional reflections in which they are genuinely relevant, without becoming requirements for the publication's general literary content.
 
 ---
 
