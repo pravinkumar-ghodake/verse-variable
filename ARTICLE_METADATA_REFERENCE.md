@@ -1,20 +1,20 @@
-
 # Article Metadata Reference
 
 **Verse & Variable**  
 *A line of verse. A line of inquiry.*  
 **لفظ سے لہر تک — Lafz se Lehar tak**
 
+---
+
 ## 1. Purpose
 
 This document defines the metadata conventions for individual literary entries and weekly collections published through Verse & Variable.
 
-The publication uses Jekyll collections to organise its content into two principal groups:
+Verse & Variable is an independent Indian literary journal. Its archive is centred on Indian literary expression across languages, traditions, and forms.
 
-- `entries` — individual literary explorations.
-- `weeks` — weekly collections containing associated literary explorations.
+The editor's wider intellectual interests include Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport, and lived experience. These interests may inform the editor's perspective, but they do not expand the journal's publication scope or require individual articles to adopt an interdisciplinary approach.
 
-Metadata connects these collections, identifies the original language, provides information for article presentation, and supports the publication's navigation and discovery systems.
+Metadata connects the publication's collections, identifies original languages, supports article presentation, and enables consistent navigation and discovery.
 
 This reference is intended to prevent inconsistent frontmatter, incorrect language identification, broken collection relationships, and unnecessary duplication of metadata.
 
@@ -25,7 +25,7 @@ The Jekyll configuration establishes the following collections:
 | Collection | Purpose | Layout | URL structure |
 |---|---|---|---|
 | `entries` | Individual literary explorations | `entry` | `/entries/:path/` |
-| `weeks` | Weekly literary collections | `week` | `/weeks/:name/` |
+| `weeks` | Weekly collections containing associated literary explorations | `week` | `/weeks/:name/` |
 
 The relevant configuration is maintained in `_config.yml`.
 
@@ -45,8 +45,9 @@ An entry should have:
 - A valid weekly collection identifier.
 - An entry number.
 - Correct language metadata.
-- Its original literary material.
+- Its original literary material, where applicable.
 - Translation and transliteration where appropriate.
+- Accurate original-author and contributor attribution.
 
 Each entry has an independent permanent page.
 
@@ -59,11 +60,13 @@ A weekly collection should have:
 - A descriptive title.
 - A unique weekly identifier.
 - A publication date.
-- A concise description.
+- A concise and accurate description.
 
 The weekly layout identifies associated entries through the shared `week_id` value and sorts them using `entry_number`.
 
-This makes the identifier and ordering fields particularly important.
+Each weekly collection brings together three independent literary explorations. The selections do not need to share a common theme, scientific connection, or disciplinary perspective.
+
+The identifier and ordering fields are therefore particularly important.
 
 ## 3. YAML Frontmatter
 
@@ -90,7 +93,8 @@ The frontmatter should appear before the article's Markdown content.
 - Avoid duplicate keys.
 - Use ISO-formatted dates where possible.
 - Do not leave placeholder values in published entries.
-- Keep field names consistent with those expected by the layouts.
+- Keep field names consistent with those expected by the layouts and included templates.
+- Do not introduce additional fields merely because they seem useful; first establish their editorial or technical purpose.
 
 For multiline literary text, use YAML block scalars.
 
@@ -113,7 +117,7 @@ The following example provides the recommended baseline structure for an individ
 
     title: "A Literary Exploration"
     date: 2026-11-12
-    description: "A reflective exploration of a literary expression."
+    description: "A reflective exploration of an Indian literary expression."
 
     week_id: "week-2026-46"
     entry_number: 1
@@ -122,13 +126,17 @@ The following example provides the recommended baseline structure for an individ
     language_code: "ur"
 
     work_title: "Original Literary Work"
-    author: "Original Author"
+    author_name: "Original Author"
+    literary_form: "Ghazal"
 
     original_text: |
       [Verified original literary expression.]
 
     transliteration: |
       [Transliteration, where appropriate.]
+
+    pronunciation_guide: |
+      [Pronunciation guidance, where appropriate.]
 
     translation: |
       [English translation, where appropriate.]
@@ -137,7 +145,9 @@ The following example provides the recommended baseline structure for an individ
 
 This is a documentation example. Replace every placeholder before creating a real entry.
 
-The required values and field names must remain consistent with the currently implemented layouts.
+The example uses the principal field names established for the article presentation. Optional fields should be included only when relevant and supported by the corresponding layout or metadata include.
+
+The actual implementation in `_layouts/entry.html` and its included templates remains the authoritative reference for what is rendered.
 
 ## 5. Core Article Fields
 
@@ -157,7 +167,7 @@ The title displayed for the individual exploration.
 
 Use a descriptive and meaningful title.
 
-The title should not be confused with the original literary work's title unless they are intentionally identical.
+The article title should not be confused with the original literary work's title unless they are intentionally identical.
 
 ### 5.3 `date`
 
@@ -177,9 +187,9 @@ This date identifies the article's publication chronology. It should not automat
 
 A concise description of the article.
 
-It should accurately represent the subject and help readers understand what the exploration discusses.
+It should accurately represent the literary subject and help readers understand what the exploration discusses.
 
-Avoid promotional language or unsupported claims.
+Avoid promotional language, unsupported claims, and unnecessary technical terminology.
 
 Where the site's metadata templates reference this field, it may also contribute to search and social descriptions.
 
@@ -322,7 +332,17 @@ Use this field when transliteration materially helps readers.
 
 It should follow a consistent approach and should not be confused with translation.
 
-### 7.3 `translation`
+### 7.3 `pronunciation_guide`
+
+Provides pronunciation guidance where it is useful to understanding or reading the original expression.
+
+This field is optional.
+
+It may be especially useful for regional vocabulary, dialect forms, unfamiliar pronunciations, or words whose written form does not fully communicate their spoken character.
+
+Do not duplicate the entire transliteration merely to populate this field.
+
+### 7.4 `translation`
 
 Contains the accompanying translated text.
 
@@ -332,7 +352,42 @@ Identify the translation's origin and translator accurately.
 
 An original translation, published translation, and adaptation should not be treated as interchangeable.
 
-### 7.4 Multiline Content
+### 7.5 `work_title`
+
+Identifies the title of the original literary work, where known.
+
+This is distinct from the article's `title`.
+
+The two values may be identical when the article directly adopts the original work's title, but they serve different metadata purposes.
+
+### 7.6 `author_name`
+
+Identifies the original author, poet, or creator of the literary work.
+
+Use an established and verifiable attribution where available.
+
+For traditional, anonymous, or disputed material, use appropriately qualified wording rather than inventing a name.
+
+The field should not be used to identify the article contributor unless the contributor is also the original creator.
+
+### 7.7 `literary_form`
+
+Identifies the literary or textual form of the original expression.
+
+Examples include:
+
+- Ghazal.
+- Nazm.
+- Rubai.
+- Poem.
+- Song.
+- Folk expression.
+- Prose passage.
+- Other accurately described literary forms.
+
+Use a specific form when it can be established. Do not assign a form merely for categorisation convenience.
+
+### 7.8 Multiline Content
 
 Use YAML block scalar notation to preserve the structure of literary material.
 
@@ -355,14 +410,12 @@ Verify the resulting output in the live article because Markdown rendering and H
 
 ## 8. Supplementary Literary Metadata
 
-Individual articles may require additional attribution fields.
+Individual articles may require additional attribution and source fields.
 
-Possible fields include:
+Possible supplementary fields include:
 
 | Field | Meaning |
 |---|---|
-| `work_title` | Title of the original literary work |
-| `author` | Original author or poet |
 | `lyricist` | Writer of the lyrics |
 | `composer` | Composer of the musical work |
 | `performer` | Singer or performer |
@@ -388,13 +441,15 @@ A composer is not automatically the author of the written lyrics.
 
 A published translator should not be identified as the original author.
 
+A contributor's original translation should be identified accurately rather than attributed to another translator.
+
 Where attribution is uncertain, use appropriately qualified wording rather than inventing a name.
 
 ## 9. Categorisation and Tags
 
-Categories and tags may be useful for future archive navigation and thematic discovery.
+Categories and tags may be useful for archive navigation and thematic discovery.
 
-Potential examples include:
+Potential literary and thematic examples include:
 
 - Poetry.
 - Ghazal.
@@ -403,10 +458,15 @@ Potential examples include:
 - Love.
 - Nature.
 - Philosophy.
-- Nonlinear waves.
-- Metamaterials.
+- Language.
+- Identity.
+- Human experience.
 
-However, do not introduce an uncontrolled collection of inconsistent tags.
+A scientific or technical concept may be used as a tag only when it is genuinely relevant to the particular literary exploration and is discussed substantively.
+
+Scientific terminology should not be added simply to make an entry appear interdisciplinary or to repeat the editor's research profile.
+
+Do not introduce an uncontrolled collection of inconsistent tags.
 
 A future taxonomy should establish standard category names and rules for their use.
 
@@ -441,6 +501,8 @@ The title displayed on the weekly collection page.
 
 It may use a numbered or thematic format.
 
+A thematic title should reflect a genuine relationship between the selected works. A shared theme should not be invented simply because the entries belong to the same weekly collection.
+
 ### 10.3 `date`
 
 The publication date associated with the weekly collection.
@@ -451,7 +513,9 @@ Use an unambiguous date format.
 
 A concise introduction to the collection.
 
-It should describe the actual selections rather than claim a thematic connection that does not exist.
+It should describe the actual selections rather than claim a thematic, scientific, or disciplinary connection that does not exist.
+
+Three independent literary voices may be introduced without suggesting that they share a single intellectual subject.
 
 ### 10.5 `week_id`
 
@@ -548,7 +612,7 @@ Important fields include:
 - `description`
 - `date`
 - Language information.
-- Relevant author attribution.
+- Relevant original-author attribution.
 - Canonical URL generated by the layout or metadata include.
 
 The actual output depends on `_includes/head.html` and other implemented templates.
@@ -557,7 +621,11 @@ Do not assume that creating a field automatically creates structured data or sea
 
 Verify the rendered HTML source after publication.
 
-Metadata should remain accurate and descriptive rather than optimised through misleading or repetitive keywords.
+Entry-level metadata should describe the literary work and the actual content of the article.
+
+The editor's broader scientific research identity should remain represented in the appropriate author profile, biography, structured data, and research-related pages. It should not be copied indiscriminately into individual literary entries.
+
+Metadata should remain accurate and descriptive rather than optimised through misleading, repetitive, or unrelated keywords.
 
 ## 15. Metadata Errors to Avoid
 
@@ -583,9 +651,17 @@ Using the original literary work's historical date as the article publication da
 
 Adding names or creative roles that have not been verified.
 
+### Confusing contributor and original author
+
+Using the article contributor's name as the original poet's name, or vice versa.
+
 ### Unused metadata
 
 Assuming that a field will appear automatically simply because it exists in YAML frontmatter.
+
+### Unnecessary scientific metadata
+
+Adding scientific terminology, concepts, or tags that do not materially relate to the actual literary exploration.
 
 ### Invalid YAML
 
@@ -622,19 +698,29 @@ Before publishing an individual entry:
 
 ### Literary information
 
-- [ ] Original text is verified.
+- [ ] Original text is verified where included.
 - [ ] Transliteration is accurate where included.
-- [ ] Translation is identified correctly.
-- [ ] Author and creative roles are verified.
+- [ ] Pronunciation guidance is accurate where included.
+- [ ] Translation is identified correctly where included.
+- [ ] Original author and creative roles are verified.
+- [ ] `literary_form` is appropriate where included.
 - [ ] Supplementary fields are supported by the relevant layout.
 
-### Technical information
+### Sources and presentation
 
-- [ ] YAML frontmatter is valid.
+- [ ] Relevant sources are identified.
+- [ ] Original and translated material are distinguished.
+- [ ] Relevant permissions and rights are considered.
 - [ ] Generated URL is correct.
 - [ ] Article layout renders correctly.
 - [ ] Weekly collection displays the article.
 - [ ] Metadata output is inspected.
+
+### Additional technical claims
+
+- [ ] Scientific or technical claims, if present, are accurately represented.
+- [ ] Scientific terminology is included in entry metadata only where relevant.
+- [ ] No unrelated research keywords have been added.
 
 ## 17. Relationship with Other Project Files
 
@@ -668,12 +754,12 @@ Potential developments include:
 - Source identifiers.
 - Article revision history.
 - Cross-language relationships.
-- Related scientific concepts.
 - More detailed structured metadata for search and discovery.
+- Contextual scientific references where a particular literary exploration genuinely requires them.
 
 Additional fields should be introduced only when they serve a clear editorial or technical purpose and are supported by the relevant templates.
 
-The objective is to maintain a coherent and dependable metadata architecture that can support a substantial multilingual archive.
+The objective is to maintain a coherent and dependable metadata architecture that can support a substantial multilingual Indian literary archive without imposing unnecessary metadata on individual works.
 
 ---
 
