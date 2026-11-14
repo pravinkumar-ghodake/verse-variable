@@ -3597,3 +3597,196 @@ footer p {
 
 
 
+/* ============================================================
+   FOOTER — PUBLICATION IDENTITY HIERARCHY
+
+   Publication name
+   Editorial motto
+   Journal description
+   Editor attribution
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   EDITORIAL MOTTO
+   ------------------------------------------------------------ */
+
+.footer-editorial-tagline {
+  max-width: 360px;
+
+  margin: 12px 0 25px;
+
+  color: var(--literary-rose);
+
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+
+  font-style: italic;
+  line-height: 1.55;
+
+  text-align: left;
+}
+
+
+/* ------------------------------------------------------------
+   PUBLICATION IDENTITY
+   ------------------------------------------------------------ */
+
+.footer-publication-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 0;
+
+  max-width: 360px;
+}
+
+
+/* Publication type */
+
+.footer-publication-label {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color: var(--spectrum-gold);
+
+  font-family: var(--font-interface);
+  font-size: 0.67rem;
+  font-weight: 600;
+
+  letter-spacing: 0.12em;
+  line-height: 1.7;
+}
+
+
+/* Journal description */
+
+.footer-publication-description {
+  max-width: 360px;
+
+  margin: 0;
+
+  color: var(--ink-muted);
+
+  font-family: var(--font-reading);
+  font-size: 0.83rem;
+
+  line-height: 1.9;
+
+  text-align: left;
+}
+
+
+/* Editorial descriptor */
+
+.footer-publication-descriptor {
+  display: block;
+
+  margin-top: 14px;
+
+  color: var(--ink-secondary);
+
+  font-family: var(--font-interface);
+  font-size: 0.72rem;
+
+  letter-spacing: 0.025em;
+  line-height: 1.7;
+}
+
+
+/* ------------------------------------------------------------
+   SUBTLE VISUAL SEPARATOR
+   ------------------------------------------------------------ */
+
+.footer-identity-divider {
+  width: 44px;
+  height: 1px;
+
+  margin: 25px 0 20px;
+
+  background: var(--border-strong);
+
+  opacity: 0.85;
+}
+
+
+/* ------------------------------------------------------------
+   EDITOR ATTRIBUTION
+   ------------------------------------------------------------ */
+
+.footer-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 5px;
+
+  max-width: 360px;
+}
+
+
+/* Attribution label */
+
+.footer-editor-label {
+  color: var(--spectrum-gold);
+
+  font-family: var(--font-interface);
+  font-size: 0.65rem;
+  font-weight: 600;
+
+  letter-spacing: 0.15em;
+}
+
+
+/* Editor name */
+
+.footer-editor-name {
+  margin: 2px 0 0;
+
+  color: var(--ink-primary);
+
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+
+/* Research background */
+
+.footer-editor-bio {
+  max-width: 360px;
+
+  margin: 4px 0 0;
+
+  color: var(--ink-muted);
+
+  font-family: var(--font-reading);
+  font-size: 0.79rem;
+
+  line-height: 1.85;
+
+  text-align: left;
+}
+
+
+/* ------------------------------------------------------------
+   MOBILE REFINEMENT
+   ------------------------------------------------------------ */
+
+@media (max-width: 740px) {
+
+  .footer-editorial-tagline {
+    font-size: 1.08rem;
+    margin-bottom: 23px;
+  }
+
+  .footer-identity-divider {
+    margin-block: 22px 18px;
+  }
+
+}
+
