@@ -1,4 +1,3 @@
-
 # Verse & Variable — Article Submission Template
 
 *A line of verse. A line of inquiry.*
@@ -9,9 +8,13 @@
 
 ## Instructions for Contributors
 
-Use this template when preparing a literary, linguistic, historical, philosophical, scientific, or interdisciplinary contribution for Verse & Variable.
+Use this template when preparing a literary contribution rooted in Indian literature for Verse & Variable. This may include poetry, shayari, ghazals, songs, literary translations, linguistic explorations, historical and cultural studies, philosophical reflections, and other thoughtful engagements with Indian literary expression.
 
-Before completing it, read:
+The journal's publication scope is Indian literature. The editor's wider intellectual interests include Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport, and lived experience. These wider interests may inform an article's perspective, but they do not expand the journal's literary scope or impose an interdisciplinary requirement.
+
+Scientific or other interdisciplinary knowledge may contribute when a genuine connection emerges and materially deepens the reading. It is entirely optional. Literature should be approached through its own language, imagery, context, emotion, and interpretive possibilities. No scientific comparison or analogy is required.
+
+Before completing this template, read:
 
 - `SUBMISSION_GUIDELINES.md`
 - `EDITORIAL_POLICY.md`
@@ -26,15 +29,16 @@ Before completing it, read:
 ### Important Instructions
 
 1. Replace the square-bracketed placeholders with your information.
-2. Remove instructions that do not apply to your contribution.
-3. Do not invent missing literary, historical, or scientific information.
-4. Identify original sources and provide verifiable references.
+2. Remove instructions and sections that do not apply to your contribution.
+3. Do not invent missing literary, historical, cultural, or scientific information.
+4. Identify original sources and provide verifiable references wherever reasonably possible.
 5. Identify third-party material and disclose relevant permissions or restrictions.
 6. Distinguish original writing from quotations, translations, adaptations, and paraphrases.
-7. Use exactly four substantial English prose paragraphs for the main commentary in a standard literary exploration.
-8. Disclose material AI assistance and other relevant contributions.
-9. Do not include confidential participant information or private consent documents in a public repository.
-10. Submit only through the channel officially designated by the publication.
+7. Keep the main English commentary to no more than four concise prose paragraphs. A shorter reflection is entirely acceptable.
+8. There is no mandatory paragraph-by-paragraph formula and no paragraph reserved for scientific or interdisciplinary discussion.
+9. Disclose material AI assistance and other relevant contributions.
+10. Do not include confidential participant information or private consent documents in a public repository.
+11. Submit only through the channel officially designated by the publication.
 
 **This file is a manuscript preparation template, not a public submission portal, publication agreement, or guarantee of acceptance.**
 
@@ -103,23 +107,22 @@ Do not list individuals as authors or contributors without an appropriate basis 
 Select the principal category.
 
 - [ ] Literary exploration.
-- [ ] Poetry or shayari interpretation.
+- [ ] Poetry, shayari, or ghazal interpretation.
 - [ ] Song or lyrical expression.
 - [ ] Translation or transliteration study.
-- [ ] Linguistic exploration.
-- [ ] Historical or cultural study.
-- [ ] Philosophical reflection.
-- [ ] Scientific or technical explanation.
-- [ ] Interdisciplinary exploration.
-- [ ] Interview or oral history.
-- [ ] Research commentary.
-- [ ] Other: [Specify].
+- [ ] Linguistic exploration of an Indian literary tradition.
+- [ ] Historical or cultural study related to Indian literature.
+- [ ] Philosophical or human reflection arising from literary expression.
+- [ ] Literary research or source-based commentary.
+- [ ] Interdisciplinary literary exploration, where a meaningful connection exists.
+- [ ] Interview or oral history connected with Indian literature or culture.
+- [ ] Other Indian literary contribution: [Specify].
 
-**Primary subject:**
+**Primary literary subject:**
 
-[Describe the main subject.]
+[Identify the Indian literary work, author, tradition, language, or expression at the centre of the contribution.]
 
-**Secondary subjects:**
+**Secondary subjects or contextual perspectives:**
 
 [Provide additional subjects, if applicable.]
 
@@ -153,25 +156,25 @@ Select the principal category.
 
 Provide a concise explanation of the proposed contribution.
 
-[Write approximately 100–200 words explaining the subject, central idea, relevant sources, and intended contribution.]
+[Write approximately 100–200 words explaining the selected literary subject, central idea, relevant context, sources, and intended contribution.]
 
 ## 6. Central Contribution
 
 **What is the principal question or idea explored?**
 
-[Explain the central question.]
+[Explain the central question or idea.]
 
 **What does this article contribute?**
 
-[Describe its original interpretation, analysis, explanation, or perspective.]
+[Describe its original interpretation, analysis, contextual explanation, or perspective.]
 
 **Why is the subject relevant to Verse & Variable?**
 
-[Explain its connection with literature, culture, philosophy, science, or interdisciplinary inquiry.]
+[Explain its connection with Indian literature, language, literary culture, history, philosophy, or human experience.]
 
 **What are the principal limitations?**
 
-[Identify anything the article does not attempt to establish.]
+[Identify anything the article does not attempt to establish. Distinguish interpretation from documented fact where necessary.]
 
 ---
 
@@ -309,57 +312,50 @@ Where information is uncertain or disputed, identify that uncertainty.
 
 ## 12. Main Commentary
 
-**Important structural requirement:**
+The main commentary is the central reflective and interpretative part of the article.
 
-A standard individual literary exploration must contain exactly four substantial English prose paragraphs of original commentary.
+Keep it to **no more than four concise English prose paragraphs**. One, two, or three paragraphs may be sufficient. Do not expand a reflection merely to reach a paragraph count.
 
-These four paragraphs form the principal interpretative body of the article.
+There is no fixed paragraph-by-paragraph formula. Let the selected work determine the natural direction and development of the commentary.
 
-Do not divide the four paragraphs into additional numbered sections or insert unrelated commentary between them.
+The reflection may consider:
 
-Headings, original text, translation, metadata, references, captions, and supplementary notes are separate from the four-paragraph requirement.
+- The literary character, language, imagery, emotion, and human experience of the selected expression.
+- Its metaphor, symbolism, ambiguity, philosophical dimensions, or cultural significance.
+- Relevant historical, linguistic, or biographical context, where established.
+- The contributor's own considered interpretation and perspective.
+- A genuine scientific or interdisciplinary connection, if one materially deepens the reading.
+- The questions, uncertainties, or lasting impressions that remain after the exploration.
 
-### Paragraph One — The Literary and Human Foundation
+All of the commentary may remain literary, cultural, philosophical, or personal. Scientific and interdisciplinary discussion is not required, and no paragraph should be reserved for it.
 
-[Write the first substantial English prose paragraph.
+Distinguish the original creator's documented context from your own interpretation. Avoid claiming authorial intention without supporting evidence, treating metaphor as scientific prediction, or presenting speculative comparisons as established knowledge.
 
-Introduce the selected expression, its literary significance, emotional character, imagery, and relationship with human experience. Establish the intellectual direction of the article naturally.]
+### Main Commentary
 
-### Paragraph Two — Interpretation and Intellectual Depth
+[Write the original commentary here.
 
-[Write the second substantial English prose paragraph.
-
-Develop the literary interpretation through its language, metaphor, symbolism, ambiguity, philosophical dimensions, historical context, or cultural significance. Avoid claiming authorial intention without supporting evidence.]
-
-### Paragraph Three — Scientific or Interdisciplinary Inquiry
-
-[Write the third substantial English prose paragraph.
-
-Where a meaningful connection exists, examine the selected expression through an appropriate scientific, mathematical, philosophical, or interdisciplinary perspective.
-
-Clearly distinguish metaphor, analogy, established knowledge, mathematical correspondence, physical mechanism, theoretical prediction, and speculation.
-
-If the article has no meaningful scientific connection, continue the literary or philosophical exploration without forcing one.]
-
-### Paragraph Four — Reflection and Synthesis
-
-[Write the fourth substantial English prose paragraph.
-
-Bring together the literary and intellectual exploration. Reflect on what the original expression reveals, what the discussion contributes, what remains uncertain, and why the subject continues to matter.
-
-End thoughtfully rather than with promotional language or exaggerated claims.]
+Develop the reflection in a natural and coherent way. Preserve the selected work's literary individuality and avoid forcing comparisons or unrelated intellectual material into the discussion.]
 
 ---
 
-# PART V — SCIENTIFIC AND INTERDISCIPLINARY MATERIAL
+# PART V — OPTIONAL SCIENTIFIC OR INTERDISCIPLINARY CONTEXT
 
-*Complete where the article makes substantive scientific, mathematical, or technical claims.*
+*Complete this part only when a genuine connection is relevant to the literary exploration.*
+
+Scientific knowledge and other disciplinary perspectives are not required components of a literary article. This part is intended to document substantive scientific, mathematical, or technical claims when they are actually used.
+
+It does not establish standalone scientific or engineering papers as an independent submission category.
+
+A metaphor, image, or literary expression need not be explained through science. Where a connection is made, distinguish literary metaphor, conceptual analogy, established knowledge, mathematical correspondence, physical mechanism, theoretical hypothesis, and speculation.
+
+If this part does not apply, remove it from the manuscript.
 
 ## 13. Scientific Subject
 
 **Primary scientific discipline:**
 
-[Discipline.]
+[Discipline, if relevant.]
 
 **Secondary discipline:**
 
@@ -377,11 +373,11 @@ End thoughtfully rather than with promotional language or exaggerated claims.]
 
 [Provide a clear explanation of the relevant scientific concept.
 
-Define technical terminology and explain why the concept is relevant to the article.]
+Define technical terminology and explain why the concept is relevant to the literary discussion. Avoid introducing technical material that does not contribute meaningfully to the interpretation.]
 
 ## 15. Mathematical Expressions
 
-[Insert mathematical expressions where necessary.]
+[Insert mathematical expressions only where necessary.]
 
 For each important equation:
 
@@ -471,6 +467,8 @@ Do not describe theoretical or numerical results as experimental observations.
 
 ## 18. Interdisciplinary Relationship
 
+*Complete only when the article makes a substantive interdisciplinary comparison or connection.*
+
 **Fields being connected:**
 
 [Identify fields.]
@@ -484,10 +482,11 @@ Do not describe theoretical or numerical results as experimental observations.
 - [ ] Established physical mechanism.
 - [ ] Theoretical hypothesis.
 - [ ] Speculative reflection.
+- [ ] Not applicable.
 
 **Explanation of the connection:**
 
-[Explain why the relationship is meaningful.]
+[Explain why the relationship is meaningful to the literary exploration.]
 
 **Important differences or limitations:**
 
@@ -499,9 +498,9 @@ Do not describe theoretical or numerical results as experimental observations.
 
 ## 19. References
 
-Provide complete and verifiable references.
+Provide complete and verifiable references for material claims, quotations, original texts, translations, and contextual information.
 
-Use a consistent citation style.
+Use a consistent citation style appropriate to the contribution. Scientific references are necessary only where substantive scientific claims are made.
 
 ### Books
 
@@ -848,25 +847,29 @@ By submitting this material for editorial consideration, I confirm that:
 
 ## 30. Editorial Assessment
 
-**Source verification:**
-
-[Status.]
-
 **Literary assessment:**
 
 [Status.]
 
-**Translation assessment:**
+**Original source and attribution verification:**
 
 [Status.]
 
-**Scientific assessment:**
+**Language and translation assessment:**
 
-[Status.]
+[Status / Not applicable.]
+
+**Historical and cultural context assessment:**
+
+[Status / Not applicable.]
+
+**Scientific assessment, where substantive scientific claims are present:**
+
+[Status / Not applicable.]
 
 **Research ethics assessment:**
 
-[Status.]
+[Status / Not applicable.]
 
 **Rights and permissions assessment:**
 
@@ -954,7 +957,9 @@ By submitting this material for editorial consideration, I confirm that:
 
 A submission should preserve the integrity of its original material while offering readers a thoughtful and well-supported contribution.
 
-The purpose of this template is not to turn every literary exploration into an administrative exercise. It is to help contributors and editors maintain consistent standards without losing the humanity, creativity, and intellectual curiosity that make the publication worthwhile.
+This template is intended to support careful preparation and responsible editorial practice, not to turn every literary exploration into an administrative or technical exercise. Its purpose is to maintain consistency without losing the humanity, creativity, and intellectual curiosity that make the publication worthwhile.
+
+Every literary expression deserves to be approached on its own terms. A wider intellectual perspective may enrich that encounter, but it should never be imposed upon it.
 
 **Verse & Variable**  
 *A line of verse. A line of inquiry.*
