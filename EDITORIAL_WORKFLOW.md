@@ -8,6 +8,10 @@
 
 This document defines the editorial workflow followed when selecting, researching, preparing, reviewing and publishing literary explorations on Verse & Variable.
 
+Verse & Variable is an independent Indian literary journal focused on Indian literature across languages, literary traditions, historical periods and forms.
+
+The editor's wider intellectual interests include Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests may inform the editorial perspective, but they do not expand the journal's publication scope or require individual articles to adopt an interdisciplinary approach.
+
 The workflow is intended to maintain consistency across languages, literary traditions, individual articles and weekly collections.
 
 Every published exploration should demonstrate:
@@ -16,7 +20,7 @@ Every published exploration should demonstrate:
 - Reliable identification and attribution of the work.
 - Careful attention to language and cultural context.
 - Original, coherent and thoughtful literary reflection.
-- Emotional and intellectual continuity.
+- Appropriate emotional and intellectual continuity.
 - Intellectual honesty in factual and scientific discussions, where applicable.
 - Responsible treatment of copyright and third-party material.
 - Clarity, accessibility and editorial consistency.
@@ -40,7 +44,9 @@ Each exploration receives:
 
 The weekly collection page brings together the three individual explorations while allowing each article to remain independently accessible.
 
-The three selections need not share a scientific, philosophical or thematic framework. Each should be allowed to retain its own literary identity and emotional character.
+The three selections need not share a scientific, philosophical or thematic framework. Each should retain its own literary identity, language, imagery and emotional character.
+
+A shared theme or editorial relationship may emerge naturally, but it is not compulsory.
 
 Publication frequency must never take priority over verification, quality or responsible use of source material.
 
@@ -61,7 +67,7 @@ Potential material includes:
 - Telugu literary expressions.
 - Literature from other Indian languages and regional traditions.
 - Classical and contemporary Indian literary works.
-- Other significant forms of Indian literary expression.
+- Folk, oral and other significant forms of Indian literary expression.
 
 Selection should be based on literary merit, depth of expression, cultural significance, philosophical substance, emotional resonance, linguistic richness or other defensible editorial considerations.
 
@@ -474,6 +480,22 @@ Language-specific direction, script rendering, typography and metadata should be
 
 Article frontmatter should remain consistent with the fields expected by the Jekyll entry layout.
 
+The standard metadata conventions include:
+
+- `title`
+- `date`
+- `description`
+- `week_id`
+- `entry_number`
+- `language_id`
+- `language_code`
+- `author_name`, where applicable
+- `literary_form`, where applicable
+
+Fields such as `original_text`, `transliteration`, `pronunciation_guide` and `translation` should be included where relevant and supported by the current layout.
+
+The actual implementation in `_layouts/entry.html` and its included templates remains the authority for which fields are rendered.
+
 The article should also have a meaningful title, description, permanent URL and appropriate search and social metadata.
 
 Do not add scientific sections, technical terminology or reference categories merely to complete a standard format.
@@ -561,26 +583,122 @@ For scientific illustrations, where included, verify that meaningful information
 
 The article should remain understandable without depending on animated effects or decorative elements.
 
-## 14. Stage Twelve — Publication
+## 14. Stage Twelve — Weekly Collection Preparation
 
-Once the article passes editorial and technical review:
+After the three individual explorations have reached an appropriate editorial stage, prepare the corresponding weekly collection.
 
-1. Add the entry to the Jekyll collection.
-2. Verify its frontmatter and permanent URL.
-3. Confirm that the correct layout is applied.
-4. Check the generated article page.
-5. Verify navigation to the previous and next entries, where applicable.
-6. Confirm its inclusion in the appropriate weekly collection.
-7. Check the homepage and archive presentation.
-8. Verify relevant metadata and search visibility settings.
-9. Publish through the repository's established GitHub Pages workflow.
-10. Inspect the live article after deployment.
+The weekly collection should bring the articles together without requiring them to share a common theme or reproduce their complete contents.
 
-The weekly collection page should include the three intended entries and present them in the correct order.
+### 14.1 Weekly Identifier
 
-A failed build or incorrectly rendered page should be corrected before treating the article as successfully published.
+Use the established identifier format:
 
-## 15. Stage Thirteen — Post-Publication Review
+`week-YYYY-NN`
+
+For example:
+
+`week-2026-46`
+
+Use the same `week_id` in:
+
+- The weekly collection frontmatter.
+- Article One.
+- Article Two.
+- Article Three.
+- Relevant internal editorial records.
+
+This convention must remain consistent with `ARTICLE_METADATA_REFERENCE.md` and `WEEKLY_COLLECTION_TEMPLATE.md`.
+
+### 14.2 Collection Introduction
+
+Prepare a short introduction that may describe:
+
+- The three selected literary expressions.
+- Their languages and literary forms.
+- Relevant literary or cultural context.
+- Their individual character.
+- Any meaningful relationship between them, where one exists.
+
+A shared theme is optional.
+
+The collection may introduce three independent works without manufacturing an intellectual connection.
+
+### 14.3 Article Presentation
+
+The collection should:
+
+- Present the three intended entries.
+- Link to each permanent article page.
+- Preserve the correct entry sequence.
+- Display accurate article titles and descriptions.
+- Identify languages and literary forms where supported.
+- Avoid duplicating article content already available on the permanent pages.
+
+### 14.4 Optional Editorial Perspective
+
+A short editorial note may be included when it adds genuine value.
+
+It may describe the reason for selecting the works together, their differences, or a meaningful relationship that emerges naturally.
+
+It may also be omitted entirely.
+
+There is no requirement for a concluding synthesis or a scientific or interdisciplinary interpretation of the collection.
+
+### 14.5 Collection Verification
+
+Verify that:
+
+- All three articles use the correct `week_id`.
+- Entry numbers are 1, 2 and 3.
+- The weekly collection uses the matching identifier.
+- The weekly layout finds the intended entries.
+- Links resolve to the correct permanent pages.
+- No duplicate article cards have been introduced.
+
+The collection should complement the articles without making them dependent on one another.
+
+## 15. Stage Thirteen — Publication
+
+Once the articles and weekly collection have been approved, publish the edition through the established repository workflow.
+
+### 15.1 Final Article Checks
+
+For each individual article:
+
+1. Confirm final article content.
+2. Check frontmatter.
+3. Verify sources and attribution.
+4. Confirm relevant rights and permissions.
+5. Check language and translation.
+6. Confirm its permanent URL.
+7. Verify that the correct layout is applied.
+
+### 15.2 Final Collection Checks
+
+For the weekly collection:
+
+1. Confirm its title and description.
+2. Verify the shared weekly identifier.
+3. Check article membership.
+4. Confirm article sequence.
+5. Verify all article links.
+6. Inspect the generated collection page.
+
+### 15.3 Repository Publication
+
+1. Prepare the final repository files.
+2. Commit the changes using a descriptive commit message.
+3. Check the GitHub Pages deployment status.
+4. Inspect all three individual article pages.
+5. Inspect the weekly collection page.
+6. Verify the homepage and archive integration.
+7. Record the actual publication date and permanent URLs.
+
+Do not assume that a successful Git commit necessarily means that the live website has updated correctly.
+
+A failed build or incorrectly rendered page should be corrected before treating the edition as successfully published.
+
+## 16. Stage Fourteen — Post-Publication Review
 
 Publication does not end editorial responsibility.
 
@@ -599,25 +717,7 @@ Significant corrections should be reflected in the article and, where appropriat
 
 Changes should preserve a clear distinction between correcting an error and revising an interpretative perspective.
 
-## 16. Weekly Collection Preparation
-
-After the individual explorations are prepared, create or update the corresponding weekly collection.
-
-The collection should:
-
-- Identify the week clearly.
-- Present its three individual explorations.
-- Link to each permanent article page.
-- Preserve the correct sequence.
-- Provide a brief introduction where useful.
-- Avoid replacing the full independent articles with abbreviated summaries.
-- Maintain consistent metadata and navigation.
-
-Each exploration should remain independently discoverable through its permanent page.
-
-The weekly collection provides coherence without making the individual articles dependent on one another.
-
-The three selections may differ in language, literary form, emotional character and subject. They do not need to be connected through a shared scientific or philosophical argument.
+Where an individual article changes in a way that affects its weekly collection, update the collection page as appropriate.
 
 ## 17. Editorial Decisions and Exceptions
 
@@ -633,11 +733,15 @@ A work may be:
 - Explored entirely through literary, philosophical and human interpretation.
 - Developed with additional historical or cultural research where necessary.
 - Published without scientific discussion.
-- Held back when reliable scientific or historical evidence is unavailable for a claim that would otherwise be central to the article.
+- Held back when reliable evidence is unavailable for a factual claim that would otherwise be central to the article.
 
 Editorial judgement should take precedence over mechanical completion of a checklist.
 
 The purpose of this workflow is to support thoughtful publishing, not to create unnecessary procedural barriers.
+
+A missing scientific connection is not an editorial deficiency.
+
+A missing thematic connection between the three weekly selections is not an editorial deficiency either.
 
 ## 18. Responsibility and Continuous Improvement
 
@@ -649,6 +753,10 @@ Any substantial change should remain consistent with:
 
 - `EDITORIAL_POLICY.md`
 - `ARTICLE_TEMPLATE.md`
+- `ARTICLE_METADATA_REFERENCE.md`
+- `WEEKLY_COLLECTION_TEMPLATE.md`
+- `WEEKLY_PUBLICATION_WORKFLOW.md`
+- `SUBMISSION_GUIDELINES.md`
 - `CONTRIBUTING.md`
 - `COPYRIGHT.md`
 - `PRIVACY.md`
@@ -660,6 +768,10 @@ Any substantial change should remain consistent with:
 The final responsibility is to publish work that is thoughtful, traceable, culturally respectful, emotionally coherent and worthy of a lasting literary archive.
 
 Where scientific or other factual claims are included, they should be intellectually honest and appropriately supported.
+
+Every literary expression should retain the freedom to be read on its own terms.
+
+The wider intellectual perspective may enrich that reading, but it should never be imposed upon it.
 
 ---
 
