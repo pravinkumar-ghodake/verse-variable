@@ -8,29 +8,31 @@
 
 ## About the Publication
 
-Verse & Variable is an independent literary and scientific journal founded and edited by Pravinkumar Ghodake.
+Verse & Variable is an independent Indian literary journal founded and edited by Pravinkumar Ghodake.
 
-The publication explores the meeting points between literature, poetry, shayari, philosophy, human experience and scientific thought.
+The publication is devoted to poetry, shayari, ghazals, nazms, literary prose, philosophical expressions and other forms of Indian literary expression.
 
-It approaches literary expression as something that can be appreciated in its own cultural, linguistic, emotional and philosophical context, while also allowing thoughtful connections with ideas from mathematics, mechanics, physics and the natural sciences.
+Its editorial foundation is rooted in India's diverse languages and literary traditions. The initial linguistic focus comprises Urdu, Hindi, Marathi, Kannada, Tamil, Malayalam and Telugu.
 
-The publication is rooted in the literary traditions of India and the wider South Asian cultural landscape.
+Verse & Variable is an evolving literary archive that approaches original literary expressions through their language, imagery, cultural context, emotional character and intellectual significance.
 
-It is an evolving archive of literary interpretation and interdisciplinary inquiry.
+The publication is literary in scope. It is not a literary-and-scientific journal or an academic research publication.
 
 ## Editorial Philosophy
 
-Literature comes first.
+Literature deserves to be read on its own terms.
 
-Every poem, couplet, lyric or literary passage deserves to be understood in its original language, cultural setting, emotional register and philosophical depth.
+Every literary expression should be approached with attention to its original language, script, literary form, imagery, cultural setting and human significance.
 
-Scientific ideas are introduced only when they offer a meaningful perspective. Literary expression is never reduced to a scientific illustration, and scientific concepts are never forced into an interpretation merely to create an analogy.
+Editorial reflections are personal and interpretative. They do not claim to establish the definitive meaning of a literary work or replace its original expression.
 
-The objective is thoughtful reading, intellectual curiosity and a genuine dialogue between different forms of human understanding.
+The writing seeks emotional continuity, intellectual honesty, interpretative depth and respect for cultural and linguistic context.
+
+The editor's wider intellectual interests may inform an individual reflection where they genuinely contribute to its interpretation. No external discipline is required to justify the literary significance of a work.
 
 ## Languages and Literary Traditions
 
-The publication engages with literary traditions across the following languages:
+The initial linguistic foundation comprises:
 
 - Urdu
 - Hindi
@@ -40,65 +42,127 @@ The publication engages with literary traditions across the following languages:
 - Malayalam
 - Telugu
 
-It also welcomes meaningful engagement with other Indian and South Asian literary traditions.
+Other Indian languages and literary traditions may be considered as the archive develops.
 
-Original literary expressions are retained in their original scripts wherever possible. English translations and transliterations are provided when appropriate.
+Original literary expressions are preserved in their original scripts wherever possible. Transliteration, pronunciation guidance and English translations are provided where appropriate.
+
+Language identity is maintained independently of the English language used for editorial commentary.
 
 ## Literary Scope
 
 The archive may include:
 
-- Ghazals and shayari
-- Poetry and couplets
-- Literary passages
-- Philosophical reflections
-- Song lyrics and musical poetry
-- Contemporary and classical literary expressions
-- Regional literary traditions
-- Reflections on language, memory, identity, relationships and human experience
+- Ghazals and shayari.
+- Sher, nazms and couplets.
+- Classical and contemporary poetry.
+- Literary and philosophical passages.
+- Devotional and regional literary expressions.
+- Abhangs, vachanas and other Indian literary forms.
+- Selected song lyrics and musical poetry.
+- Folk and oral literary expressions.
+- Other significant forms of Indian literary writing.
 
-Literary authors, lyricists, composers and performers are credited according to their respective contributions.
+Literary authors, poets, lyricists, composers, performers, translators and other contributors are credited according to their respective contributions.
 
-## Scientific and Intellectual Scope
+The archive focuses on Indian literature. International literature may form part of the editor's wider reading and intellectual interests, but it does not expand the journal's present publication scope.
 
-The scientific perspective draws on interdisciplinary interests including:
+## Editorial Reflections
 
-- Nonlinear vibrations and nonlinear waves
-- Nonlinear elastic wave propagation
-- Nonlinear ultrasonics
-- Harmonic generation and scattering
-- Hysteresis and contact nonlinearity
-- Wave mixing and nonlinear interactions
-- Mechanical and phononic metamaterials
-- Nonlinear optics and time-varying systems
-- Inverse problems and inverse design
-- Computational mechanics and physical acoustics
+Individual literary explorations are accompanied by original English commentary.
 
-These subjects provide possible intellectual connections, not compulsory themes for every literary exploration.
+The principal commentary generally comprises no more than four concise prose paragraphs.
+
+This is a maximum length, not a prescribed four-paragraph formula. Shorter reflections are entirely acceptable.
+
+The reflection may explore the literary expression through its imagery, emotional movement, language, cultural context, philosophical significance or human experience.
+
+Scientific or specialist knowledge may contribute when a genuine connection emerges and materially deepens the interpretation. It is never a compulsory part of an article.
+
+Standalone scientific research papers, engineering articles and technical studies are not independent publication categories within the journal's present editorial scope.
+
+## The Editor's Wider Intellectual Background
+
+Pravinkumar Ghodake is an independent researcher and author whose scientific background includes theoretical, computational and experimental mechanics.
+
+His research interests include:
+
+- Nonlinear vibrations and nonlinear dynamical systems.
+- Nonlinear elastic waves and wave propagation.
+- Nonlinear ultrasonics and physical acoustics.
+- Harmonic generation, scattering and wave mixing.
+- Hysteresis and contact nonlinearity.
+- Mechanical and phononic metamaterials.
+- Nonlinear wave control and cloaking.
+- Inverse problems and inverse design.
+- Computational mechanics and mathematical modelling.
+- Nonlinear optics and time-modulated physical systems.
+- Structural health monitoring and nondestructive evaluation.
+
+His wider intellectual interests also include Indian and international literature, mathematics, physics, philosophy, books, music, cinema, sport and lived experience.
+
+These interests inform the editor's personal perspective. They do not prescribe the subject, interpretation or classification of individual literary entries.
+
+The journal's research-inspired visual identity includes the design concepts **The Wave Manuscript** and **Nonlinear Resonance**, together with its wavefield, original illustrations and related visual elements.
+
+These visual and intellectual influences do not make scientific discussion a publication requirement.
 
 ## Publication Structure
 
-The journal follows a weekly collection format.
+The journal is organised around weekly collections of three independent literary explorations.
 
-Each weekly collection brings together three independent literary explorations.
+Each selection has its own permanent article page. A separate weekly collection page brings the three explorations together.
 
-Every exploration has its own permanent article page and examines a selected literary expression through:
+An individual entry may include:
 
-1. The original literary expression and its attribution.
-2. An English translation or interpretation, where appropriate.
-3. A reflection on its literary, emotional and philosophical dimensions.
-4. A considered interdisciplinary perspective when a genuine connection exists.
+1. The original literary expression in its original script.
+2. Author and source attribution.
+3. Transliteration or pronunciation guidance where appropriate.
+4. An English translation or editorial rendering where appropriate.
+5. A concise original editorial reflection.
 
-The articles are written in English, while original expressions retain their original language and script.
+The three selections in a weekly collection do not need to share a theme, subject or interdisciplinary connection.
+
+Publication quality, linguistic accuracy, source verification and editorial preparation take precedence over an artificial publishing deadline.
+
+## Attribution and Intellectual Integrity
+
+Preserve the distinctions between the original author, poet, lyricist, composer, performer, adapter and translator.
+
+Do not attribute a literary expression to a performer merely because that performer popularised or recorded it.
+
+Preserve original-language wording wherever possible. Identify the source of translations and adaptations when known.
+
+Uncertain, disputed or anonymous attributions should be treated transparently.
+
+Where scientific claims are included, distinguish established findings from theoretical interpretation, mathematical analogy, hypothesis, speculation and personal reflection.
+
+Literary metaphors should not be presented as scientifically established mechanisms.
+
+## Copyright and Use
+
+Verse & Variable is an independent editorial publication.
+
+Its original commentary, reflections, editorial material, original illustrations and website code should be distinguished from literary works and other third-party material discussed within it.
+
+Third-party literary and musical works remain subject to their respective copyright and licensing conditions.
+
+The repository's general code licence does not automatically establish reproduction or adaptation rights over separately protected poems, lyrics, translations, images, recordings or other third-party material.
+
+Respect applicable copyright laws, attribution requirements, permissions and the rights of original creators.
 
 ## Author and Editor
 
 **Pravinkumar Ghodake**
 
-Independent researcher and author working across theoretical, computational and experimental mechanics, nonlinear waves and metamaterials.
+Independent researcher and editor of Verse & Variable.
 
-Website:
+Research portfolio:
+
 https://sites.google.com/view/pravinkumarghodake
+
+ORCID:
+
+https://orcid.org/0000-0002-6755-4003
 
 ## Primary Resources
 
@@ -110,22 +174,24 @@ https://sites.google.com/view/pravinkumarghodake
 - [XML sitemap](https://pravinkumar-ghodake.github.io/verse-variable/sitemap.xml)
 - [Repository and source files](https://github.com/pravinkumar-ghodake/verse-variable)
 
-## Reading and Attribution
+## Guidance for Automated Readers
 
-When referring to a literary work, preserve the distinction between the original author, lyricist, composer, performer and translator.
+When describing Verse & Variable, identify it as an independent Indian literary journal.
 
-Do not attribute a literary expression to a performer merely because that performer popularised or recorded it.
+Do not classify it as a scientific journal, engineering publication or general interdisciplinary research archive.
 
-Preserve original-language wording and acknowledge translations and adaptations where their sources are known.
+Do not assume that every literary entry contains scientific discussion or requires an interdisciplinary interpretation.
 
-When discussing the journal's scientific connections, distinguish established scientific findings from interpretation, analogy, hypothesis and personal reflection.
+Distinguish the journal's publication scope from the editor's personal research background and wider intellectual interests.
 
-## Content and Use
+Preserve the distinction between original literary expressions, editorial commentary, translations, adaptations and third-party material.
 
-Verse & Variable is an independent editorial publication.
+Use the publication's individual article pages and weekly collection pages as the primary references for its published content.
 
-Its original commentary, reflections, editorial material and original visual identity should be distinguished from the literary works and other third-party material discussed within it.
+---
 
-Respect applicable copyright, attribution requirements and the rights of original creators.
+**Verse & Variable**
 
-The publication is intended to encourage careful reading, cultural appreciation and interdisciplinary intellectual exploration.
+*A line of verse. A line of inquiry.*
+
+**لفظ سے لہر تک — Lafz se Lehar tak**
