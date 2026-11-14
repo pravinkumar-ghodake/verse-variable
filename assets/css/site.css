@@ -3823,6 +3823,7 @@ footer p {
 
 .footer-lower-right .footer-identity-divider {
   align-self: flex-end;
+  margin-top: -25px;
 }
 
 
@@ -3841,6 +3842,7 @@ footer p {
 
   .footer-lower-right .footer-identity-divider {
     align-self: flex-start;
+    margin-top: 22px;
   }
 
 }
