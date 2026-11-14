@@ -8,11 +8,9 @@
 
 This document establishes the final pre-publication checklist for articles and related editorial material published by Verse & Variable.
 
-Its purpose is to ensure that material has undergone appropriate checks before becoming publicly accessible.
+Verse & Variable is an independent Indian literary journal focused on Indian literature, its diverse languages, literary traditions and the many dimensions of human experience expressed through them.
 
-The publication focuses on Indian literature, its diverse languages and literary traditions, and the many dimensions of human experience expressed through them.
-
-The editor's wider intellectual interests include international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests may inform individual reflections but do not impose additional content requirements on the journal.
+The editor's wider intellectual interests include Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests may inform individual reflections but do not impose additional content requirements on the journal or expand its present literary scope.
 
 The checklist covers:
 
@@ -21,7 +19,7 @@ The checklist covers:
 - Linguistic accuracy.
 - Translation and transliteration.
 - Historical and cultural context.
-- Philosophical interpretation.
+- Philosophical interpretation, where relevant.
 - Scientific and mathematical accuracy, where applicable.
 - Research references.
 - Copyright and permissions.
@@ -29,6 +27,7 @@ The checklist covers:
 - Authorship and disclosures.
 - Accessibility.
 - Article metadata.
+- Weekly collection consistency.
 - Website presentation.
 - Final publication approval.
 
@@ -41,9 +40,10 @@ It does not guarantee that every error will be identified or that an article has
 This checklist applies to:
 
 - Individual literary explorations.
-- Poetry and shayari discussions.
+- Poetry, shayari and ghazal discussions.
 - Translation and transliteration.
 - Historical and cultural explorations.
+- Linguistic investigations.
 - Philosophical commentary.
 - Weekly collection pages.
 - Interview-based literary contributions.
@@ -62,6 +62,8 @@ For example, an article discussing a published ghazal may require extensive lite
 An article discussing a scientific concept in the context of a literary expression may require additional mathematical, scientific, computational or reference checks.
 
 Mark genuinely inapplicable items as `Not applicable` rather than treating them as completed checks.
+
+The checklist should be adapted to the nature and significance of the material being published.
 
 ## 3. Publication Readiness Principles
 
@@ -103,6 +105,12 @@ The published page should render correctly, have valid metadata and be reachable
 
 The editor should be able to explain the principal reasons for approving publication.
 
+### 3.9 Respect for Individual Literary Expression
+
+Every selection should be assessed on its own literary merits.
+
+Neither a scientific connection nor a shared theme across weekly selections is a condition of publication.
+
 ## 4. Publication Status
 
 Use one of the following internal statuses.
@@ -121,7 +129,7 @@ Use one of the following internal statuses.
 | Scheduled | Publication timing has been determined |
 | Published | Article is publicly available |
 | On hold | An unresolved issue prevents publication |
-| Withdrawn | Article is no longer being considered or remains withdrawn |
+| Withdrawn | Article is no longer being considered or has been withdrawn from publication |
 
 These are editorial statuses. They are not automatically implemented by Jekyll or GitHub Pages.
 
@@ -138,10 +146,12 @@ These are editorial statuses. They are not automatically implemented by Jekyll o
 - [ ] The relevant weekly collection is identified, if applicable.
 - [ ] The article filename follows the repository naming conventions.
 - [ ] The article has a unique and appropriate internal identifier where used.
+- [ ] The article's relationship with its weekly collection is established through the correct `week_id`, where applicable.
 
 ### 5.2 Contributor Information
 
 - [ ] Contributor names are accurate.
+- [ ] Original author and article contributor roles are distinguished.
 - [ ] Author and translator roles are distinguished.
 - [ ] Lyricist, composer, performer and editor roles are distinguished where relevant.
 - [ ] Institutional affiliations are accurate where included.
@@ -216,7 +226,17 @@ Complete this section when translation or transliteration is included.
 - [ ] Regional pronunciations are not unnecessarily standardised.
 - [ ] The transliteration has been checked against the original text.
 
-### 7.2 Translation
+### 7.2 Pronunciation Guidance
+
+Complete where a separate pronunciation guide is provided.
+
+- [ ] Pronunciation guidance reflects the actual language or dialect.
+- [ ] Important sounds and distinctions are represented accurately.
+- [ ] Regional pronunciations are respected.
+- [ ] The guide does not unnecessarily duplicate the transliteration.
+- [ ] The guidance is clearly distinguished from translation.
+
+### 7.3 Translation
 
 - [ ] The translator is identified correctly.
 - [ ] The translation source is identified where applicable.
@@ -231,7 +251,7 @@ Complete this section when translation or transliteration is included.
 - [ ] Published translations are not presented as newly prepared translations.
 - [ ] Permission or another appropriate legal basis has been assessed.
 
-### 7.3 Translation Presentation
+### 7.4 Translation Presentation
 
 - [ ] Original and translated lines correspond appropriately.
 - [ ] Line structure is readable.
@@ -261,7 +281,7 @@ Complete this section where historical or cultural claims appear.
 
 Complete this section where philosophical discussion or conceptual interpretation is involved.
 
-- [ ] Important concepts are defined.
+- [ ] Important concepts are defined where necessary.
 - [ ] Philosophical terminology is used accurately.
 - [ ] Thinkers and traditions are correctly attributed.
 - [ ] Quotations and paraphrases are accurate.
@@ -271,12 +291,15 @@ Complete this section where philosophical discussion or conceptual interpretatio
 - [ ] Comparisons between traditions preserve important differences.
 - [ ] Literary interpretation is not presented as proof of authorial philosophical intention without evidence.
 - [ ] Speculative conclusions are identified appropriately.
+- [ ] Philosophical material contributes meaningfully to the reading rather than being added as unnecessary exposition.
 
 ## 10. Scientific and Technical Verification
 
 Complete this section only when an article includes substantive scientific or technical claims.
 
 A literary article that does not make scientific assertions does not need to complete this section.
+
+Scientific knowledge may deepen a literary interpretation where a genuine relationship exists. It is not necessary to establish such a relationship for every article.
 
 ### 10.1 General Scientific Accuracy
 
@@ -288,6 +311,7 @@ A literary article that does not make scientific assertions does not need to com
 - [ ] Mathematical analogies are distinguished from physical mechanisms.
 - [ ] The article does not overstate scientific certainty.
 - [ ] Relevant assumptions and limitations are identified.
+- [ ] Scientific claims are supported by appropriate sources.
 
 ### 10.2 Mathematical Formulations
 
@@ -497,6 +521,8 @@ Do not describe informal consultation as formal academic peer review.
 
 Where no specialist review has occurred, do not imply otherwise.
 
+Specialist review is not automatically required for a literary article simply because it contains interpretation, philosophical reflection or the editor's personal perspective.
+
 ## 18. Editorial Writing Quality
 
 - [ ] The opening engages with the selected literary expression.
@@ -519,7 +545,7 @@ Where no specialist review has occurred, do not imply otherwise.
 
 ## 19. Article Metadata
 
-Check the final front matter against `ARTICLE_METADATA_REFERENCE.md` and the fields actually supported by the website layouts.
+Check the final frontmatter against `ARTICLE_METADATA_REFERENCE.md` and the fields actually supported by the website layouts.
 
 - [ ] `layout` is correct.
 - [ ] `title` is correct.
@@ -527,8 +553,11 @@ Check the final front matter against `ARTICLE_METADATA_REFERENCE.md` and the fie
 - [ ] `date` is valid.
 - [ ] `language_id` matches `_data/languages.yml`.
 - [ ] `language_code` is correct where required.
-- [ ] `week_id` is correct where applicable.
+- [ ] `week_id` follows the established `week-YYYY-NN` convention where applicable.
 - [ ] `entry_number` is correct where applicable.
+- [ ] `author_name` is accurate where applicable.
+- [ ] `literary_form` is accurate where applicable.
+- [ ] Original text, transliteration, pronunciation guide and translation fields are correct where included.
 - [ ] Permalink structure is appropriate.
 - [ ] Categories and tags follow the documented conventions.
 - [ ] Image and social-preview metadata are valid where used.
@@ -555,9 +584,9 @@ Use this section to verify the principal English commentary.
 - [ ] The writing avoids forced moral, motivational or technical conclusions.
 - [ ] The original expression remains the central literary reference.
 
-The four possible movements described in the editorial documentation—The Encounter, The Unfolding, The Personal Perspective and The Lasting Thought—are guidance for developing a reflection, not a compulsory four-paragraph formula.
+The four possible movements described in the editorial documentation — The Encounter, The Unfolding, The Personal Perspective and The Lasting Thought — are guidance for developing a reflection, not a compulsory four-paragraph formula.
 
-Supplementary quotations, translations, attribution, references and notes do not count as part of the prose reflection.
+Supplementary quotations, translations, attribution, references and notes do not count as part of the principal English prose reflection.
 
 ## 21. Accessibility and Multilingual Presentation
 
@@ -596,7 +625,7 @@ Complete these checks against the actual deployed website or the relevant test e
 - [ ] Metadata is displayed correctly.
 - [ ] No unintended placeholder text remains.
 - [ ] No confidential internal notes are visible.
-- [ ] No unintended source-code or front-matter text appears.
+- [ ] No unintended source-code or frontmatter text appears.
 
 ### 22.2 Navigation
 
@@ -718,9 +747,11 @@ Before approving publication:
 
 After editorial approval, complete the following publication tasks.
 
+### 26.1 Individual Article
+
 - [ ] Final article file is prepared.
 - [ ] Filename and permalink are correct.
-- [ ] Front matter is checked.
+- [ ] Frontmatter is checked.
 - [ ] Article is added to the correct collection.
 - [ ] Metadata is consistent with the publication's conventions.
 - [ ] Images and assets are in the correct locations.
@@ -728,10 +759,34 @@ After editorial approval, complete the following publication tasks.
 - [ ] Related links are updated.
 - [ ] Sitemap generation is checked.
 - [ ] Feed generation is checked where relevant.
+
+### 26.2 Weekly Collection
+
+Complete this section when the article belongs to a weekly edition.
+
+- [ ] The weekly collection file is prepared.
+- [ ] Its title, description and publication date are accurate.
+- [ ] Its `week_id` follows the `week-YYYY-NN` convention.
+- [ ] All three intended articles are associated with the correct `week_id`.
+- [ ] Article numbers are assigned as `1`, `2` and `3`.
+- [ ] Each article has an independent permanent URL.
+- [ ] The collection presents the correct three articles.
+- [ ] Article titles, descriptions and language information are accurate.
+- [ ] Article order is correct.
+- [ ] No duplicate article cards have been introduced.
+- [ ] No artificial common theme or interdisciplinary connection is claimed.
+- [ ] The weekly page links to all three individual articles.
+- [ ] The collection page renders correctly.
+
+The three selections should remain independently meaningful. The collection does not need to provide a shared scientific, philosophical or thematic conclusion.
+
+### 26.3 Repository and Deployment
+
 - [ ] Repository changes are committed.
 - [ ] Deployment completes successfully.
 - [ ] The live article URL is checked.
-- [ ] The published page is inspected.
+- [ ] The weekly collection URL is checked where applicable.
+- [ ] The published pages are inspected.
 - [ ] Publication status is recorded.
 - [ ] Any required public announcement is prepared.
 
@@ -749,7 +804,8 @@ After publication:
 - [ ] Social preview works where tested.
 - [ ] Internal navigation reaches the article.
 - [ ] The weekly collection includes the correct entry.
-- [ ] RSS or other feed output is correct where applicable.
+- [ ] All three weekly article links work where applicable.
+- [ ] RSS or other feed output is correct where relevant.
 - [ ] No accidental draft content is visible.
 - [ ] No deployment error remains.
 - [ ] The final article URL is recorded.
@@ -778,6 +834,8 @@ Record substantial changes using the publication's revision and content-lifecycl
 
 Do not silently alter a published article in a way that misrepresents its previous content or editorial history.
 
+Where a revision affects a weekly collection, update the relevant collection page when necessary.
+
 ## 29. Publication Checklist Summary
 
 The following compact checklist may be used for rapid internal tracking.
@@ -787,19 +845,20 @@ The following compact checklist may be used for rapid internal tracking.
 | Article identity | [Pending / Complete / N/A] | [Notes] |
 | Literary source | [Status] | [Notes] |
 | Attribution | [Status] | [Notes] |
-| Translation | [Status] | [Notes] |
-| Historical context | [Status] | [Notes] |
-| Philosophical interpretation | [Status] | [Notes] |
+| Translation | [Status / N/A] | [Notes] |
+| Historical context | [Status / N/A] | [Notes] |
+| Philosophical interpretation | [Status / N/A] | [Notes] |
 | Scientific accuracy | [Status / N/A] | [Notes] |
 | References | [Status] | [Notes] |
 | Copyright | [Status] | [Notes] |
-| Research ethics | [Status] | [Notes] |
+| Research ethics | [Status / N/A] | [Notes] |
 | Disclosure | [Status] | [Notes] |
 | Specialist review | [Status / N/A] | [Notes] |
 | Accessibility | [Status] | [Notes] |
 | Metadata | [Status] | [Notes] |
 | Technical checks | [Status] | [Notes] |
 | SEO and discovery | [Status] | [Notes] |
+| Weekly collection | [Status / N/A] | [Notes] |
 | Final editorial decision | [Status] | [Notes] |
 | Post-publication verification | [Status] | [Notes] |
 
@@ -810,6 +869,7 @@ This checklist should be used alongside:
 - `EDITORIAL_POLICY.md`
 - `EDITORIAL_WORKFLOW.md`
 - `CONTENT_LIFECYCLE.md`
+- `WEEKLY_PUBLICATION_WORKFLOW.md`
 - `ARTICLE_TEMPLATE.md`
 - `ARTICLE_METADATA_REFERENCE.md`
 - `WEEKLY_COLLECTION_TEMPLATE.md`
