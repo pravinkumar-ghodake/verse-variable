@@ -1,4 +1,3 @@
-
 # Publication Checklist
 
 **Verse & Variable**  
@@ -11,6 +10,10 @@ This document establishes the final pre-publication checklist for articles and r
 
 Its purpose is to ensure that material has undergone appropriate checks before becoming publicly accessible.
 
+The publication focuses on Indian literature, its diverse languages and literary traditions, and the many dimensions of human experience expressed through them.
+
+The editor's wider intellectual interests include international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests may inform individual reflections but do not impose additional content requirements on the journal.
+
 The checklist covers:
 
 - Editorial suitability.
@@ -19,7 +22,7 @@ The checklist covers:
 - Translation and transliteration.
 - Historical and cultural context.
 - Philosophical interpretation.
-- Scientific and mathematical accuracy.
+- Scientific and mathematical accuracy, where applicable.
 - Research references.
 - Copyright and permissions.
 - Research ethics and privacy.
@@ -29,32 +32,34 @@ The checklist covers:
 - Website presentation.
 - Final publication approval.
 
-The checklist is intended to reduce preventable errors, omissions, misleading claims, and unresolved publication risks.
+The checklist is intended to reduce preventable errors, omissions, misleading claims and unresolved publication risks.
 
-It does not guarantee that every error will be identified or that an article has received formal academic peer review, institutional ethics approval, or independent scientific certification.
+It does not guarantee that every error will be identified or that an article has received formal academic peer review, institutional ethics approval or independent scientific certification.
 
 ## 2. Scope
 
 This checklist applies to:
 
-- Individual literary exploration articles.
+- Individual literary explorations.
 - Poetry and shayari discussions.
-- Translation and transliteration articles.
+- Translation and transliteration.
 - Historical and cultural explorations.
 - Philosophical commentary.
-- Scientific and technical articles.
-- Interdisciplinary discussions.
-- Interview-based contributions.
-- Oral-history material.
 - Weekly collection pages.
+- Interview-based literary contributions.
+- Oral-history material.
+- Supplementary illustrations and multimedia.
+- Informational and editorial pages.
+- Public documentation associated with the publication.
 - Substantial article revisions.
-- Other substantial editorial content.
+
+Scientific or technical explanations may appear within an individual literary exploration when they genuinely contribute to its interpretation. They are not independent publication categories or required components of the journal.
 
 Some sections may not apply to every article.
 
-For example, an article discussing a published ghazal may require extensive literary, linguistic, and translation checks but no experimental methodology review.
+For example, an article discussing a published ghazal may require extensive literary, linguistic and translation checks but no experimental methodology review.
 
-A technical article discussing nonlinear wave propagation may require mathematical, scientific, computational, and reference checks.
+An article discussing a scientific concept in the context of a literary expression may require additional mathematical, scientific, computational or reference checks.
 
 Mark genuinely inapplicable items as `Not applicable` rather than treating them as completed checks.
 
@@ -64,19 +69,23 @@ An article should be published only after its relevant editorial and technical r
 
 ### 3.1 Accuracy Before Publication
 
-Important claims should be supported by appropriate sources or clearly identified as interpretations, hypotheses, or speculative observations.
+Important factual claims should be supported by appropriate sources or clearly identified as interpretations, hypotheses or speculative observations.
 
 ### 3.2 Literary Integrity
 
 Original literary expression must be reproduced and attributed responsibly.
 
-### 3.3 Scientific Integrity
+Its language, imagery, cultural context and emotional character should be respected.
+
+### 3.3 Scientific Integrity, Where Applicable
 
 Scientific claims must not exceed the available evidence.
 
+Scientific verification is necessary when an article makes substantive scientific or technical claims, not simply because the editor has a scientific research background.
+
 ### 3.4 Ethical Responsibility
 
-Consent, privacy, cultural sensitivities, confidentiality, and potential harm must be considered.
+Consent, privacy, cultural sensitivities, confidentiality and potential harm must be considered.
 
 ### 3.5 Rights Clearance
 
@@ -84,11 +93,11 @@ Copyright and usage permissions must be assessed before material is reproduced o
 
 ### 3.6 Accessibility
 
-Readers should be able to access the article across languages, devices, and appropriate assistive technologies.
+Readers should be able to access the article across languages, devices and appropriate assistive technologies.
 
 ### 3.7 Technical Reliability
 
-The published page should render correctly, have valid metadata, and be reachable through the intended website structure.
+The published page should render correctly, have valid metadata and be reachable through the intended website structure.
 
 ### 3.8 Editorial Accountability
 
@@ -102,17 +111,17 @@ Use one of the following internal statuses.
 |---|---|
 | Draft | Article is being prepared |
 | Editorial review | Initial content assessment is underway |
-| Source verification | Literary or research sources are being checked |
-| Specialist consultation | Relevant expert feedback is being obtained |
+| Source verification | Literary, linguistic or other relevant sources are being checked |
+| Specialist consultation | Relevant expert feedback is being obtained, where necessary |
 | Revision required | Changes are necessary |
 | Rights pending | Permission or licence questions remain unresolved |
 | Ethics review | Ethical concerns are being assessed |
-| Final quality check | Publication checklist is being completed |
-| Approved | Editorial requirements have been addressed |
+| Final quality check | Relevant publication checks are being completed |
+| Approved | Applicable editorial requirements have been addressed |
 | Scheduled | Publication timing has been determined |
 | Published | Article is publicly available |
 | On hold | An unresolved issue prevents publication |
-| Withdrawn | Article is no longer being considered |
+| Withdrawn | Article is no longer being considered or remains withdrawn |
 
 These are editorial statuses. They are not automatically implemented by Jekyll or GitHub Pages.
 
@@ -122,10 +131,10 @@ These are editorial statuses. They are not automatically implemented by Jekyll o
 
 - [ ] The final article title is established.
 - [ ] The proposed URL or permalink is appropriate.
-- [ ] The article category is identified.
+- [ ] The article's literary subject and form are identified.
 - [ ] The primary language is correctly identified.
 - [ ] Additional languages are recorded where relevant.
-- [ ] The article's subject is clear.
+- [ ] The article's purpose is clear.
 - [ ] The relevant weekly collection is identified, if applicable.
 - [ ] The article filename follows the repository naming conventions.
 - [ ] The article has a unique and appropriate internal identifier where used.
@@ -134,24 +143,25 @@ These are editorial statuses. They are not automatically implemented by Jekyll o
 
 - [ ] Contributor names are accurate.
 - [ ] Author and translator roles are distinguished.
-- [ ] Lyricist, composer, performer, and editor roles are distinguished where relevant.
-- [ ] Institutional affiliations are accurate.
+- [ ] Lyricist, composer, performer and editor roles are distinguished where relevant.
+- [ ] Institutional affiliations are accurate where included.
 - [ ] Public attribution reflects the agreed arrangement.
 - [ ] Acknowledgements have been checked.
 - [ ] No individual is credited without an appropriate basis.
 
 ### 5.3 Editorial Purpose
 
-- [ ] The article has a clear central subject.
+- [ ] The article has a clear literary subject.
 - [ ] Its purpose is consistent with the publication's identity.
-- [ ] The article offers meaningful interpretation or inquiry.
+- [ ] The article offers meaningful interpretation or reflection.
 - [ ] Its scope is appropriate.
 - [ ] Its limitations are identified where necessary.
 - [ ] The discussion does not rely on exaggerated claims of originality or importance.
+- [ ] Any scientific or interdisciplinary material is relevant to the actual literary exploration rather than inserted to fulfil a publication expectation.
 
 ## 6. Original Literary Material
 
-Complete this section when the article includes poetry, lyrics, literary excerpts, folk material, or other original expression.
+Complete this section when the article includes poetry, lyrics, literary excerpts, folk material or other original expression.
 
 ### 6.1 Original Text
 
@@ -227,7 +237,7 @@ Complete this section when translation or transliteration is included.
 - [ ] Line structure is readable.
 - [ ] The translator's contribution is acknowledged.
 - [ ] Translation notes are included where useful.
-- [ ] Any material AI-assisted translation is disclosed appropriately.
+- [ ] Material AI-assisted translation is disclosed where required by the publication's disclosure policy.
 
 ## 8. Historical and Cultural Verification
 
@@ -264,7 +274,9 @@ Complete this section where philosophical discussion or conceptual interpretatio
 
 ## 10. Scientific and Technical Verification
 
-Complete this section when substantive scientific or technical claims are included.
+Complete this section only when an article includes substantive scientific or technical claims.
+
+A literary article that does not make scientific assertions does not need to complete this section.
 
 ### 10.1 General Scientific Accuracy
 
@@ -278,6 +290,8 @@ Complete this section when substantive scientific or technical claims are includ
 - [ ] Relevant assumptions and limitations are identified.
 
 ### 10.2 Mathematical Formulations
+
+Where applicable:
 
 - [ ] Equations are mathematically consistent.
 - [ ] Variables are defined.
@@ -359,7 +373,9 @@ Where applicable:
 
 ## 11. Interdisciplinary Quality
 
-Complete this section when the article connects different fields.
+Complete this section only when an article genuinely connects different fields.
+
+An interdisciplinary connection is optional and is not a standard requirement for every literary exploration.
 
 - [ ] The relationship between the disciplines is clear.
 - [ ] The connection contributes meaningful insight.
@@ -371,8 +387,11 @@ Complete this section when the article connects different fields.
 - [ ] Scientific terminology is introduced naturally.
 - [ ] The discussion is understandable to an intellectually curious reader.
 - [ ] The conclusion does not claim more than the connection establishes.
+- [ ] The connection arises from the literary expression rather than being imposed upon it.
 
 ## 12. Research Sources and References
+
+Complete the checks relevant to the actual sources and claims used in the article.
 
 - [ ] Important sources are identifiable.
 - [ ] References are genuine.
@@ -385,11 +404,13 @@ Complete this section when the article connects different fields.
 - [ ] Sources actually support the claims attributed to them.
 - [ ] Primary and secondary sources are distinguished.
 - [ ] Preprints are not described as peer-reviewed publications.
-- [ ] Relevant corrections and retractions have been checked.
+- [ ] Relevant corrections and retractions have been checked where applicable.
 - [ ] Unavailable sources are identified honestly.
 - [ ] The source register is updated where appropriate.
 
 Do not publish fabricated citations or references generated without verification.
+
+Do not add scientific references merely to make a literary article appear interdisciplinary.
 
 ## 13. Originality and Contributor Attribution
 
@@ -413,9 +434,9 @@ Do not publish fabricated citations or references generated without verification
 - [ ] Licence conditions have been checked.
 - [ ] Public-domain claims have been assessed.
 - [ ] Published translations have been checked separately.
-- [ ] Research figures and illustrations have been assessed separately.
+- [ ] Research figures and illustrations have been assessed separately where applicable.
 - [ ] Image and recording rights have been examined.
-- [ ] Software and dataset licences have been considered.
+- [ ] Software and dataset licences have been considered where applicable.
 - [ ] Required attribution is present.
 - [ ] Modifications are disclosed where required.
 - [ ] Any unresolved rights issue has been resolved before publication.
@@ -425,6 +446,8 @@ Do not publish fabricated citations or references generated without verification
 A missing rights record should not be interpreted as permission.
 
 ## 15. Research Ethics and Privacy
+
+Complete the checks relevant to the article's subject and source material.
 
 - [ ] Personal information has been reviewed.
 - [ ] Sensitive information is necessary for the article.
@@ -448,16 +471,16 @@ A missing rights record should not be interpreted as permission.
 - [ ] Relevant AI assistance is disclosed.
 - [ ] AI-generated references have been verified.
 - [ ] AI-generated translations have been checked.
-- [ ] AI-generated scientific explanations have been checked.
+- [ ] AI-generated scientific explanations have been checked where applicable.
 - [ ] AI-generated code has been reviewed where applicable.
 - [ ] AI-generated images are not misrepresented as authentic evidence.
 - [ ] Confidential and sensitive material has been handled appropriately.
-- [ ] No fabricated interviews, permissions, citations, or research findings are present.
+- [ ] No fabricated interviews, permissions, citations or research findings are present.
 - [ ] Human editorial responsibility remains clear.
 
 ## 17. Reviewer and Specialist Assessment
 
-Where review has been obtained:
+Complete this section where review or specialist consultation has been obtained or is necessary for a particular claim.
 
 - [ ] Reviewer suitability has been considered.
 - [ ] Review scope is documented.
@@ -476,19 +499,23 @@ Where no specialist review has occurred, do not imply otherwise.
 
 ## 18. Editorial Writing Quality
 
-- [ ] The opening is clear and engaging.
-- [ ] The main argument is coherent.
-- [ ] Literary interpretation is developed thoughtfully.
-- [ ] Scientific discussion is appropriately detailed.
-- [ ] Important terminology is explained.
-- [ ] Paragraphs follow a logical progression.
+- [ ] The opening engages with the selected literary expression.
+- [ ] The main interpretation is coherent.
+- [ ] Literary meaning is developed thoughtfully.
+- [ ] Emotional and intellectual continuity is maintained.
+- [ ] The editor's personal perspective enters naturally where appropriate.
+- [ ] Scientific discussion is included only when it genuinely contributes.
+- [ ] Scientific discussion is appropriately detailed where present.
+- [ ] Important terminology is explained where necessary.
+- [ ] Paragraphs follow a natural progression.
 - [ ] Repetition is reduced.
 - [ ] Unsupported generalisations are removed.
 - [ ] Promotional statements are avoided.
 - [ ] The conclusion is reflective and meaningful.
 - [ ] The writing is consistent with the publication's editorial identity.
-- [ ] All four main commentary paragraphs are substantial and complete.
-- [ ] The four-paragraph requirement is satisfied for standard literary explorations.
+- [ ] The reflection contains no more than four concise English prose paragraphs.
+- [ ] The reflection has not been artificially expanded to meet a paragraph target.
+- [ ] The reflection is independently meaningful and remains connected to the original work.
 
 ## 19. Article Metadata
 
@@ -508,23 +535,29 @@ Check the final front matter against `ARTICLE_METADATA_REFERENCE.md` and the fie
 - [ ] Canonical URL is correct.
 - [ ] No accidental draft-only or internal information appears in published metadata.
 - [ ] All required fields are actually supported by the relevant layout.
+- [ ] Scientific terminology appears in entry metadata only when supported by the article's actual content.
 
 Do not assume that adding a metadata field automatically causes it to appear on the website.
 
-## 20. Four-Paragraph Article Structure
+## 20. Reflection Length and Editorial Coherence
 
-For the standard literary exploration format:
+Use this section to verify the principal English commentary.
 
-- [ ] Paragraph One establishes the human and literary foundation.
-- [ ] Paragraph Two develops the interpretation.
-- [ ] Paragraph Three examines an appropriate scientific or interdisciplinary connection where meaningful.
-- [ ] Paragraph Four provides reflection and synthesis.
-- [ ] The four paragraphs are original English commentary.
-- [ ] Ancillary quotations and translations are not mistakenly counted as commentary paragraphs.
-- [ ] No unnecessary additional commentary paragraphs have been introduced.
-- [ ] The article maintains continuity and coherence across all four paragraphs.
+- [ ] The reflection contains no more than four concise paragraphs.
+- [ ] Fewer paragraphs are used where they communicate the interpretation more effectively.
+- [ ] There is no minimum paragraph count.
+- [ ] No paragraph is reserved for scientific or interdisciplinary material.
+- [ ] The opening begins from the literary work rather than an imposed abstract framework.
+- [ ] The interpretation unfolds naturally.
+- [ ] Personal observations contribute meaningfully where appropriate.
+- [ ] Scientific knowledge is introduced only when it genuinely deepens the reading.
+- [ ] The conclusion emerges naturally from the reflection.
+- [ ] The writing avoids forced moral, motivational or technical conclusions.
+- [ ] The original expression remains the central literary reference.
 
-If an article uses a different format, the reason should be clear and the applicable format should have editorial approval.
+The four possible movements described in the editorial documentation—The Encounter, The Unfolding, The Personal Perspective and The Lasting Thought—are guidance for developing a reflection, not a compulsory four-paragraph formula.
+
+Supplementary quotations, translations, attribution, references and notes do not count as part of the prose reflection.
 
 ## 21. Accessibility and Multilingual Presentation
 
@@ -543,7 +576,7 @@ If an article uses a different format, the reason should be clear and the applic
 - [ ] Focus visibility is adequate.
 - [ ] Reading progress and navigation controls remain usable.
 - [ ] Reduced-motion preferences are respected where implemented.
-- [ ] Equations and scientific notation have appropriate explanations.
+- [ ] Equations and scientific notation have appropriate explanations where included.
 - [ ] Audio or video has suitable captions or transcripts where applicable.
 - [ ] Responsive presentation has been considered.
 
@@ -558,7 +591,7 @@ Complete these checks against the actual deployed website or the relevant test e
 - [ ] The article title appears correctly.
 - [ ] The article content is complete.
 - [ ] Images load correctly.
-- [ ] Figures and captions are positioned appropriately.
+- [ ] Figures and captions are positioned appropriately where present.
 - [ ] References are visible.
 - [ ] Metadata is displayed correctly.
 - [ ] No unintended placeholder text remains.
@@ -621,8 +654,11 @@ A successful visual inspection alone does not establish complete technical corre
 - [ ] RSS or other feed inclusion is appropriate.
 - [ ] Image alternative text is descriptive.
 - [ ] URL structure is stable.
+- [ ] Scientific keywords are included only where supported by the actual content.
 
 SEO metadata should accurately represent the article. Do not add unsupported claims or misleading structured data merely to improve visibility.
+
+The editor's scientific research identity may remain represented in the author's profile and appropriate publication metadata without being inserted indiscriminately into individual literary entries.
 
 ## 24. Security and Confidentiality
 
@@ -643,7 +679,7 @@ Before approving publication:
 
 - [ ] Editorial assessment is complete.
 - [ ] Relevant source verification is complete.
-- [ ] Translation and attribution checks are complete.
+- [ ] Translation and attribution checks are complete where applicable.
 - [ ] Scientific and technical checks are complete where applicable.
 - [ ] Ethical concerns are resolved.
 - [ ] Rights and permissions are resolved.
@@ -730,7 +766,8 @@ Examples include:
 - Correction of a literary attribution.
 - Translation revision.
 - Historical clarification.
-- Scientific correction.
+- Cultural clarification.
+- Scientific correction, where applicable.
 - Updated research references.
 - New rights information.
 - Privacy or consent concerns.
@@ -752,13 +789,13 @@ The following compact checklist may be used for rapid internal tracking.
 | Attribution | [Status] | [Notes] |
 | Translation | [Status] | [Notes] |
 | Historical context | [Status] | [Notes] |
-| Philosophical accuracy | [Status] | [Notes] |
-| Scientific accuracy | [Status] | [Notes] |
+| Philosophical interpretation | [Status] | [Notes] |
+| Scientific accuracy | [Status / N/A] | [Notes] |
 | References | [Status] | [Notes] |
 | Copyright | [Status] | [Notes] |
 | Research ethics | [Status] | [Notes] |
 | Disclosure | [Status] | [Notes] |
-| Specialist review | [Status] | [Notes] |
+| Specialist review | [Status / N/A] | [Notes] |
 | Accessibility | [Status] | [Notes] |
 | Metadata | [Status] | [Notes] |
 | Technical checks | [Status] | [Notes] |
@@ -800,15 +837,17 @@ This checklist should be used alongside:
 - `SECURITY.md`
 - `DISCLAIMER.md`
 
-These documents collectively define the publication's standards for preparing, examining, approving, and maintaining its material.
+These documents collectively define the publication's standards for preparing, examining, approving and maintaining its material.
 
 ## 31. Continuing Commitment
 
 Publication is not simply the act of making an article visible.
 
-It is the final stage of a process involving careful selection, interpretation, source verification, rights assessment, ethical consideration, and editorial judgement.
+It is the final stage of a process involving careful selection, interpretation, source verification, rights assessment, ethical consideration and editorial judgement.
 
-Verse & Variable aims to publish material that is thoughtful without being exaggerated, intellectually ambitious without being careless, and accessible without sacrificing depth.
+Verse & Variable aims to publish material that is thoughtful without being exaggerated, intellectually curious without being careless, and accessible without sacrificing depth.
+
+Literature remains the central subject of the journal. Scientific knowledge, where relevant, should be approached with the same care for accuracy and evidence, without becoming an obligation imposed upon the literary work.
 
 The purpose of this checklist is to make those commitments operational.
 
