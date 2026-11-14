@@ -1,35 +1,47 @@
 cff-version: 1.2.0
-message: >-
-  If you use, reference, or discuss Verse & Variable in your research,
-  writing, teaching, or other scholarly work, please cite the publication
-  using the following metadata.
 
-title: "Verse & Variable: A Line of Verse. A Line of Inquiry"
+message: >-
+  If you use, reference, or discuss the Verse & Variable publication,
+  please cite it using the preferred publication reference below.
+  If you use or adapt the repository's source code, cite this repository
+  as a software project.
+
+title: "Verse & Variable"
 
 authors:
   - family-names: Ghodake
     given-names: Pravinkumar
+    orcid: "https://orcid.org/0000-0002-6755-4003"
 
-type: generic
+type: software
 
 url: "https://pravinkumar-ghodake.github.io/verse-variable/"
 
 repository-code: "https://github.com/pravinkumar-ghodake/verse-variable"
 
 abstract: >-
-  Verse & Variable is an independent literary and scientific journal
-  exploring Indian and South Asian literary traditions, poetry, shayari,
-  philosophy, human experience, and interdisciplinary scientific thought.
-  Its scientific interests include nonlinear vibrations, nonlinear waves,
-  nonlinear ultrasonics, harmonic generation and scattering, mechanical
-  metamaterials, computational mechanics, and related fields. The
-  publication brings literary interpretation and scientific inquiry
-  into thoughtful dialogue while preserving their distinct intellectual
-  and cultural identities.
+  This repository contains the source code, templates, configuration,
+  publication metadata, documentation and structured literary content
+  supporting Verse & Variable, an independent Indian literary journal.
+  The publication is devoted to poetry, shayari, ghazals, nazms,
+  literary prose, philosophical expressions and other forms of Indian
+  literary expression across India's diverse languages and traditions.
+  Its initial linguistic foundation comprises Urdu, Hindi, Marathi,
+  Kannada, Tamil, Malayalam and Telugu. The editorial approach
+  emphasises literary integrity, accurate attribution, cultural and
+  linguistic context, thoughtful interpretation and original English
+  commentary. The journal's publication scope is literary. Scientific
+  knowledge and specialist expertise may inform individual explorations
+  when genuinely relevant, but are not compulsory editorial elements
+  or independent publication categories. The repository supports the
+  journal's multilingual digital archive and its long-term presentation
+  through Jekyll and GitHub Pages.
 
 keywords:
   - Indian literature
-  - South Asian literature
+  - Indian literary traditions
+  - Multilingual literary archive
+  - Poetry
   - Urdu poetry
   - Hindi poetry
   - Marathi literature
@@ -38,11 +50,25 @@ keywords:
   - Malayalam literature
   - Telugu literature
   - Shayari
+  - Ghazal
+  - Nazm
   - Literary studies
+  - Literary interpretation
   - Philosophy
-  - Nonlinear waves
-  - Nonlinear mechanics
-  - Metamaterials
-  - Interdisciplinary research
+  - Human experience
+  - Translation
+  - Digital literary archive
+  - Jekyll
+  - GitHub Pages
 
-license: CC-BY-4.0
+license: MIT
+
+preferred-citation:
+  type: generic
+  title: "Verse & Variable: A line of verse. A line of inquiry."
+  authors:
+    - family-names: Ghodake
+      given-names: Pravinkumar
+      orcid: "https://orcid.org/0000-0002-6755-4003"
+  year: 2026
+  url: "https://pravinkumar-ghodake.github.io/verse-variable/"
