@@ -27,7 +27,7 @@
            PUBLICATION IDENTITY
            ================================================== -->
 
-            <section class="footer-column footer-publication">
+      <section class="footer-column footer-publication">
 
         <!-- PUBLICATION NAME -->
 
@@ -64,33 +64,6 @@
           <span class="footer-publication-descriptor">
             Literature · Language · Human Experience
           </span>
-
-        </div>
-
-        <!-- VISUAL SEPARATOR -->
-
-        <div
-          class="footer-identity-divider"
-          aria-hidden="true"
-        ></div>
-
-        <!-- EDITOR ATTRIBUTION -->
-
-        <div class="footer-editor">
-
-          <span class="footer-editor-label">
-            EDITED BY
-          </span>
-
-          <p class="footer-editor-name">
-            Pravinkumar Ghodake
-          </p>
-
-          <p class="footer-editor-bio">
-            Independent researcher in theoretical, computational
-            and experimental mechanics, with research interests
-            including nonlinear waves and ultrasonics.
-          </p>
 
         </div>
 
@@ -204,107 +177,162 @@
 
 
     <!-- ======================================================
-         02. LANGUAGE SIGNATURE
+         02. LOWER FOOTER CONTENT
          ====================================================== -->
 
-    <div class="footer-language-strip">
-
-      <span class="footer-language-label">
-        LITERARY TRADITIONS
-      </span>
+    <div class="footer-lower-grid">
 
 
-      <div class="footer-language-list">
+      <!-- ==================================================
+           LEFT: LITERARY TRADITIONS AND COLOPHON
+           ================================================== -->
 
-        {% for language in site.data.languages.languages %}
+      <div class="footer-lower-left">
 
-          <span class="footer-language-item">
 
-            {{ language.name }}
+        <!-- LANGUAGE SIGNATURE -->
 
+        <div class="footer-language-strip">
+
+          <span class="footer-language-label">
+            LITERARY TRADITIONS
           </span>
 
-          {% unless forloop.last %}
 
-            <span
-              class="footer-language-separator"
-              aria-hidden="true"
+          <div class="footer-language-list">
+
+            {% for language in site.data.languages.languages %}
+
+              <span class="footer-language-item">
+
+                {{ language.name }}
+
+              </span>
+
+              {% unless forloop.last %}
+
+                <span
+                  class="footer-language-separator"
+                  aria-hidden="true"
+                >
+                  ·
+                </span>
+
+              {% endunless %}
+
+            {% endfor %}
+
+          </div>
+
+        </div>
+
+
+        <!-- PUBLICATION COLOPHON -->
+
+        <div class="footer-colophon">
+
+          <div class="footer-colophon-mark" aria-hidden="true">
+
+            <svg
+              viewBox="0 0 70 28"
+              width="70"
+              height="28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              ·
-            </span>
 
-          {% endunless %}
+              <path
+                d="M2 9 C12 9 13 21 25 21 C37 21 39 5 55 5"
+                stroke="#5475CE"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
 
-        {% endfor %}
+              <path
+                d="M2 15 C12 15 14 25 27 25 C41 25 44 11 57 11"
+                stroke="#25A6A0"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+
+              <path
+                d="M2 21 C13 21 15 28 28 28 C43 28 48 17 61 17"
+                stroke="#E36D54"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                opacity="0.9"
+              />
+
+              <circle
+                cx="62"
+                cy="17"
+                r="2"
+                fill="#D5AA61"
+              />
+
+            </svg>
+
+          </div>
+
+
+          <p class="footer-colophon-text">
+
+            Words travel through cultures.
+            Waves travel through matter.
+            Both invite us to look beyond the surface.
+
+          </p>
+
+        </div>
+
 
       </div>
+
+
+      <!-- ==================================================
+           RIGHT: EDITOR ATTRIBUTION
+           ================================================== -->
+
+      <div class="footer-lower-right">
+
+
+        <!-- VISUAL SEPARATOR -->
+
+        <div
+          class="footer-identity-divider"
+          aria-hidden="true"
+        ></div>
+
+
+        <!-- EDITOR ATTRIBUTION -->
+
+        <div class="footer-editor">
+
+          <span class="footer-editor-label">
+            EDITED BY
+          </span>
+
+          <p class="footer-editor-name">
+            Pravinkumar Ghodake
+          </p>
+
+          <p class="footer-editor-bio">
+            Independent researcher in theoretical, computational
+            and experimental mechanics, with research interests
+            including nonlinear waves and ultrasonics.
+          </p>
+
+        </div>
+
+
+      </div>
+
 
     </div>
 
 
     <!-- ======================================================
-         03. PUBLICATION COLOPHON
-         ====================================================== -->
-
-    <div class="footer-colophon">
-
-      <div class="footer-colophon-mark" aria-hidden="true">
-
-        <svg
-          viewBox="0 0 70 28"
-          width="70"
-          height="28"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-
-          <path
-            d="M2 9 C12 9 13 21 25 21 C37 21 39 5 55 5"
-            stroke="#5475CE"
-            stroke-width="1.5"
-            stroke-linecap="round"
-          />
-
-          <path
-            d="M2 15 C12 15 14 25 27 25 C41 25 44 11 57 11"
-            stroke="#25A6A0"
-            stroke-width="1.5"
-            stroke-linecap="round"
-          />
-
-          <path
-            d="M2 21 C13 21 15 28 28 28 C43 28 48 17 61 17"
-            stroke="#E36D54"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            opacity="0.9"
-          />
-
-          <circle
-            cx="62"
-            cy="17"
-            r="2"
-            fill="#D5AA61"
-          />
-
-        </svg>
-
-      </div>
-
-
-      <p class="footer-colophon-text">
-
-        Words travel through cultures.
-        Waves travel through matter.
-        Both invite us to look beyond the surface.
-
-      </p>
-
-    </div>
-
-
-    <!-- ======================================================
-         04. COPYRIGHT AND FINAL LINKS
+         03. COPYRIGHT AND FINAL LINKS
          ====================================================== -->
 
     <div class="footer-bottom">
