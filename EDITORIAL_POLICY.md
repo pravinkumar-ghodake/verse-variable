@@ -13,17 +13,19 @@
 
 ## 1. Purpose and Editorial Identity
 
-Verse & Variable is an independent literary and scientific publication founded and edited by Pravinkumar Ghodake.
+Verse & Variable is an independent Indian literary journal founded and edited by Pravinkumar Ghodake.
 
-The publication explores the relationship between literary expression, philosophy, human experience and scientific thought.
+The journal explores Indian literature through poetry, ghazals, nazms, shayari, literary prose and other forms of expression, with particular attention to language, cultural context, philosophy and human experience.
 
-Its primary literary foundation is rooted in Indian and South Asian traditions, with particular attention to the richness of Urdu, Hindi, Marathi, Kannada, Tamil, Malayalam and Telugu literature.
+Its principal literary foundation encompasses the richness of Urdu, Hindi, Marathi, Kannada, Tamil, Malayalam and Telugu literature, while remaining open to other Indian languages and literary traditions.
 
-The publication seeks to develop an archive in which literary appreciation and interdisciplinary inquiry can coexist without compromising the integrity of either.
+The editor's personal intellectual interests extend much further, encompassing Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests inform the perspective brought to the journal, but they do not impose a predetermined direction on its literary selections or reflections.
 
-It is not intended to function as a conventional academic journal, literary news platform or collection of quotations.
+The journal is not intended to function as a conventional academic publication, literary news platform or collection of quotations.
 
-Its identity rests on thoughtful selection, independent interpretation and intellectually responsible writing.
+Its identity rests on thoughtful selection, independent interpretation, cultural sensitivity and intellectually responsible writing.
+
+Literature remains at the centre of the publication. Every literary expression deserves to be encountered on its own terms, without an obligation to establish a connection with another discipline.
 
 ## 2. Editorial Independence
 
@@ -33,7 +35,9 @@ Editorial decisions are guided by literary merit, intellectual relevance, cultur
 
 Selections are not determined solely by popularity, commercial considerations, social-media trends or prevailing opinion.
 
-The publication retains editorial independence in its selection of authors, literary expressions, themes and scientific perspectives.
+The publication retains editorial independence in its selection of authors, literary expressions, languages and themes.
+
+Literary quality, integrity and the potential for meaningful engagement take precedence over the social, cultural, political or popular identity of an author.
 
 ## 3. Literary Selection
 
@@ -46,14 +50,16 @@ Literary expressions may be selected from:
 - Philosophical verses.
 - Literary prose.
 - Song lyrics and musical poetry.
-- Regional literary traditions.
-- Other significant forms of literary expression.
+- Regional and linguistic literary traditions.
+- Other significant forms of Indian literary expression.
 
 Selections should offer meaningful opportunities for literary, emotional, philosophical or intellectual exploration.
 
 Familiarity and popularity may provide context, but they are not substitutes for literary merit.
 
-The archive should maintain a balance between established literary voices, regional traditions and contemporary expressions.
+The archive should maintain a thoughtful balance between established literary voices, regional traditions, lesser-known expressions and contemporary writing.
+
+Selection should be guided by the character and quality of the individual work rather than a requirement to represent a predefined theme or produce a particular kind of interpretation.
 
 ## 4. Language and Cultural Representation
 
@@ -67,7 +73,7 @@ The principal languages of the publication are:
 6. Malayalam
 7. Telugu
 
-Other languages and literary traditions may be considered when they contribute meaningfully to the publication.
+Other Indian languages and literary traditions may be considered when they contribute meaningfully to the publication.
 
 Original expressions should be retained in their original scripts wherever possible.
 
@@ -76,6 +82,8 @@ Literary works should be approached with sensitivity to their linguistic structu
 No language or literary tradition is considered inherently superior to another.
 
 The publication recognises that translation cannot always preserve every nuance of the original expression.
+
+The editor's wider literary interests include works from India and across the world. However, the present editorial scope of Verse & Variable is focused on Indian literature. This is a publication focus, not a limitation on the editor's reading or intellectual interests.
 
 ## 5. Original Text, Transliteration and Translation
 
@@ -95,6 +103,8 @@ English translations should aim to communicate meaning, tone and literary intent
 Where multiple interpretations are possible, the commentary may acknowledge that ambiguity.
 
 An independent interpretation must not be presented as an authoritative or definitive translation.
+
+The original expression remains the primary literary reference, and its linguistic and cultural character should not be unnecessarily altered to accommodate the English rendering.
 
 ## 6. Attribution and Verification
 
@@ -137,14 +147,16 @@ An individual article generally contains:
 3. Author and source attribution.
 4. Transliteration, where appropriate.
 5. English translation.
-6. Four substantial English prose paragraphs of original commentary.
+6. Original editorial reflection.
 7. Relevant references and acknowledgements, where necessary.
 
-The four principal prose paragraphs form the central interpretive component of the article.
+The editorial reflection should contain no more than four concise English prose paragraphs. Fewer paragraphs are entirely acceptable when they allow the thought to remain complete and coherent.
 
-They should be substantial, coherent and connected rather than artificially divided into short observations.
+There is no mandatory paragraph-by-paragraph formula. The structure, length and direction of a reflection should be determined by the literary expression and the depth of engagement it warrants.
 
-Ancillary elements such as quotations, translations, headings and source notes are separate from these four paragraphs.
+Shorter reflections should not be artificially expanded merely to satisfy a numerical requirement.
+
+Ancillary elements such as quotations, translations, headings, illustrations and source notes are separate from the prose reflection.
 
 ## 8. Literary Interpretation
 
@@ -161,18 +173,24 @@ Depending on the work, this may involve:
 - Cultural and historical context.
 - Ambiguity and multiple interpretations.
 - The relationship between form and meaning.
+- Personal observations and lived experience.
 
 Interpretations should be grounded in the literary expression rather than imposed upon it.
 
+The writing should follow the movement of the work: its imagery, atmosphere, emotional shifts, contradictions and underlying questions.
+
 The publication does not claim that every literary work has one definitive interpretation.
 
-## 9. Scientific Connections
+A reflection should allow the literary expression to retain its individuality. It need not arrive at a moral, motivational message or predetermined intellectual conclusion.
 
-Scientific perspectives are introduced only when a genuine intellectual connection exists.
+## 9. The Editor's Scientific Background and Optional Scientific Context
 
-Relevant fields include:
+The editor's scientific research background is an important part of the intellectual perspective underlying Verse & Variable.
+
+It is rooted in theoretical, computational and experimental mechanics, including:
 
 - Nonlinear vibrations.
+- Nonlinear dynamical systems.
 - Nonlinear elastic waves.
 - Nonlinear ultrasonics.
 - Harmonic generation and scattering.
@@ -185,7 +203,11 @@ Relevant fields include:
 - Computational mechanics.
 - Physical acoustics.
 
-The scientific discussion may explore physical mechanisms, mathematical structures, theoretical parallels or conceptual comparisons.
+These research interests inform the editor's analytical habits, curiosity and way of approaching unfamiliar questions. Their presence in the editor's intellectual background does not make them compulsory subjects for the journal.
+
+Scientific knowledge may enter a reflection when a genuine intellectual connection exists and when it meaningfully deepens an idea or question raised by the literary expression.
+
+The scientific discussion may explore physical mechanisms, mathematical structures, theoretical parallels or carefully qualified conceptual comparisons.
 
 However, the following distinctions must be maintained:
 
@@ -197,9 +219,13 @@ However, the following distinctions must be maintained:
 
 Scientific connections should deepen the discussion rather than distract from the literary expression.
 
+No poem, couplet, song or literary passage is expected to contain a scientific idea, predict a scientific discovery or demonstrate a physical principle.
+
+A literary work does not need a scientific connection to deserve selection, interpretation or publication.
+
 ## 10. Scientific Accuracy and References
 
-Scientific statements should be consistent with established knowledge and supported by appropriate references when necessary.
+When a reflection contains substantive scientific statements, those statements should be consistent with established knowledge and supported by appropriate references when necessary.
 
 Relevant sources may include:
 
@@ -215,25 +241,32 @@ References should be sufficiently identifiable to allow readers to locate the or
 
 Unverified claims should not be presented as established scientific conclusions.
 
+Scientific verification is conditional on the presence of scientific claims. A literary reflection that does not make scientific assertions does not require a scientific reference section merely to satisfy a publication format.
+
 ## 11. Editorial Voice and Writing Style
 
 The editorial voice is reflective, mature, personal and intellectually independent.
 
 The writing should:
 
-- Use clear and substantial English prose.
-- Prefer thoughtful development over short slogans.
+- Use clear and thoughtful English prose.
+- Prefer meaningful development over short slogans.
 - Maintain a first-person reflective perspective where appropriate.
 - Preserve literary sensitivity.
+- Give attention to emotional continuity and coherence.
+- Begin with the literary expression rather than an imposed abstract framework.
+- Allow the editor's personal observations and intellectual background to enter naturally.
 - Avoid unnecessary scientific jargon.
 - Avoid promotional language.
 - Avoid exaggerated claims of originality or significance.
-- Avoid artificial comparisons.
+- Avoid artificial comparisons and forced analogies.
 - Respect uncertainty and interpretive complexity.
 
 The publication should not sound like a promotional platform, a textbook or a collection of generic literary summaries.
 
 Its writing should reflect genuine engagement with the selected work.
+
+The objective is not to make every reflection sound alike, but to maintain a recognisable editorial sensibility while allowing each literary expression to determine its own direction.
 
 ## 12. Translation and Interpretation Standards
 
@@ -250,6 +283,8 @@ These categories should not be confused.
 Where the English rendering departs from the literal wording to preserve poetic meaning, this should be understood as an interpretive choice rather than a verbatim translation.
 
 The original expression remains the primary literary reference.
+
+Translations should preserve meaning and tone as faithfully as possible while acknowledging that certain linguistic, cultural and poetic nuances may not have exact English equivalents.
 
 ## 13. Copyright and Permissions
 
@@ -284,7 +319,7 @@ Examples include:
 - Incorrect original wording.
 - Translation inaccuracies.
 - Historical or cultural errors.
-- Scientific inaccuracies.
+- Scientific inaccuracies, where applicable.
 - Broken references.
 - Incorrect publication metadata.
 
@@ -303,8 +338,10 @@ Review may include:
 - Attribution.
 - Translation quality.
 - Interpretive coherence.
-- Scientific accuracy.
-- Reference quality.
+- Emotional continuity and clarity.
+- Cultural and historical sensitivity.
+- Scientific accuracy, where applicable.
+- Reference quality, where applicable.
 - Copyright considerations.
 - Consistency with the publication's identity.
 
@@ -322,33 +359,39 @@ Submission of a suggestion does not guarantee publication or acknowledgement.
 
 ## 17. Editorial Independence and Limitations
 
-The publication is an independent intellectual and cultural project.
+The publication is an independent literary and intellectual project focused on Indian literature.
 
 Its interpretations represent the considered views expressed in individual articles and should not automatically be treated as definitive scholarly conclusions.
 
-Scientific discussions are intended for intellectual exploration and do not replace formal scientific publications, experimental validation or peer-reviewed research.
+Where scientific knowledge is discussed, the reflection is intended for intellectual exploration and does not replace formal scientific publications, experimental validation or peer-reviewed research.
+
+The publication does not present itself as a scientific journal, nor does it treat scientific discussion as a required component of literary commentary.
 
 ## 18. Continuing Development
 
 The archive is intended to evolve over time.
 
-Its literary scope, language coverage and scientific connections may expand as new works and ideas are considered.
+Its literary depth, language coverage and representation of Indian literary traditions may expand as new works and voices are considered.
+
+The journal may also develop new ways of presenting original scripts, translations, literary context, historical material and editorial reflections.
+
+The editor's scientific background and wider intellectual interests will remain part of the perspective informing the publication. Scientific connections may appear in individual reflections when they arise naturally and offer genuine value, but they are not a separate publication objective or a measure of editorial progress.
 
 Consistency of editorial standards remains important even as the publication grows.
 
-The guiding principle is not to maximise the number of articles, but to maintain the intellectual and literary value of each contribution.
+The guiding principle is not to maximise the number of articles, but to maintain the literary, intellectual and human value of each contribution.
 
 ---
 
 ## Closing Principle
 
-Literature should be approached with sensitivity to language, culture and human experience.
+Literature should be approached with sensitivity to language, culture, history and human experience.
 
-Science should be approached with intellectual discipline and respect for evidence.
+Every literary expression deserves the freedom to be read on its own terms.
 
-Neither should be reduced to an instrument for explaining the other.
+The editor's wider intellectual life, including scientific research, may inform a reflection when it genuinely adds something to the reading. It should never become an obligation imposed upon the literary work.
 
-Verse & Variable exists to explore the space between them with curiosity, independence and care.
+Verse & Variable is an Indian literary journal shaped by a wider curiosity about the world and the many ways of understanding it.
 
 **A line of verse. A line of inquiry.**
 
