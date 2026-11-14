@@ -6,6 +6,7 @@
 # Lafz se Lehar tak — From the word to the wave.
 # ============================================================
 
+
 # ------------------------------------------------------------
 # 1. PUBLICATION IDENTITY
 # ------------------------------------------------------------
@@ -16,7 +17,7 @@ identity:
 
   short_name: "V&V"
 
-  descriptor: "An Indian Literary and Scientific Journal"
+  descriptor: "An Independent Indian Literary Journal"
 
   primary_tagline: "A line of verse. A line of inquiry."
 
@@ -27,18 +28,20 @@ identity:
   english_tagline: "From the word to the wave."
 
   editorial_statement: >-
-    Indian poetry. Human experience. Philosophical thought.
-    Nonlinear science.
+    Indian literature. Language. Philosophy. Human experience.
+    A wide-ranging intellectual perspective shaped by curiosity,
+    research and lived experience.
 
   author_line: "Written and curated by Pravinkumar Ghodake"
 
   established: 2026
 
-  publication_type: "Independent literary and scientific journal"
+  publication_type: "Independent literary journal"
 
   primary_language: "English"
 
   cultural_foundation: "Indian literary heritage"
+
 
 # ------------------------------------------------------------
 # 2. WEBSITE EXPERIENCE
@@ -56,7 +59,7 @@ experience:
     - "Modern"
     - "Intellectual"
     - "Culturally rooted"
-    - "Scientifically inspired"
+    - "Research-informed"
     - "Literary"
     - "Contemporary"
     - "Reflective"
@@ -64,13 +67,15 @@ experience:
 
   design_principles:
     - "Original poetry remains the visual centre of each article."
-    - "Scientific visuals complement rather than dominate literature."
+    - "The visual identity reflects the editor's wider intellectual background."
+    - "Research-inspired illustrations complement rather than dictate literary interpretation."
     - "Original scripts receive appropriate typographic treatment."
     - "English remains the language of website navigation and discussion."
     - "The homepage uses an evolving nonlinear wavefield."
     - "Article pages prioritise comfortable long-form reading."
     - "The design must remain responsive across desktop, tablet and mobile."
     - "Animations must respect reduced-motion preferences."
+
 
 # ------------------------------------------------------------
 # 3. VISUAL COLOUR PALETTE
@@ -110,6 +115,7 @@ colors:
     border_light: "#D7D5CD"
     surface_dark: "#17243C"
     surface_light: "#FFFFFF"
+
 
 # ------------------------------------------------------------
 # 4. TYPOGRAPHY
@@ -180,6 +186,7 @@ typography:
       fallback: "serif"
       direction: "ltr"
 
+
 # ------------------------------------------------------------
 # 5. HOMEPAGE HERO
 # ------------------------------------------------------------
@@ -217,9 +224,14 @@ hero:
     type: "animated-nonlinear-wavefield"
     enabled: true
 
+
 # ------------------------------------------------------------
 # 6. NONLINEAR PROPAGATION FIELD
 # ------------------------------------------------------------
+
+# The wave-inspired background is part of the editor's
+# research-informed visual identity. It does not prescribe
+# the subject or interpretation of literary entries.
 
 wavefield:
 
@@ -233,6 +245,8 @@ wavefield:
     A continuous, flowing visual field inspired by nonlinear
     elastic wave propagation. Wavefronts distort, interact and
     develop spatial complexity as they evolve through a medium.
+    The visual concept reflects the editor's scientific research
+    background and personal intellectual interests.
 
   visual_character:
     - "Evolving wavefronts"
@@ -299,6 +313,7 @@ wavefield:
 
     imply_experimental_validation: false
 
+
 # ------------------------------------------------------------
 # 7. WEEKLY LITERARY COLLECTION
 # ------------------------------------------------------------
@@ -308,9 +323,10 @@ weekly_collection:
   heading: "The Weekly Collection"
 
   introduction: >-
-    Three literary expressions, three independent explorations
-    and an expanding conversation between culture, humanity
-    and scientific thought.
+    Three literary expressions, three independent readings.
+    Each follows its own language, imagery and emotional
+    movement, opening different ways of understanding
+    literature and human experience.
 
   entries_per_week: 3
 
@@ -336,6 +352,7 @@ weekly_collection:
 
   archive_heading: "Explore Previous Collections"
 
+
 # ------------------------------------------------------------
 # 8. INDIVIDUAL ARTICLE PRESENTATION
 # ------------------------------------------------------------
@@ -344,7 +361,7 @@ article:
 
   language: "English"
 
-  paragraph_count: 4
+  max_paragraph_count: 4
 
   writing_perspective: "First person"
 
@@ -363,6 +380,11 @@ article:
     enabled: true
     optional: true
 
+  pronunciation_guide:
+    enabled: true
+    optional: true
+    preferred_script: "Devanagari"
+
   attribution:
     enabled: true
     show_author: true
@@ -372,7 +394,10 @@ article:
     show_source: true
 
   reflection:
+
     style: "Continuous personal essay"
+
+    length: "No more than four concise prose paragraphs"
 
     voice:
       - "Calm"
@@ -383,21 +408,40 @@ article:
       - "Natural"
       - "Unbiased"
       - "Non-promotional"
+      - "Emotionally attentive"
+
+    writing_journey:
+
+      - "Begin with the literary expression, its imagery, voice, atmosphere or central emotion."
+      - "Follow the emotional and intellectual movement of the original work."
+      - "Explore its human significance, subtleties and contradictions."
+      - "Allow the editor's personal experiences and intellectual perspective to enter naturally."
+      - "Conclude with an honest and meaningful thought rather than a forced lesson."
 
     principles:
       - "Literary interpretation comes first."
-      - "Personal experiences enter naturally."
-      - "Research connections are intellectually grounded."
-      - "Scientific explanations remain technically responsible."
+      - "The original expression determines the direction of the reflection."
+      - "Personal experiences and observations enter naturally."
+      - "Emotional continuity matters more than a predetermined paragraph structure."
+      - "The editor's research background informs perspective but does not prescribe interpretation."
+      - "Scientific knowledge may appear when it genuinely deepens the reading."
+      - "Scientific claims, when present, must be technically responsible and evidence-based."
+      - "Distinguish literary metaphor from established scientific mechanism."
       - "No forced analogies."
       - "No unnecessary technical descriptions."
       - "No generic motivational writing."
+      - "Literary merit and integrity guide selection regardless of author identity or popularity."
 
   page_layout: "literary-editorial"
+
 
 # ------------------------------------------------------------
 # 9. SCIENTIFIC ILLUSTRATION LIBRARY
 # ------------------------------------------------------------
+
+# The illustration library remains part of the visual identity.
+# Individual illustrations accompany literary articles only
+# when they genuinely contribute to the subject.
 
 scientific_illustrations:
 
@@ -445,6 +489,7 @@ scientific_illustrations:
     distinguish_conceptual_from_numerical_results: true
     use_only_when_editorially_relevant: true
 
+
 # ------------------------------------------------------------
 # 10. NAVIGATION
 # ------------------------------------------------------------
@@ -479,6 +524,7 @@ navigation:
     - label: "ORCID"
       url: "https://orcid.org/0000-0002-6755-4003"
 
+
 # ------------------------------------------------------------
 # 11. AUTHOR PROFILE
 # ------------------------------------------------------------
@@ -506,11 +552,12 @@ author:
     - "Music"
     - "Cinema"
     - "Sports"
-    - "Interdisciplinary science"
+    - "Scientific research and mechanics"
 
   orcid: "0000-0002-6755-4003"
 
   website: "https://sites.google.com/view/pravinkumarghodake"
+
 
 # ------------------------------------------------------------
 # 12. SOCIAL AND RESEARCH LINKS
@@ -537,6 +584,7 @@ social:
   research_portfolio:
     label: "Research Portfolio"
     url: "https://sites.google.com/view/pravinkumarghodake"
+
 
 # ------------------------------------------------------------
 # 13. READING EXPERIENCE
@@ -571,6 +619,7 @@ reading:
     light: true
     default: "dark"
 
+
 # ------------------------------------------------------------
 # 14. PUBLICATION METADATA
 # ------------------------------------------------------------
@@ -579,16 +628,17 @@ metadata:
 
   publisher: "Verse & Variable"
 
-  publisher_type: "Independent publication"
+  publisher_type: "Independent literary publication"
 
   default_language: "en"
 
   canonical_domain: "https://pravinkumar-ghodake.github.io/verse-variable/"
 
   publication_description: >-
-    An independent Indian literary and scientific journal
-    exploring poetry, shayari, philosophy, human experience
-    and nonlinear science.
+    An independent Indian literary journal exploring poetry,
+    shayari, multilingual literature, philosophy and human
+    experience through the personal perspective of an editor
+    with a wide-ranging intellectual and scientific background.
 
   default_image: "/assets/images/social-preview.svg"
 
@@ -597,6 +647,7 @@ metadata:
   open_graph: true
 
   structured_data: true
+
 
 # ------------------------------------------------------------
 # 15. CONTENT AND EDITORIAL DISCOVERABILITY
@@ -619,6 +670,7 @@ discoverability:
   source_attribution: true
 
   article_language_metadata: true
+
 
 # ------------------------------------------------------------
 # END OF GLOBAL SITE CONFIGURATION
