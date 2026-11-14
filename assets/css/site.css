@@ -3800,17 +3800,19 @@ footer p {
 
 .footer-lower-grid {
   display: grid;
-  grid-template-columns: minmax(0, 2.5fr) minmax(0, 1fr);
+  grid-template-columns: 1.5fr 1fr 1fr;
   gap: 55px;
   align-items: start;
 }
 
 .footer-lower-left {
   min-width: 0;
+  grid-column: 1 / 3;
 }
 
 .footer-lower-right {
   min-width: 0;
+  grid-column: 3;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -3836,7 +3838,12 @@ footer p {
     row-gap: 34px;
   }
 
+  .footer-lower-left {
+    grid-column: auto;
+  }
+
   .footer-lower-right {
+    grid-column: auto;
     align-items: flex-start;
   }
 
