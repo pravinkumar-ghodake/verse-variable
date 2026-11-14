@@ -1,4 +1,3 @@
-
 # Submission Guidelines
 
 **Verse & Variable**  
@@ -7,11 +6,13 @@
 
 ## 1. Introduction
 
-Verse & Variable is an independent literary and interdisciplinary publication exploring the relationship between literary expression, human experience, cultural traditions, philosophy, mathematics, and scientific thought.
+Verse & Variable is an independent Indian literary journal devoted to poetry, shayari, ghazals, nazms, literary prose and other expressions across India's diverse languages and literary traditions.
 
-Its central approach is to bring a line of literature into conversation with a line of inquiry.
+Its editorial approach begins with a literary expression and explores its language, imagery, cultural context, emotional movement, philosophy and relationship with human experience.
 
-The publication welcomes intellectually thoughtful contributions that respect the originality of literary expression while encouraging careful exploration across disciplines.
+The editor's wider intellectual interests include Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests inform the editorial perspective without imposing a predetermined direction on every literary work.
+
+Scientific knowledge and specialist expertise may contribute to an individual literary exploration when they genuinely deepen its interpretation. They are not independent publication requirements.
 
 These guidelines establish the expectations for material submitted for editorial consideration.
 
@@ -22,19 +23,19 @@ They are intended for:
 - Literary scholars.
 - Historians and cultural researchers.
 - Philosophers.
-- Scientists and engineers.
+- Scientists and engineers with relevant contextual expertise.
 - Academic researchers.
 - Independent scholars.
-- Interdisciplinary thinkers.
-- Other contributors whose work aligns with the publication's editorial vision.
+- Linguists and other subject specialists.
+- Contributors with knowledge of Indian literary and cultural traditions.
 
-Submissions should demonstrate intellectual care, originality, meaningful engagement with sources, and respect for the literary or research material being discussed.
+Submissions should demonstrate intellectual care, originality, meaningful engagement with sources, and respect for the literary material being discussed.
 
 ## 2. Editorial Identity
 
-**Verse & Variable** is built around the idea that literature and scientific inquiry can illuminate different dimensions of human understanding without being forced into artificial equivalence.
+**Verse & Variable** is an independent Indian literary journal focused on exploring the richness and diversity of Indian literature.
 
-The publication's identity is expressed through its bilingual tagline:
+Its identity is expressed through its bilingual tagline:
 
 **A line of verse. A line of inquiry.**
 
@@ -44,9 +45,9 @@ The English meaning is:
 
 *From the word to the wave.*
 
-The publication's interests extend across Indian and broader South Asian literary and intellectual traditions, alongside wider international perspectives.
+The phrase expresses the movement from a literary expression towards the wider ideas and questions it may inspire.
 
-Its primary language traditions include:
+The publication's principal literary traditions include:
 
 - Urdu.
 - Hindi.
@@ -56,15 +57,19 @@ Its primary language traditions include:
 - Malayalam.
 - Telugu.
 
-Contributions involving other languages and traditions may also be considered when they have a meaningful relationship with the publication's purpose.
+Other Indian languages and literary traditions may also be considered as the archive develops.
+
+The editor's personal reading and intellectual interests extend to international literature and wider intellectual traditions. However, the present submission and editorial scope of Verse & Variable is focused on Indian literature.
+
+This distinction concerns the scope of the publication, not the breadth of the editor's personal interests.
 
 ## 3. Types of Contributions
 
-The publication may consider the following categories.
+The publication may consider the following types of literary and supporting contributions.
 
 ### 3.1 Literary Explorations
 
-Thoughtful interpretations of:
+Thoughtful interpretations of Indian literary expressions, including:
 
 - Poetry.
 - Shayari.
@@ -76,29 +81,31 @@ Thoughtful interpretations of:
 - Philosophical verse.
 - Song lyrics.
 - Literary excerpts.
-- Other meaningful forms of written or oral expression.
+- Regional and oral literary expressions.
+- Other meaningful forms of written or spoken literary expression.
 
 A literary contribution should engage with the original work rather than merely summarising its general meaning.
 
 ### 3.2 Translation and Linguistic Contributions
 
-Contributions examining:
+Contributions examining the language of an Indian literary work, including:
 
 - Literary translation.
 - Transliteration.
+- Pronunciation.
 - Linguistic nuance.
 - Idiomatic expression.
 - Regional vocabulary.
 - Historical language usage.
-- Comparative literary expression.
+- Comparative interpretation of translations.
 - Translation difficulties.
 - Cultural meaning.
 
-A translation should identify its source and clarify whether it is literal, interpretative, adapted, collaborative, or machine-assisted.
+A translation should identify its source and clarify whether it is literal, interpretative, adapted, collaborative or machine-assisted.
 
 ### 3.3 Historical and Cultural Explorations
 
-Contributions examining:
+Contributions examining the historical and cultural context of Indian literary expressions, including:
 
 - Literary history.
 - Regional traditions.
@@ -106,14 +113,15 @@ Contributions examining:
 - Historical texts.
 - Oral traditions.
 - Intellectual movements.
-- Literary relationships across languages.
+- Literary relationships across Indian languages.
 - Cultural and philosophical influences.
+- The historical circumstances surrounding a literary work.
 
 Historical claims must be supported by appropriate sources and contextualised carefully.
 
-### 3.4 Philosophical Contributions
+### 3.4 Philosophical and Human Reflections
 
-Thoughtful discussion of:
+Thoughtful interpretations of philosophical or human questions arising from literary expressions, including:
 
 - Human experience.
 - Identity and memory.
@@ -122,14 +130,18 @@ Thoughtful discussion of:
 - Ethics.
 - Time and causality.
 - Consciousness.
+- Relationships.
+- Love, longing and loss.
+- Society and individual experience.
 - Philosophical traditions.
-- Relationships between literature and philosophy.
 
 A philosophical interpretation should not be presented as the author's established intention without supporting evidence.
 
-### 3.5 Scientific and Technical Explorations
+### 3.5 Optional Scientific and Technical Context
 
-The publication may consider accessible but intellectually substantial discussions of:
+Scientific and technical knowledge may contribute to an individual literary exploration when it genuinely helps illuminate an idea or question raised by the selected work.
+
+Relevant areas of the editor's research background include:
 
 - Mechanics.
 - Nonlinear vibrations.
@@ -149,30 +161,39 @@ The publication may consider accessible but intellectually substantial discussio
 - Inverse design.
 - Experimental mechanics.
 - Physical acoustics.
-- Other relevant areas of science and engineering.
 
-Scientific contributions should distinguish established results, theoretical predictions, computational observations, experimental findings, and speculative interpretations.
+Other scientific and mathematical perspectives may also be considered when they are genuinely relevant.
 
-### 3.6 Interdisciplinary Contributions
+These subjects are not independent submission categories within the journal. A standalone scientific or engineering paper is not an ordinary literary submission to Verse & Variable.
 
-Contributions connecting literature with science, mathematics, philosophy, or human experience are particularly relevant to the publication.
+Scientific context should arise from the literary exploration rather than being introduced merely because a technical connection is possible.
+
+### 3.6 Interdisciplinary Perspectives
+
+A literary exploration may occasionally benefit from a connection with science, mathematics, philosophy or another field.
 
 Examples might include:
 
-- The literary imagery of rhythm and nonlinear vibration.
+- The literary imagery of rhythm and the study of nonlinear vibration.
 - Poetic repetition and the mathematical structure of periodicity.
-- Memory and the physical interpretation of hysteresis.
-- Metaphors of concealment and the mathematical idea of wave cloaking.
-- Literary descriptions of time and scientific approaches to temporal modulation.
-- Philosophical reflections on perception and physical observation.
+- Memory as a human experience considered alongside the physical idea of hysteresis.
+- Metaphors of concealment considered alongside the mathematical concept of wave cloaking.
+- Literary descriptions of time considered in relation to scientific approaches to temporal modulation.
+- Philosophical reflections on perception considered alongside physical observation.
 
-The connection should be meaningful and intellectually defensible.
+These are illustrative possibilities, not recommended connections to be imposed on particular works.
+
+A connection should be meaningful and intellectually defensible.
 
 A metaphor must not be presented as a physical mechanism, and an analogy must not be treated as mathematical proof.
 
+A literary contribution does not need an interdisciplinary connection to be suitable for publication.
+
 ### 3.7 Interviews and Oral Histories
 
-Contributions may include interviews and oral-history material where appropriate permissions, participant consent, attribution, and ethical safeguards have been addressed.
+Contributions may include interviews and oral-history material relating to Indian literature, literary traditions, language, cultural expression and relevant historical experiences.
+
+Appropriate permissions, participant consent, attribution and ethical safeguards must be addressed.
 
 Refer to:
 
@@ -184,31 +205,63 @@ Refer to:
 
 A suitable submission should demonstrate several of the following qualities:
 
-- A clear and meaningful subject.
+- A clear and meaningful engagement with an Indian literary expression.
 - Original interpretation or intellectual contribution.
 - Respectful engagement with its source material.
 - Accurate attribution.
 - Reliable references.
-- Thoughtful interdisciplinary connections.
-- Appropriate use of scientific concepts.
+- Thoughtful historical, cultural or philosophical exploration.
+- Appropriate translation and linguistic care.
+- Scientifically responsible contextual discussion, where applicable.
 - Clarity of language.
 - Awareness of uncertainty and limitations.
 - Cultural and historical sensitivity.
 - A distinctive perspective that adds value for readers.
 
-The publication is not intended to be an indiscriminate collection of quotations, generic summaries, unverified claims, or mechanically generated commentary.
+The publication is not intended to be an indiscriminate collection of quotations, generic summaries, unverified claims or mechanically generated commentary.
 
-A submission should offer readers something worth thinking about beyond the information they could obtain from a basic search.
+A submission should offer readers something meaningful beyond information they could obtain from a basic search.
 
 ## 5. The Standard Article Structure
 
-The publication's principal article format consists of a literary or intellectual source followed by original commentary.
+The publication's principal article format consists of an original literary expression followed by supporting information and an original editorial reflection.
 
-Each standard individual literary exploration should contain **exactly four substantial English prose paragraphs of original commentary**.
+Each standard individual literary exploration should contain **no more than four concise English prose paragraphs of original commentary**.
 
-These four paragraphs form the central interpretative body of the article.
+Four paragraphs are a maximum, not a target. Shorter reflections are entirely acceptable when they communicate the interpretation completely.
 
-The requirement applies to the principal commentary, not to ancillary material such as:
+There is no mandatory four-part paragraph structure and no paragraph reserved for scientific or interdisciplinary discussion.
+
+The principal commentary should develop naturally from the selected literary work.
+
+The following possible movements of thought may help guide its development:
+
+1. **The Encounter:** Enter the literary world through its imagery, voice, atmosphere, emotion or central tension.
+2. **The Unfolding:** Explore the expression's deeper meanings, contradictions, subtleties and human significance.
+3. **The Personal Perspective:** Allow the contributor's observations, experiences and intellectual background to enter naturally where appropriate.
+4. **The Lasting Thought:** Arrive at an honest emotional or intellectual understanding without forcing a moral or technical conclusion.
+
+These are possible movements of thought, not four compulsory paragraphs. They may be combined, shortened, expanded within the paragraph limit or omitted where the nature of the work requires a different approach.
+
+### 5.1 Writing Quality
+
+The reflection should be:
+
+- Original.
+- Coherent.
+- Emotionally and intellectually connected.
+- Natural in its progression.
+- Sensitive to language and cultural context.
+- Accessible without sacrificing depth.
+- Concise without losing meaningful substance.
+- Free from unnecessary technical terminology.
+- Free from forced comparisons and artificial conclusions.
+
+Avoid padding, repeated conclusions, exaggerated claims and unnecessary scientific language.
+
+### 5.2 Supplementary Material
+
+The following elements are separate from the principal prose reflection:
 
 - Original literary text.
 - Transliteration.
@@ -218,86 +271,7 @@ The requirement applies to the principal commentary, not to ancillary material s
 - Section headings.
 - References.
 - Explanatory notes.
-- Author disclosures.
-
-### 5.1 Paragraph One: The Human and Literary Foundation
-
-The opening paragraph should establish the literary and human significance of the selected expression.
-
-It may examine:
-
-- The emotional character of the passage.
-- Its imagery.
-- Its central thought.
-- Its relationship with lived experience.
-- Its literary atmosphere.
-- Its relevance to the reader.
-
-The paragraph should introduce the work naturally rather than beginning with a forced scientific comparison.
-
-### 5.2 Paragraph Two: Interpretation and Intellectual Depth
-
-The second paragraph should develop the literary interpretation.
-
-It may examine:
-
-- Metaphor.
-- Symbolism.
-- Ambiguity.
-- Linguistic nuance.
-- Philosophical implications.
-- Cultural context.
-- The relationship between individual expressions and the larger work.
-
-Where multiple interpretations exist, acknowledge them where relevant.
-
-### 5.3 Paragraph Three: Scientific or Interdisciplinary Inquiry
-
-The third paragraph may explore an appropriate scientific, mathematical, philosophical, or interdisciplinary connection.
-
-The connection should arise naturally from the literary discussion.
-
-For scientific subjects, distinguish:
-
-- Established physical principles.
-- Theoretical models.
-- Mathematical analogies.
-- Numerical observations.
-- Experimental evidence.
-- Hypotheses.
-- Speculative ideas.
-
-Not every article requires advanced science.
-
-A literary work should not be forced into a scientific framework when the connection adds no meaningful insight.
-
-### 5.4 Paragraph Four: Reflection and Synthesis
-
-The final paragraph should bring the exploration to a considered conclusion.
-
-It may reflect on:
-
-- What the literary expression reveals.
-- What the interdisciplinary discussion contributes.
-- What remains uncertain.
-- How the interpretation changes the reader's understanding.
-- What questions remain open.
-
-The ending should be reflective rather than promotional.
-
-### 5.5 Writing Quality
-
-The four paragraphs should be:
-
-- Substantial.
-- Original.
-- Coherent.
-- Intellectually connected.
-- Natural in their progression.
-- Accessible without sacrificing depth.
-- Written in mature, carefully considered English.
-
-Avoid padding, repeated conclusions, exaggerated claims, and unnecessary technical terminology.
+- Relevant disclosures.
 
 ## 6. Language and Original Text
 
@@ -349,7 +323,7 @@ Where practical, ensure that:
 
 ### 6.6 Other Indic Scripts
 
-For Hindi, Marathi, Kannada, Tamil, Malayalam, Telugu, and other Indic languages, verify that characters, combining marks, punctuation, and line breaks render appropriately.
+For Hindi, Marathi, Kannada, Tamil, Malayalam, Telugu and other Indian languages, verify that characters, combining marks, punctuation and line breaks render appropriately.
 
 ## 7. Originality and Authorship
 
@@ -381,16 +355,16 @@ Examples include:
 - Original author.
 - Translator.
 - Literary commentator.
-- Research contributor.
-- Data analyst.
-- Technical consultant.
+- Historical or linguistic researcher.
+- Specialist consultant.
+- Technical contributor.
 - Editor.
 
 ### 7.4 Author Identity
 
 Provide accurate attribution.
 
-Do not use an institutional position, professional designation, or academic affiliation that is inaccurate or misleading.
+Do not use an institutional position, professional designation or academic affiliation that is inaccurate or misleading.
 
 ### 7.5 Pseudonymous Submissions
 
@@ -407,10 +381,10 @@ Useful metadata may include:
 | Field | Description |
 |---|---|
 | Title | Name of the work |
-| Original author | Poet, writer, or lyricist |
+| Original author | Poet, writer or lyricist |
 | Original language | Language of composition |
 | Literary form | Ghazal, nazm, poem, song, etc. |
-| Source | Book, collection, publication, or archive |
+| Source | Book, collection, publication or archive |
 | Edition | Relevant edition or version |
 | Publication date | Original or relevant publication date |
 | Translator | Translator, where applicable |
@@ -424,17 +398,21 @@ If authorship remains uncertain, say so.
 
 ### 8.1 Song Lyrics
 
-Where a submission discusses song lyrics, distinguish the lyricist from the composer, singer, music director, and performer.
+Where a submission discusses song lyrics, distinguish the lyricist from the composer, singer, music director and performer.
 
 Do not assume that the most famous performer is the writer.
 
 ### 8.2 Folk and Oral Material
 
-Where individual authorship cannot be established, use a responsible description such as traditional, anonymous, community-associated, or oral composition, as appropriate.
+Where individual authorship cannot be established, use a responsible description such as traditional, anonymous, community-associated or oral composition, as appropriate.
+
+Do not assign individual authorship without evidence.
 
 ## 9. Scientific and Research Standards
 
-Scientific contributions should be accessible without sacrificing technical accuracy.
+Scientific and technical knowledge may support a literary exploration when relevant.
+
+It should not be treated as a separate research-paper requirement or an independent article category.
 
 ### 9.1 Scientific Claims
 
@@ -480,15 +458,15 @@ A proposed mechanism should not be described as experimentally established merel
 
 Provide verifiable references.
 
-Distinguish journal publications, conference proceedings, preprints, theses, technical reports, and other research sources.
+Distinguish journal publications, conference proceedings, preprints, theses, technical reports and other research sources.
 
 Do not fabricate references or rely exclusively on unverified summaries.
 
-### 9.7 Original Research Claims
+### 9.7 Standalone Research
 
-Submissions presenting new research findings may require more extensive technical evaluation than ordinary literary commentary.
+Standalone scientific, mathematical, engineering or technical research papers are outside the ordinary literary submission scope of Verse & Variable.
 
-The publication does not claim to provide formal journal-style peer review unless a separate formal arrangement is explicitly established.
+Scientific expertise may nevertheless be valuable when it supports the accurate interpretation or verification of a specific literary exploration.
 
 ## 10. References and Source Documentation
 
@@ -498,14 +476,15 @@ Submissions should include enough information for the editor to identify and ver
 
 Depending on the subject, references may include:
 
+- Original literary collections.
 - Books.
 - Academic journal articles.
 - Conference papers.
 - Archival documents.
 - Historical records.
 - Institutional publications.
-- Original literary collections.
-- Reliable language resources.
+- Language dictionaries.
+- Reliable linguistic resources.
 - Reputable databases.
 - Relevant primary sources.
 
@@ -513,7 +492,7 @@ Depending on the subject, references may include:
 
 Prefer original and authoritative sources where practicable.
 
-A general internet summary should not replace a primary research paper when the technical claim depends on that paper.
+A general internet summary should not replace a primary research paper when a particular claim depends on that paper.
 
 ### 10.3 Citation Accuracy
 
@@ -570,7 +549,7 @@ Naming the original author or source does not automatically authorise reproducti
 
 If a contributor believes material is in the public domain, identify the basis for that conclusion where relevant.
 
-Consider the applicable jurisdiction and separate rights in editions, translations, images, recordings, and adaptations.
+Consider the applicable jurisdiction and separate rights in editions, translations, images, recordings and adaptations.
 
 ### 11.5 Open Licences
 
@@ -584,7 +563,7 @@ Submitting material does not automatically transfer all intellectual property ri
 
 Any publication licence or contribution agreement must be communicated clearly and accepted before publication.
 
-The repository's MIT licence should not be interpreted as automatically licensing third-party literary, artistic, or research materials.
+The repository's MIT licence should not be interpreted as automatically licensing third-party literary, artistic or research materials.
 
 Further guidance is available in `COPYRIGHT.md` and `ASSET_CREDITS.md`.
 
@@ -620,7 +599,7 @@ Disclose material AI assistance where it significantly contributed to:
 
 Check AI-generated information against genuine sources.
 
-AI tools should not be treated as authoritative sources for historical, literary, scientific, or bibliographic claims.
+AI tools should not be treated as authoritative sources for historical, literary, scientific or bibliographic claims.
 
 ### 12.3 Fabrication
 
@@ -638,7 +617,7 @@ Do not submit fabricated:
 
 ### 12.4 Confidential Information
 
-Do not upload confidential manuscripts, restricted research, private correspondence, personal data, or unpublished third-party material to external AI tools without an appropriate basis and safeguards.
+Do not upload confidential manuscripts, restricted research, private correspondence, personal data or unpublished third-party material to external AI tools without an appropriate basis and safeguards.
 
 ### 12.5 Human Responsibility
 
@@ -664,15 +643,15 @@ Avoid unnecessary disclosure of identifying or sensitive information.
 
 ### 13.4 Community Knowledge
 
-Respect cultural context, community interests, and any relevant restrictions on the use of traditional or sensitive knowledge.
+Respect cultural context, community interests and any relevant restrictions on the use of traditional or sensitive knowledge.
 
 ### 13.5 Vulnerable Individuals
 
-Submissions involving children, vulnerable adults, or sensitive personal experiences require heightened safeguards and any necessary approvals.
+Submissions involving children, vulnerable adults or sensitive personal experiences require heightened safeguards and any necessary approvals.
 
 ### 13.6 Ethical Documentation
 
-Where applicable, provide a description of consent arrangements, permissions, and relevant safeguards without unnecessarily disclosing confidential participant information.
+Where applicable, provide a description of consent arrangements, permissions and relevant safeguards without unnecessarily disclosing confidential participant information.
 
 Refer to `RESEARCH_ETHICS.md`.
 
@@ -693,7 +672,7 @@ Possible disclosures include:
 
 ### 14.1 Independence
 
-Submissions should not imply that a university, research institution, conference, company, or other organisation endorses the article without appropriate evidence.
+Submissions should not imply that a university, research institution, conference, company or other organisation endorses the article without appropriate evidence.
 
 ### 14.2 Funding
 
@@ -711,7 +690,7 @@ Do not imply formal peer review or reviewer approval when only informal speciali
 
 ## 15. Writing Style and Editorial Expectations
 
-Verse & Variable values clarity, substance, and a natural intellectual voice.
+Verse & Variable values clarity, substance and a natural intellectual voice.
 
 Submissions should avoid:
 
@@ -724,17 +703,19 @@ Submissions should avoid:
 - Repetitive conclusions.
 - Forced literary-scientific analogies.
 - Unverified claims of historical significance.
+- Artificially extended commentary.
 
 The publication encourages:
 
-- Thoughtful interpretation.
+- Thoughtful literary interpretation.
 - Mature reflective writing.
 - Clear explanations.
-- Precise technical language.
+- Precise technical language where relevant.
 - Respectful cultural representation.
 - Well-supported arguments.
 - Acknowledgement of uncertainty.
-- Meaningful interdisciplinary curiosity.
+- Meaningful intellectual curiosity.
+- Natural emotional and narrative continuity.
 
 ### 15.1 Accessibility
 
@@ -742,11 +723,21 @@ Write for an intellectually curious readership that may not share the contributo
 
 Explain technical terms where necessary.
 
-Where complex mathematics is essential, provide sufficient context for readers to understand its role.
+Where complex mathematics is essential to a particular explanation, provide sufficient context for readers to understand its role.
 
 ### 15.2 Originality of Expression
 
-Contributors should aim to develop their own arguments and interpretations rather than imitate another writer's distinctive voice or reproduce generic automated prose.
+Contributors should develop their own arguments and interpretations rather than imitate another writer's distinctive voice or reproduce generic automated prose.
+
+### 15.3 Reflection Length
+
+A standard literary exploration should contain no more than four concise English prose paragraphs of original commentary.
+
+Fewer paragraphs are acceptable. There is no minimum paragraph count or compulsory paragraph-by-paragraph structure.
+
+The reflection should follow the literary expression's own emotional and intellectual movement.
+
+It should not be expanded simply to reach a fixed length or to accommodate a scientific connection.
 
 ## 16. Formatting Requirements
 
@@ -769,7 +760,7 @@ Examples:
 - `marathi-folk-expression.md`
 - `urdu-translation-study.md`
 
-Avoid filenames containing unnecessary spaces, special characters, or personal information.
+Avoid filenames containing unnecessary spaces, special characters or personal information.
 
 ### 16.3 Headings
 
@@ -781,13 +772,13 @@ Clearly distinguish quotations from the contributor's original commentary.
 
 ### 16.5 Equations
 
-Use readable mathematical notation and define variables.
+Where equations are relevant, use readable mathematical notation and define variables.
 
 ### 16.6 Images and Figures
 
 Provide image files separately where practical.
 
-Include captions, attribution, source details, and permissions.
+Include captions, attribution, source details and permissions.
 
 Do not embed images taken from websites without considering their rights and usage conditions.
 
@@ -812,17 +803,17 @@ A complete submission should normally include the following information.
 | Proposed title | Clear working title |
 | Contributor name | Accurate public attribution |
 | Contact information | Through the designated private channel |
-| Contribution type | Literary, translation, research, etc. |
+| Contribution type | Literary exploration, translation, linguistic study, historical context, etc. |
 | Primary language | Original language |
 | Summary | Short explanation of the submission |
-| Central subject | Main subject or question |
-| Original source | Literary or research source, where applicable |
+| Literary subject | Main work or expression being explored |
+| Original source | Literary source, where applicable |
 | Main contribution | What the submission adds |
 | References | Supporting source list |
 | Rights information | Permissions and licence status |
-| Disclosure | Funding, affiliations, AI assistance, conflicts |
-| Related material | Images, figures, data, recordings |
-| Article structure | Relevant publication format |
+| Disclosure | Funding, affiliations, AI assistance and conflicts |
+| Related material | Images, figures, recordings or other supporting assets |
+| Article structure | Proposed format |
 
 Not every category applies to every contribution.
 
@@ -832,14 +823,17 @@ For a standard article, prepare the following components.
 
 ### 18.1 Main Article
 
-The main article should contain:
+The main article should contain, where appropriate:
 
 - Title.
-- Original literary or source material, where relevant.
+- Original literary expression or an appropriately limited quotation.
+- Original language.
 - Transliteration, where relevant.
-- Translation, where relevant.
+- Pronunciation guide, where useful.
+- English translation.
 - Accurate attribution.
-- Four substantial English commentary paragraphs.
+- Relevant historical, linguistic or cultural context.
+- Original editorial reflection of no more than four concise paragraphs.
 - Relevant references.
 - Notes and disclosures.
 
@@ -851,8 +845,9 @@ Where relevant, provide:
 - Permission documentation.
 - Asset credits.
 - Translator information.
-- Technical notes.
-- Relevant datasets or code references.
+- Historical or linguistic notes.
+- Optional scientific or technical notes supporting specific claims.
+- Relevant datasets or code references, where necessary.
 - Interview consent information, handled privately.
 - Additional explanatory material.
 
@@ -860,15 +855,16 @@ Where relevant, provide:
 
 Provide a short description explaining:
 
-- What the article explores.
+- Which Indian literary expression the article explores.
 - Why the selected material is significant.
 - What the contributor adds.
-- Which disciplines are involved.
+- Which literary, historical, linguistic or philosophical questions are addressed.
+- Whether any specialist or scientific context is included and why it is relevant.
 - What makes the contribution suitable for Verse & Variable.
 
 ### 18.4 Additional Restrictions
 
-Clearly identify confidential, unpublished, restricted, or embargoed material.
+Clearly identify confidential, unpublished, restricted or embargoed material.
 
 Do not place sensitive material in a public submission channel.
 
@@ -882,19 +878,20 @@ The publication's currently designated submission channel should be used when it
 
 The existence of this policy does not itself establish that submissions are open or that a public upload mechanism exists.
 
-Do not send confidential manuscripts, personal information, or unpublished material through public repository issues, public discussions, or other publicly visible channels.
+Do not send confidential manuscripts, personal information or unpublished material through public repository issues, public discussions or other publicly visible channels.
 
 ### 19.2 Initial Proposal
 
-For substantial, technically complex, or interdisciplinary contributions, an initial proposal may be useful.
+For substantial, technically complex or specialist-supported contributions, an initial proposal may be useful.
 
 It can include:
 
 - Working title.
 - Short description.
-- Relevant literary or research source.
+- Relevant literary source.
 - Intended contribution.
-- Principal disciplines.
+- Principal interpretative questions.
+- Optional specialist context.
 - Expected supporting references.
 
 An initial proposal is not a guarantee that a full article will be invited or published.
@@ -907,7 +904,7 @@ Once the appropriate submission arrangement is available, provide the complete a
 
 The editor may acknowledge receipt where an appropriate communication mechanism exists.
 
-Do not assume that a submission has been received or accepted merely because an upload, email, or public message was attempted.
+Do not assume that a submission has been received or accepted merely because an upload, email or public message was attempted.
 
 ### 19.5 Submission Status
 
@@ -927,16 +924,17 @@ These statuses are editorial descriptions, not automated features of the website
 
 ## 20. Editorial Assessment
 
-Submissions will be considered in relation to the publication's subject, scope, quality, and available editorial capacity.
+Submissions will be considered in relation to the publication's literary scope, quality and available editorial capacity.
 
 The editor may examine:
 
-- Originality.
-- Relevance.
+- Relevance to Indian literature.
 - Literary quality.
+- Originality.
 - Linguistic accuracy.
-- Historical context.
-- Scientific accuracy.
+- Historical and cultural context.
+- Philosophical interpretation.
+- Scientific accuracy where applicable.
 - Research integrity.
 - Source quality.
 - Copyright.
@@ -952,7 +950,7 @@ The scope of the assessment should reflect the reviewer's actual expertise.
 
 ### 20.2 Interdisciplinary Assessment
 
-Where an article crosses disciplinary boundaries, different aspects may require different forms of assessment.
+Where an article draws on more than one discipline, different aspects may require different forms of assessment.
 
 A literary reviewer is not automatically qualified to certify a nonlinear mechanics model, and a technical reviewer is not automatically qualified to settle a disputed literary translation.
 
@@ -1010,7 +1008,7 @@ A revised version should:
 - Update references.
 - Resolve outstanding permissions.
 - Include relevant disclosure changes.
-- Maintain the required article format.
+- Maintain the applicable article format.
 
 Where significant new claims or material are introduced, further assessment may be necessary.
 
@@ -1025,11 +1023,11 @@ Contributors should disclose whether the same or substantially similar material 
 - Submitted to another publication.
 - Shared in a public repository.
 - Circulated as a preprint or working paper.
-- Presented in a conference or public event.
+- Presented at a conference or public event.
 
 Prior presentation or circulation does not automatically make a contribution unsuitable.
 
-The relevant circumstances should be disclosed so that originality, rights, attribution, and publication status can be evaluated accurately.
+The relevant circumstances should be disclosed so that originality, rights, attribution and publication status can be evaluated accurately.
 
 Do not submit materially identical work under different titles without disclosing the relationship.
 
@@ -1037,7 +1035,7 @@ Do not submit materially identical work under different titles without disclosin
 
 A contributor may request withdrawal of an unpublished submission.
 
-The editor should consider the request in light of the submission's status, any permissions already granted, and relevant obligations.
+The editor should consider the request in light of the submission's status, any permissions already granted and relevant obligations.
 
 Where a contribution has already been published, a withdrawal request should be assessed under `CORRECTIONS_POLICY.md` and `TAKEDOWN_POLICY.md`.
 
@@ -1062,13 +1060,13 @@ These may include:
 
 ### 25.1 Contributor Identity
 
-Names, designations, and affiliations should be published accurately and according to the agreed attribution.
+Names, designations and affiliations should be published accurately and according to the agreed attribution.
 
 ### 25.2 Editorial Changes
 
 Minor corrections and formatting changes may be made to prepare material for publication.
 
-Substantive changes affecting meaning, interpretation, or attribution should be handled appropriately.
+Substantive changes affecting meaning, interpretation or attribution should be handled appropriately.
 
 ### 25.3 Publication Licence
 
@@ -1076,9 +1074,11 @@ The contributor should understand the applicable publication and repository lice
 
 The MIT licence associated with the code repository should not be assumed to cover third-party literary works or other material whose rights belong to someone else.
 
+Any separate publication licence or permission should be documented clearly.
+
 ### 25.4 Promotion
 
-Publication does not imply endorsement by external institutions, academic societies, journals, conferences, or organisations.
+Publication does not imply endorsement by external institutions, academic societies, journals, conferences or organisations.
 
 ## 26. Publication Structure and Weekly Collections
 
@@ -1087,7 +1087,7 @@ The publication's intended editorial structure includes:
 - Three independent literary explorations per week.
 - A separate permanent article page for each exploration.
 - A weekly collection page bringing together the three articles.
-- Appropriate language and subject metadata.
+- Appropriate language and literary metadata.
 - Cross-referencing where meaningful.
 
 This is the intended editorial format rather than a guaranteed publication schedule.
@@ -1095,6 +1095,8 @@ This is the intended editorial format rather than a guaranteed publication sched
 A submitted article should remain intellectually independent even when it forms part of a weekly collection.
 
 The editor determines whether and when a contribution is included in a particular weekly edition.
+
+The three articles do not need a shared scientific subject or predetermined interdisciplinary relationship.
 
 ## 27. Corrections and Post-Publication Responsibilities
 
@@ -1106,7 +1108,8 @@ Examples include:
 - Translation errors.
 - Incorrect dates.
 - Missing or inaccurate citations.
-- Scientific inaccuracies.
+- Historical or cultural inaccuracies.
+- Scientific inaccuracies, where applicable.
 - Incorrect permissions information.
 - Unintended disclosure of personal information.
 
@@ -1148,7 +1151,7 @@ Submission to Verse & Variable does not guarantee:
 - Permanent online availability.
 - Complete control over the final editorial presentation.
 
-Any specific arrangement concerning remuneration, exclusivity, licensing, or other contractual obligations must be communicated and agreed separately.
+Any specific arrangement concerning remuneration, exclusivity, licensing or other contractual obligations must be communicated and agreed separately.
 
 ## 30. Submission Readiness Checklist
 
@@ -1156,11 +1159,12 @@ Before submitting, review the following.
 
 ### Editorial Suitability
 
-- [ ] The subject fits the publication's editorial interests.
+- [ ] The submission is centred on an Indian literary expression or a directly relevant aspect of Indian literary traditions.
 - [ ] The central contribution is clear.
 - [ ] The article has a meaningful purpose.
 - [ ] The writing is original and substantial.
-- [ ] Interdisciplinary connections are relevant rather than forced.
+- [ ] Any interdisciplinary connection is relevant rather than forced.
+- [ ] The contribution is consistent with the publication's editorial scope.
 
 ### Literary and Linguistic Accuracy
 
@@ -1171,11 +1175,14 @@ Before submitting, review the following.
 - [ ] Translation has been checked against the original.
 - [ ] Cultural and historical context is appropriately represented.
 
-### Scientific and Research Accuracy
+### Reflection and Research Accuracy
 
-- [ ] Important claims have supporting sources.
-- [ ] Technical terminology is accurate.
-- [ ] Mathematical expressions are checked.
+- [ ] The reflection contains no more than four concise English prose paragraphs.
+- [ ] Its emotional and intellectual progression is coherent.
+- [ ] It has not been artificially expanded to meet a paragraph target.
+- [ ] Important factual claims have supporting sources.
+- [ ] Technical terminology is accurate where used.
+- [ ] Mathematical expressions are checked where applicable.
 - [ ] Assumptions and limitations are identified.
 - [ ] Numerical and experimental results are distinguished.
 - [ ] Speculative connections are labelled appropriately.
@@ -1183,7 +1190,7 @@ Before submitting, review the following.
 ### Rights and Ethics
 
 - [ ] Third-party material is identified.
-- [ ] Copyright permission or other legal basis has been considered.
+- [ ] Copyright permission or another legal basis has been considered.
 - [ ] Interview and participant permissions are addressed.
 - [ ] Privacy and confidentiality have been considered.
 - [ ] Sensitive cultural material has been assessed.
@@ -1205,7 +1212,6 @@ Before submitting, review the following.
 Contributors should consult the following documents where relevant:
 
 - `README.md`
-- `ABOUT.md`
 - `EDITORIAL_POLICY.md`
 - `CONTRIBUTING.md`
 - `ARTICLE_TEMPLATE.md`
@@ -1231,15 +1237,17 @@ Contributors should consult the following documents where relevant:
 - `ACCESSIBILITY.md`
 - `DISCLAIMER.md`
 
-These documents provide further guidance on the publication's editorial, technical, ethical, and intellectual standards.
+These documents provide further guidance on the publication's editorial, technical, ethical and intellectual standards.
 
 ## 32. Continuing Commitment
 
-Verse & Variable welcomes serious intellectual curiosity, thoughtful literary interpretation, linguistic sensitivity, and responsible scientific exploration.
+Verse & Variable welcomes serious intellectual curiosity, thoughtful literary interpretation, linguistic sensitivity and responsible engagement with knowledge.
 
-A contribution does not need to be written from within a major institution to be intellectually valuable. Its quality should be assessed through the care of its reasoning, the reliability of its sources, the originality of its interpretation, and its respect for the material it explores.
+A contribution does not need to be written from within a major institution to be intellectually valuable. Its quality should be assessed through the care of its reasoning, the reliability of its sources, the originality of its interpretation and its respect for the material it explores.
 
-The publication seeks contributions that make meaningful connections without erasing the differences between disciplines, traditions, and forms of knowledge.
+The publication seeks contributions that deepen the reading of Indian literature while allowing different forms of knowledge to contribute where appropriate.
+
+A literary work does not need to prove a scientific idea, and a scientific concept does not need to be inserted into every literary discussion.
 
 The objective is not simply to publish more material. It is to build an archive in which every contribution adds something worth preserving.
 
