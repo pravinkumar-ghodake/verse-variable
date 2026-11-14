@@ -1,4 +1,3 @@
-
 # Article Template
 
 **Verse & Variable**  
@@ -15,15 +14,16 @@ The template establishes a consistent structure for:
 
 - Article identification and metadata.
 - Original literary material.
-- Transliteration and translation.
-- Author and contributor attribution.
+- Transliteration and pronunciation guidance, where appropriate.
+- Translation and attribution.
 - Literary and cultural context.
-- Four substantial paragraphs of original English commentary.
-- Interdisciplinary scientific reflection, where appropriate.
-- References and source documentation.
-- Editorial and technical verification.
+- Original editorial reflection.
+- Optional references and supplementary material.
+- Editorial, copyright and technical verification.
 
 The template should be adapted to the nature of each literary work without compromising the publication's fundamental standards.
+
+The literary expression is the foundation of every article. The reflection should follow its language, imagery, emotional movement and intellectual possibilities rather than conform to a predetermined interpretive structure.
 
 ## 2. Article File Organisation
 
@@ -49,33 +49,39 @@ Each entry should have a permanent URL generated through the collection's config
 
 The following is a reusable YAML frontmatter starting point.
 
-Replace the placeholders before creating an actual article. Optional attribution fields may be added where relevant and should use the corresponding field names expected by the existing entry layout.
+Replace the placeholders before creating an actual article. Include optional attribution and pronunciation fields only where relevant and supported by the existing entry layout.
 
-    ---
-    layout: entry
-    title: "Article Title"
-    date: YYYY-MM-DD
-    description: "A concise and accurate description of the literary exploration."
+```yaml
+---
+layout: entry
+title: "Article Title"
+date: YYYY-MM-DD
+description: "A concise and accurate description of the literary exploration."
 
-    week_id: "week-YYYY-NN"
-    entry_number: 1
+week_id: "week-YYYY-NN"
+entry_number: 1
 
-    language_id: "urdu"
-    language_code: "ur"
+language_id: "urdu"
+language_code: "ur"
 
-    work_title: "Original Literary Work"
-    author: "Original Author or Poet"
+work_title: "Original Literary Work"
+literary_form: "Ghazal"
+author_name: "Original Author or Poet"
 
-    original_text: |
-      [Insert the verified original literary expression.]
+original_text: |
+  [Insert the verified original literary expression.]
 
-    transliteration: |
-      [Insert transliteration, where appropriate.]
+transliteration: |
+  [Insert transliteration, where appropriate.]
 
-    translation: |
-      [Insert English translation, where appropriate.]
+pronunciation_guide: |
+  [Insert an additional pronunciation guide, where appropriate.]
 
-    ---
+translation: |
+  [Insert English translation.]
+
+---
+```
 
 ### 3.1 Essential Fields
 
@@ -84,27 +90,35 @@ Replace the placeholders before creating an actual article. Optional attribution
 | `layout` | Selects the individual article layout |
 | `title` | Title of the published exploration |
 | `date` | Article publication date |
+| `description` | Concise description of the article |
 | `week_id` | Associates the article with its weekly collection |
 | `entry_number` | Establishes its position within the weekly collection |
 | `language_id` | Identifies the language using the site's language metadata |
 | `language_code` | Provides the relevant language code |
 | `original_text` | Contains the original literary expression |
-| `translation` | Contains the accompanying translation, where available |
-| `transliteration` | Contains the transliterated text, where appropriate |
+
+The following fields should be included when relevant and supported by the article layout:
+
+- `literary_form`
+- `work_title`
+- `author_name`
+- `transliteration`
+- `translation`
+- `pronunciation_guide`
 
 ### 3.2 Additional Metadata
 
 Where relevant, individual entries may also contain:
 
-- `work_title`
-- `author`
+- `translator_name`
+- `translator`
 - `lyricist`
 - `composer`
 - `performer`
-- `translator`
 - `source`
 - `source_url`
-- `description`
+- `pronunciation_language`
+- `transliteration_label`
 - `categories`
 - `tags`
 
@@ -116,7 +130,7 @@ Do not invent metadata merely to complete an empty field.
 
 ## 4. Article Title
 
-Choose a title that captures the central literary or intellectual direction of the exploration.
+Choose a title that captures the central literary or reflective direction of the exploration.
 
 A good title should be:
 
@@ -130,6 +144,8 @@ A good title should be:
 The title of the original literary work and the title of the accompanying exploration need not be identical.
 
 Where the original title is in another language, preserve it in its original script where appropriate.
+
+The exploration title should emerge from the actual character of the work. Avoid imposing a dramatic, motivational or scientific interpretation merely to make the title appear distinctive.
 
 ## 5. Original Literary Expression
 
@@ -162,22 +178,31 @@ Do not silently combine different editions or versions.
 
 Where the source contains variant readings, identify the version used.
 
-## 6. Transliteration
+The selected passage should form a coherent literary unit. Avoid removing a line from its context when doing so changes its meaning or emotional movement.
+
+## 6. Transliteration and Pronunciation
 
 ### Transliteration
 
 [Insert the transliterated original text where appropriate.]
 
-The transliteration should help readers approach the original expression while preserving its relationship with the source language.
+### Pronunciation Guide
 
-It should:
+[Insert an additional pronunciation guide where useful.]
+
+Transliteration and pronunciation guidance should help readers approach the original expression while preserving its relationship with the source language.
+
+They should:
 
 - Follow a consistent transliteration approach.
 - Preserve meaningful distinctions between words.
 - Avoid misleading pronunciation representations.
 - Remain clearly distinguishable from the English translation.
+- Respect the original language and its pronunciation conventions.
 
-Where transliteration does not add meaningful value, it may be omitted.
+Where multiple scripts or transliteration forms are used, label them clearly so readers can distinguish between transliteration and pronunciation assistance.
+
+Where transliteration or an additional pronunciation guide does not add meaningful value, it may be omitted.
 
 ## 7. English Translation
 
@@ -193,9 +218,11 @@ Where transliteration does not add meaningful value, it may be omitted.
 
 The translation should communicate the meaning and literary character of the original as faithfully as practical.
 
-Important ambiguities, cultural expressions, and translation decisions may be explained in a short translator's note.
+Important ambiguities, cultural expressions and translation decisions may be explained in a short translator's note.
 
 Do not present an adapted translation as an unchanged literal translation.
+
+The English rendering should help readers approach the original expression without implying that every linguistic, poetic or cultural nuance can be transferred exactly.
 
 ## 8. Attribution and Context
 
@@ -216,74 +243,69 @@ Remove roles that are not relevant to the selected work.
 
 ### Contextual Notes
 
-[Include concise historical, cultural, literary, or linguistic information where it contributes to understanding the work.]
+[Include concise historical, cultural, literary or linguistic information where it contributes to understanding the work.]
 
 This section should not become an unnecessary biography or a generic introduction.
 
 Include only information that has a meaningful relationship with the selected expression.
 
-## 9. Principal Commentary
+Context should illuminate the literary work rather than replace direct engagement with it.
 
-Every individual exploration must contain exactly four substantial paragraphs of original English commentary.
+## 9. Original Editorial Reflection
 
-This is the principal intellectual contribution of the article.
+The reflection is the principal interpretive contribution of an individual article.
 
-The four paragraphs should form a coherent progression rather than four independent summaries.
+It should arise from genuine engagement with the selected literary expression and develop a meaningful emotional, literary, philosophical or intellectual exploration.
 
-### Paragraph One — The Literary Encounter
+**Length: No more than four concise English prose paragraphs.**
 
-[Develop the opening interpretation.]
+Fewer paragraphs are entirely acceptable. A reflection should never be artificially expanded to meet a paragraph count.
 
-Introduce the literary expression through its language, emotional character, imagery, or central idea.
+The writing should have emotional and intellectual continuity. Its direction should emerge from the selected work rather than from a prescribed scientific, philosophical or motivational framework.
 
-Explain what draws attention to the work and why it invites deeper reading.
+### A Possible Movement of Thought
 
-The opening should establish a natural, reflective relationship with the original expression.
+The following four movements may help guide the writing. They are not a compulsory four-paragraph structure. Two or more may naturally belong together, and some may receive little attention or be unnecessary for a particular work.
 
-### Paragraph Two — Deeper Literary and Philosophical Exploration
+**1. The Encounter**
 
-[Develop the deeper interpretation.]
+Begin with the poem's own imagery, voice, atmosphere, emotion or central tension. Let the reader enter the literary world rather than beginning with an abstract explanation.
 
-Examine the underlying meaning, contradictions, symbols, emotional relationships, philosophical dimensions, or cultural implications.
+**2. The Unfolding**
 
-Engage closely with the language of the original work.
+Explore what happens within that image or expression. Follow its emotional movement, contradictions, subtleties and human significance.
 
-Avoid simply restating the translation or repeating the opening paragraph.
+**3. The Personal Perspective**
 
-### Paragraph Three — Interdisciplinary Reflection
+Allow the editor's own observations, experiences, philosophical questions and wider intellectual interests to enter naturally. Scientific knowledge may contribute when it genuinely deepens the reading, but it is neither expected nor required.
 
-[Develop a meaningful scientific, mathematical, philosophical, cultural, or other interdisciplinary connection.]
+**4. The Lasting Thought**
 
-Where appropriate, explore a relevant scientific concept or intellectual framework.
+Arrive at an honest emotional or intellectual understanding. Allow the reflection to reach a natural conclusion without forcing a moral, a technical result or an artificial connection.
 
-Potential areas include nonlinear waves, mechanics, vibrations, acoustics, metamaterials, mathematics, physics, or other fields.
+### Writing Considerations
 
-Clearly distinguish between:
+The reflection should:
 
-- Literary metaphor.
-- Conceptual analogy.
-- Mathematical relationship.
-- Established physical principle.
-- Scientific hypothesis.
-- Experimental or numerical evidence.
+- Remain closely connected to the original expression.
+- Develop rather than merely repeat its translation.
+- Preserve its emotional and literary character.
+- Maintain a natural progression of thought.
+- Allow personal observations to emerge without dominating the work.
+- Respect ambiguity and multiple possible interpretations.
+- Avoid unnecessary technical explanations.
+- Avoid forced scientific analogies or predetermined conclusions.
+- Remain concise without sacrificing meaningful depth.
 
-A scientific connection is optional. Where no meaningful connection exists, continue the literary, philosophical, cultural, or human exploration instead.
+A reflection may remain entirely within literature, language, philosophy, relationships, memory, society or human experience.
 
-### Paragraph Four — Synthesis and Reflection
+There is no expectation that every article must contain an interdisciplinary connection.
 
-[Develop the concluding reflection.]
+## 10. Optional Scientific Context and Verification
 
-Bring together the important dimensions of the exploration without reducing the original work to a simplistic message.
+Complete this section only when an article contains substantive scientific discussion, makes specific scientific claims or uses technical concepts that require clarification or verification.
 
-Reflect on its emotional, intellectual, philosophical, or cultural significance.
-
-The conclusion should feel considered and natural, leaving the reader with a meaningful point of reflection.
-
-## 10. Scientific and Interdisciplinary Notes
-
-Complete this section when an article contains substantive scientific discussion.
-
-**Scientific subject:** [Subject]
+**Scientific subject:** [Subject, where applicable]
 
 **Relevant discipline:** [Discipline]
 
@@ -291,17 +313,21 @@ Complete this section when an article contains substantive scientific discussion
 
 **Scientific status:** [Established principle / Theoretical prediction / Numerical observation / Experimental finding / Hypothesis / Analogy]
 
-**Supporting references:** [Source identifiers]
+**Supporting references:** [Source identifiers, where applicable]
 
-**Relevant assumptions or limitations:** [Notes]
+**Relevant assumptions or limitations:** [Notes, where applicable]
 
 Scientific terminology should be used precisely.
 
 A literary similarity does not establish a physical mechanism, and a numerical simulation does not automatically constitute experimental validation.
 
-Where the interdisciplinary connection is entirely metaphorical, state that clearly.
+Where a connection is metaphorical or conceptual rather than a scientific claim, that distinction should be clear.
+
+Scientific discussion should be included only when it adds genuine value to the literary reflection. A purely literary or human-centred article does not need a scientific section, scientific references or a technical explanation.
 
 ## 11. References and Further Reading
+
+Include identifiable and relevant sources that have actually been consulted.
 
 ### Literary Sources
 
@@ -310,7 +336,7 @@ Where the interdisciplinary connection is entirely metaphorical, state that clea
 
 ### Linguistic and Translation Sources
 
-1. [Dictionary, linguistic reference, or translation source.]
+1. [Dictionary, linguistic reference or translation source.]
 2. [Relevant scholarly work.]
 
 ### Historical and Cultural References
@@ -326,7 +352,7 @@ Where the interdisciplinary connection is entirely metaphorical, state that clea
 
 [Optional references that provide useful additional context.]
 
-Include only identifiable and relevant sources that have actually been consulted.
+Include only the categories relevant to the article. Do not create empty reference sections or add scientific references merely to complete a template.
 
 For detailed research records, follow `SOURCE_REGISTER.md`.
 
@@ -334,7 +360,7 @@ For detailed research records, follow `SOURCE_REGISTER.md`.
 
 Before publishing the article, establish the rights status of the original literary expression and any separately reproduced material.
 
-Record:
+Record, where relevant:
 
 - Original work copyright status.
 - Translation copyright status.
@@ -363,7 +389,9 @@ Check:
 - Relevant original-work attribution.
 - Suitable social and search metadata.
 
-Avoid misleading keywords, exaggerated descriptions, or unsupported claims.
+Metadata should accurately represent the literary work and the actual content of its reflection.
+
+Avoid misleading keywords, exaggerated descriptions, unrelated scientific terminology or unsupported claims.
 
 ## 14. Optional Supplementary Elements
 
@@ -373,57 +401,73 @@ Depending on the literary work, an article may include additional material such 
 - Original manuscripts or archival images.
 - Musical context.
 - Audio or video references.
-- Scientific illustrations.
-- Conceptual diagrams.
-- Relevant equations.
 - Author biographies.
 - Translator's notes.
 - Additional literary comparisons.
+- Relevant historical or cultural material.
+- Scientific illustrations or conceptual diagrams, where genuinely relevant.
+- Equations or technical explanations, where genuinely necessary.
 
 These elements should be included only when they contribute genuine value.
 
-All supplementary material must comply with the publication's copyright, asset attribution, and accessibility requirements.
+A supplementary element should support the literary experience rather than distract from it or create an obligation to introduce another discipline.
 
-They do not count towards the four principal commentary paragraphs.
+All supplementary material must comply with the publication's copyright, asset attribution and accessibility requirements.
+
+They do not count towards the prose reflection.
 
 ## 15. Final Article Review
 
 Before publishing an individual exploration, complete the following checks.
 
-### Literary accuracy
+### Literary Accuracy
 
 - [ ] Original work identified.
 - [ ] Original text verified.
 - [ ] Literary form correctly identified.
 - [ ] Author attribution checked.
 - [ ] Original structure preserved.
+- [ ] Selected passage forms a coherent literary unit.
 
 ### Translation
 
-- [ ] Transliteration verified.
+- [ ] Transliteration verified, where applicable.
+- [ ] Pronunciation guidance checked, where applicable.
 - [ ] Translation checked against the original.
 - [ ] Translator correctly identified.
 - [ ] Adaptations clearly distinguished.
 - [ ] Important ambiguity preserved or explained.
 
-### Commentary
+### Editorial Reflection
 
-- [ ] Exactly four substantial principal commentary paragraphs.
-- [ ] Original interpretation developed.
+- [ ] Reflection begins from the literary expression.
+- [ ] No more than four concise prose paragraphs.
+- [ ] Shorter form used where sufficient.
+- [ ] Emotional and intellectual continuity maintained.
+- [ ] Original interpretation developed rather than merely summarised.
 - [ ] No unnecessary repetition.
 - [ ] Cultural context respected.
-- [ ] Scientific connections included only when meaningful.
+- [ ] Personal observations contribute naturally.
+- [ ] No forced interdisciplinary or scientific connection.
+- [ ] Conclusion feels natural rather than predetermined.
+
+### Scientific Accuracy, Where Applicable
+
+- [ ] Scientific concepts used precisely.
+- [ ] Analogy, metaphor and physical claims distinguished.
 - [ ] Scientific claims appropriately supported.
+- [ ] Relevant assumptions and limitations identified.
+- [ ] Numerical and experimental evidence not confused.
 
-### References and rights
+### References and Rights
 
-- [ ] Relevant references included.
+- [ ] Relevant sources included.
 - [ ] Bibliographic details checked.
 - [ ] Copyright and permission requirements reviewed.
 - [ ] Third-party assets attributed.
 - [ ] Unverified claims qualified.
 
-### Technical quality
+### Technical Quality
 
 - [ ] Correct Jekyll layout.
 - [ ] Correct frontmatter.
@@ -451,21 +495,26 @@ Before publication:
 - Check that every article has its own permanent page.
 - Confirm that the archive and homepage display the correct information.
 
+The three selections should not be forced into a common scientific, philosophical or thematic framework. A weekly collection may bring together distinct literary voices and emotional worlds, allowing their differences to remain meaningful.
+
 Do not publish a weekly collection with placeholder entries or broken article links.
 
 ## 17. Editorial Exceptions
 
 This template is a framework, not an inflexible restriction on literary presentation.
 
-Some works may require a different supplementary structure because of their literary form, language, historical context, or source availability.
+Some works may require a different supplementary structure because of their literary form, language, historical context or source availability.
 
 However, the following principles remain central:
 
 - The original expression remains primary.
 - Attribution must be accurate.
 - Translation must be transparent.
-- Principal commentary must contain exactly four substantial paragraphs.
-- Scientific comparisons must be intellectually defensible.
+- The reflection must contain no more than four concise prose paragraphs.
+- Shorter reflections are entirely acceptable.
+- Emotional and literary coherence take precedence over a prescribed structure.
+- Scientific discussion is optional.
+- Scientific claims must be intellectually defensible and appropriately supported.
 - Copyright requirements must be respected.
 - The article must remain independently meaningful.
 
@@ -485,7 +534,7 @@ This template should be used alongside:
 - `ACCESSIBILITY.md`
 - `DISCLAIMER.md`
 
-Together, these documents establish the editorial, linguistic, research, technical, and intellectual standards of Verse & Variable.
+Together, these documents establish the editorial, linguistic, research, technical and intellectual standards of Verse & Variable.
 
 ---
 
