@@ -504,7 +504,7 @@ button {
   line-height: 1.25;
 
   letter-spacing: 0.13em;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .site-nav {
