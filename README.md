@@ -1,7 +1,6 @@
-
 <div align="center">
 
-# VERSE &amp; VARIABLE
+# VERSE & VARIABLE
 
 ### *A line of verse. A line of inquiry.*
 
@@ -16,11 +15,11 @@ An independent Indian literary journal by **Pravinkumar Ghodake**, shaped by a w
 [![Read the Journal](https://img.shields.io/badge/READ_THE_JOURNAL-VERSE_%26_VARIABLE-65536E?style=for-the-badge)](https://pravinkumar-ghodake.github.io/verse-variable/)
 
 [![Seven Languages](https://img.shields.io/badge/Linguistic_Foundation-7_Languages-34313A?style=flat-square)](#languages-and-literary-traditions)
-[![Editorial Format](https://img.shields.io/badge/Editorial_Model-3_Explorations_Weekly-65536E?style=flat-square)](#the-weekly-reading-format)
+[![Editorial Format](https://img.shields.io/badge/Editorial_Model-3_Explorations_Per_Collection-65536E?style=flat-square)](#the-weekly-reading-format)
 [![Built with Jekyll](https://img.shields.io/badge/Powered_by-Jekyll-34313A?style=flat-square&logo=jekyll&logoColor=white)](#website-and-repository)
 [![GitHub Pages](https://img.shields.io/badge/Published_with-GitHub_Pages-34313A?style=flat-square&logo=githubpages&logoColor=white)](https://pages.github.com/)
 
-**An independent exploration of literature, language and human experience.**
+**An independent exploration of Indian literature, language and human experience.**
 
 </div>
 
@@ -62,11 +61,11 @@ An independent Indian literary journal by **Pravinkumar Ghodake**, shaped by a w
 
 <div align="justify">
 
-**Verse &amp; Variable** is an independent literary journal exploring poetry, shayari, language, philosophical thought and the many dimensions of human experience.
+**Verse & Variable** is an independent Indian literary journal exploring poetry, shayari, language, philosophical thought and the many dimensions of human experience.
 
-Rooted in the extraordinary diversity of Indian literary and linguistic traditions, the journal brings together shayari, sher, ghazals, poems, lyrical compositions, literary passages and philosophical expressions from across the Indian subcontinent.
+Rooted in the extraordinary diversity of Indian literary and linguistic traditions, the journal brings together shayari, sher, ghazals, poems, lyrical compositions, literary passages and philosophical expressions from India's diverse literary cultures.
 
-Hindi, Urdu, Marathi, Kannada, Tamil, Malayalam and Telugu form the initial linguistic foundation of the collection. Classical literature, modern poetry and contemporary artistic expression are explored alongside wider South Asian literary traditions.
+Hindi, Urdu, Marathi, Kannada, Tamil, Malayalam and Telugu form the initial linguistic foundation of the collection. Classical literature, modern poetry and contemporary artistic expression are explored alongside one another.
 
 The original literary expression remains at the centre of every entry. Its original language and script are preserved, while English serves as the language of translation, interpretation and reflection.
 
@@ -137,7 +136,9 @@ Every entry begins with the literary expression itself. Its language, imagery, c
 
 <div align="justify">
 
-Love, relationships, solitude, ambition, grief, memory, identity, dignity, freedom and the contradictions of everyday existence are legitimate subjects in their own right. Not every experience needs to be translated into a scientific explanation. The emotional and human meaning of a literary expression should never be lost in the pursuit of an external interpretation.
+Love, relationships, solitude, ambition, grief, memory, identity, dignity, freedom and the contradictions of everyday existence are legitimate subjects in their own right.
+
+Not every experience needs to be translated into a scientific explanation. The emotional and human meaning of a literary expression should never be lost in the pursuit of an external interpretation.
 
 </div>
 
@@ -145,7 +146,9 @@ Love, relationships, solitude, ambition, grief, memory, identity, dignity, freed
 
 <div align="justify">
 
-Reflections should follow the material rather than a predetermined formula. When scientific knowledge genuinely helps illuminate an idea, it may be considered with appropriate care. Any scientific discussion must retain its mathematical and physical integrity, while literary metaphors retain their cultural, emotional and artistic meaning. Similarities between physical phenomena and human experiences should not be confused with established scientific mechanisms.
+Reflections should follow the material rather than a predetermined formula. When scientific knowledge genuinely helps illuminate an idea, it may be considered with appropriate care.
+
+Any scientific discussion must retain its mathematical and physical integrity, while literary metaphors retain their cultural, emotional and artistic meaning. Similarities between physical phenomena and human experiences should not be confused with established scientific mechanisms.
 
 </div>
 
@@ -153,7 +156,9 @@ Reflections should follow the material rather than a predetermined formula. When
 
 <div align="justify">
 
-The reflections are written in the first person, from the author's own perspective and intellectual experiences. They are not generic summaries, motivational commentary or reproductions of popular internet interpretations. The intention is to develop an honest and considered reading rather than impose an expected conclusion.
+The reflections are written in the first person, from the author's own perspective and intellectual experiences. They are not generic summaries, motivational commentary or reproductions of popular internet interpretations.
+
+The intention is to develop an honest and considered reading rather than impose an expected conclusion.
 
 </div>
 
@@ -161,7 +166,11 @@ The reflections are written in the first person, from the author's own perspecti
 
 <div align="justify">
 
-Indian literature remains at the centre of the journal. Artistic and literary contributions from the wider South Asian tradition are also recognised on their literary, cultural and intellectual merits. Literary selection should not favour or exclude a voice because of its caste, religion, language, nationality or political identity. The quality and integrity of the work must lead the selection. Appreciation of an author's work is not a political declaration.
+Indian literature remains the centre of the journal's editorial scope. Other Indian languages and regional literary traditions may be considered as the archive develops.
+
+Literary selection should not favour or exclude a voice because of its caste, religion, language, nationality or political identity. The quality and integrity of the work must lead the selection.
+
+Appreciation of an author's work is not a political declaration.
 
 </div>
 
@@ -199,7 +208,7 @@ The collection includes classical, modern and contemporary authors. It is not re
 
 Literary merit, intellectual depth, emotional resonance and the quality of expression guide the selection.
 
-Additional Indian and international literary traditions may be introduced as the archive develops.
+Additional Indian languages and literary traditions may be considered as the archive develops. The editor's wider interest in international literature informs his personal reading and intellectual perspective but does not extend the journal's current publication scope beyond Indian literature.
 
 </div>
 
@@ -236,7 +245,7 @@ The journal is not intended to be a collection of punchy film dialogues or cinem
 
 <div align="justify">
 
-The journal is designed around **three literary explorations each week**.
+The journal is organised around **three independent literary explorations in each weekly collection**.
 
 Each selection receives its own permanent article page. A separate weekly collection page brings the three explorations together.
 
@@ -247,7 +256,7 @@ Every individual article follows a consistent editorial structure:
 1. **Original expression:** The selected couplet, verse or permissible literary excerpt in its original script.
 2. **English translation:** A considered translation that preserves the meaning, imagery, nuance and emotional character of the original.
 3. **Attribution:** Author, literary work, language, literary form and source references wherever verifiable.
-4. **Personal reflection:** A concise reflection written in the author's own English style, in no more than four prose paragraphs.
+4. **Personal reflection:** A concise reflection written in the author's own English style, generally comprising no more than four prose paragraphs.
 
 <div align="justify">
 
@@ -255,7 +264,9 @@ The reflections are continuous essays, not lists of disconnected observations.
 
 They should be calm, mature, thoughtful, human and intellectually rich. Each reading should follow the language, imagery and emotional movement of the literary expression. The direction may be personal, philosophical, cultural, historical or, where genuinely relevant, scientific. No particular interpretive approach is compulsory.
 
-Each weekly publication contains:
+The four-paragraph limit is an editorial boundary, not a fixed four-part formula. A reflection may be shorter whenever the literary expression calls for it.
+
+Each weekly collection contains:
 
 </div>
 
@@ -276,7 +287,7 @@ Previous weekly collections remain permanently accessible through the chronologi
 
 <div align="justify">
 
-The English writing in **Verse &amp; Variable** aims to approach literature with sensitivity, intellectual curiosity and respect for the human experience expressed through language.
+The English writing in **Verse & Variable** aims to approach literature with sensitivity, intellectual curiosity and respect for the human experience expressed through language.
 
 The tone is personal but not self-promotional, analytical but not excessively academic, reflective without becoming sentimental, and sophisticated without unnecessary complexity.
 
@@ -294,7 +305,7 @@ There is no requirement to introduce a scientific connection where none genuinel
 
 <div align="justify">
 
-The visual identity of **Verse &amp; Variable** draws inspiration from wave propagation and the editor's background in mechanics and scientific research.
+The visual identity of **Verse & Variable** draws inspiration from wave propagation and the editor's background in mechanics and scientific research.
 
 The website uses an evolving, science-inspired propagation field as its principal visual background. Wave behaviour provides a visual vocabulary through which the editor's wider intellectual interests find expression in the design.
 
@@ -333,7 +344,7 @@ The visual design reflects the personal intellectual background behind the journ
 
 His research interests span theoretical, computational and experimental mechanics, nonlinear ultrasonics, nonlinear elastic waves, mechanical metamaterials, inverse design, structural health monitoring and nondestructive evaluation.
 
-His wider intellectual interests extend across mathematics, physics, philosophy, Indian literature, books, music, cinema, sports and the many dimensions of human experience.
+His wider intellectual interests extend across mathematics, physics, philosophy, Indian and international literature, books, music, cinema, sports and the many dimensions of human experience.
 
 These interests shape the editor's personal perspective, but the journal does not require them to converge in every literary reading. Literature remains free to be encountered on its own terms.
 
@@ -386,9 +397,9 @@ The website is designed to be maintained over many years without requiring a red
 
 <div align="justify">
 
-The publication is designed for accessibility, archival stability and discovery by both traditional search engines and emerging AI-powered retrieval systems.
+The publication is designed with accessibility, archival stability and discoverability in mind, including discovery by traditional search engines and emerging AI-powered retrieval systems.
 
-The technical architecture includes:
+Depending on the current implementation and configuration, the repository's technical provisions include:
 
 </div>
 
@@ -399,15 +410,17 @@ The technical architecture includes:
 - RSS publication feed.
 - Structured article and author metadata.
 - Internal links between weekly collections and individual articles.
-- Machine-readable publication documentation.
+- Machine-readable publication information where provided.
 - Clear source attribution and publication dates.
-- Responsive, accessible and semantically structured HTML.
+- Responsive layouts and semantically structured HTML.
 
 <div align="justify">
 
-Crawler preferences will distinguish search-oriented discovery from model-training access where supported by individual crawler policies.
+Crawler-specific directives may communicate access preferences to compatible crawlers where supported. They do not guarantee indexing, ranking, citation or exclusion from model training.
 
-These technical provisions do not guarantee indexing, ranking or AI-generated citations. The principal objective remains the publication of original, accurate and useful intellectual work.
+The website's responsive design and semantic structure support accessibility, but their presence alone does not constitute a claim of formal WCAG conformance.
+
+The principal objective remains the publication of original, accurate and useful intellectual work.
 
 </div>
 
@@ -425,7 +438,9 @@ Copyrighted poems and song lyrics are reproduced only in appropriately limited e
 
 The author's original reflections, research-inspired illustrations, editorial arrangements and website code are treated separately from third-party literary content.
 
-Detailed code and content licensing terms will be documented in the repository's licensing files.
+The repository's general code licence does not automatically apply to separately protected poems, lyrics, translations, photographs, recordings, research figures or other third-party material.
+
+Detailed code and content licensing terms are documented separately wherever applicable.
 
 </div>
 
@@ -435,13 +450,15 @@ Detailed code and content licensing terms will be documented in the repository's
 
 <div align="justify">
 
-The journal follows a three-entry weekly publishing rhythm.
+The intended editorial format is a weekly collection of three independent literary explorations.
 
 New collections are added chronologically, with permanent individual article URLs and a continuously growing archive.
 
-There is no requirement to alter the website's fundamental design or architecture when a new week is published.
+The quality of literary selection, source verification, translation and editorial review takes precedence over an obligation to publish on a fixed date. A collection should be published when its entries are ready.
 
-The long-term objective is a carefully researched and continuously expanding literary archive supported by original writing.
+There is no requirement to alter the website's fundamental design or architecture when a new collection is published.
+
+The long-term objective is a carefully researched and continuously expanding Indian literary archive supported by original writing.
 
 </div>
 
@@ -471,7 +488,7 @@ For an individual literary exploration, cite its permanent article URL. For a we
 
 ## Colophon
 
-### VERSE &amp; VARIABLE
+### VERSE & VARIABLE
 
 *Lafz se Lehar tak — From the word to the wave.*
 
