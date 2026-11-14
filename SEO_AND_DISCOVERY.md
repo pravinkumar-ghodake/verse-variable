@@ -1,4 +1,3 @@
-
 # SEO and Discovery Strategy
 
 **Verse & Variable**  
@@ -7,27 +6,32 @@
 
 ## 1. Purpose
 
-This document establishes the search-engine optimisation (SEO), technical discoverability, and machine-readable publishing principles for Verse & Variable.
+This document establishes the search-engine optimisation (SEO), technical discoverability and machine-readable publishing principles for Verse & Variable.
 
-The publication is an independent multilingual literary and intellectual archive exploring poetry, literature, philosophy, human experience, and meaningful connections with scientific thought.
+Verse & Variable is an independent Indian literary journal devoted to poetry, shayari, ghazals, nazms, literary prose, philosophical expressions and other forms of Indian literary expression.
 
-Its content includes original literary expressions, transliterations, translations, historical and cultural context, original commentary, scientific explanations, and research references.
+Its initial linguistic foundation comprises Urdu, Hindi, Marathi, Kannada, Tamil, Malayalam and Telugu.
+
+The publication preserves original literary expressions and explores their linguistic, cultural, emotional, philosophical and human significance through original editorial commentary.
+
+The editor's wider intellectual interests include scientific research, mechanics, mathematics, physics, philosophy, international literature, books, music, cinema, sport and lived experience. These interests may inform individual reflections where they genuinely contribute to interpretation, but they do not expand the journal's present publication scope beyond Indian literature.
 
 The discovery strategy should help readers and digital information systems:
 
-- Identify the publication and its purpose.
+- Identify the publication and its literary purpose.
 - Discover individual literary explorations.
-- Understand the original language of each work.
+- Understand the original language and literary form of each work.
 - Identify authors and other creative contributors accurately.
-- Navigate weekly collections.
-- Understand the subjects explored in individual articles.
-- Discover relationships between languages and disciplines.
+- Navigate weekly collections and the chronological archive.
+- Explore literary themes, cultural contexts and philosophical subjects.
+- Discover relationships between works across Indian languages and traditions.
 - Access reliable references and original sources.
-- Distinguish the publication's original commentary from third-party material.
+- Distinguish original literary material, translations, editorial commentary and third-party content.
+- Understand the editor's research background without confusing it with the publication's editorial scope.
 
 The objective is not to maximise search-engine traffic through artificial optimisation.
 
-It is to make the archive genuinely accessible, understandable, trustworthy, and discoverable.
+It is to make the archive genuinely accessible, understandable, trustworthy and discoverable.
 
 ## 2. Fundamental Discovery Principles
 
@@ -35,51 +39,61 @@ It is to make the archive genuinely accessible, understandable, trustworthy, and
 
 The quality and usefulness of an article must remain more important than its search-engine performance.
 
-Articles should be written for readers who are interested in the literary work and the ideas being explored.
+Articles should be written for readers interested in the literary expression, its language, its context and the ideas explored in the commentary.
 
 Search optimisation should support the publication rather than dictate its editorial direction.
 
 ### 2.2 Originality and Intellectual Substance
 
-Every individual exploration should provide original commentary and meaningful interpretation.
+Every individual exploration should offer original commentary and meaningful interpretation.
 
-Do not publish repetitive content simply to target different keywords, languages, or search queries.
+Do not publish repetitive content simply to target different keywords, languages or search queries.
 
 Each article should offer a clear reason for existing independently.
 
 ### 2.3 Accurate Metadata
 
-Titles, descriptions, author names, dates, languages, and references should accurately represent the published material.
+Titles, descriptions, author names, dates, languages, literary forms and references should accurately represent the published material.
 
 Metadata should not introduce claims that are unsupported by the actual article.
 
 ### 2.4 Multilingual Accessibility
 
-Search discovery should account for original Indian and South Asian writing systems.
+Multilingual discoverability is a central requirement.
+
+Original Indian scripts should remain visible and searchable as text wherever practical.
 
 English should not be treated as the only meaningful route through the archive.
 
-Original literary texts should remain searchable as text wherever practical.
+Translations and transliterations should remain distinguishable from original literary expressions.
 
 ### 2.5 Technical Reliability
 
-Search engines and other discovery systems should be able to access the relevant public pages, follow their links, and interpret their structure.
+Search engines and other discovery systems should be able to access relevant public pages, follow their links and interpret their structure.
 
-Technical discoverability requires correct URLs, crawlable content, appropriate metadata, and functioning internal navigation.
+Technical discoverability depends on appropriate URLs, accessible content, accurate metadata, functioning internal navigation and reliable page delivery.
 
 ### 2.6 No Guaranteed Rankings
 
-No metadata field, sitemap, social preview, structured-data implementation, or machine-readable file guarantees a particular search position.
+No metadata field, sitemap, social preview, structured-data implementation or machine-readable file guarantees a particular search position.
 
 The publication should not make such claims.
 
+### 2.7 Scientific Context Is Not a Discovery Requirement
+
+Scientific terminology should not be introduced into article titles, descriptions, categories or keywords merely because the editor has a scientific research background.
+
+Scientific discovery terms should be used only when an individual article contains substantive and technically meaningful discussion of the relevant subject.
+
 ## 3. Publication Identity
 
-The publication's identity should remain consistent across its website, repository, social previews, feeds, and machine-readable resources.
+The publication's identity should remain consistent across its website, repository, social previews, feeds and machine-readable resources.
 
 ### Official identity
 
 **Publication:** Verse & Variable
+
+**Publication type:** Independent Indian literary journal
 
 **Tagline:** A line of verse. A line of inquiry.
 
@@ -105,19 +119,27 @@ Use the publication's established name and tagline consistently.
 
 Avoid creating unnecessary alternative publication names or unrelated descriptions across different metadata systems.
 
-The repository name, website title, Open Graph identity, feed title, and structured information should describe the same publication.
+The repository description, website title, Open Graph identity, feed title and structured information should describe the same publication.
 
 ### 3.2 Independent Publication Status
 
-The publication should be described as an independent literary and intellectual archive.
+The publication should be described as an independent Indian literary journal.
 
-Do not imply university affiliation, institutional sponsorship, formal partnerships, or external endorsements unless an actual relationship has been established and documented.
+Do not imply university affiliation, institutional sponsorship, formal partnerships or external endorsements unless an actual relationship has been established and documented.
+
+### 3.3 Distinguishing the Editor's Identity
+
+The editor's scientific research background should remain visible through the appropriate author profile, research portfolio, ORCID and relevant structured author information.
+
+However, it should not be used to classify the entire publication as a scientific journal or academic research repository.
+
+The publication's identity and the editor's professional research identity are related but distinct.
 
 ## 4. Website URL Architecture
 
 The publication uses GitHub Pages with a project-site structure.
 
-Its current Jekyll configuration establishes:
+Its Jekyll configuration establishes:
 
     url: https://pravinkumar-ghodake.github.io
     baseurl: /verse-variable
@@ -126,7 +148,7 @@ The resulting public website is:
 
     https://pravinkumar-ghodake.github.io/verse-variable/
 
-This distinction is important when generating canonical URLs, internal links, sitemaps, and social metadata.
+This distinction is important when generating canonical URLs, internal links, sitemaps, social metadata and other absolute resource URLs.
 
 ### 4.1 Individual Article URLs
 
@@ -160,7 +182,7 @@ Prefer:
 
     /entries/poetry-of-memory/
 
-Avoid unnecessarily complicated filenames, unexplained abbreviations, and excessive keyword repetition.
+Avoid unnecessarily complicated filenames, unexplained abbreviations and excessive keyword repetition.
 
 ### 4.4 Permanent URLs
 
@@ -196,17 +218,19 @@ Every individual literary exploration should have a clear and independently unde
 
 ### 5.1 Descriptive Titles
 
-Article titles should identify the actual literary or intellectual subject.
+Article titles should identify the actual literary or interpretative subject.
 
 A useful title should be:
 
 - Specific.
 - Accurate.
 - Readable.
-- Relevant to the original work.
+- Relevant to the selected work.
 - Suitable for the article's actual content.
 
-Avoid exaggerated titles, keyword stuffing, and titles that promise a subject the article does not discuss.
+Where useful, titles or descriptions may identify the poet, original work, language or literary form.
+
+Avoid exaggerated titles, keyword stuffing and titles that promise a subject the article does not discuss.
 
 ### 5.2 Article Descriptions
 
@@ -218,9 +242,11 @@ It may identify:
 
 - The original literary work.
 - Its language.
+- Its literary form.
 - Its creator, where verified.
 - The principal subject of the commentary.
-- A meaningful interdisciplinary connection, where applicable.
+- A meaningful cultural, historical or philosophical dimension.
+- A specialist connection, where genuinely applicable.
 
 Descriptions should be individually written rather than mechanically copied across articles.
 
@@ -246,31 +272,35 @@ Do not use heading elements merely to obtain a larger font size.
 
 Original literary expressions should be rendered as selectable text wherever practical.
 
-Do not replace the original text with an image simply because a particular font or visual treatment is attractive.
+Do not replace original-script content with an image simply because a particular font or visual treatment is attractive.
 
-Images may supplement literary presentation, but ordinary text provides more reliable accessibility and search discoverability.
+Images may supplement literary presentation, but ordinary text provides more reliable accessibility and content discovery.
 
 ### 5.5 Translation and Transliteration
 
-The original expression, transliteration, and English translation should be clearly distinguished.
+The original expression, transliteration, pronunciation guidance and English translation should be clearly distinguished.
 
-Each should be represented by the appropriate language metadata where possible.
+Each should be represented with appropriate language information where practical.
 
-Search engines and readers should not be given the impression that a transliteration is an original translation or that an English translation is the original author's wording.
+Search metadata and visible presentation should not give the impression that a transliteration is an original translation or that an English editorial rendering is the original author's wording.
 
-### 5.6 Four-Paragraph Commentary
+### 5.6 Editorial Commentary
 
-The principal commentary should retain the publication's established four-paragraph structure.
+The principal commentary should follow the journal's established editorial limit of no more than four concise English prose paragraphs.
 
-Search optimisation should not be used as a reason to insert repetitive keywords or artificial explanatory passages into those paragraphs.
+Shorter reflections are entirely acceptable.
 
-The quality of the interpretation remains the central editorial consideration.
+There is no mandatory third interdisciplinary paragraph or fixed paragraph-by-paragraph formula.
+
+Search optimisation should never be used as a reason to insert repetitive keywords or artificial explanatory passages into the commentary.
+
+The literary work and the quality of its interpretation remain the central editorial considerations.
 
 ## 6. Multilingual Search Discovery
 
 Multilingual discoverability is one of the publication's defining requirements.
 
-The archive initially covers:
+The initial archive covers:
 
 - Urdu.
 - Hindi.
@@ -280,7 +310,7 @@ The archive initially covers:
 - Malayalam.
 - Telugu.
 
-Additional languages may be included where meaningful.
+Additional Indian languages and literary traditions may be included as the archive develops.
 
 ### 6.1 Original Language Identification
 
@@ -292,7 +322,7 @@ The relevant language metadata is maintained through:
 - `language_code`
 - `_data/languages.yml`
 
-Use the correct language code for the original work.
+Use the appropriate language code for the original work.
 
 ### 6.2 HTML Language Attributes
 
@@ -310,9 +340,11 @@ For example:
       English commentary.
     </p>
 
-Language identification supports accessible presentation and helps communicate the document's linguistic structure.
+Language identification supports accessible presentation and communicates the linguistic structure of the document.
 
-Search engines may also determine page language through the visible content and other signals. The HTML language attribute should not be treated as a guarantee of language-specific search ranking.
+Do not assume that the HTML `lang` attribute alone determines search-engine language classification. Google documents that it determines page language through its own systems and does not use the `lang` attribute as its language-detection mechanism.
+
+Visible content remains important.
 
 ### 6.3 Urdu Right-to-Left Presentation
 
@@ -326,7 +358,7 @@ The original Urdu expression must remain readable when specialised fonts fail to
 
 ### 6.4 Searchable Indic Scripts
 
-Hindi, Marathi, Kannada, Tamil, Malayalam, and Telugu material should remain represented through their respective original Unicode text.
+Hindi, Marathi, Kannada, Tamil, Malayalam and Telugu material should remain represented through their respective original Unicode text.
 
 Do not replace original-script content with Roman transliteration for indexing convenience.
 
@@ -336,19 +368,25 @@ Where a transliteration exists, it may help readers discover an article using La
 
 However, transliteration variants should not be treated as proof of a single universally correct spelling.
 
-Maintain a consistent preferred display form and record useful alternatives where justified.
+Maintain a consistent preferred display form and record useful alternatives only where justified.
 
 ### 6.6 English Translation Discovery
 
-An English translation can make an original literary exploration discoverable through its translated wording.
+An English translation or editorial rendering can make an original literary exploration accessible through its translated wording.
 
 Search metadata and article presentation should preserve the distinction between original material and translation.
+
+### 6.7 Language of Mixed-Content Pages
+
+An article containing an original Urdu expression, transliteration and English commentary is a multilingual page.
+
+Its HTML structure should identify language-specific passages appropriately, particularly for accessibility and correct text handling.
+
+However, the mere presence of several languages within one article does not make it a set of independently translated pages.
 
 ## 7. Multilingual URLs and `hreflang`
 
 The publication contains multilingual literary material, but this does not automatically make every article a translated alternative of another page.
-
-This distinction is important.
 
 ### 7.1 Language Identification Is Not the Same as an Alternate Page
 
@@ -357,7 +395,7 @@ An article may contain:
 - An original Urdu couplet.
 - An Urdu transliteration.
 - An English translation.
-- Four paragraphs of English commentary.
+- English editorial commentary.
 
 Such an article is multilingual in presentation, but it is not automatically an independently translated English and Urdu pair of pages.
 
@@ -365,9 +403,9 @@ Do not create `hreflang` relationships merely because an article contains materi
 
 ### 7.2 When `hreflang` Is Appropriate
 
-Consider `hreflang` when the same substantive page is genuinely available as separate language or regional versions.
+Consider `hreflang` when substantially equivalent content is genuinely available through separate language or regional versions.
 
-For example, if one article is available as a complete English version and another URL contains the complete Urdu version, these may qualify as alternate language versions.
+For example, if one article is available as a complete English version and another URL contains a complete Urdu version of the same article, these may qualify as alternate language versions.
 
 Where such a relationship is implemented:
 
@@ -375,7 +413,7 @@ Where such a relationship is implemented:
 - Ensure each version identifies itself.
 - Ensure each version references the other relevant versions.
 - Use fully qualified URLs.
-- Keep the alternate-page relationships consistent.
+- Keep alternate-page relationships consistent.
 - Avoid linking unrelated articles merely because they use different languages.
 
 ### 7.3 No Artificial Language Equivalence
@@ -384,13 +422,13 @@ A Marathi poem and a Tamil poem discussing similar themes are independent works.
 
 They should not be represented as alternate language versions of one another.
 
-Likewise, a quotation and a short translation do not automatically make two full pages equivalent.
+Likewise, a short quotation and its translation do not automatically make two full pages equivalent.
 
 ### 7.4 Official Guidance
 
-Consult Google's documentation before introducing alternate-language annotations:
-
 https://developers.google.com/search/docs/specialty/international/localized-versions
+
+https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites
 
 ## 8. Canonical URLs
 
@@ -445,7 +483,7 @@ https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicat
 
 ## 9. Sitemap and Content Discovery
 
-The publication maintains a Jekyll-generated XML sitemap.
+The publication uses a Jekyll-generated XML sitemap.
 
 The expected sitemap URL is:
 
@@ -460,7 +498,7 @@ Include appropriate public resources such as:
 - Homepage.
 - About page.
 - Language directory.
-- Archive.
+- Literary archive.
 - Published weekly collections.
 - Published individual entries.
 - Other meaningful informational pages.
@@ -485,7 +523,9 @@ Avoid listing multiple URL variants of the same article.
 
 Where `lastmod` is included, it should represent a meaningful and verifiable modification date.
 
-Do not update every page's last modification date merely because the website was rebuilt.
+Do not update every page's last modification date merely because the website was rebuilt or its copyright year changed.
+
+Google documents that it uses accurate, verifiable `lastmod` information and ignores the sitemap `priority` and `changefreq` values.
 
 ### 9.5 Sitemap Accuracy
 
@@ -499,13 +539,11 @@ Check that:
 - Excluded pages are actually excluded.
 - Last modification dates are meaningful.
 
-Some sitemap fields may receive different treatment by different search engines. Google specifically notes that `priority` and `changefreq` are ignored; accurate `lastmod` values are more useful.
-
 ### 9.6 Sitemap Submission
 
 Where appropriate, submit the sitemap through supported search-engine webmaster tools.
 
-A sitemap helps communicate the site's preferred URLs, but submission does not guarantee that every listed page will be crawled or indexed.
+A sitemap helps communicate preferred URLs, but submission does not guarantee that every listed page will be crawled or indexed.
 
 Official documentation:
 
@@ -513,9 +551,9 @@ https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitem
 
 ## 10. Robots and Indexing Controls
 
-The publication maintains a `robots.txt` file and page-level indexing metadata.
+The publication maintains a `robots.txt` resource and page-level indexing metadata.
 
-These mechanisms serve different purposes.
+These mechanisms serve different purposes and must be understood in relation to the actual hosting arrangement.
 
 ### 10.1 Robots.txt
 
@@ -525,29 +563,25 @@ It can be used to discourage crawling of specified paths or resources by complia
 
 It is not a security mechanism and should not be used to protect confidential information.
 
-### 10.2 Important GitHub Pages Project-Site Consideration
+### 10.2 GitHub Pages Project-Site Consideration
 
-The project website is hosted under:
+The publication is hosted as a GitHub Pages project site under:
 
     https://pravinkumar-ghodake.github.io/verse-variable/
 
-A `robots.txt` file committed in the project repository is generally served at:
+A `robots.txt` file generated within the project repository may be served under the project path:
 
     https://pravinkumar-ghodake.github.io/verse-variable/robots.txt
 
-However, the Robots Exclusion Protocol specifies that a crawler looks for the controlling file at the origin's top-level path:
+However, the Robots Exclusion Protocol specifies that the controlling robots file is requested at the origin's top-level path:
 
     https://pravinkumar-ghodake.github.io/robots.txt
 
-Therefore, a project-level `robots.txt` does not automatically become the origin-level crawler policy.
+A project-level file should therefore not be assumed to establish the origin-wide crawler policy.
 
-A separate root-level hosting arrangement, such as an appropriate user-site repository or domain configuration, may be required to publish origin-wide rules.
+The availability and control of the root-level file must be checked against the actual GitHub Pages hosting arrangement.
 
-This distinction should be checked before relying on project-level crawler instructions.
-
-Technical reference:
-
-https://www.rfc-editor.org/rfc/rfc9309.html
+Do not claim that origin-wide crawler rules have been implemented merely because a project-level `robots.txt` exists.
 
 ### 10.3 Robots.txt Is Not a Noindex Directive
 
@@ -561,15 +595,16 @@ Blocking a page in robots.txt can prevent a crawler from discovering the page-le
 
 ### 10.4 Noindex Pages
 
-The custom 404 page should remain excluded from search results.
+The custom 404 page should not be indexed as an ordinary publication page.
 
-Any additional page marked `noindex` should be checked to ensure that the intended directive appears in its rendered HTML.
+Any additional page marked `noindex` should be checked to ensure the intended directive appears in its rendered HTML.
 
 Do not accidentally apply `noindex` to:
 
+- The homepage.
+- The About page.
 - Individual literary explorations.
 - Weekly collections.
-- The homepage.
 - The main archive.
 - The language directory.
 
@@ -577,34 +612,47 @@ Do not accidentally apply `noindex` to:
 
 Do not block resources necessary for a search engine to understand the visible page.
 
-This includes relevant stylesheets, scripts, and other essential page resources.
+This includes relevant stylesheets, scripts and other essential page resources.
 
 ### 10.6 Official Guidance
 
 https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag
 
+https://www.rfc-editor.org/rfc/rfc9309.html
+
 ## 11. Structured Data and Semantic Metadata
 
 Structured data provides an additional machine-readable description of page content.
 
-The publication already has JSON-LD-related metadata in its head include, which should be reviewed against the actual rendered pages.
+The publication's JSON-LD implementation should be reviewed against the actual rendered pages.
 
 ### 11.1 Recommended Structured Data
 
 Potential schema.org types include:
 
-- `WebSite` — publication website.
-- `Organization` — only if an appropriate organisation actually exists.
-- `Person` — verified information about an individual.
+- `WebSite` — the publication website.
+- `Person` — verified information about the founder and editor.
 - `Article` — individual literary commentary pages where appropriate.
 - `BlogPosting` — where the published content and implementation justify its use.
 - `BreadcrumbList` — where actual breadcrumb navigation is implemented.
 
 Use only types and properties that accurately describe the content.
 
-### 11.2 Article Structured Data
+Do not introduce an `Organization` entity merely to make the publication appear institutionally established. Use an organisation type only if an appropriate organisation actually exists.
 
-For individual literary explorations, an `Article` representation may be appropriate.
+### 11.2 Publication and Person Identity
+
+The `WebSite` entity should identify Verse & Variable as an independent Indian literary journal.
+
+The `Person` entity should identify Pravinkumar Ghodake and may include verified author-profile information and research areas.
+
+The editor's research interests may remain represented through appropriate author information, such as `knowsAbout`, where supported and accurate.
+
+Do not transfer the editor's entire research vocabulary into the publication's description or present it as the journal's primary subject.
+
+### 11.3 Article Structured Data
+
+For individual literary explorations, an `Article` or appropriate subtype may be suitable.
 
 Potential properties include:
 
@@ -617,51 +665,56 @@ Potential properties include:
 - `mainEntityOfPage`
 - `publisher`
 
-The actual properties should be selected according to the published page and the relevant structured-data specification.
+Select properties according to the actual published page and the relevant structured-data specification.
 
-### 11.3 Correct Author Attribution
+### 11.4 Correct Author Attribution
 
 Structured data must distinguish between the person who authored the published commentary and the original author of the literary work being explored.
 
 For example:
 
-- The article author identifies the creator of the commentary.
+- The article author identifies the creator of the editorial commentary.
 - The original poet remains credited as the creator of the literary source.
+- Lyricists, composers, performers and translators retain their respective roles.
 
 Do not place the original poet in the Article author field merely because the article discusses their poetry.
 
 Likewise, do not invent an organisational publisher or institutional affiliation.
 
-### 11.4 Article Type Selection
+### 11.5 Article Type Selection
 
 Do not classify ordinary literary explorations as `NewsArticle` merely because they are articles.
 
 Use a content type that accurately represents the actual material.
 
-### 11.5 Visible Content Agreement
+### 11.6 Visible Content Agreement
 
 Structured data should agree with information visible on the corresponding page.
 
 Do not add hidden or misleading metadata that asserts facts not supported by the visible content.
 
-### 11.6 No Guaranteed Rich Results
+Scientific properties or subject information should be included only when the individual article substantively discusses those subjects.
+
+### 11.7 No Guaranteed Rich Results
 
 Valid structured data can help search systems understand a page.
 
-It does not guarantee special search appearances, enhanced listings, or increased rankings.
+It does not guarantee special search appearances, enhanced listings or increased rankings.
 
-### 11.7 Validation
+### 11.8 Validation
 
 After implementation:
 
 - Check JSON syntax.
 - Validate structured-data properties.
-- Compare the markup with visible content.
+- Compare markup with visible content.
 - Test representative article pages.
 - Review warnings and errors.
 - Recheck the output after layout changes.
 
 Official guidance:
+
+https://developers.google.com/search/docs/appearance/structured-data/sd-policies
 
 https://developers.google.com/search/docs/appearance/structured-data/article
 
@@ -690,7 +743,7 @@ Where appropriate, use a representative article image.
 
 ### 12.3 Social Preview Artwork
 
-The repository currently includes:
+The repository includes the following social preview artwork:
 
     assets/images/social-preview.svg
 
@@ -698,9 +751,9 @@ The artwork provides a visual identity for the publication.
 
 However, social platforms do not all support image formats and metadata in the same way.
 
-For broad compatibility, a raster preview such as PNG or JPEG should also be prepared and tested.
+For broad compatibility, a raster preview such as PNG or JPEG may also be prepared and tested.
 
-A 1200 × 630 pixel image is a suitable general starting point for a wide social preview.
+A 1200 × 630 pixel image is a suitable general starting point for a wide social preview, subject to the requirements of the individual platform.
 
 ### 12.4 Image Accessibility and Quality
 
@@ -762,7 +815,9 @@ The weekly page should link to all three intended article pages.
 
 ### 13.4 Related Articles
 
-Related-article links should reflect genuine literary, cultural, philosophical, or scientific connections.
+Related-article links should reflect genuine literary, linguistic, historical, cultural or philosophical connections.
+
+A specialist scientific connection may also be used when it is genuinely present in the articles concerned.
 
 Do not create artificial internal links merely to increase the number of links on a page.
 
@@ -782,7 +837,7 @@ Correct broken links or replace them with reliable alternatives where available.
 
 ## 14. Image and Illustration Discovery
 
-Images can support the discovery and understanding of literary and scientific material.
+Images can support the discovery and understanding of literary and visual material.
 
 ### 14.1 Descriptive Filenames
 
@@ -796,6 +851,8 @@ is more descriptive than:
 
     image-004.svg
 
+This is a supplementary discovery practice, not a reason to force scientific terminology into image filenames.
+
 ### 14.2 Alternative Text
 
 Provide alternative text for informative images.
@@ -804,22 +861,28 @@ Decorative images should generally use an empty alternative-text value where app
 
 Alternative text should describe the image's relevant content rather than repeat a list of search keywords.
 
-### 14.3 Scientific Figures
+### 14.3 Literary and Cultural Images
+
+Where an article includes an informative portrait, manuscript image, book cover, archival photograph or cultural illustration, provide appropriate contextual information and attribution.
+
+Do not imply that an image is an original historical source if it is illustrative or reconstructed.
+
+### 14.4 Scientific Figures
 
 Scientific figures should have:
 
 - An informative caption.
 - Appropriate source attribution.
 - Relevant explanatory text.
-- Clear distinction between conceptual and experimental material.
+- A clear distinction between conceptual, numerical and experimental material.
 
 Do not rely on image search visibility as the sole means of presenting a scientific result.
 
-### 14.4 Image Indexing
+### 14.5 Image Indexing
 
-Ensure that important public images are accessible to the relevant crawlers.
+Ensure that important public images are accessible to relevant crawlers.
 
-Do not unintentionally block the image resources required to understand the article.
+Do not unintentionally block image resources required to understand the article.
 
 Official guidance:
 
@@ -827,7 +890,7 @@ https://developers.google.com/search/docs/appearance/google-images
 
 ## 15. Machine-Readable Publication Resources
 
-The repository contains several resources intended to improve documentation, referenceability, and machine understanding.
+The repository contains several resources intended to improve documentation, referenceability and machine understanding.
 
 These resources serve different purposes and should not be treated as interchangeable search-engine ranking signals.
 
@@ -855,21 +918,25 @@ Provides a concise machine-readable description of the publication and its organ
 
 Its adoption and interpretation by external systems may vary.
 
+It should accurately identify the journal as an independent Indian literary journal.
+
 ### 15.5 `llms-full.txt`
 
 Provides a more extensive textual reference for the publication.
 
 Its usefulness depends on whether an external system chooses to retrieve and interpret it.
 
+It should distinguish the publication's literary scope from the editor's wider intellectual and scientific background.
+
 ### 15.6 `humans.txt`
 
-Provides information about the people, editorial direction, and technical contributions associated with the publication.
+Provides supplementary information about the people, editorial direction and technical contributions associated with the publication.
 
-It is supplementary documentation rather than a substitute for ordinary website metadata.
+It is not a substitute for ordinary website metadata.
 
 ### 15.7 `CITATION.cff`
 
-Provides structured scholarly citation information for the project.
+Provides structured citation information for the repository and its preferred publication reference.
 
 Its metadata should remain consistent with the repository identity and applicable licensing information.
 
@@ -885,7 +952,7 @@ Each resource has its own purpose.
 | `llms.txt` | Concise machine-oriented publication overview |
 | `llms-full.txt` | Extended machine-oriented reference |
 | `humans.txt` | Project and contributor information |
-| `CITATION.cff` | Scholarly project citation |
+| `CITATION.cff` | Structured repository citation |
 
 None of these files independently establishes the intellectual quality or authority of the publication.
 
@@ -895,19 +962,19 @@ Search discovery must remain aligned with the publication's editorial philosophy
 
 ### 16.1 Original Commentary
 
-Individual articles should contain substantial original interpretation.
+Individual articles should contain meaningful original interpretation.
 
-Do not produce large numbers of near-identical pages by replacing names, languages, or isolated quotations.
+Do not produce large numbers of near-identical pages by replacing names, languages or isolated quotations.
 
 ### 16.2 Accurate Attribution
 
-Names of authors, lyricists, composers, performers, and translators should be verified.
+Names of authors, lyricists, composers, performers and translators should be verified.
 
 Incorrect attribution can mislead readers and reduce the reliability of the archive.
 
 ### 16.3 Useful References
 
-Include meaningful references where factual or scholarly claims require them.
+Include meaningful references where factual, historical or scholarly claims require them.
 
 Do not generate artificial reference lists containing sources that have not been consulted.
 
@@ -931,6 +998,14 @@ An article about a metaphor of resonance should not be presented as a scientific
 
 Scientific discovery terms should be supported by actual article content.
 
+### 16.6 People-First Editorial Decisions
+
+Search demand should not determine which literary works are selected.
+
+The journal should not distort its literary scope, language representation or interpretation merely to target popular queries.
+
+Discovery should help readers find meaningful work, not turn the archive into a collection of search-engine-driven pages.
+
 ## 17. Performance and Page Experience
 
 Search discoverability is supported by a website that works reliably for visitors.
@@ -938,7 +1013,7 @@ Search discoverability is supported by a website that works reliably for visitor
 The publication should pay attention to:
 
 - Responsive page layout.
-- Readable typography.
+- Readable multilingual typography.
 - Appropriate image dimensions.
 - Efficient CSS and JavaScript.
 - Reasonable resource sizes.
@@ -949,21 +1024,21 @@ The publication should pay attention to:
 
 ### 17.1 Core Web Vitals
 
-Where practical, monitor relevant Core Web Vitals.
+Where practical, monitor relevant Core Web Vitals and real-world performance measurements.
 
-These currently include measures associated with:
+These include measures associated with:
 
 - Loading performance.
 - Interactivity.
 - Visual stability.
 
-Use real measurements and suitable tools rather than assuming that the website is fast because its source files are small.
+Use actual measurements and suitable tools rather than assuming that the website is fast because its source files are small.
 
 ### 17.2 External Resources
 
-Review external fonts, scripts, and other resources.
+Review external fonts, scripts and other resources.
 
-A publication that loads unnecessary external resources may introduce additional performance, reliability, and privacy considerations.
+A publication that loads unnecessary external resources may introduce additional performance, reliability and privacy considerations.
 
 ### 17.3 Animation
 
@@ -977,7 +1052,7 @@ Reduced-motion preferences should be respected.
 
 Inspect article and archive pages on narrow screens.
 
-Check original scripts, mixed-language text, navigation controls, images, and tables for clipping and overflow.
+Check original scripts, mixed-language text, navigation controls, images and tables for clipping and overflow.
 
 ## 18. Search Engine Monitoring
 
@@ -1015,7 +1090,7 @@ Inspect representative pages, including:
 - Language directory.
 - About page.
 
-Review whether the crawler can access the page and whether the rendered content resembles what a reader sees.
+Review whether crawlers can access the pages and whether the rendered content resembles what a reader sees.
 
 ### 18.4 Indexing Reports
 
@@ -1042,11 +1117,11 @@ Where sufficient search data becomes available, review:
 - Page performance.
 - Language-related discovery patterns.
 
-Use these observations to improve the publication's usefulness rather than to force its editorial content into popular search queries.
+Use these observations to improve the publication's usefulness rather than forcing its editorial content into popular search queries.
 
 ## 19. Search Discovery and Indexing Limitations
 
-Search engines decide independently whether and how to crawl, index, and display public pages.
+Search engines decide independently whether and how to crawl, index and display public pages.
 
 Even technically correct pages may not appear in search results.
 
@@ -1062,7 +1137,7 @@ Possible reasons include:
 
 Submission of a sitemap does not compel indexing.
 
-Likewise, structured data, social metadata, and machine-readable documentation do not establish guaranteed ranking or visibility.
+Likewise, structured data, social metadata and machine-readable documentation do not guarantee ranking or visibility.
 
 The publication should respond to documented technical issues without interpreting every absence from search results as evidence of a technical or editorial failure.
 
@@ -1075,7 +1150,9 @@ Before treating the discovery infrastructure as complete, review the following.
 - [ ] Publication name is consistent.
 - [ ] Tagline is consistent.
 - [ ] Website URL is correct.
-- [ ] Author and publication information are accurate.
+- [ ] Publication type is described accurately.
+- [ ] Author and research-profile information are accurate.
+- [ ] The editor's research identity is not confused with the journal's publication scope.
 
 ### URLs and canonical metadata
 
@@ -1100,6 +1177,7 @@ Before treating the discovery infrastructure as complete, review the following.
 - [ ] Urdu right-to-left presentation works.
 - [ ] English translations are identified correctly.
 - [ ] Transliteration is distinguished from translation.
+- [ ] Language-specific passages have appropriate semantic markup.
 - [ ] Language alternatives are not artificially represented as alternate pages.
 
 ### Crawl and index controls
@@ -1108,7 +1186,7 @@ Before treating the discovery infrastructure as complete, review the following.
 - [ ] Sitemap URLs use canonical destinations.
 - [ ] `lastmod` values are meaningful.
 - [ ] Robots policy is understood within the correct origin scope.
-- [ ] `noindex` directives are used appropriately.
+- [ ] Page-level indexing directives are used appropriately.
 - [ ] Essential resources are crawlable.
 
 ### Discovery resources
@@ -1116,7 +1194,7 @@ Before treating the discovery infrastructure as complete, review the following.
 - [ ] RSS feed is valid.
 - [ ] `llms.txt` is accessible.
 - [ ] `llms-full.txt` is accessible.
-- [ ] `humans.txt` is accessible.
+- [ ] `humans.txt` is accessible, if maintained.
 - [ ] `CITATION.cff` is accurate.
 
 ### User experience
@@ -1174,10 +1252,11 @@ Expand:
 
 - Weekly collection discovery.
 - Language-based navigation.
-- Category and tag indexes.
+- Literary category and tag indexes.
 - Author and contributor indexes.
 - Related literary explorations.
-- Scientific subject indexes.
+- Thematic literary collections.
+- Optional specialist subject indexes for articles that genuinely require them.
 
 ### Stage 5 — Monitoring and Improvement
 
@@ -1198,7 +1277,6 @@ These stages may overlap, but each should be implemented only after its technica
 This document should be read alongside:
 
 - `README.md`
-- `SEO_AND_DISCOVERY.md`
 - `ARCHIVE_NAVIGATION_SPEC.md`
 - `SEARCH_SPEC.md`
 - `ARTICLE_METADATA_REFERENCE.md`
@@ -1218,16 +1296,23 @@ This document should be read alongside:
 - `feed.xml`
 - `llms.txt`
 - `llms-full.txt`
+- `CITATION.cff`
 
 Changes to the actual site implementation should be reflected in the relevant documentation.
 
+Documentation should distinguish between existing functionality, proposed improvements and features that have not yet been implemented.
+
 ## 23. Continuing Commitment
 
-The objective of discovery at Verse & Variable is to make meaningful literary and intellectual work easier to find.
+The objective of discovery at Verse & Variable is to make meaningful literary work easier to find.
 
 The publication should be discoverable not merely because its pages contain searchable words, but because its content provides readers with something worth discovering.
 
-Original expression, accurate attribution, intellectual substance, multilingual respect, technical reliability, and meaningful connections between disciplines remain the foundations of its long-term visibility.
+Original expression, accurate attribution, intellectual substance, multilingual respect, technical reliability and meaningful interpretation remain the foundations of its long-term visibility.
+
+The editor's broader intellectual interests may enrich the publication, but search strategy must not turn them into compulsory subjects or artificial classifications.
+
+The archive should grow through literary quality, cultural and linguistic depth, responsible interpretation and sustained editorial care.
 
 ---
 
@@ -1239,6 +1324,9 @@ The following resources provide official or standards-based guidance for maintai
 
 - Google Search Central — SEO fundamentals:  
   https://developers.google.com/search/docs/fundamentals/get-started
+
+- Google Search Central — SEO Starter Guide:  
+  https://developers.google.com/search/docs/fundamentals/seo-starter-guide
 
 - Google Search Central — Search and indexing guidance:  
   https://developers.google.com/search/docs/crawling-indexing
@@ -1261,10 +1349,13 @@ The following resources provide official or standards-based guidance for maintai
 - Google Search Central — Localised versions of pages:  
   https://developers.google.com/search/docs/specialty/international/localized-versions
 
-- Google Search Central — Multilingual and multi-regional websites:  
+- Google Search Central — Managing multilingual and multi-regional sites:  
   https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites
 
 ### Structured data
+
+- Google Search Central — General structured-data guidelines:  
+  https://developers.google.com/search/docs/appearance/structured-data/sd-policies
 
 - Google Search Central — Article structured data:  
   https://developers.google.com/search/docs/appearance/structured-data/article
