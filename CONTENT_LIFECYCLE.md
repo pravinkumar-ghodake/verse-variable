@@ -8,11 +8,13 @@
 
 This document establishes the lifecycle management principles for all content published by Verse & Variable.
 
+Verse & Variable is an independent Indian literary journal focused on Indian literature across languages, traditions, historical periods and literary forms.
+
 The publication is intended to become a growing multilingual archive of Indian literature and its many expressions, interpretations and connections with human experience.
 
 Its content will evolve through literary discovery, source verification, linguistic and cultural research, editorial development, technical maintenance, corrections and the discovery of additional historical information.
 
-The editor's wider intellectual interests include international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests inform the perspective brought to the journal, but they do not expand the present editorial scope of the archive beyond Indian literature.
+The editor's wider intellectual interests include Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests inform the perspective brought to the journal, but they do not expand the present editorial scope of the archive beyond Indian literature.
 
 A clear content lifecycle helps ensure that published material remains:
 
@@ -40,6 +42,7 @@ The content lifecycle applies to:
 - Original translations.
 - Published translations and adaptations.
 - Historical and cultural contextual material.
+- Linguistic explorations.
 - Philosophical reflections arising from literary works.
 - Supplementary illustrations and multimedia.
 - Informational and editorial pages.
@@ -100,6 +103,12 @@ Withdrawal should be handled deliberately and should not be confused with ordina
 
 The lifecycle should support a publication that can grow over many years without depending on undocumented editorial decisions or fragile technical processes.
 
+### 3.7 Literary Independence
+
+Every literary expression should retain the freedom to be interpreted on its own terms.
+
+An editorial perspective may draw upon a wider range of intellectual interests, but these should never be imposed upon a work as predetermined interpretative requirements.
+
 ## 4. Lifecycle Overview
 
 The general lifecycle is:
@@ -108,21 +117,22 @@ The general lifecycle is:
 2. Literary selection.
 3. Initial assessment.
 4. Source verification and relevant research.
-5. Language, cultural and contextual research.
-6. Rights and attribution review.
+5. Rights and attribution review.
+6. Language, cultural and contextual research.
 7. Draft preparation.
 8. Editorial review.
 9. Technical and accessibility review.
 10. Publication approval.
-11. Public release.
-12. Post-publication monitoring.
-13. Correction or revision, where necessary.
-14. Long-term archival maintenance.
-15. Withdrawal or retirement, where justified.
+11. Weekly collection preparation, where applicable.
+12. Public release.
+13. Post-publication monitoring.
+14. Correction or revision, where necessary.
+15. Long-term archival maintenance.
+16. Withdrawal or retirement, where justified.
 
 A simplified process is:
 
-<escape>
+```text
 LITERARY IDEA
       |
       v
@@ -135,7 +145,10 @@ INITIAL ASSESSMENT
 SOURCE VERIFICATION
       |
       v
-LANGUAGE AND CONTEXTUAL RESEARCH
+RELEVANT RESEARCH
+      |
+      v
+RIGHTS AND ATTRIBUTION REVIEW
       |
       v
 DRAFT PREPARATION
@@ -144,30 +157,37 @@ DRAFT PREPARATION
 EDITORIAL REVIEW
       |
       v
-TECHNICAL REVIEW
+TECHNICAL AND ACCESSIBILITY REVIEW
+      |
+      v
+PUBLICATION APPROVAL
+      |
+      v
+WEEKLY COLLECTION PREPARATION
       |
       v
 PUBLICATION
       |
       v
-MAINTENANCE
+POST-PUBLICATION MAINTENANCE
       |
-      +----------------------+
-      |                      |
-      v                      v
-   REVISION               RETENTION
-      |                      |
-      v                      |
-  RE-REVIEW                  |
-      |                      |
-      +----------+-----------+
-                 |
-                 v
-          LONG-TERM ARCHIVE
+      +-------------------------+
+      |                         |
+      v                         v
+   REVISION                  RETENTION
+      |                         |
+      v                         |
+  RE-REVIEW                     |
+      |                         |
+      +------------+------------+
+                   |
+                   v
+            LONG-TERM ARCHIVE
 
 Where necessary:
+PUBLICATION --> TEMPORARY RESTRICTION --> REVIEW
 PUBLICATION --> WITHDRAWAL
-</escape>
+```
 
 Optional scientific verification or specialist consultation may occur when an individual article requires it.
 
@@ -190,7 +210,7 @@ Potential starting points include:
 
 The selection may also arise from the editor's wider reading, research background or intellectual interests.
 
-However, the published exploration should begin with a literary expression rather than an independent scientific or technical subject seeking a literary connection.
+However, the published exploration should begin with an Indian literary expression rather than an independent scientific or technical subject seeking a literary connection.
 
 An idea is not automatically accepted for publication.
 
@@ -236,6 +256,16 @@ Consider:
 - Copyright and permission considerations.
 
 The present editorial scope is focused on Indian literature and its diverse languages, literary forms and cultural traditions.
+
+The current archive includes seven principal language traditions:
+
+- Urdu.
+- Hindi.
+- Marathi.
+- Kannada.
+- Tamil.
+- Malayalam.
+- Telugu.
 
 The editor's wider interests include Indian and international literature and other intellectual disciplines. These interests may inform the perspective brought to a selection, but do not create additional publication categories for the current archive.
 
@@ -287,6 +317,8 @@ Do the intended historical, linguistic or other factual claims have adequate sup
 
 Where a scientific concept genuinely arises from the literary interpretation, can it be investigated accurately without distorting the original expression?
 
+Scientific investigation is not necessary where no substantive scientific claim is being made.
+
 ### Editorial contribution
 
 Will the article contribute something substantive and original to the archive?
@@ -337,7 +369,18 @@ Scientific research is undertaken only when the literary reflection contains sub
 
 It should not be initiated simply to provide an interdisciplinary component.
 
-Where such research is undertaken, distinguish established knowledge, theoretical predictions, numerical observations, experimental findings and interpretative analogies.
+Where such research is undertaken, distinguish:
+
+- Established scientific knowledge.
+- Theoretical predictions.
+- Mathematical relationships.
+- Proposed physical mechanisms.
+- Numerical observations.
+- Experimental findings.
+- Interpretative analogies.
+- Speculative hypotheses.
+
+These categories should not be presented as interchangeable.
 
 ### 8.4 Research Completion
 
@@ -395,11 +438,79 @@ Possible outcomes include:
 
 See `COPYRIGHT.md` and `ASSET_CREDITS.md`.
 
-## 10. Stage Six — Draft Preparation
+### 9.3 Rights Records
+
+Where appropriate, record the relevant rights information in:
+
+`RIGHTS_AND_PERMISSIONS_REGISTER.md`
+
+Do not place confidential permission correspondence or private legal records in a public repository.
+
+## 10. Stage Six — Language, Cultural and Contextual Research
+
+The selected literary expression should be understood in its linguistic and cultural setting before the final article is prepared.
+
+Research may involve:
+
+- Vocabulary and idiom.
+- Grammar and syntax.
+- Regional and dialectal usage.
+- Historical meanings.
+- Literary conventions.
+- Metaphorical and symbolic expressions.
+- Cultural and philosophical references.
+- Relevant social and historical context.
+
+### 10.1 Original Language
+
+The original language remains the primary reference for interpreting the work.
+
+Do not reduce a complex expression to an arbitrary single English equivalent.
+
+### 10.2 Transliteration
+
+Where useful, prepare a consistent transliteration that helps readers approach the original words.
+
+Do not confuse transliteration with translation.
+
+### 10.3 Pronunciation
+
+Where useful, provide a separate pronunciation guide.
+
+It should clarify relevant sounds, regional forms or pronunciation distinctions without unnecessarily duplicating the transliteration.
+
+### 10.4 Translation
+
+Translation should preserve meaning, tone, imagery and emotional character as far as practical.
+
+Where an existing published translation is used, identify its translator and consider reproduction rights.
+
+Where a new translation is prepared, identify it accurately as an original editorial translation or adaptation, as appropriate.
+
+### 10.5 Cultural Context
+
+Interpretation should account for the cultural and historical setting of the work.
+
+Avoid:
+
+- Removing expressions from their cultural context.
+- Treating one regional interpretation as universal.
+- Imposing contemporary meanings without explanation.
+- Flattening religious, philosophical or historical references.
+- Treating linguistic differences as errors.
+- Presenting personal interpretation as established historical fact.
+
+Cultural context should deepen the reading rather than become unnecessary background material.
+
+## 11. Stage Seven — Draft Preparation
 
 The article is prepared using:
 
 `ARTICLE_TEMPLATE.md`
+
+External contributors may use:
+
+`SUBMISSION_TEMPLATE.md`
 
 The draft should contain the elements appropriate to the selected work.
 
@@ -418,7 +529,7 @@ These may include:
 - References.
 - Supplementary notes.
 
-### 10.1 Length and Structure of the Reflection
+### 11.1 Length and Structure of the Reflection
 
 Each individual literary exploration should contain no more than four concise paragraphs of principal English commentary.
 
@@ -430,7 +541,7 @@ The reflection should develop naturally from the literary work, following its la
 
 A shorter, complete reflection should not be expanded merely to reach a numerical target.
 
-### 10.2 Possible Movements of Thought
+### 11.2 Possible Movements of Thought
 
 The reflection may naturally move through:
 
@@ -443,7 +554,7 @@ These are possible movements of thought, not four mandatory paragraphs.
 
 A particular article may combine, omit or emphasise these movements according to the nature of its literary expression.
 
-### 10.3 Draft Integrity
+### 11.3 Draft Integrity
 
 The draft should distinguish:
 
@@ -458,13 +569,35 @@ Do not present sourced text as original writing.
 
 Where interpretation is uncertain, express that uncertainty appropriately.
 
-## 11. Stage Seven — Editorial Review
+### 11.4 Metadata Preparation
+
+Prepare article metadata in accordance with:
+
+`ARTICLE_METADATA_REFERENCE.md`
+
+The standard metadata conventions include:
+
+- `title`
+- `date`
+- `description`
+- `week_id`
+- `entry_number`
+- `language_id`
+- `language_code`
+- `author_name`, where applicable
+- `literary_form`, where applicable
+
+Fields such as `original_text`, `transliteration`, `pronunciation_guide` and `translation` should be included where relevant and supported by the current layout.
+
+Do not assume that a field will appear on the published page merely because it has been added to YAML frontmatter.
+
+## 12. Stage Eight — Editorial Review
 
 The completed draft undergoes editorial review.
 
-The review should consider:
+### 12.1 Literary Quality
 
-### Literary quality
+Consider:
 
 - Is the original expression accurately represented?
 - Does the interpretation engage meaningfully with the work?
@@ -472,7 +605,9 @@ The review should consider:
 - Is the cultural context respected?
 - Does the reflection preserve the emotional character of the work?
 
-### Linguistic quality
+### 12.2 Linguistic Quality
+
+Consider:
 
 - Is the original language correctly identified?
 - Is the transliteration appropriate?
@@ -480,7 +615,9 @@ The review should consider:
 - Are ambiguities handled carefully?
 - Are language-specific conventions respected?
 
-### Intellectual quality
+### 12.3 Intellectual Quality
+
+Consider:
 
 - Are philosophical interpretations reasonable?
 - Are factual statements supported?
@@ -488,7 +625,9 @@ The review should consider:
 - Are assumptions and limitations clear?
 - Are established findings distinguished from hypotheses?
 
-### Emotional and narrative quality
+### 12.4 Emotional and Narrative Quality
+
+Consider:
 
 - Does the reflection have a natural progression?
 - Are transitions between observations coherent?
@@ -496,14 +635,18 @@ The review should consider:
 - Does the conclusion emerge naturally?
 - Has the reflection been kept concise without losing meaningful depth?
 
-### Structural quality
+### 12.5 Structural Quality
+
+Consider:
 
 - Does the article follow the established template?
 - Does the reflection contain no more than four concise paragraphs?
 - Are supplementary materials appropriate?
 - Is the presentation consistent with the publication's identity?
 
-### Research integrity
+### 12.6 Research Integrity
+
+Consider:
 
 - Are important claims supported?
 - Are references accurate?
@@ -512,7 +655,7 @@ The review should consider:
 
 An article that does not meet important editorial standards should be revised before moving to publication approval.
 
-## 12. Stage Eight — Technical and Accessibility Review
+## 13. Stage Nine — Technical and Accessibility Review
 
 The reviewed article must also work correctly within the website.
 
@@ -537,7 +680,7 @@ This includes checking:
 - Image descriptions.
 - Reduced-motion behaviour.
 
-### 12.1 Build Verification
+### 13.1 Build Verification
 
 Check that the Jekyll build completes successfully.
 
@@ -545,7 +688,7 @@ A successful source-file commit is not sufficient evidence that the generated we
 
 Inspect the rendered page after deployment.
 
-### 12.2 Weekly Collection Integration
+### 13.2 Weekly Collection Integration
 
 Verify that the article appears in the intended weekly collection.
 
@@ -553,11 +696,11 @@ The publication's intended weekly structure consists of three independent litera
 
 All associated entries should use the correct shared `week_id` and distinct `entry_number` values.
 
-## 13. Stage Nine — Publication Approval
+## 14. Stage Ten — Publication Approval
 
 An article should be approved for publication only when its editorial, research, rights and technical requirements have been addressed.
 
-### 13.1 Publication Readiness
+### 14.1 Publication Readiness
 
 Before release, verify that:
 
@@ -571,7 +714,7 @@ Before release, verify that:
 - The page renders correctly.
 - The article's permanent URL is established.
 
-### 13.2 Approval Decision
+### 14.2 Approval Decision
 
 Possible outcomes include:
 
@@ -585,44 +728,118 @@ Approval should not be interpreted as a guarantee that an article can never requ
 
 Editorial knowledge can develop after publication.
 
-## 14. Stage Ten — Publication and Release
+## 15. Stage Eleven — Weekly Collection Preparation
 
-Approved content is added to the appropriate Jekyll collection.
-
-### 14.1 Individual Article Publication
-
-The entry should be created within:
-
-`_entries/`
-
-The article should contain the approved frontmatter and content.
-
-### 14.2 Weekly Collection Publication
-
-The weekly collection should be created within:
-
-`_weeks/`
+Once the three individual explorations have reached an appropriate editorial stage, prepare the corresponding weekly collection.
 
 Use:
 
 `WEEKLY_COLLECTION_TEMPLATE.md`
 
+The collection should bring the articles together without requiring them to share a common theme or reproduce their complete contents.
+
+### 15.1 Weekly Identifier
+
+Use the established identifier format:
+
+`week-YYYY-NN`
+
+For example:
+
+`week-2026-46`
+
+Use the same `week_id` in:
+
+- The weekly collection frontmatter.
+- Article One.
+- Article Two.
+- Article Three.
+- Relevant internal editorial records.
+
+This convention must remain consistent with `ARTICLE_METADATA_REFERENCE.md` and `WEEKLY_COLLECTION_TEMPLATE.md`.
+
+### 15.2 Collection Introduction
+
+Prepare a short introduction that may describe:
+
+- The three selected literary expressions.
+- Their languages and literary forms.
+- Relevant literary or cultural context.
+- Their individual character.
+- Any meaningful relationship between them, where one exists.
+
+A shared theme is optional.
+
+The collection may introduce three independent works without manufacturing an intellectual connection.
+
+### 15.3 Article Presentation
+
+The collection should:
+
+- Present the three intended entries.
+- Link to each permanent article page.
+- Preserve the correct entry sequence.
+- Display accurate article titles and descriptions.
+- Identify languages and literary forms where supported.
+- Avoid duplicating article content already available on the permanent pages.
+
+### 15.4 Optional Editorial Perspective
+
+A short editorial note may be included when it adds genuine value.
+
+It may describe the reason for selecting the works together, their differences, or a meaningful relationship that emerges naturally.
+
+It may also be omitted entirely.
+
+There is no requirement for a concluding synthesis or a scientific or interdisciplinary interpretation of the collection.
+
+### 15.5 Collection Verification
+
+Verify that:
+
+- All three articles use the correct `week_id`.
+- Entry numbers are 1, 2 and 3.
+- The weekly collection uses the matching identifier.
+- The weekly layout finds the intended entries.
+- Links resolve to the correct permanent pages.
+- No duplicate article cards have been introduced.
+
+The collection should complement the articles without making them dependent on one another.
+
+## 16. Stage Twelve — Publication and Release
+
+Approved content is added to the appropriate Jekyll collection.
+
+### 16.1 Individual Article Publication
+
+The entry should be created within the configured entries collection directory:
+
+`_entries/`
+
+The article should contain the approved frontmatter and content.
+
+### 16.2 Weekly Collection Publication
+
+The weekly collection should be created within the configured weeks collection directory:
+
+`_weeks/`
+
 Verify that the intended three articles are associated with the correct weekly identifier.
 
-### 14.3 Deployment
+### 16.3 Deployment
 
 After the repository changes are committed:
 
 1. Allow the configured GitHub Pages publishing workflow to process the changes.
 2. Confirm that the build and deployment complete successfully.
-3. Open the permanent article URL.
+3. Open each permanent article URL.
 4. Check the original text and translations.
 5. Inspect article formatting.
 6. Verify navigation.
 7. Check the weekly collection.
-8. Confirm that the page is publicly accessible.
+8. Confirm that the pages are publicly accessible.
 
-### 14.4 Release Record
+### 16.4 Release Record
 
 The publication should retain the relevant Git commit history.
 
@@ -632,7 +849,7 @@ Significant publication-level changes may also be recorded in:
 
 The original article URL should remain stable after release unless a justified change is necessary.
 
-## 15. Stage Eleven — Post-Publication Monitoring
+## 17. Stage Thirteen — Post-Publication Monitoring
 
 Published material remains subject to ongoing review.
 
@@ -655,13 +872,13 @@ Not every new interpretation requires a revision.
 
 However, substantive factual errors should not be ignored simply because an article has already been published.
 
-## 16. Article Revision and Version History
+## 18. Article Revision and Version History
 
 Articles may require modification after publication.
 
 Revisions should be classified according to their significance.
 
-### 16.1 Minor Corrections
+### 18.1 Minor Corrections
 
 Examples include:
 
@@ -675,7 +892,7 @@ These changes may not require a prominent editorial correction notice.
 
 The corresponding source changes should remain available through the repository's version history.
 
-### 16.2 Substantive Corrections
+### 18.2 Substantive Corrections
 
 Examples include:
 
@@ -691,7 +908,7 @@ Such corrections should be made deliberately and documented appropriately.
 
 Where the correction changes the reader's understanding of the article, a visible correction note may be warranted.
 
-### 16.3 Editorial Revisions
+### 18.3 Editorial Revisions
 
 The commentary may occasionally be improved without correcting a factual error.
 
@@ -706,19 +923,19 @@ Examples include:
 
 A substantial interpretative revision should be distinguishable from a minor language edit when the difference is material to the article.
 
-### 16.4 Revision Dates
+### 18.4 Revision Dates
 
 Where displayed or represented in metadata, `dateModified` should reflect a genuine meaningful modification.
 
 Do not update article modification dates automatically on every website rebuild.
 
-### 16.5 Version History
+### 18.5 Version History
 
 The Git repository provides an important record of changes to source files.
 
 Avoid rewriting repository history in ways that unnecessarily destroy the historical record of published material.
 
-## 17. Corrections and Reader Feedback
+## 19. Corrections and Reader Feedback
 
 Reader feedback is an important part of maintaining a reliable archive.
 
@@ -735,7 +952,7 @@ Feedback may concern:
 - Accessibility.
 - Technical presentation.
 
-### 17.1 Reviewing a Correction
+### 19.1 Reviewing a Correction
 
 When a concern is received:
 
@@ -748,7 +965,7 @@ When a concern is received:
 7. Update the content if justified.
 8. Record the change where appropriate.
 
-### 17.2 Correction Outcomes
+### 19.2 Correction Outcomes
 
 Possible outcomes include:
 
@@ -761,7 +978,7 @@ Possible outcomes include:
 
 A correction request should be assessed on its evidence rather than on the identity or prominence of the person submitting it.
 
-### 17.3 Correction Transparency
+### 19.3 Correction Transparency
 
 Do not silently make a major correction that materially changes a published claim when readers would reasonably benefit from knowing about the change.
 
@@ -774,7 +991,7 @@ A concise correction note may explain:
 
 See `EDITORIAL_POLICY.md` and `RESEARCH_STANDARDS.md`.
 
-## 18. Temporary Restriction and Withdrawal
+## 20. Temporary Restriction and Withdrawal
 
 There may be circumstances in which continued public availability of an article requires reconsideration.
 
@@ -788,13 +1005,13 @@ Examples include:
 - A legal requirement.
 - A serious ethical concern.
 
-### 18.1 Temporary Restriction
+### 20.1 Temporary Restriction
 
 Where immediate review is necessary, temporarily restricting public access may be appropriate.
 
 The action should be proportionate to the issue.
 
-### 18.2 Withdrawal
+### 20.2 Withdrawal
 
 Withdrawal is a significant editorial decision.
 
@@ -808,19 +1025,19 @@ Possible reasons include:
 - Material that should not have been publicly disclosed.
 - Legal or ethical obligations requiring removal.
 
-### 18.3 Preservation of Editorial Records
+### 20.3 Preservation of Editorial Records
 
 Where legally and ethically permissible, retain appropriate internal records explaining the withdrawal decision and the publication history.
 
 Do not expose confidential correspondence, personal information or sensitive material merely to demonstrate that a withdrawal occurred.
 
-### 18.4 Public Notice
+### 20.4 Public Notice
 
 Depending on the circumstances, a public notice may explain that material has been withdrawn or revised.
 
 The notice should not reproduce the problematic material or reveal protected information unnecessarily.
 
-### 18.5 Permanent Removal
+### 20.5 Permanent Removal
 
 A withdrawn page may be removed or replaced with an appropriate explanatory page.
 
@@ -828,13 +1045,13 @@ Check related links, weekly collections, archive entries, sitemap information an
 
 Do not leave broken navigation or continue presenting withdrawn material as an active article.
 
-## 19. Long-Term Archival Preservation
+## 21. Long-Term Archival Preservation
 
 A major objective of Verse & Variable is to maintain a durable literary archive.
 
 Long-term preservation requires more than keeping public URLs available.
 
-### 19.1 Source Preservation
+### 21.1 Source Preservation
 
 Retain relevant project source files within the repository, subject to applicable rights and licensing conditions.
 
@@ -849,7 +1066,7 @@ These may include:
 - Documentation.
 - Appropriate supporting assets.
 
-### 19.2 Research Documentation
+### 21.2 Research Documentation
 
 Maintain relevant research references and source records.
 
@@ -864,7 +1081,7 @@ Where appropriate, preserve:
 
 Do not retain confidential or restricted information merely for completeness.
 
-### 19.3 Git History
+### 21.3 Git History
 
 Git history provides a record of repository changes.
 
@@ -872,19 +1089,19 @@ Use meaningful commit messages.
 
 Avoid unnecessary rewriting or deletion of history.
 
-### 19.4 Static Content Resilience
+### 21.4 Static Content Resilience
 
 Where practical, publish core literary content in standard, portable formats such as Markdown, text and valid HTML.
 
 Avoid making the long-term readability of an article depend exclusively on a temporary third-party script or service.
 
-### 19.5 External Dependencies
+### 21.5 External Dependencies
 
 Review external fonts, libraries, scripts and embedded resources periodically.
 
 Where an external resource becomes unavailable, consider a suitable alternative while preserving the original article's meaning and presentation.
 
-### 19.6 Backup Considerations
+### 21.6 Backup Considerations
 
 A public repository is useful for version control and distribution, but should not be assumed to be the only preservation copy.
 
@@ -892,7 +1109,7 @@ Consider maintaining independent backups of important repository content and pub
 
 Backups should be tested periodically.
 
-## 20. Publication Status Vocabulary
+## 22. Publication Status Vocabulary
 
 For consistent editorial management, the following status vocabulary is recommended.
 
@@ -911,7 +1128,7 @@ For consistent editorial management, the following status vocabulary is recommen
 | `archived` | Retained but no longer actively promoted or maintained as current content |
 | `withdrawn` | Removed or replaced because of a significant issue |
 
-### 20.1 Status Is Not Automatically a Jekyll Field
+### 22.1 Status Is Not Automatically a Jekyll Field
 
 These statuses are editorial workflow conventions.
 
@@ -919,13 +1136,13 @@ They do not imply that the existing Jekyll templates or layouts already support 
 
 If statuses are introduced in article frontmatter or an editorial tracking tool, their implementation should be documented and tested separately.
 
-### 20.2 Publication Visibility
+### 22.2 Publication Visibility
 
 Only material approved for public release should appear as published content.
 
 Drafts, internal research notes and confidential information should not be included accidentally in public collections or generated search indexes.
 
-### 20.3 Archived Versus Withdrawn
+### 22.3 Archived Versus Withdrawn
 
 These statuses represent different decisions.
 
@@ -935,7 +1152,7 @@ A withdrawn article has been removed from active publication because continued a
 
 Do not treat them as interchangeable.
 
-## 21. Relationship with Weekly Publication Cycles
+## 23. Relationship with Weekly Publication Cycles
 
 The publication's intended weekly format consists of three independent literary explorations focused on Indian literature.
 
@@ -943,29 +1160,41 @@ Each article should pass through its own research and editorial process.
 
 The three articles are then brought together through a weekly collection page.
 
-### 21.1 Independent Approval
+### 23.1 Independent Approval
 
 One article should not automatically be considered ready because the other two are complete.
 
 Each must meet the necessary standards independently.
 
-### 21.2 Weekly Collection Readiness
+### 23.2 Weekly Identifier
 
-A weekly collection should be considered ready only when its intended article links and collection metadata have been checked.
+Use the established format:
 
-### 21.3 Schedule Flexibility
+`week-YYYY-NN`
+
+For example:
+
+`week-2026-46`
+
+The same identifier must appear in the weekly collection and all three associated entries.
+
+### 23.3 Weekly Collection Readiness
+
+A weekly collection should be considered ready only when its intended article links, shared metadata and collection presentation have been checked.
+
+### 23.4 Schedule Flexibility
 
 If one exploration requires further verification, the publication should prioritise quality rather than force the article into an artificial deadline.
 
 An incomplete article should not be treated as published merely to maintain a three-article schedule.
 
-### 21.4 No Required Scientific Balance
+### 23.5 No Required Scientific Balance
 
 The three articles do not need to include a scientific subject, an interdisciplinary comparison or a predetermined distribution of literary and scientific content.
 
 Their value lies in the quality and individuality of their literary expressions and reflections.
 
-## 22. Technical and Administrative Responsibilities
+## 24. Technical and Administrative Responsibilities
 
 The lifecycle is an editorial framework, but its implementation depends on maintaining the technical publication system.
 
@@ -986,7 +1215,7 @@ The website's scientific and wave-inspired visual language may continue to expre
 
 Changes to technical infrastructure should be reflected in relevant documentation and the changelog.
 
-## 23. Lifecycle Review Checklist
+## 25. Lifecycle Review Checklist
 
 Before an individual article is treated as a completed publication item, review its lifecycle.
 
@@ -994,7 +1223,7 @@ Before an individual article is treated as a completed publication item, review 
 
 - [ ] Literary selection is justified.
 - [ ] Original source is identified.
-- [ ] Original text is verified.
+- [ ] Original text is verified where applicable.
 - [ ] Attribution is checked.
 - [ ] Language and cultural context are researched.
 - [ ] Important factual and historical claims are supported.
@@ -1006,6 +1235,7 @@ Before an individual article is treated as a completed publication item, review 
 - [ ] Translation status is identified.
 - [ ] Original commentary is complete.
 - [ ] Reflection contains no more than four concise paragraphs.
+- [ ] No mandatory paragraph sequence has been imposed.
 - [ ] Emotional and intellectual continuity is maintained.
 - [ ] References are included where necessary and relevant.
 
@@ -1027,20 +1257,24 @@ Before an individual article is treated as a completed publication item, review 
 - [ ] External dependencies are reviewed where necessary.
 - [ ] Backup arrangements are considered.
 
-## 24. Relationship with Other Documentation
+## 26. Relationship with Other Documentation
 
 This document should be maintained alongside:
 
 - `EDITORIAL_POLICY.md`
 - `EDITORIAL_WORKFLOW.md`
+- `WEEKLY_PUBLICATION_WORKFLOW.md`
+- `WEEKLY_COLLECTION_TEMPLATE.md`
+- `ARTICLE_METADATA_REFERENCE.md`
 - `RESEARCH_STANDARDS.md`
 - `SOURCE_REGISTER.md`
 - `ARTICLE_TEMPLATE.md`
-- `WEEKLY_COLLECTION_TEMPLATE.md`
-- `ARTICLE_METADATA_REFERENCE.md`
+- `SUBMISSION_GUIDELINES.md`
+- `SUBMISSION_TEMPLATE.md`
 - `TRANSLATION_GUIDELINES.md`
 - `COPYRIGHT.md`
 - `ASSET_CREDITS.md`
+- `RIGHTS_AND_PERMISSIONS_REGISTER.md`
 - `CHANGELOG.md`
 - `ROADMAP.md`
 - `PRIVACY.md`
@@ -1052,7 +1286,7 @@ Each document addresses a different part of the publication's operation.
 
 The content lifecycle connects these practices into one continuing process.
 
-## 25. Continuing Commitment
+## 27. Continuing Commitment
 
 A literary archive should not be regarded as a collection of pages that become irrelevant once published.
 
@@ -1063,6 +1297,8 @@ The responsibility of Verse & Variable extends beyond the first publication of a
 Its objective is to maintain an archive in which original expression is respected, research remains traceable, corrections are handled responsibly, and valuable literary and intellectual material can remain accessible over time.
 
 Every article should be allowed to retain its own voice, language, emotional character and interpretative possibilities.
+
+The wider intellectual perspective may enrich that reading, but it should never be imposed upon it.
 
 **Verse & Variable**  
 *A line of verse. A line of inquiry.*  
