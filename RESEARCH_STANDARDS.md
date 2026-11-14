@@ -1,4 +1,3 @@
-
 # Research Standards
 
 **Verse & Variable**  
@@ -9,9 +8,13 @@
 
 This document establishes the standards for researching, verifying, interpreting, documenting, and referencing information published on Verse & Variable.
 
-The publication explores literature and intellectual traditions across languages while also engaging with philosophy, history, mathematics, mechanics, physics, and other scientific disciplines.
+Verse & Variable is an independent Indian literary journal focused on Indian literature across languages, literary traditions, historical periods, and forms.
 
-Such interdisciplinary work requires a clear distinction between different forms of knowledge and evidence.
+Research supports the publication's engagement with original literary expressions, their linguistic and cultural contexts, historical backgrounds, translations, and interpretative possibilities.
+
+The editor's wider intellectual interests include Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport, and lived experience. These interests may inform the perspective brought to an article, but they do not expand the journal's present literary scope or impose additional research requirements on individual selections.
+
+Scientific and interdisciplinary knowledge may contribute to an individual literary exploration when a genuine connection emerges and materially deepens the reading. It is neither an independent publication requirement nor a compulsory stage of article preparation.
 
 The purpose of these standards is to ensure that published material is:
 
@@ -19,12 +22,14 @@ The purpose of these standards is to ensure that published material is:
 - Based on identifiable and relevant sources.
 - Faithful to original literary material.
 - Sensitive to linguistic and cultural context.
-- Scientifically accurate within its stated scope.
+- Scientifically accurate when scientific claims are made.
 - Transparent about uncertainty and limitations.
 - Properly attributed.
 - Open to correction when better evidence becomes available.
 
-These standards apply to original articles, translations, commentary, scientific explanations, illustrations, references, and other research-based material.
+These standards apply to original articles, translations, commentary, scientific explanations where relevant, illustrations, references, and other research-based material.
+
+The depth and type of research should be proportionate to the subject and claims of each contribution.
 
 ## 2. Fundamental Research Principles
 
@@ -42,11 +47,13 @@ Preference should generally be given to original texts, primary documents, origi
 
 Secondary sources remain valuable, particularly for historical context, interpretation, scholarly discussion, and literature reviews.
 
+The most appropriate source depends on the particular claim being examined.
+
 ### 2.3 Context Matters
 
 Information should not be detached from the context necessary to understand it.
 
-This includes linguistic, historical, cultural, geographical, methodological, and disciplinary context.
+This includes linguistic, historical, cultural, geographical, methodological, and disciplinary context where relevant.
 
 ### 2.4 Distinguish Evidence from Interpretation
 
@@ -66,11 +73,19 @@ When information cannot be established conclusively, the article should communic
 
 Uncertainty should not be concealed through overly confident wording.
 
+### 2.7 Proportionate Research
+
+Research should address the questions and claims that actually arise from the selected work.
+
+A literary reflection does not need additional scientific, historical, philosophical, or technical research merely to appear more comprehensive.
+
+Research should deepen understanding rather than introduce unrelated material.
+
 ## 3. Source Hierarchy and Evaluation
 
 Sources should be evaluated according to their relevance, authority, proximity to the original material, methodological quality, and reliability.
 
-No single source hierarchy applies equally to every discipline. The following framework provides a starting point.
+No single source hierarchy applies equally to every subject. The following framework provides a starting point.
 
 ### 3.1 Primary Sources
 
@@ -79,7 +94,7 @@ Primary sources provide direct or original material relevant to the subject.
 Examples include:
 
 - Original poems and literary works.
-- Authorised editions of books.
+- Authoritative editions of books.
 - Original manuscripts and archival documents.
 - Original recordings and performances.
 - Historical letters and contemporary documents.
@@ -109,6 +124,8 @@ Examples include:
 
 Secondary sources are useful for understanding broader debates and interpreting material within its disciplinary context.
 
+They should be assessed for the quality of their evidence, reasoning, references, and treatment of competing interpretations.
+
 ### 3.3 Tertiary and Discovery Sources
 
 Tertiary resources summarise or organise information from other sources.
@@ -136,6 +153,8 @@ A first-hand account may be useful evidence of an individual's experience, but i
 
 Informal sources should not replace reliable evidence when making consequential factual assertions.
 
+They may nevertheless be important for documenting oral traditions, community experiences, regional expressions, and perspectives that are not adequately represented in formal publications.
+
 ## 4. Source Quality and Verification
 
 Before relying on a source, consider:
@@ -145,7 +164,7 @@ Before relying on a source, consider:
 - Does the author have relevant expertise or direct knowledge?
 - Is the source original or derived from another source?
 - Does it provide references or supporting evidence?
-- Is its methodology transparent?
+- Is its methodology transparent, where applicable?
 - Is its publication date relevant?
 - Has the information been corrected, withdrawn, or superseded?
 - Does the source have a particular institutional, commercial, or ideological perspective?
@@ -154,6 +173,8 @@ Before relying on a source, consider:
 The reliability of a source depends on the claim being evaluated.
 
 For example, an original recording may be the strongest source for identifying a particular performance, while a scholarly biography may be more suitable for establishing the historical circumstances surrounding it.
+
+A primary source should not automatically be treated as conclusive, and a secondary source should not automatically be treated as inferior. Their suitability depends on the question being investigated.
 
 ## 5. Literary Research Standards
 
@@ -218,6 +239,16 @@ Distinguish between:
 
 Do not invent an author's intention or private motivation.
 
+### 5.5 Literary Form and Structure
+
+Where a particular literary form is identified, use the relevant terminology accurately.
+
+Consider the structure, conventions, language, and historical usage appropriate to the form.
+
+Do not assign a literary classification solely for convenience or because it resembles another form.
+
+The interpretation should respect the selected work rather than force it into a predetermined framework.
+
 ## 6. Linguistic and Translation Research
 
 Multilingual research requires particular care because meaning, tone, register, and cultural associations may not transfer directly between languages.
@@ -252,7 +283,13 @@ Where multiple transliteration systems exist, readability and linguistic accurac
 
 Do not suggest that a single Latin-script representation captures every phonetic or orthographic characteristic of the original language.
 
-### 6.4 Translation Verification
+### 6.4 Pronunciation and Regional Usage
+
+Where pronunciation guidance is included, distinguish between accepted standard pronunciations, regional forms, dialectal usage, and individual performance variations where relevant.
+
+Do not automatically treat regional pronunciation as incorrect simply because it differs from a standardised form.
+
+### 6.5 Translation Verification
 
 A translation should be evaluated in relation to:
 
@@ -268,7 +305,7 @@ Existing published translations must be attributed appropriately, and their repr
 
 Translations prepared specifically for Verse & Variable should be identified accurately as original translations or adaptations.
 
-### 6.5 Untranslatable or Ambiguous Expressions
+### 6.6 Untranslatable or Ambiguous Expressions
 
 Some expressions carry cultural, emotional, or linguistic meanings that cannot be captured fully in another language.
 
@@ -294,13 +331,43 @@ A conceptual resemblance between two philosophical traditions does not automatic
 
 Comparative discussions should explain both meaningful similarities and important differences.
 
+Philosophical research is appropriate when it contributes to understanding the selected literary expression. It is not necessary to introduce a philosophical framework into every article.
+
 ## 8. Scientific Research Standards
 
 Scientific explanations must be supported by evidence appropriate to the discipline and the nature of the claim.
 
-The publication may discuss mechanics, physics, nonlinear dynamics, acoustics, materials science, mathematics, computational methods, and related subjects.
+Scientific research is undertaken only when an individual literary exploration contains substantive scientific discussion or makes specific scientific claims.
 
-### 8.1 Preferred Scientific Sources
+It is not an obligatory stage of literary research, and the publication does not establish standalone scientific or engineering papers as independent literary submission categories.
+
+When scientific material is relevant, the standards below should be applied proportionately.
+
+### 8.1 Relevant Scientific Areas
+
+The editor's research background and intellectual interests include areas such as:
+
+- Mechanics.
+- Nonlinear dynamics.
+- Oscillations and vibrations.
+- Wave propagation.
+- Nonlinear elasticity.
+- Nonlinear ultrasonics.
+- Harmonic generation and scattering.
+- Hysteresis and contact mechanics.
+- Wave mixing.
+- Mechanical and phononic metamaterials.
+- Time-dependent physical systems.
+- Computational modelling.
+- Mathematics.
+- Physical acoustics.
+- Related areas of physics and engineering.
+
+These areas may provide useful perspectives for an individual literary exploration when a genuine connection exists.
+
+Their inclusion in this document does not imply that an article must address them.
+
+### 8.2 Preferred Scientific Sources
 
 Depending on the subject, relevant sources may include:
 
@@ -316,7 +383,7 @@ Depending on the subject, relevant sources may include:
 
 A source should be evaluated based on its actual scientific contribution, not simply its publication venue.
 
-### 8.2 Peer Review and Publication Status
+### 8.3 Peer Review and Publication Status
 
 Distinguish between:
 
@@ -333,7 +400,7 @@ A preprint should not be described as a peer-reviewed publication unless that st
 
 Publication status should be checked when it materially affects the strength of a claim.
 
-### 8.3 Scientific Claims and Evidence
+### 8.4 Scientific Claims and Evidence
 
 Scientific statements should be classified accurately.
 
@@ -354,7 +421,7 @@ Relevant distinctions include:
 
 These categories should not be treated as interchangeable.
 
-### 8.4 Equations, Variables, and Units
+### 8.5 Equations, Variables, and Units
 
 Where equations are included:
 
@@ -368,7 +435,7 @@ Where equations are included:
 
 Equations should contribute to understanding rather than function as decorative technical elements.
 
-### 8.5 Numerical Modelling and Simulation
+### 8.6 Numerical Modelling and Simulation
 
 When discussing computational studies, provide methodological context wherever the result depends on it.
 
@@ -391,7 +458,7 @@ A numerical result should not be presented as experimental verification.
 
 A model's predictions remain dependent on its formulation, assumptions, numerical implementation, and domain of applicability.
 
-### 8.6 Experimental Evidence
+### 8.7 Experimental Evidence
 
 Experimental claims should identify the relevant study or source and preserve its actual scope.
 
@@ -407,7 +474,7 @@ Where available, consider:
 
 Do not generalise a particular experiment beyond what its design and evidence support.
 
-### 8.7 Conflicting Scientific Findings
+### 8.8 Conflicting Scientific Findings
 
 Where reputable studies disagree, examine the reasons for disagreement.
 
@@ -425,19 +492,21 @@ Do not conceal disagreement simply to produce a more definitive narrative.
 
 ## 9. Interdisciplinary Research
 
-Verse & Variable encourages meaningful intellectual connections between literature and science.
+Interdisciplinary exploration is optional.
+
+A connection between literature and another discipline should be considered only when it emerges meaningfully from the selected work and offers a genuine contribution to its interpretation.
 
 Such connections require particular care because similarity of language or imagery does not establish scientific equivalence.
 
 Before introducing a connection, examine:
 
 1. What does the literary expression actually convey?
-2. What scientific concept is being considered?
+2. What other concept or discipline is being considered?
 3. Is the relationship metaphorical, philosophical, mathematical, or physical?
-4. What similarities are meaningful?
+4. Are the similarities meaningful?
 5. What differences limit the comparison?
 6. Does the connection genuinely deepen the discussion?
-7. What evidence supports the scientific explanation?
+7. What evidence supports any factual or scientific explanation?
 
 For example, a literary expression involving resonance may invite reflection on oscillatory behaviour.
 
@@ -445,7 +514,11 @@ That comparison does not establish that the literary expression describes a phys
 
 Likewise, references to instability, memory, equilibrium, transformation, or periodicity should not be converted automatically into scientific claims.
 
+A literary metaphor may remain valuable entirely within its literary and emotional context.
+
 The literary work should remain independently meaningful even when an interdisciplinary connection is introduced.
+
+Do not introduce a scientific or other disciplinary framework merely to make an article appear interdisciplinary.
 
 ## 10. Citation and Referencing Standards
 
@@ -509,6 +582,18 @@ A bibliography should not be treated as a decorative collection of titles.
 
 Do not include sources that have not been consulted or that do not substantively support the article's research.
 
+### 10.6 Literary and Contextual References
+
+Where an article discusses an original literary work, identify its source, edition, collection, or other reliable publication information wherever available.
+
+References used to establish authorship should be distinguished from those used to interpret the work.
+
+### 10.7 Scientific References
+
+Scientific references should support the particular scientific claims they accompany.
+
+Do not introduce scientific references simply to create a bibliography for a literary reflection that contains no scientific assertions.
+
 ## 11. Conflicting Information and Uncertainty
 
 Research may produce contradictory accounts, incomplete records, or competing interpretations.
@@ -532,6 +617,8 @@ Useful formulations may include:
 
 Such qualifications strengthen intellectual reliability.
 
+Not every ambiguity requires resolution. Where uncertainty is part of the literary or historical material, it may be acknowledged as such.
+
 ## 12. Use of Digital Research Tools and Artificial Intelligence
 
 Digital tools, search systems, machine translation, language models, reference managers, and other computational resources may assist the research process.
@@ -546,7 +633,7 @@ Digital tools may help with:
 - Organising research notes.
 - Comparing textual variations.
 - Identifying possible translation issues.
-- Exploring scientific terminology.
+- Exploring scientific terminology, where relevant.
 - Reviewing grammar and structure.
 - Generating preliminary research questions.
 
@@ -572,6 +659,14 @@ Generated text should not be used to disguise unattributed copying or reproduce 
 
 Do not upload confidential manuscripts, unpublished research, private correspondence, personal information, or restricted material to external tools without appropriate authority and consideration of the relevant privacy and confidentiality requirements.
 
+### 12.5 Disclosure
+
+Material AI assistance should be disclosed in accordance with:
+
+`AI_ASSISTANCE_POLICY.md`
+
+The disclosure should accurately describe the assistance provided without implying that AI use itself establishes accuracy, originality, or independent verification.
+
 ## 13. Research Notes and Documentation
 
 Research supporting an article should be documented sufficiently to permit later verification and correction.
@@ -585,7 +680,7 @@ A research record may include:
 - Relevant quotations and page numbers.
 - Translation decisions.
 - Historical or linguistic notes.
-- Scientific concepts examined.
+- Scientific concepts examined, where applicable.
 - Key assumptions and limitations.
 - Conflicting evidence.
 - Unresolved questions.
@@ -595,6 +690,10 @@ A research record may include:
 Not all internal research notes need to appear publicly.
 
 However, the published article should provide enough source information for readers to follow important factual and scholarly claims.
+
+Use `SOURCE_REGISTER.md` where a structured source record is appropriate.
+
+Do not retain confidential or restricted information merely for the sake of completeness.
 
 ## 14. Corrections and Research Updates
 
@@ -613,27 +712,43 @@ When a material problem is identified:
 
 A correction should not be concealed through an unexplained edit when it materially changes the substance of an article.
 
+Follow the relevant procedures in:
+
+- `CORRECTIONS_POLICY.md`
+- `CONTENT_LIFECYCLE.md`
+- `EDITORIAL_POLICY.md`
+
 ## 15. Research Quality Checklist
 
 Before publication, the following questions should be considered.
 
-### Literary verification
+### Literary Verification
 
 - Is the original work accurately reproduced?
 - Is the selected edition or version identifiable?
 - Is authorship properly established or qualified?
 - Are creative roles distinguished?
 - Are literary quotations and translations correctly attributed?
+- Are meaningful textual variations acknowledged?
 
-### Linguistic and cultural research
+### Linguistic and Cultural Research
 
 - Is the original language treated as the primary reference?
 - Are important expressions interpreted in context?
 - Is transliteration consistent?
+- Is pronunciation guidance accurate where included?
 - Is the translation defensible?
 - Are cultural and historical claims supported?
 
-### Scientific research
+### Philosophical Research, Where Applicable
+
+- Are philosophical concepts accurately represented?
+- Are thinkers and traditions correctly attributed?
+- Are arguments distinguished from interpretations?
+- Are competing perspectives represented fairly?
+- Are speculative conclusions identified?
+
+### Scientific Research, Where Applicable
 
 - Are technical claims supported by suitable sources?
 - Are peer-reviewed studies distinguished from preprints and reports?
@@ -642,7 +757,15 @@ Before publication, the following questions should be considered.
 - Are equations, variables, and units accurate?
 - Are speculative connections identified as such?
 
-### Citation quality
+### Interdisciplinary Research, Where Applicable
+
+- Does the connection emerge meaningfully from the literary work?
+- Are differences between the disciplines respected?
+- Are metaphors distinguished from mechanisms?
+- Does the comparison genuinely deepen the reading?
+- Is the original literary expression still central?
+
+### Citation Quality
 
 - Does every citation identify a real source?
 - Does each reference support the claim associated with it?
@@ -650,13 +773,14 @@ Before publication, the following questions should be considered.
 - Are direct quotations faithful?
 - Are stable identifiers used where available?
 
-### Editorial integrity
+### Editorial Integrity
 
 - Is original commentary distinguishable from sourced information?
 - Are uncertainties acknowledged?
 - Have contradictory sources been considered?
 - Has the material been reviewed for accuracy?
 - Does the research genuinely support the article's purpose?
+- Has unnecessary disciplinary material been avoided?
 
 ## 16. Relationship with Other Publication Policies
 
@@ -664,19 +788,36 @@ These research standards should be read alongside:
 
 - `EDITORIAL_POLICY.md`
 - `EDITORIAL_WORKFLOW.md`
+- `CONTENT_LIFECYCLE.md`
+- `ARTICLE_TEMPLATE.md`
+- `ARTICLE_METADATA_REFERENCE.md`
+- `SUBMISSION_GUIDELINES.md`
+- `SUBMISSION_TEMPLATE.md`
+- `SOURCE_REGISTER.md`
+- `TRANSLATION_GUIDELINES.md`
+- `RESEARCH_ETHICS.md`
 - `COPYRIGHT.md`
 - `ASSET_CREDITS.md`
+- `DISCLOSURE_POLICY.md`
+- `AI_ASSISTANCE_POLICY.md`
+- `EXPERT_REVIEW_POLICY.md`
+- `REVIEWER_GUIDELINES.md`
+- `CORRECTIONS_POLICY.md`
 - `DISCLAIMER.md`
-- `CONTRIBUTING.md`
-- `ACCESSIBILITY.md`
 
 Where a research question raises questions of reproduction rights, attribution, privacy, or accessibility, the corresponding policy should also be followed.
 
 ## 17. Continuing Commitment
 
-Verse & Variable seeks to build an archive in which literary sensitivity and scientific rigour can coexist.
+Verse & Variable seeks to build an archive in which literary sensitivity is supported by intellectual honesty, careful research, and respect for evidence.
 
-The value of interdisciplinary exploration depends not on the number of disciplines mentioned, but on the care with which their ideas are understood and connected.
+The value of a literary exploration does not depend on the number of disciplines mentioned or the complexity of its references.
+
+It depends on the quality of attention given to the original expression, the care with which its context is understood, and the thoughtfulness of the interpretation.
+
+Where scientific or other disciplinary knowledge genuinely contributes, it should be investigated with appropriate rigour and presented within the limits of what the evidence establishes.
+
+Where no such connection exists, the literary work should remain free to speak through its own language, imagery, history, and human significance.
 
 Research should remain curious without becoming careless, interpretative without becoming presumptuous, and intellectually ambitious without overstating what the evidence establishes.
 
