@@ -1,8 +1,10 @@
+
 # ============================================================
 # VERSE & VARIABLE
 # A line of verse. A line of inquiry.
 # Lafz se Lehar tak — From the word to the wave.
 # ============================================================
+
 
 # ------------------------------------------------------------
 # 1. PUBLICATION IDENTITY
@@ -13,10 +15,13 @@ title: "Verse & Variable"
 tagline: "Lafz se Lehar tak — From the word to the wave."
 
 description: >-
-  An independent Indian literary and scientific journal exploring
-  shayari, poetry, multilingual literature, philosophy, human
-  experience and nonlinear science, from the expressive power
-  of words to the dynamics of waves.
+  An independent Indian literary journal exploring shayari,
+  poetry, multilingual literature, philosophy and human
+  experience. Edited by Pravinkumar Ramchandra Ghodake,
+  an independent researcher whose scientific background
+  includes theoretical, computational and experimental
+  mechanics, nonlinear ultrasonics, nonlinear elastic waves,
+  mechanical metamaterials and inverse design.
 
 author:
   name: "Pravinkumar Ramchandra Ghodake"
@@ -27,6 +32,7 @@ author:
 
 repository: "pravinkumar-ghodake/verse-variable"
 
+
 # ------------------------------------------------------------
 # 2. WEBSITE ADDRESS
 # ------------------------------------------------------------
@@ -34,6 +40,7 @@ repository: "pravinkumar-ghodake/verse-variable"
 url: "https://pravinkumar-ghodake.github.io"
 
 baseurl: "/verse-variable"
+
 
 # ------------------------------------------------------------
 # 3. LANGUAGE AND ENCODING
@@ -59,7 +66,10 @@ publication:
 
   entries_per_week: 3
 
+  # Maximum of four prose paragraphs, not a mandatory count.
   paragraphs_per_entry: 4
+
+  paragraph_count_rule: "Maximum, not mandatory"
 
   publishing_frequency: "weekly"
 
@@ -92,6 +102,7 @@ publication:
       code: "te"
       script: "Telugu"
 
+
 # ------------------------------------------------------------
 # 4. JEKYLL COLLECTIONS
 # ------------------------------------------------------------
@@ -106,6 +117,7 @@ collections:
     output: true
     permalink: "/weeks/:name/"
     sort_by: date
+
 
 # ------------------------------------------------------------
 # 5. DEFAULT PAGE CONFIGURATION
@@ -141,6 +153,7 @@ defaults:
       author: "Pravinkumar Ghodake"
       lang: "en"
 
+
 # ------------------------------------------------------------
 # 6. URL AND OUTPUT SETTINGS
 # ------------------------------------------------------------
@@ -165,6 +178,7 @@ exclude:
   - ".gitignore"
   - "CONTRIBUTING.md"
 
+
 # ------------------------------------------------------------
 # 7. CONTENT PROCESSING
 # ------------------------------------------------------------
@@ -188,6 +202,7 @@ future: false
 
 strict_front_matter: true
 
+
 # ------------------------------------------------------------
 # 8. BUILD AND RENDERING
 # ------------------------------------------------------------
@@ -201,7 +216,9 @@ keep_files:
 
 # No external Jekyll plugins are required.
 # This keeps the initial GitHub Pages build simple.
+
 plugins: []
+
 
 # ------------------------------------------------------------
 # 9. AUTHOR AND SOCIAL IDENTITY
@@ -218,13 +235,20 @@ social:
 
   researchgate: "https://www.researchgate.net/profile/Pravinkumar_Ghodake"
 
+
 # ------------------------------------------------------------
 # 10. EDITORIAL CONFIGURATION
 # ------------------------------------------------------------
 
 editorial:
 
+  # Maximum of four concise prose paragraphs.
+  # Shorter reflections are equally acceptable.
   prose_paragraphs: 4
+
+  paragraph_count_rule: "Maximum, not mandatory"
+
+  paragraphs_are_mandatory: false
 
   weekly_selections: 3
 
@@ -238,12 +262,93 @@ editorial:
 
   publication_scope: "Indian literary heritage and wider South Asian literary traditions"
 
-  film_dialogue_collection: false
+  reflection_priority: "Literature, emotional engagement and human experience"
+
+  editor_perspective: "A wide-ranging intellectual background shaped by scientific research, literature, philosophy and lived experience"
+
+  scientific_knowledge:
+    role: "Part of the editor's intellectual background"
+    compulsory_in_reflections: false
+    include_when_intellectually_relevant: true
+    preserve_technical_accuracy: true
 
   scientific_analogies:
     forced: false
     require_intellectual_relevance: true
     preserve_physical_accuracy: true
+
+  film_dialogue_collection: false
+
+
+# ------------------------------------------------------------
+# 11. SCIENTIFIC RESEARCH IDENTITY AND SEO
+# ------------------------------------------------------------
+
+# These terms preserve the editor's scientific research
+# identity and research-related discoverability.
+#
+# They describe the editor's background and research interests.
+# They do not define the compulsory subject matter of
+# individual literary reflections.
+
+research_identity:
+
+  author: "Pravinkumar Ramchandra Ghodake"
+
+  professional_identity: "Independent Researcher"
+
+  research_affiliation: "Indian Institute of Technology Bombay"
+
+  research_portfolio: "https://sites.google.com/view/pravinkumarghodake"
+
+  orcid: "0000-0002-6755-4003"
+
+  research_areas:
+    - "Theoretical Mechanics"
+    - "Computational Mechanics"
+    - "Experimental Mechanics"
+    - "Nonlinear Vibrations"
+    - "Nonlinear Dynamical Systems"
+    - "Nonlinear Elastic Waves"
+    - "Nonlinear Ultrasonics"
+    - "Harmonic Generation"
+    - "Harmonic Scattering"
+    - "Nonlinear Wave Mixing"
+    - "Rate-Independent Hysteresis"
+    - "Contact Nonlinearity"
+    - "Mechanical Metamaterials"
+    - "Phononic Metamaterials"
+    - "Nonlinear Wave Control"
+    - "Nonlinear Cloaking"
+    - "Inverse Problems"
+    - "Inverse Design"
+    - "Structural Health Monitoring"
+    - "Nondestructive Evaluation"
+    - "Physical Acoustics"
+    - "Mathematical Modelling"
+    - "Nonlinear Optics"
+
+  seo_keywords:
+    - "Pravinkumar Ramchandra Ghodake"
+    - "Pravinkumar Ghodake"
+    - "Independent Researcher"
+    - "Theoretical Mechanics"
+    - "Computational Mechanics"
+    - "Experimental Mechanics"
+    - "Nonlinear Waves"
+    - "Nonlinear Elastic Waves"
+    - "Nonlinear Ultrasonics"
+    - "Nonlinear Vibrations"
+    - "Harmonic Generation"
+    - "Harmonic Scattering"
+    - "Nonlinear Wave Mixing"
+    - "Mechanical Metamaterials"
+    - "Phononic Metamaterials"
+    - "Inverse Design"
+    - "Structural Health Monitoring"
+    - "Nondestructive Evaluation"
+    - "Physical Acoustics"
+
 
 # ------------------------------------------------------------
 # END OF CONFIGURATION
