@@ -1,4 +1,3 @@
-
 # Editorial Policy
 
 ## Verse & Variable
