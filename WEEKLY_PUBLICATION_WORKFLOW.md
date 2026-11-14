@@ -1,4 +1,3 @@
-
 # Weekly Publication Workflow
 
 **Verse & Variable**  
@@ -9,9 +8,9 @@
 
 This document establishes the editorial and technical workflow for preparing and publishing weekly editions of Verse & Variable.
 
-The publication follows a distinctive content structure in which three individual literary or interdisciplinary explorations are brought together within one weekly collection.
+The publication follows a distinctive content structure in which three independent literary explorations are brought together within one weekly collection.
 
-Each article should have its own permanent page, independent editorial identity, original commentary, source attribution, and supporting references.
+Each article should have its own permanent page, independent editorial identity, original commentary, source attribution and supporting references, where appropriate.
 
 The weekly collection page should introduce the edition and provide readers with an organised way to explore its three articles.
 
@@ -19,14 +18,17 @@ This workflow aims to ensure that:
 
 - The three articles are independently developed.
 - Each article receives appropriate editorial attention.
-- Literary and research sources are checked.
+- Literary and historical sources are checked.
 - Translations and attributions are verified.
-- Scientific claims are appropriately qualified.
+- Cultural and linguistic contexts are respected.
+- Scientific claims are appropriately qualified where they occur.
 - Rights and ethical requirements are addressed.
 - The weekly collection accurately represents its individual articles.
 - Metadata remains consistent across the edition.
 - Publication and deployment are checked.
 - Corrections can be made without losing editorial history.
+
+The workflow is a quality framework, not a requirement to make every article follow the same interpretative pattern or establish a connection with another discipline.
 
 This is an editorial workflow specification. It does not claim that the current Jekyll website automatically performs every step described here.
 
@@ -36,21 +38,21 @@ Each weekly edition is designed around four connected website pages.
 
 ### 2.1 Article One
 
-The first individual article explores a selected literary, cultural, philosophical, scientific, or interdisciplinary subject.
+The first individual article explores a selected literary expression.
 
 It has its own permanent URL and remains independently accessible.
 
 ### 2.2 Article Two
 
-The second individual article addresses a separate subject or develops another meaningful perspective.
+The second individual article explores another literary expression.
 
-It should have its own intellectual identity rather than merely repeating Article One.
+It should have its own literary and interpretative identity rather than merely repeating Article One.
 
 ### 2.3 Article Three
 
 The third individual article completes the weekly selection.
 
-It may introduce a new language, literary tradition, scientific connection, or philosophical direction.
+It may introduce another language, literary form, period, voice or dimension of human experience.
 
 ### 2.4 Weekly Collection Page
 
@@ -63,7 +65,7 @@ It provides:
 - The publication week or date range.
 - Links to all three individual articles.
 - Brief descriptions.
-- Language and subject information.
+- Language and literary-form information.
 - An editorial overview where appropriate.
 
 The collection page should not replace the individual articles.
@@ -86,35 +88,39 @@ The weekly format should preserve the publication's underlying editorial philoso
 
 ### 3.1 Three Independent Explorations
 
-Each article should make a meaningful contribution on its own.
+Each article should make a meaningful literary contribution on its own.
 
 The weekly structure should not force unrelated material into a single narrative.
 
-### 3.2 Intellectual Diversity
+### 3.2 Literary and Linguistic Diversity
 
-The three selections may explore different languages, periods, literary forms, traditions, and intellectual subjects.
+The three selections may explore different languages, periods, literary forms, traditions and emotional worlds.
 
-They need not share a scientific discipline or philosophical conclusion.
+Where suitable, the selection may include contrasting literary voices, established works, lesser-known expressions and different cultural contexts.
+
+Diversity should arise from meaningful editorial choices rather than an arbitrary language quota.
 
 ### 3.3 Meaningful Cohesion
 
-Where possible, the three articles should have an editorial relationship.
+Where possible, the three articles may have an editorial relationship.
 
 That relationship may arise through:
 
-- A shared theme.
-- A common human question.
+- A shared human question.
 - Contrasting literary perspectives.
-- Different cultural traditions.
-- Related philosophical ideas.
-- Complementary scientific concepts.
-- A meaningful contrast between language and experience.
+- Different cultural or linguistic expressions.
+- Related emotional experiences.
+- Complementary philosophical ideas.
+- A meaningful contrast between literary voices.
+- A broader subject that emerges naturally from the selections.
 
-A shared theme is desirable but not mandatory.
+A shared theme is desirable when it genuinely exists, but it is not mandatory.
 
 ### 3.4 No Forced Connections
 
-The articles should never be linked through artificial thematic or scientific claims merely to make the weekly edition appear uniform.
+The articles should never be linked through artificial thematic, scientific or philosophical claims merely to make the weekly edition appear uniform.
+
+A scientific connection is not required in any particular article or in the weekly collection as a whole.
 
 ### 3.5 Quality Over Schedule
 
@@ -180,33 +186,42 @@ The edition should begin with a clear editorial plan.
 
 ### 5.1 Selection
 
-Identify three prospective subjects.
+Identify three prospective literary expressions.
 
 Selection may consider:
 
-- Literary importance.
-- Originality of interpretation.
-- Cultural and linguistic diversity.
+- Literary merit.
+- Originality and depth of expression.
+- Cultural and linguistic significance.
+- Emotional resonance.
+- Philosophical substance.
+- Quality of language and imagery.
 - Availability of reliable source material.
-- Research relevance.
-- Reader interest.
-- Meaningful interdisciplinary possibilities.
+- Translation and interpretation possibilities.
 - Rights and permissions.
 - Available editorial capacity.
 
+The present publication scope is focused on Indian literature, including its diverse languages, historical periods and literary traditions.
+
+The editor's wider interests in international literature, science and other disciplines may inform the editorial perspective but do not create additional publication categories.
+
 ### 5.2 Selection Diversity
 
-Where suitable, the selection may include different literary traditions or languages.
+Where suitable, the selection may include different literary traditions, languages, periods or forms.
 
-However, diversity should arise from meaningful editorial choices rather than an arbitrary language quota.
+However, diversity should arise from meaningful editorial choices rather than an arbitrary language quota or predetermined distribution of subjects.
 
-### 5.3 Scientific and Intellectual Balance
+The three selections may be related or entirely distinct.
 
-A weekly edition may include one article with advanced scientific connections and two predominantly literary explorations.
+### 5.3 Editorial Cohesion
 
-Alternatively, all three may be interdisciplinary.
+The editor may identify a shared idea, emotional question, philosophical concern or literary contrast when one genuinely emerges from the selected works.
 
-The objective is a coherent intellectual experience rather than a fixed disciplinary allocation.
+There is no requirement to allocate articles between scientific and non-scientific subjects.
+
+There is also no requirement that all three selections address the same theme.
+
+A weekly collection should represent the actual character of its three articles rather than manufacture a connection among them.
 
 ### 5.4 Preliminary Rights Assessment
 
@@ -231,14 +246,15 @@ Prepare an internal planning record.
 | Week ID | Unique weekly identifier |
 | Working title | Proposed edition title |
 | Date range | Intended publication period |
-| Article One | Proposed subject |
-| Article Two | Proposed subject |
-| Article Three | Proposed subject |
+| Article One | Proposed literary expression |
+| Article Two | Proposed literary expression |
+| Article Three | Proposed literary expression |
 | Shared theme | Optional editorial connection |
 | Primary languages | Languages represented |
-| Scientific subjects | Relevant disciplines |
+| Editorial considerations | Relevant literary or contextual matters |
 | Source status | Initial research assessment |
 | Rights status | Preliminary assessment |
+| Optional scientific context | Only where a genuine connection is anticipated |
 | Editorial status | Planning stage |
 | Responsible editor | Responsible person |
 
@@ -254,24 +270,23 @@ External contributors may use `SUBMISSION_TEMPLATE.md`.
 
 ### 6.2 Article Structure
 
-A standard literary exploration should include:
+A standard literary exploration should include, as appropriate:
 
-1. Original literary or source material.
-2. Appropriate transliteration, where relevant.
-3. English translation, where relevant.
+1. Original literary expression or a properly limited quotation.
+2. Appropriate transliteration or pronunciation guidance.
+3. English translation.
 4. Accurate attribution.
-5. Exactly four substantial English prose paragraphs of original commentary.
-6. Supporting references.
-7. Relevant disclosures and notes.
+5. Original editorial reflection.
+6. Supporting references and contextual notes.
+7. Relevant disclosures and supplementary material.
 
-The four commentary paragraphs should progress naturally through the following functions:
+The editorial reflection should contain no more than four concise English prose paragraphs.
 
-- Literary and human foundation.
-- Interpretation and intellectual depth.
-- Scientific or interdisciplinary inquiry where meaningful.
-- Reflection and synthesis.
+Fewer paragraphs are entirely acceptable.
 
-The original text, metadata, translation, headings, and references are additional material and do not count as commentary paragraphs.
+There is no mandatory paragraph-by-paragraph formula and no paragraph reserved for interdisciplinary or scientific discussion.
+
+The reflection should develop naturally from the literary work, following its imagery, emotional movement, language and possibilities for interpretation.
 
 ### 6.3 Article Independence
 
@@ -281,7 +296,7 @@ The weekly collection may provide additional context but should not contain info
 
 ### 6.4 Originality
 
-Each article should have its own clear argument or interpretative contribution.
+Each article should have its own clear interpretative contribution.
 
 Avoid preparing three superficially different articles that repeat the same commentary with minor changes.
 
@@ -290,15 +305,15 @@ Avoid preparing three superficially different articles that repeat the same comm
 For each article, record:
 
 - Working title.
-- Original subject.
+- Original literary expression.
 - Primary language.
 - Source material.
-- Contributor.
+- Contributor, where applicable.
 - Draft version.
 - Relevant references.
 - Translation details.
 - Rights assessment.
-- Research ethics concerns.
+- Research ethics concerns, where applicable.
 - Expected publication URL.
 - Editorial status.
 
@@ -308,11 +323,11 @@ Source verification should begin during preparation rather than being postponed 
 
 ### 7.1 Literary Sources
 
-Check original texts, editions, author attribution, and variant readings.
+Check original texts, editions, author attribution and variant readings.
 
 ### 7.2 Linguistic Sources
 
-Verify important vocabulary, idioms, grammatical relationships, and transliteration choices.
+Verify important vocabulary, idioms, grammatical relationships and transliteration choices.
 
 ### 7.3 Translation Sources
 
@@ -320,13 +335,17 @@ Identify the original translator or prepare a clearly identified new translation
 
 Check that the translation reflects the original meaning.
 
-### 7.4 Historical Sources
+### 7.4 Historical and Cultural Sources
 
-Verify important dates, events, names, and documentary claims.
+Verify important dates, events, names and documentary claims.
+
+Distinguish established historical information from later interpretation or contested accounts.
 
 ### 7.5 Scientific Sources
 
-Check research references, theoretical claims, mathematical formulations, and methodological explanations.
+Where an article contains substantive scientific claims, check relevant research references, theoretical claims, mathematical formulations and methodological explanations.
+
+Scientific sources are not required for literary reflections that make no scientific assertions.
 
 ### 7.6 Source Register
 
@@ -340,7 +359,7 @@ Every article should undergo the relevant rights and ethical checks.
 
 ### 8.1 Copyright
 
-Identify third-party literary material, translations, figures, images, recordings, datasets, and other protected resources.
+Identify third-party literary material, translations, figures, images, recordings, datasets and other protected resources.
 
 ### 8.2 Permissions
 
@@ -348,7 +367,7 @@ Obtain permissions where necessary and document the applicable legal basis for u
 
 ### 8.3 Ethical Considerations
 
-Consider privacy, consent, cultural sensitivity, confidentiality, participant protection, and potential harm.
+Consider privacy, consent, cultural sensitivity, confidentiality, participant protection and potential harm.
 
 ### 8.4 Interviews
 
@@ -356,7 +375,7 @@ Where interview material is used, follow the interview and oral-history protocol
 
 ### 8.5 Registers
 
-Update the relevant internal records:
+Update the relevant internal records where applicable:
 
 - `RIGHTS_AND_PERMISSIONS_REGISTER.md`
 - `ASSET_CREDITS.md`
@@ -364,11 +383,13 @@ Update the relevant internal records:
 
 ### 8.6 Unresolved Issues
 
-Do not publish material with a serious unresolved rights, privacy, consent, or safety concern.
+Do not publish material with a serious unresolved rights, privacy, consent or safety concern.
 
-## 9. Scientific and Specialist Review
+## 9. Specialist Review, Where Needed
 
-Where an article contains substantive technical claims, consider whether specialist consultation is appropriate.
+Where an article contains substantive technical, historical, linguistic or other specialist claims, consider whether specialist consultation is appropriate.
+
+Such consultation is not a mandatory stage for every literary exploration.
 
 ### 9.1 Scope
 
@@ -376,27 +397,28 @@ Identify the precise claims requiring assessment.
 
 Do not ask a reviewer to certify material outside their expertise.
 
-### 9.2 Interdisciplinary Review
+### 9.2 Relevant Expertise
 
-Different aspects of an article may require different reviewers.
+Different aspects of an article may require different expertise.
 
 For example:
 
-- Literary interpretation may require linguistic expertise.
+- Literary interpretation may benefit from linguistic or literary expertise.
 - Historical attribution may require historical expertise.
+- Regional vocabulary may require language-specific expertise.
 - Nonlinear elasticity may require mechanics expertise.
 - Wave-scattering claims may require acoustics or wave-physics expertise.
 - Numerical modelling may require computational-method expertise.
 
 ### 9.3 Review Records
 
-Record significant feedback and the editorial response.
+Record significant feedback and the editorial response where appropriate.
 
 ### 9.4 Review Disclosure
 
 Describe specialist feedback accurately.
 
-Do not represent informal review as formal journal peer review.
+Do not represent informal consultation as formal journal peer review.
 
 ## 10. Editing and Revision
 
@@ -404,7 +426,7 @@ Each article should pass through an editorial revision stage.
 
 ### 10.1 Structural Editing
 
-Examine the organisation, sequence, clarity, and coherence of the article.
+Examine the organisation, sequence, clarity and coherence of the article.
 
 ### 10.2 Literary Editing
 
@@ -412,11 +434,13 @@ Improve readability while preserving the meaning and character of the original w
 
 ### 10.3 Scientific Editing
 
-Correct terminology, qualifications, mathematical explanations, and unsupported technical statements.
+Where scientific claims occur, check terminology, qualifications, mathematical explanations and unsupported technical statements.
+
+Scientific editing is unnecessary when an article contains no substantive scientific discussion.
 
 ### 10.4 Language Editing
 
-Check grammar, spelling, punctuation, and consistency.
+Check grammar, spelling, punctuation and consistency.
 
 ### 10.5 Translation Editing
 
@@ -440,7 +464,9 @@ The collection page should represent the edition as a whole without duplicating 
 
 ### 11.1 Weekly Title
 
-Use a meaningful title that reflects the edition's principal subject or editorial theme.
+Use a meaningful title that reflects the character of the selection or a genuine editorial theme, where one exists.
+
+The title need not force all three articles into a single subject.
 
 Avoid misleading or exaggerated titles.
 
@@ -449,11 +475,14 @@ Avoid misleading or exaggerated titles.
 Prepare a short introduction describing:
 
 - The character of the weekly selection.
-- The principal literary or intellectual subjects.
-- Any meaningful relationship between the articles.
-- The languages or traditions represented where useful.
+- The three literary expressions.
+- Their individual emotional or intellectual directions.
+- Any meaningful relationship between the articles, where one exists.
+- The languages or traditions represented, where useful.
 
 The introduction should not claim that all three articles share a connection that does not exist.
+
+The three selections may be introduced as distinct works, each deserving its own reading.
 
 ### 11.3 Article Cards
 
@@ -480,7 +509,7 @@ Do not rely on a single weekly page containing all article text as a substitute 
 
 ### 11.6 Collection Independence
 
-The weekly collection should remain useful even if one article is later corrected, updated, or withdrawn.
+The weekly collection should remain useful even if one article is later corrected, updated or withdrawn.
 
 If an article becomes unavailable, update the collection page appropriately.
 
@@ -545,6 +574,12 @@ Check that language identifiers match `_data/languages.yml`.
 
 Do not invent new identifiers without updating the language configuration and relevant site functionality.
 
+### 12.7 Optional Scientific Metadata
+
+Scientific terminology should be included in article metadata only when the article genuinely contains scientific discussion.
+
+Do not add scientific keywords to an entry simply because the editor's research interests include those subjects.
+
 ## 13. Recommended Weekly File Organisation
 
 The publication uses the Jekyll collections configured in `_config.yml`.
@@ -579,7 +614,7 @@ The weekly file should contain the collection introduction and the metadata need
 
 Images and other supporting files should be stored under the repository's established asset structure.
 
-Do not commit confidential interview records, permission correspondence, or sensitive research material to public directories.
+Do not commit confidential interview records, permission correspondence or sensitive research material to public directories.
 
 ## 14. Example Weekly Metadata
 
@@ -593,7 +628,7 @@ They must be adapted to the actual templates and fields supported by the reposit
 ---
 layout: week
 title: "The Language of Memory"
-description: "Three explorations of literary memory, cultural expression, and the changing experience of time."
+description: "Three literary explorations of memory, longing and the ways human experience finds expression in language."
 week_id: "2026-W46"
 date: 2026-11-09
 ---
@@ -620,7 +655,7 @@ language_code: "ur"
 ---
 layout: entry
 title: "Time, Absence, and Human Experience"
-description: "A reflection on time, absence, and the experience of loss."
+description: "A reflection on time, absence and the experience of loss."
 date: 2026-11-10
 week_id: "2026-W46"
 entry_number: 2
@@ -634,8 +669,8 @@ language_code: "mr"
 ```yaml
 ---
 layout: entry
-title: "Memory and the Physics of Hysteresis"
-description: "An interdisciplinary exploration of memory and hysteretic behaviour."
+title: "The Quiet Persistence of Memory"
+description: "A literary reflection on memory, emotional continuity and the experiences that remain with us."
 date: 2026-11-11
 week_id: "2026-W46"
 entry_number: 3
@@ -660,12 +695,12 @@ For each of the three articles:
 - [ ] Original material has been verified.
 - [ ] Attribution has been checked.
 - [ ] Translation has been checked where applicable.
-- [ ] The required four-paragraph commentary structure is followed.
-- [ ] References are accurate.
-- [ ] Scientific claims are appropriately supported.
+- [ ] The reflection contains no more than four concise prose paragraphs.
+- [ ] The reflection has appropriate emotional and intellectual continuity.
+- [ ] References are accurate and relevant.
+- [ ] Scientific claims are appropriately supported, where applicable.
 - [ ] Rights and permissions have been addressed.
-- [ ] Ethical concerns are resolved.
-- [ ] Relevant disclosures are present.
+- [ ] Ethical concerns are resolved where relevant.
 - [ ] Metadata is valid.
 - [ ] Accessibility has been considered.
 - [ ] Article page renders correctly.
@@ -683,13 +718,14 @@ For each of the three articles:
 - [ ] Language information is consistent.
 - [ ] Collection layout renders correctly.
 - [ ] No unintended placeholder text remains.
+- [ ] No unsupported common theme or connection is claimed.
 
 ### 15.3 Edition-Wide Checks
 
 - [ ] The three article subjects are represented accurately.
 - [ ] No article is duplicated.
 - [ ] No incorrect contributor information is present.
-- [ ] No unsupported common theme is claimed.
+- [ ] No artificial common theme is imposed.
 - [ ] All pages have appropriate navigation.
 - [ ] All required source and asset credits are present.
 - [ ] No private editorial information is exposed.
@@ -707,7 +743,7 @@ Possible outcomes include:
 | Ready with minor changes | Limited changes remain |
 | Partial edition | Fewer than three articles are ready, and separate publication is intentionally authorised |
 | Delayed | One or more substantial issues remain |
-| On hold | A critical editorial, rights, ethical, or technical concern remains |
+| On hold | A critical editorial, rights, ethical or technical concern remains |
 | Withdrawn | The proposed edition is no longer proceeding |
 
 ### 16.1 Complete Edition
@@ -789,7 +825,7 @@ Verify:
 
 ### Step 8 — Record Publication
 
-Record publication dates, final URLs, and the edition's status in the appropriate internal record.
+Record publication dates, final URLs and the edition's status in the appropriate internal record.
 
 ## 18. Publication Timing and Schedule
 
@@ -804,7 +840,7 @@ The publication date may be adjusted according to:
 - Article readiness.
 - Source-verification requirements.
 - Translation complexity.
-- Specialist feedback.
+- Specialist feedback, where needed.
 - Rights clearance.
 - Ethical review.
 - Technical problems.
@@ -971,7 +1007,7 @@ The complete process may be represented as follows.
 Editorial planning
        |
        v
-Select three article subjects
+Select three Indian literary expressions
        |
        v
 Preliminary source and rights assessment
@@ -980,13 +1016,13 @@ Preliminary source and rights assessment
 Prepare three independent drafts
        |
        v
-Source verification and research
+Literary, linguistic and cultural research
        |
        v
-Translation, technical and ethical checks
+Translation, attribution and ethical checks
        |
        v
-Specialist consultation where needed
+Optional scientific research or specialist consultation
        |
        v
 Editorial revision
@@ -1022,19 +1058,22 @@ Before declaring an edition complete, confirm:
 
 ### Editorial
 
-- [ ] Three independent articles have been prepared.
-- [ ] Each article has a clear contribution.
+- [ ] Three independent literary explorations have been prepared.
+- [ ] Each article has a clear interpretative contribution.
 - [ ] Literary and intellectual quality is appropriate.
 - [ ] The articles do not contain forced connections.
-- [ ] The four-paragraph format is followed where applicable.
+- [ ] Each reflection contains no more than four concise paragraphs.
+- [ ] Emotional and intellectual continuity is maintained.
+- [ ] Any shared theme is genuinely supported by the selections.
 
-### Research
+### Research and Verification
 
-- [ ] Important sources have been checked.
+- [ ] Important literary sources have been checked.
 - [ ] Translations are appropriately attributed.
-- [ ] Scientific claims are qualified.
-- [ ] References are complete.
-- [ ] Uncertainties are documented.
+- [ ] Historical and cultural claims are verified where necessary.
+- [ ] Scientific claims are qualified and supported where applicable.
+- [ ] Relevant uncertainties are documented.
+- [ ] References are complete and identifiable.
 
 ### Rights and Ethics
 
@@ -1102,17 +1141,17 @@ This workflow should be read alongside:
 
 ## 24. Continuing Commitment
 
-The weekly structure of Verse & Variable is intended to create a growing collection of independent literary and intellectual explorations.
+The weekly structure of Verse & Variable is intended to create a growing archive of independent literary explorations rooted in Indian literature.
 
 Each article should stand on its own. Each weekly collection should bring its articles together without forcing their differences into an artificial narrative.
 
 The publication should value the integrity of individual contributions above the pressure of a recurring schedule.
 
-Three carefully considered explorations are more valuable than three articles published merely to complete a weekly count.
+Three carefully considered literary explorations are more valuable than three articles published merely to complete a weekly count.
 
-The long-term objective is an archive that grows through consistency, intellectual depth, cultural breadth, and responsible editorial practice.
+The long-term objective is an archive that grows through literary depth, linguistic diversity, cultural sensitivity, intellectual curiosity and responsible editorial practice.
 
-**Three independent explorations. One weekly collection. An expanding conversation between literature and inquiry.**
+**Three independent literary explorations. One weekly collection. An expanding archive of Indian literary voices and human experience.**
 
 ---
 
