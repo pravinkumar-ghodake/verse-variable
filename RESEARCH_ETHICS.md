@@ -1,4 +1,3 @@
-
 # Research Ethics
 
 **Verse & Variable**  
@@ -7,44 +6,51 @@
 
 ## 1. Purpose
 
-Verse & Variable brings together literary expression, cultural knowledge, historical material, philosophical reflection, and scientific inquiry.
+Verse & Variable is an independent Indian literary journal focused on Indian literature, its diverse languages, literary traditions, historical contexts and expressions of human experience.
 
-Its articles may draw upon published research, archival records, books, poetry, translations, interviews, oral histories, public documents, digital collections, datasets, images, and other forms of intellectual and cultural material.
+Its editorial work may involve published literary works, translations, books, archival records, historical documents, cultural knowledge, interviews, oral histories, public records, digital collections, images, published research and other intellectual or cultural material.
 
-Using such sources creates responsibilities beyond the accurate reproduction of information.
+The editor's wider intellectual interests include Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests may inform the perspective brought to the journal, but do not expand its present literary scope or impose additional research requirements on individual articles.
 
-This policy establishes the ethical principles governing how the publication selects, interprets, represents, and incorporates source material.
+Scientific and interdisciplinary material may contribute to an individual literary exploration when a genuine connection emerges and materially deepens the interpretation. It is neither a compulsory subject nor a separate publication requirement.
+
+Using source material creates responsibilities beyond the accurate reproduction of information.
+
+This policy establishes the ethical principles governing how the publication selects, interprets, represents and incorporates such material.
 
 Its objectives are to:
 
-- Respect the dignity, rights, privacy, and interests of individuals and communities.
-- Represent literary, cultural, historical, and scientific sources accurately.
-- Avoid unnecessary harm, exploitation, misrepresentation, and disclosure.
-- Respect confidentiality, consent, and legitimate access restrictions.
-- Recognise authorship, intellectual contribution, and cultural provenance.
+- Respect the dignity, rights, privacy and interests of individuals and communities.
+- Represent literary, cultural, historical and scientific sources accurately.
+- Avoid unnecessary harm, exploitation, misrepresentation and disclosure.
+- Respect confidentiality, consent and legitimate access restrictions.
+- Recognise authorship, intellectual contribution and cultural provenance.
 - Distinguish ethical permission from copyright permission.
-- Maintain transparency about research methods, limitations, and uncertainties.
-- Encourage responsible interdisciplinary inquiry.
+- Maintain transparency about research methods, limitations and uncertainties.
+- Encourage responsible intellectual inquiry.
+- Preserve the independence and integrity of individual literary expressions.
 
-The policy applies to editorial research, article preparation, translations, historical and cultural interpretation, interviews, data use, visual material, and other research-related activities undertaken for the publication.
+The policy applies to editorial research, article preparation, translations, historical and cultural interpretation, interviews, data use, visual material and other research-related activities undertaken for the publication.
+
+The depth of ethical assessment should be proportionate to the nature of the material and the activities involved. An ordinary interpretation of a publicly published literary work does not automatically require the same procedures as an interview, human-participant study or the use of sensitive personal information.
 
 ## 2. Scope and Institutional Status
 
-Verse & Variable is an independent literary and research-oriented publication.
+Verse & Variable is an independent literary publication.
 
-It is not, merely by virtue of publishing research-related material, a university, research institution, institutional ethics committee, or human-research review board.
+It is not, merely by virtue of publishing material involving research or factual analysis, a university, research institution, institutional ethics committee or human-research review board.
 
 The publication does not claim that its editorial procedures constitute formal institutional research ethics approval.
 
-Where an activity requires institutional review, professional authorisation, special training, or regulatory permission, those requirements must be addressed through the appropriate institution or authority before the activity proceeds.
+Where an activity requires institutional review, professional authorisation, special training, regulatory permission or another form of formal approval, those requirements must be addressed through the appropriate institution or authority before the activity proceeds.
 
 ### 2.1 Nature of Research Activities
 
-The ethical considerations differ depending on the material involved.
+Ethical considerations differ depending on the material and the method of obtaining it.
 
 Examples include:
 
-- Studying already published scientific literature.
+- Studying already published literary or scientific material.
 - Discussing publicly available historical documents.
 - Reproducing or interpreting literary works.
 - Consulting restricted archival collections.
@@ -55,16 +61,25 @@ Examples include:
 - Using information about identifiable individuals.
 - Analysing datasets containing personal information.
 - Discussing research involving human or animal participants.
+- Preparing an interpretation of a literary work using established scientific knowledge.
 
 These activities should not be treated as ethically equivalent.
 
 ### 2.2 Applicable Requirements
 
-Research and publication activities must respect applicable laws, contractual conditions, archive rules, consent arrangements, professional obligations, and relevant institutional policies.
+Research and publication activities must respect applicable laws, contractual conditions, archive rules, consent arrangements, professional obligations and relevant institutional policies.
 
 When requirements differ across jurisdictions or institutions, the applicable circumstances should be examined rather than assuming that one general rule resolves every situation.
 
-This policy is an editorial ethics framework, not legal advice.
+This policy is an editorial ethics framework, not legal advice or formal institutional ethics approval.
+
+### 2.3 Proportionate Application
+
+Not every article requires an interview protocol, participant consent form, institutional review or personal-data assessment.
+
+Such requirements arise from the actual activities and material involved, not simply from the fact that an article is being researched.
+
+Where a section of this policy does not apply to an article, it should be treated as not applicable rather than interpreted as a missing research requirement.
 
 ## 3. Fundamental Ethical Principles
 
@@ -72,31 +87,31 @@ The following principles guide all research-related activities.
 
 ### 3.1 Respect for Persons
 
-Individuals should be treated with dignity, regardless of their background, language, occupation, social position, education, institutional affiliation, or personal circumstances.
+Individuals should be treated with dignity, regardless of their background, language, occupation, social position, education, institutional affiliation or personal circumstances.
 
 Personal experiences and statements should not be treated merely as material for intellectual or literary consumption.
 
 ### 3.2 Respect for Communities and Cultural Traditions
 
-Cultural expressions, historical knowledge, community traditions, and collective intellectual contributions should be represented responsibly.
+Cultural expressions, historical knowledge, community traditions and collective intellectual contributions should be represented responsibly.
 
 The publication should avoid extractive approaches that remove cultural material from its context or present it without appropriate attribution.
 
 ### 3.3 Honesty
 
-Research findings, documentary evidence, quotations, translations, and interpretations must be represented accurately.
+Research findings, documentary evidence, quotations, translations and interpretations must be represented accurately.
 
-The publication must not knowingly fabricate sources, alter evidence deceptively, or present speculation as established fact.
+The publication must not knowingly fabricate sources, alter evidence deceptively or present speculation as established fact.
 
 ### 3.4 Beneficence and Non-Maleficence
 
 Research should seek intellectual and public value while avoiding unnecessary harm.
 
-Potential benefits should be considered alongside foreseeable risks to individuals, communities, and other affected parties.
+Potential benefits should be considered alongside foreseeable risks to individuals, communities and other affected parties.
 
 ### 3.5 Fairness
 
-Sources, contributors, communities, and individuals should be treated fairly.
+Sources, contributors, communities and individuals should be treated fairly.
 
 Material should not be selectively represented to create misleading narratives or to privilege a predetermined conclusion.
 
@@ -104,13 +119,19 @@ Material should not be selectively represented to create misleading narratives o
 
 Editorial responsibility remains with the publication.
 
-A source, contributor, translator, reviewer, or AI tool does not remove the editor's responsibility to examine the material before publication.
+A source, contributor, translator, reviewer or AI tool does not remove the editor's responsibility to examine the material before publication.
 
 ### 3.7 Proportionality
 
-The information collected, reproduced, or disclosed should be proportionate to the legitimate purpose of the article.
+The information collected, reproduced or disclosed should be proportionate to the legitimate purpose of the article.
 
-Unnecessary personal details, excessive reproduction, and intrusive research methods should be avoided.
+Unnecessary personal details, excessive reproduction and intrusive research methods should be avoided.
+
+### 3.8 Intellectual Independence
+
+The publication should remain open to different interpretations and perspectives.
+
+Ethical research does not require every literary expression to be interpreted through a predetermined philosophical, scientific, cultural or disciplinary framework.
 
 ## 4. Ethical Use of Published Research
 
@@ -118,9 +139,13 @@ Published research is an important source of scientific and scholarly knowledge.
 
 Its publication does not eliminate the responsibility to interpret it accurately.
 
+This section applies when an article relies on published research or makes substantive claims about research findings.
+
+It is not a mandatory scientific-review procedure for ordinary literary commentary.
+
 ### 4.1 Accurate Representation
 
-Scientific and scholarly findings should be represented in accordance with the methods, evidence, conditions, and limitations of the original work.
+Scientific and scholarly findings should be represented in accordance with the methods, evidence, conditions and limitations of the original work.
 
 Avoid:
 
@@ -149,7 +174,7 @@ A preprint should not automatically be described as peer-reviewed research.
 
 ### 4.3 Corrections and Retractions
 
-Where relevant to an article's claims, check whether important sources have been corrected, retracted, or otherwise subject to significant publication notices.
+Where relevant to an article's claims, check whether important sources have been corrected, retracted or otherwise subject to significant publication notices.
 
 If a source is subsequently corrected or retracted, the affected article should be evaluated for an appropriate update.
 
@@ -171,7 +196,7 @@ A review article or a single research paper should not be treated as resolving a
 
 ### 4.5 Citation Responsibility
 
-Citations should be genuine, relevant, and sufficiently specific to help readers locate the underlying material.
+Citations should be genuine, relevant and sufficiently specific to help readers locate the underlying material.
 
 Do not fabricate references or cite a source merely because its title appears relevant.
 
@@ -179,7 +204,7 @@ Where the original source has not been examined directly, avoid implying that it
 
 ## 5. Historical Records and Archival Material
 
-Historical records can contain information about people, families, communities, institutions, conflicts, and private experiences.
+Historical records can contain information about people, families, communities, institutions, conflicts and private experiences.
 
 Their use requires attention to both historical accuracy and ethical context.
 
@@ -191,7 +216,7 @@ Where practicable, establish:
 - Its creator or issuing body.
 - Its approximate or documented date.
 - Its archival or publication context.
-- Whether it is an original, copy, transcript, or later reproduction.
+- Whether it is an original, copy, transcript or later reproduction.
 - Any relevant access or usage restrictions.
 
 ### 5.2 Public Availability
@@ -210,9 +235,9 @@ Consider whether it contains:
 
 ### 5.3 Archival Conditions
 
-Respect the conditions imposed by the archive, repository, collection owner, or custodian.
+Respect the conditions imposed by the archive, repository, collection owner or custodian.
 
-Do not bypass access restrictions, misrepresent permission, or reproduce restricted material without appropriate authorisation.
+Do not bypass access restrictions, misrepresent permission or reproduce restricted material without appropriate authorisation.
 
 ### 5.4 Interpretation
 
@@ -235,17 +260,17 @@ Similarly, the existence of a historical record does not automatically establish
 
 ### 5.6 Private Correspondence
 
-Letters, diaries, personal notes, and private communications should receive particular care.
+Letters, diaries, personal notes and private communications should receive particular care.
 
-Before reproducing unpublished private material, consider authorship, ownership, confidentiality, consent, privacy, and potential harm.
+Before reproducing unpublished private material, consider authorship, ownership, confidentiality, consent, privacy and potential harm.
 
 The fact that a document has entered an archive or has been shared informally does not necessarily eliminate these concerns.
 
 ## 6. Cultural Material and Community Knowledge
 
-Verse & Variable draws upon diverse literary and cultural traditions.
+Verse & Variable draws upon diverse Indian literary and cultural traditions.
 
-Cultural material should be approached with respect for its origin, context, custodians, and continuing significance.
+Cultural material should be approached with respect for its origin, context, custodians and continuing significance.
 
 ### 6.1 Cultural Provenance
 
@@ -277,7 +302,7 @@ Such descriptions should be supported by the available information.
 
 ### 6.3 Sacred or Restricted Knowledge
 
-Some cultural expressions, narratives, symbols, rituals, and forms of knowledge may be sacred, restricted, or intended for a particular community or setting.
+Some cultural expressions, narratives, symbols, rituals and forms of knowledge may be sacred, restricted or intended for a particular community or setting.
 
 The publication should not assume that public discovery or online circulation constitutes ethical permission for unrestricted reproduction.
 
@@ -287,7 +312,7 @@ Where a serious concern exists, seek appropriate guidance or permission, or refr
 
 Do not present an individual interpretation as the unanimous position of an entire community.
 
-Cultural communities are internally diverse and may contain multiple regional, historical, linguistic, religious, philosophical, and generational perspectives.
+Cultural communities are internally diverse and may contain multiple regional, historical, linguistic, religious, philosophical and generational perspectives.
 
 ### 6.5 Avoiding Cultural Appropriation and Misrepresentation
 
@@ -309,13 +334,13 @@ Consultation should be meaningful rather than merely symbolic.
 
 A single consultation should not automatically be presented as representing every member of a community.
 
-## 7. Poetry, Literature, and Creative Works
+## 7. Poetry, Literature and Creative Works
 
 Literary works must be treated as intellectual and cultural creations rather than unrestricted collections of quotations.
 
 ### 7.1 Attribution
 
-Identify the poet, lyricist, author, playwright, or other creator where reliably known.
+Identify the poet, lyricist, author, playwright or other creator where reliably known.
 
 Distinguish between:
 
@@ -333,7 +358,7 @@ Do not attribute authorship to a performer merely because that person popularise
 
 ### 7.2 Variant Versions
 
-Poetry, folk expressions, lyrics, and oral compositions may circulate in different versions.
+Poetry, folk expressions, lyrics and oral compositions may circulate in different versions.
 
 Where meaningful differences exist, identify the version or source consulted.
 
@@ -354,7 +379,7 @@ Quotation practices should consider:
 
 ### 7.4 Unpublished Creative Work
 
-Do not publish unpublished poems, manuscripts, lyrics, or personal writings merely because they have been received privately.
+Do not publish unpublished poems, manuscripts, lyrics or personal writings merely because they have been received privately.
 
 Obtain appropriate permission where required and consider the author's expectations and privacy.
 
@@ -362,7 +387,7 @@ Obtain appropriate permission where required and consider the author's expectati
 
 Do not modify a literary work in a manner that misrepresents its original content or creator.
 
-Any adaptation, abridgement, reconstruction, or editorial alteration should be disclosed where relevant.
+Any adaptation, abridgement, reconstruction or editorial alteration should be disclosed where relevant.
 
 ## 8. Translation and Transliteration Ethics
 
@@ -387,7 +412,7 @@ Do not present another translator's published work as an original translation.
 
 Where the translation is protected by copyright, obtain the necessary permission or establish an appropriate legal basis for its use.
 
-Attribution alone does not replace permission.
+Attribution alone does not replace permission where permission is legally required.
 
 ### 8.3 Linguistic Fidelity
 
@@ -407,7 +432,7 @@ Do not imply that one transliteration convention is the only valid representatio
 
 ### 8.6 Uncertainty
 
-Where the original expression is ambiguous, damaged, disputed, or linguistically uncertain, communicate that uncertainty rather than silently selecting a definitive meaning.
+Where the original expression is ambiguous, damaged, disputed or linguistically uncertain, communicate that uncertainty rather than silently selecting a definitive meaning.
 
 ### 8.7 Translation Review
 
@@ -420,6 +445,8 @@ Further guidance is provided in `TRANSLATION_GUIDELINES.md` and `LANGUAGE_STYLE_
 Interviews and oral histories involve direct contributions from individuals.
 
 The publication must respect the voluntary nature of participation and the expectations under which information is shared.
+
+This section applies to interviews and oral-history activities undertaken for publication. It does not apply automatically to the study of already published interviews or recordings where no new participant interaction takes place, although source rights, privacy and usage restrictions still need consideration.
 
 ### 9.1 Informed Consent
 
@@ -444,7 +471,7 @@ Consent should be voluntary and based on sufficient information.
 
 Do not secretly record an interview for publication.
 
-Obtain appropriate permission before making audio, video, photographic, or other recordings.
+Obtain appropriate permission before making audio, video, photographic or other recordings.
 
 Recording and publication consent should be distinguished where necessary.
 
@@ -468,7 +495,7 @@ Do not promise anonymity without considering whether the information could ident
 
 Participants should be able to decline questions or stop an interview.
 
-Avoid coercion, misleading representations, and undue pressure.
+Avoid coercion, misleading representations and undue pressure.
 
 ### 9.5 Editing and Context
 
@@ -480,7 +507,7 @@ Identify substantial editorial changes or reconstructed passages where appropria
 
 ### 9.6 Review of Quotations
 
-Where an interview contains sensitive personal information, disputed factual statements, or complex technical material, providing the participant an opportunity to verify relevant quotations may be appropriate.
+Where an interview contains sensitive personal information, disputed factual statements or complex technical material, providing the participant an opportunity to verify relevant quotations may be appropriate.
 
 This should not be represented as transferring editorial independence or complete authorship of the article to the participant.
 
@@ -488,21 +515,23 @@ This should not be represented as transferring editorial independence or complet
 
 Personal recollections are valuable historical sources, but they are not automatically independent verification of every event described.
 
-Distinguish recollection, documentary evidence, interpretation, and established historical fact.
+Distinguish recollection, documentary evidence, interpretation and established historical fact.
 
 ### 9.8 Withdrawal Requests
 
 Explain the practical limits of withdrawal before publication.
 
-Where a participant requests withdrawal or correction, consider the request fairly, taking into account prior consent, publication status, privacy, safety, and other relevant obligations.
+Where a participant requests withdrawal or correction, consider the request fairly, taking into account prior consent, publication status, privacy, safety and other relevant obligations.
 
-Do not promise that material can always be erased from copies, archives, backups, search engines, or third-party systems after publication.
+Do not promise that material can always be erased from copies, archives, backups, search engines or third-party systems after publication.
 
 ## 10. Human-Subject Information
 
 Information concerning identifiable people requires particular care.
 
-This includes information obtained directly from participants as well as information found in publications, records, datasets, online discussions, and other sources.
+This includes information obtained directly from participants as well as information found in publications, records, datasets, online discussions and other sources.
+
+This section should be applied proportionately to the actual material being used.
 
 ### 10.1 Identifiability
 
@@ -542,7 +571,7 @@ Apply additional caution to information concerning:
 - Biometric identifiers.
 - Children and other potentially vulnerable individuals.
 
-Do not disclose such information unless there is a clear and legitimate editorial purpose and an appropriate basis for doing so.
+Do not disclose such information unless there is a clear and legitimate editorial purpose and an appropriate legal and ethical basis for doing so.
 
 ### 10.4 Public Figures
 
@@ -569,9 +598,9 @@ Where appropriate and practicable, offer a fair opportunity for a relevant perso
 
 ### 10.6 No Unnecessary Exposure
 
-Avoid publishing personal identifiers, private correspondence, contact details, or other information that may expose an individual to harassment, discrimination, retaliation, or unwanted contact.
+Avoid publishing personal identifiers, private correspondence, contact details or other information that may expose an individual to harassment, discrimination, retaliation or unwanted contact.
 
-## 11. Interviews, Surveys, and Other Activities Involving Participants
+## 11. Interviews, Surveys and Other Activities Involving Participants
 
 Activities involving the systematic collection of information from people may raise ethical and regulatory requirements beyond those involved in reading published sources.
 
@@ -598,29 +627,29 @@ Before beginning such an activity, determine whether it requires:
 
 ### 11.2 No Improper Exemption Claims
 
-Do not claim that an activity is exempt from ethics review simply because it is conducted for a small publication, involves a small number of people, or is intended for an online article.
+Do not claim that an activity is exempt from ethics review simply because it is conducted for a small publication, involves a small number of people or is intended for an online article.
 
 Where the applicable institutional or regulatory position is uncertain, seek clarification from the relevant authority.
 
 ### 11.3 Sensitive Research
 
-Do not independently initiate research involving vulnerable participants, traumatic experiences, sensitive personal information, or significant psychological, social, legal, or physical risks without appropriate expertise, safeguards, and any required review.
+Do not independently initiate research involving vulnerable participants, traumatic experiences, sensitive personal information or significant psychological, social, legal or physical risks without appropriate expertise, safeguards and any required review.
 
 ### 11.4 Children and Minors
 
 Research involving children requires heightened safeguards.
 
-Appropriate parental or guardian permission, age-appropriate assent, privacy protections, and any required institutional approval should be established before participation.
+Appropriate parental or guardian permission, age-appropriate assent, privacy protections and any required institutional approval should be established before participation.
 
 Do not assume that a parent's permission alone resolves every ethical issue.
 
 ### 11.5 Vulnerable Participants
 
-Where participants may be subject to dependency, institutional power, coercion, or unequal bargaining conditions, take additional care to ensure that participation is genuinely voluntary.
+Where participants may be subject to dependency, institutional power, coercion or unequal bargaining conditions, take additional care to ensure that participation is genuinely voluntary.
 
 ### 11.6 Participant Compensation
 
-Any compensation or reimbursement should be transparent, proportionate, and structured so that it does not create undue pressure to participate.
+Any compensation or reimbursement should be transparent, proportionate and structured so that it does not create undue pressure to participate.
 
 ## 12. Personal Information from Digital and Online Sources
 
@@ -639,13 +668,13 @@ Before reproducing online information about identifiable people, consider:
 
 ### 12.2 Social Media
 
-Posts, comments, discussion threads, and personal profiles may be technically accessible but were not necessarily published with the expectation of inclusion in a separate research-oriented article.
+Posts, comments, discussion threads and personal profiles may be technically accessible but were not necessarily published with the expectation of inclusion in a separate article.
 
-Avoid unnecessarily reproducing usernames, profile images, private exchanges, or identifying details.
+Avoid unnecessarily reproducing usernames, profile images, private exchanges or identifying details.
 
 ### 12.3 Screenshots and Digital Records
 
-Screenshots can reveal information beyond the intended quotation, including usernames, timestamps, email addresses, browser details, and third-party identities.
+Screenshots can reveal information beyond the intended quotation, including usernames, timestamps, email addresses, browser details and third-party identities.
 
 Review visual material before publication and remove irrelevant personal information where appropriate.
 
@@ -659,13 +688,15 @@ Permission from one participant does not necessarily authorise publication of ot
 
 Search-engine visibility should not be treated as independent confirmation of a claim.
 
-A search result, cached page, or automatically generated summary may contain incomplete or outdated information.
+A search result, cached page or automatically generated summary may contain incomplete or outdated information.
 
 Where possible, consult the underlying source.
 
 ## 13. Datasets and Research Data
 
 Data used in an article should have an identifiable origin and a legitimate basis for use.
+
+This section applies when an article actually uses datasets or research data. It is not a routine requirement for a literary interpretation that does not involve such material.
 
 ### 13.1 Data Provenance
 
@@ -684,7 +715,7 @@ Where relevant, record:
 
 Do not publish identifiable personal datasets without an appropriate basis and safeguards.
 
-Consider anonymisation, aggregation, access restrictions, and the possibility of re-identification.
+Consider anonymisation, aggregation, access restrictions and the possibility of re-identification.
 
 ### 13.3 Anonymisation
 
@@ -694,13 +725,13 @@ Removing names does not necessarily eliminate identification risk where other de
 
 ### 13.4 Data Accuracy
 
-Do not alter, remove, or selectively exclude data in a way that misrepresents the underlying evidence.
+Do not alter, remove or selectively exclude data in a way that misrepresents the underlying evidence.
 
 Where exclusions or transformations are necessary, describe them accurately.
 
 ### 13.5 Data Licensing
 
-Respect dataset licences, access conditions, contractual restrictions, and relevant attribution requirements.
+Respect dataset licences, access conditions, contractual restrictions and relevant attribution requirements.
 
 A downloadable dataset is not automatically available for unrestricted redistribution.
 
@@ -710,15 +741,17 @@ Where appropriate, provide enough information about the data source and processi
 
 Do not expose private or restricted data merely to make an analysis appear reproducible.
 
-## 14. Scientific, Experimental, and Computational Ethics
+## 14. Scientific, Experimental and Computational Ethics
 
 Scientific material should be represented in a manner consistent with research integrity.
 
+This section applies only when an article discusses scientific research, experimental observations, numerical modelling or substantive technical claims.
+
 ### 14.1 Experimental Evidence
 
-Do not fabricate, selectively manipulate, or deceptively alter experimental observations.
+Do not fabricate, selectively manipulate or deceptively alter experimental observations.
 
-Images, graphs, measurements, and visualisations should not be presented in a way that materially misrepresents the underlying data.
+Images, graphs, measurements and visualisations should not be presented in a way that materially misrepresents the underlying data.
 
 ### 14.2 Numerical Results
 
@@ -738,13 +771,13 @@ Do not imply independent replication or validation where neither has occurred.
 
 ### 14.5 Code and Software
 
-Respect software licences, attribution requirements, data restrictions, and the intellectual property of code contributors.
+Respect software licences, attribution requirements, data restrictions and the intellectual property of code contributors.
 
 Do not reproduce proprietary or confidential code without appropriate permission.
 
 ### 14.6 Misconduct in Source Material
 
-If an article relies on a source that appears to contain fabricated data, image manipulation, plagiarism, or other serious research-integrity concerns, investigate the issue before relying on the affected claims.
+If an article relies on a source that appears to contain fabricated data, image manipulation, plagiarism or other serious research-integrity concerns, investigate the issue before relying on the affected claims.
 
 Do not repeat an unverified allegation of misconduct as established fact.
 
@@ -756,11 +789,11 @@ Do not imply that the publication itself conducted or approved those experiments
 
 If the ethical status of an important source is materially disputed, explain the limitation where relevant.
 
-## 15. Copyright, Permissions, and Ethical Use
+## 15. Copyright, Permissions and Ethical Use
 
 Ethical use and legal permission are related but distinct questions.
 
-A use may be ethically questionable even where a legal exception might apply. Conversely, copyright permission alone does not resolve privacy, confidentiality, consent, or cultural-sensitivity concerns.
+A use may be ethically questionable even where a legal exception might apply. Conversely, copyright permission alone does not resolve privacy, confidentiality, consent or cultural-sensitivity concerns.
 
 ### 15.1 Copyright
 
@@ -780,21 +813,21 @@ Attribution is important but does not replace permission where permission is leg
 
 ### 15.3 Third-Party Material
 
-Do not assume that material contained in a research article, book, website, repository, or database is owned by the author or publisher of that source.
+Do not assume that material contained in a research article, book, website, repository or database is owned by the author or publisher of that source.
 
-Figures, photographs, maps, lyrics, translations, and other included material may have separate rights holders.
+Figures, photographs, lyrics, translations and other included material may have separate rights holders.
 
 ### 15.4 Public Domain
 
-Public-domain status should be assessed carefully, taking account of the work, relevant rights, jurisdiction, and any separate rights in editions, translations, images, or recordings.
+Public-domain status should be assessed carefully, taking account of the work, relevant rights, jurisdiction and any separate rights in editions, translations, images or recordings.
 
-Public-domain status does not automatically remove ethical responsibilities concerning privacy, provenance, and cultural sensitivity.
+Public-domain status does not automatically remove ethical responsibilities concerning privacy, provenance and cultural sensitivity.
 
 ### 15.5 Open Licences
 
 Read and comply with the actual licence terms.
 
-A Creative Commons licence, open-data licence, or software licence may impose conditions concerning attribution, modification, commercial use, or share-alike distribution.
+A Creative Commons licence, open-data licence or software licence may impose conditions concerning attribution, modification, commercial use or share-alike distribution.
 
 ### 15.6 Publication Responsibility
 
@@ -803,15 +836,16 @@ Maintain appropriate permission records and asset information in accordance with
 - `COPYRIGHT.md`
 - `ASSET_CREDITS.md`
 - `SOURCE_REGISTER.md`
+- `RIGHTS_AND_PERMISSIONS_REGISTER.md`
 - `TAKEDOWN_POLICY.md`
 
 ## 16. Confidentiality and Research Correspondence
 
-Research-related correspondence may contain unpublished findings, private information, confidential professional opinions, or sensitive institutional material.
+Research-related correspondence may contain unpublished findings, private information, confidential professional opinions or sensitive institutional material.
 
 ### 16.1 Private Communications
 
-Do not reproduce private emails, messages, letters, or meeting discussions without considering consent, confidentiality, privacy, and any applicable legal restrictions.
+Do not reproduce private emails, messages, letters or meeting discussions without considering consent, confidentiality, privacy and any applicable legal restrictions.
 
 ### 16.2 Attribution of Private Statements
 
@@ -827,7 +861,7 @@ Do not represent an informal private exchange as a public institutional position
 
 ### 16.3 Confidential Documents
 
-Do not publish confidential reports, unpublished manuscripts, internal research records, or restricted institutional material without an appropriate basis.
+Do not publish confidential reports, unpublished manuscripts, internal research records or restricted institutional material without an appropriate basis.
 
 ### 16.4 Secure Handling
 
@@ -835,27 +869,33 @@ Restrict access to confidential material to people who genuinely need it for the
 
 Do not retain sensitive documents indefinitely without a reason.
 
+### 16.5 Public Repository Protection
+
+Do not commit private correspondence, consent forms, confidential reports, unpublished personal manuscripts or sensitive interview records to a public repository.
+
+Where permission or consent documentation must be retained, store it separately and protect it appropriately.
+
 ## 17. AI-Assisted Research and Automated Tools
 
-AI tools may assist with language, organisation, translation, summarisation, coding, or exploratory research.
+AI tools may assist with language, organisation, translation, summarisation, coding or exploratory research.
 
 Their use does not remove the publication's ethical responsibilities.
 
 ### 17.1 Source Verification
 
-AI-generated citations, summaries, quotations, and historical or scientific statements must be checked against reliable original sources.
+AI-generated citations, summaries, quotations and historical or scientific statements must be checked against reliable original sources.
 
 AI-generated material is not itself proof that a statement is correct.
 
 ### 17.2 Personal and Confidential Information
 
-Do not upload sensitive personal data, confidential correspondence, unpublished manuscripts, restricted archival material, or other protected information to external AI services unless there is an appropriate basis and the relevant permissions, terms, and safeguards have been considered.
+Do not upload sensitive personal data, confidential correspondence, unpublished manuscripts, restricted archival material or other protected information to external AI services unless there is an appropriate basis and the relevant permissions, terms and safeguards have been considered.
 
 ### 17.3 Consent
 
-AI assistance does not create consent on behalf of an interview participant, author, translator, or rights holder.
+AI assistance does not create consent on behalf of an interview participant, author, translator or rights holder.
 
-Do not use an individual's voice, image, personal information, or unpublished work in ways that exceed the permissions or expectations governing its use.
+Do not use an individual's voice, image, personal information or unpublished work in ways that exceed the permissions or expectations governing its use.
 
 ### 17.4 Fabrication and Misrepresentation
 
@@ -875,19 +915,22 @@ Do not use AI to fabricate:
 
 Human editorial review remains necessary.
 
-Additional guidance appears in `AI_ASSISTANCE_POLICY.md` and `DISCLOSURE_POLICY.md`.
+Additional guidance appears in:
+
+- `AI_ASSISTANCE_POLICY.md`
+- `DISCLOSURE_POLICY.md`
 
 ## 18. Ethical Use of Visual and Multimedia Material
 
-Images, recordings, illustrations, maps, graphs, and other media can disclose information or create misleading impressions.
+Images, recordings, illustrations, maps, graphs and other media can disclose information or create misleading impressions.
 
 ### 18.1 Authenticity
 
-Do not present manipulated or generated material as an authentic historical photograph, original archival image, actual experiment, or documentary recording.
+Do not present manipulated or generated material as an authentic historical photograph, original archival image, actual experiment or documentary recording.
 
 ### 18.2 Image Context
 
-Identify relevant source information and distinguish original photographs from illustrations, reconstructions, diagrams, and visualisations.
+Identify relevant source information and distinguish original photographs from illustrations, reconstructions, diagrams and visualisations.
 
 ### 18.3 Personal Images
 
@@ -895,23 +938,23 @@ Consider privacy and consent before publishing an identifiable person's photogra
 
 ### 18.4 Audio and Video
 
-Do not publish interview recordings, performances, or other private recordings without an appropriate basis.
+Do not publish interview recordings, performances or other private recordings without an appropriate basis.
 
 ### 18.5 Captions
 
 Captions should accurately describe what is shown.
 
-Do not infer identity, intention, location, chronology, or scientific meaning without supporting evidence.
+Do not infer identity, intention, location, chronology or scientific meaning without supporting evidence.
 
 ### 18.6 Accessibility
 
-Provide meaningful alternative text, captions, transcripts, and other accessibility support where applicable.
+Provide meaningful alternative text, captions, transcripts and other accessibility support where applicable.
 
 Accessibility requirements should be considered alongside privacy and rights restrictions.
 
 ## 19. Conflicts of Interest and Research Independence
 
-Research and editorial decisions should not be improperly influenced by financial, professional, institutional, personal, or commercial interests.
+Research and editorial decisions should not be improperly influenced by financial, professional, institutional, personal or commercial interests.
 
 ### 19.1 Disclosure
 
@@ -928,27 +971,27 @@ Disclose relevant conflicts involving:
 
 ### 19.2 Independence
 
-Do not alter a conclusion merely to satisfy a sponsor, contributor, institution, or other interested party.
+Do not alter a conclusion merely to satisfy a sponsor, contributor, institution or other interested party.
 
 ### 19.3 Institutional References
 
-Mentioning a university, research centre, conference, journal, or professional body does not imply endorsement, sponsorship, collaboration, or institutional approval.
+Mentioning a university, research centre, conference, journal or professional body does not imply endorsement, sponsorship, collaboration or institutional approval.
 
 ### 19.4 Funding and Resources
 
-Identify relevant funding, sponsorship, material support, and other relationships where they affect the interpretation or presentation of the work.
+Identify relevant funding, sponsorship, material support and other relationships where they affect the interpretation or presentation of the work.
 
 If a project has no relevant external funding, avoid implying otherwise.
 
 ### 19.5 Editorial Decisions
 
-Editorial decisions should be based on the article's accuracy, relevance, quality, and ethical acceptability.
+Editorial decisions should be based on the article's accuracy, relevance, quality and ethical acceptability.
 
 Further information is provided in `DISCLOSURE_POLICY.md`.
 
 ## 20. Ethical Risk Assessment
 
-Before incorporating material that may affect an individual, community, or rights holder, consider the following questions.
+Before incorporating material that may affect an individual, community or rights holder, consider the following questions.
 
 | Consideration | Questions |
 |---|---|
@@ -963,16 +1006,16 @@ Before incorporating material that may affect an individual, community, or right
 | Proportionality | Is the amount of material used necessary? |
 | Rights | Are copyright and other rights appropriately addressed? |
 | Security | Can the material be stored and handled safely? |
-| Disclosure | Should the method, source, limitation, or relationship be disclosed? |
+| Disclosure | Should the method, source, limitation or relationship be disclosed? |
 
 ### 20.1 Risk Categories
 
 An internal assessment may describe a matter as:
 
 - **Low concern:** Ordinary use of reliable published material with clear provenance and no apparent special sensitivity.
-- **Requires additional care:** Material with uncertain attribution, privacy implications, cultural sensitivities, or restricted use conditions.
-- **High concern:** Material involving sensitive personal information, vulnerable people, confidentiality, significant potential harm, or disputed permissions.
-- **Do not proceed without resolution:** Material that appears unlawfully obtained, seriously compromises privacy or safety, violates a known restriction, or requires approval that has not been obtained.
+- **Requires additional care:** Material with uncertain attribution, privacy implications, cultural sensitivities or restricted use conditions.
+- **High concern:** Material involving sensitive personal information, vulnerable people, confidentiality, significant potential harm or disputed permissions.
+- **Do not proceed without resolution:** Material that appears unlawfully obtained, seriously compromises privacy or safety, violates a known restriction or requires approval that has not been obtained.
 
 These descriptions are editorial indicators, not a certified risk assessment or formal ethics-review classification.
 
@@ -993,13 +1036,13 @@ Possible responses include:
 
 ### 20.3 No Benefit of Doubt to Unsafe Disclosure
 
-Where a serious privacy, safety, or confidentiality risk cannot be resolved adequately, exclude the material.
+Where a serious privacy, safety or confidentiality risk cannot be resolved adequately, exclude the material.
 
 Intellectual interest alone does not justify unnecessary exposure.
 
 ## 21. Ethical Handling of Difficult or Disputed Material
 
-Some research questions involve competing narratives, disputed historical records, institutional controversies, or allegations concerning identifiable people.
+Some research questions involve competing narratives, disputed historical records, institutional controversies or allegations concerning identifiable people.
 
 Such matters require particular precision.
 
@@ -1038,13 +1081,19 @@ The article should focus on the issue that has legitimate intellectual or public
 
 Unrelated personal details should not be introduced simply because they are available.
 
-## 22. Data Storage, Retention, and Disposal
+### 21.6 Distinguish Literary Interpretation from Allegation
+
+Literary commentary should not introduce unsupported allegations about an identifiable creator's private life, intentions or conduct.
+
+Biographical and historical claims should be treated as factual claims and supported appropriately.
+
+## 22. Data Storage, Retention and Disposal
 
 Research material should be handled according to its sensitivity and the reason it is being retained.
 
 ### 22.1 Secure Storage
 
-Use reasonable security measures for drafts, interviews, records, datasets, and private correspondence.
+Use reasonable security measures for drafts, interviews, records, datasets and private correspondence.
 
 Access to sensitive material should be limited.
 
@@ -1054,7 +1103,7 @@ Do not collect personal or confidential material that is not needed for the arti
 
 ### 22.3 Retention
 
-Retain research records for a legitimate editorial, verification, accountability, or legal purpose.
+Retain research records for a legitimate editorial, verification, accountability or legal purpose.
 
 Retention periods should reflect the sensitivity and nature of the material.
 
@@ -1062,15 +1111,18 @@ Retention periods should reflect the sensitivity and nature of the material.
 
 When material is no longer needed, consider secure deletion where appropriate.
 
-Deleting a local copy does not necessarily delete backups, third-party copies, published versions, or records held by external services.
+Deleting a local copy does not necessarily delete backups, third-party copies, published versions or records held by external services.
 
 ### 22.5 Published Records
 
-If an ethical concern is discovered after publication, assess whether correction, redaction, restriction, or removal is appropriate under `CORRECTIONS_POLICY.md` and `TAKEDOWN_POLICY.md`.
+If an ethical concern is discovered after publication, assess whether correction, redaction, restriction or removal is appropriate under:
+
+- `CORRECTIONS_POLICY.md`
+- `TAKEDOWN_POLICY.md`
 
 ## 23. Reporting Ethical Concerns
 
-Readers, authors, reviewers, contributors, interview participants, researchers, and other affected individuals may raise concerns about the ethical use of material.
+Readers, authors, reviewers, contributors, interview participants, researchers and other affected individuals may raise concerns about the ethical use of material.
 
 Concerns may involve:
 
@@ -1092,17 +1144,17 @@ Concerns may involve:
 Where possible, a concern should identify:
 
 - The article or material involved.
-- The relevant passage, image, or recording.
+- The relevant passage, image or recording.
 - The nature of the concern.
 - Supporting documentation.
-- Any relevant permission, consent, or restriction.
+- Any relevant permission, consent or restriction.
 - The requested remedy, where appropriate.
 
 A person should not be required to disclose unnecessary personal information merely to raise a concern.
 
 ### 23.2 Initial Assessment
 
-The editor should assess the reported issue, its apparent seriousness, and any immediate risk.
+The editor should assess the reported issue, its apparent seriousness and any immediate risk.
 
 Where necessary, temporarily restricting access to disputed material may be appropriate while the matter is examined.
 
@@ -1140,6 +1192,8 @@ Refer to:
 
 Before publication, consider the following checklist.
 
+Complete only the checks relevant to the material and activities involved.
+
 ### Source Integrity
 
 - [ ] The source has an identifiable origin.
@@ -1171,7 +1225,7 @@ Before publication, consider the following checklist.
 ### Scientific and Research Integrity
 
 - [ ] Research findings are not overstated.
-- [ ] Numerical, theoretical, and experimental evidence are distinguished.
+- [ ] Numerical, theoretical and experimental evidence are distinguished.
 - [ ] Relevant methodological limitations are identified.
 - [ ] Data and visual material are not misleadingly altered.
 - [ ] References and publication statuses are accurate.
@@ -1191,7 +1245,7 @@ Before publication, consider the following checklist.
 
 The editor is responsible for applying this policy in proportion to the nature of the material and the circumstances of publication.
 
-Where a matter requires legal, institutional, professional, or specialist assessment, the editor should recognise the limits of ordinary editorial judgement.
+Where a matter requires legal, institutional, professional or specialist assessment, the editor should recognise the limits of ordinary editorial judgement.
 
 The publication should not:
 
@@ -1203,6 +1257,7 @@ The publication should not:
 - Present a personal account as independently verified fact.
 - Describe informal consultation as formal institutional approval.
 - Claim that an ethics checklist guarantees compliance with every applicable law or professional standard.
+- Require human-participant research procedures for ordinary engagement with published literary works when no such activity is taking place.
 
 The policy establishes an editorial commitment, not a guarantee that every ethical risk can be eliminated.
 
@@ -1212,11 +1267,14 @@ This policy should be read alongside:
 
 - `EDITORIAL_POLICY.md`
 - `EDITORIAL_WORKFLOW.md`
+- `CONTENT_LIFECYCLE.md`
+- `WEEKLY_PUBLICATION_WORKFLOW.md`
 - `RESEARCH_STANDARDS.md`
 - `SOURCE_REGISTER.md`
 - `TRANSLATION_GUIDELINES.md`
 - `LANGUAGE_STYLE_GUIDE.md`
 - `COPYRIGHT.md`
+- `RIGHTS_AND_PERMISSIONS_REGISTER.md`
 - `ASSET_CREDITS.md`
 - `DISCLOSURE_POLICY.md`
 - `AI_ASSISTANCE_POLICY.md`
@@ -1229,19 +1287,21 @@ This policy should be read alongside:
 - `DISCLAIMER.md`
 - `SECURITY.md`
 
-Together, these documents define the publication's approach to research integrity, source use, intellectual responsibility, transparency, and reader trust.
+Together, these documents define the publication's approach to research integrity, source use, intellectual responsibility, transparency and reader trust.
 
 ## 27. Continuing Commitment
 
-Research is not simply the collection of information. It is a relationship with the people, communities, intellectual traditions, records, and evidence from which knowledge is developed.
+Research is not simply the collection of information. It is a relationship with the people, communities, intellectual traditions, records and evidence from which knowledge is developed.
 
-Literary and cultural material deserves respect for its origins and continuing significance. Scientific and historical claims deserve accuracy and intellectual honesty. Personal experiences deserve care, dignity, and appropriate protection.
+Literary and cultural material deserves respect for its origins and continuing significance. Scientific and historical claims deserve accuracy and intellectual honesty. Personal experiences deserve care, dignity and appropriate protection.
 
-Verse & Variable seeks to bring different fields of knowledge into meaningful conversation without treating any source, individual, or community as an unrestricted resource.
+Verse & Variable seeks to bring a wide intellectual perspective to Indian literary expression without treating any source, individual or community as an unrestricted resource.
+
+Ethical responsibility should support meaningful exploration without turning ordinary literary interpretation into an unnecessary administrative exercise.
 
 The guiding principle is simple:
 
-**Explore freely, interpret carefully, attribute honestly, and publish responsibly.**
+**Explore freely, interpret carefully, attribute honestly, respect others, and publish responsibly.**
 
 ---
 
