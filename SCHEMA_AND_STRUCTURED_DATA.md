@@ -1,4 +1,3 @@
-
 # Schema and Structured Data
 
 **Verse & Variable**  
@@ -9,7 +8,11 @@
 
 This document establishes the structured-data conventions for Verse & Variable.
 
-The publication uses a multilingual literary and intellectual archive containing individual explorations, weekly collections, original literary expressions, translations, commentary, scholarly references, and interdisciplinary scientific discussions.
+Verse & Variable is an independent Indian literary journal devoted to poetry, shayari, ghazals, nazms, literary prose, philosophical expressions and other forms of Indian literary expression.
+
+Its initial linguistic foundation comprises Urdu, Hindi, Marathi, Kannada, Tamil, Malayalam and Telugu.
+
+The publication contains individual literary explorations, weekly collections, original literary expressions, translations, transliterations, editorial commentary, attribution information and relevant contextual references.
 
 Structured data provides machine-readable descriptions of web pages and their principal entities.
 
@@ -20,10 +23,12 @@ The objectives are to:
 - Represent individual literary explorations accurately.
 - Identify the actual author of each published article.
 - Distinguish original literary creators from article authors.
+- Represent translations and adaptations accurately where appropriate.
 - Represent weekly collections and their constituent articles.
 - Describe language and subject information.
-- Establish meaningful relationships between pages and sources.
+- Establish meaningful relationships between pages and creative works.
 - Support accurate discovery by search engines and other information systems.
+- Preserve the distinction between the journal's literary scope and the editor's wider intellectual and research background.
 
 This document defines an implementation standard. It does not claim that every proposed structured-data feature has already been implemented.
 
@@ -39,7 +44,9 @@ Do not add properties merely because they are available in Schema.org.
 
 Information represented in JSON-LD should be consistent with the corresponding page.
 
-Do not introduce hidden authors, invented contributors, unsupported affiliations, or misleading descriptions through structured metadata.
+Do not introduce hidden authors, invented contributors, unsupported affiliations, misleading descriptions or irrelevant scientific subjects through structured metadata.
+
+Google's structured-data policies require markup to represent content that is available to readers and accurately describe the subject of the page.
 
 ### 2.3 Correct Intellectual Attribution
 
@@ -49,7 +56,9 @@ For example:
 
 - Article author: the person who wrote the published commentary.
 - Original poet: the creator of the poem being explored.
-- Translator: the person who prepared the translation.
+- Lyricist: the person who wrote the lyrics.
+- Composer: the creator of the musical composition.
+- Translator: the person who prepared a translation.
 - Performer: the person who performed the work.
 
 These identities should be represented separately.
@@ -64,13 +73,23 @@ Avoid inventing custom properties when an appropriate established property exist
 
 A literary analogy should not be represented as an established scientific relationship.
 
-Likewise, mentioning a university, research institution, publisher, or cultural organisation does not establish a formal affiliation.
+Likewise, mentioning a university, research institution, publisher or cultural organisation does not establish a formal affiliation.
+
+The editor's research background should not be used to classify the entire publication as a scientific or interdisciplinary research journal.
 
 ### 2.6 Structured Data Is Not a Ranking Guarantee
 
 Structured data helps systems understand content.
 
-Its presence does not guarantee indexing, higher search rankings, enhanced search appearances, or eligibility for every search feature.
+Its presence does not guarantee indexing, higher search rankings, enhanced search appearances or eligibility for every search feature.
+
+### 2.7 Implementation Must Match the Actual Site
+
+This document describes the intended structured-data architecture.
+
+Before introducing or changing markup, inspect the actual Jekyll configuration, layouts, includes and rendered HTML.
+
+Do not assume that a proposed property, metadata field or reusable component already exists.
 
 ## 3. Structured Data Format
 
@@ -86,11 +105,13 @@ The standard context should be:
 
 JSON-LD should generally be placed inside the HTML document's head section.
 
-For this project, the natural implementation location is:
+For this project, the existing implementation location is:
 
-`_includes/head.html`
+    _includes/head.html
 
 Alternatively, reusable structured-data components may be created and included from that location.
+
+The existing implementation should be inspected before introducing additional blocks.
 
 ### 3.2 JSON-LD Syntax
 
@@ -102,7 +123,8 @@ Important syntax rules include:
 - Commas between properties.
 - No trailing commas.
 - Correctly nested objects and arrays.
-- Valid URLs.
+- Valid absolute URLs where required.
+- Correctly formatted dates.
 - Proper escaping of special characters.
 
 Invalid JSON can prevent systems from interpreting the markup correctly.
@@ -117,7 +139,11 @@ Recommended patterns include:
 
     https://pravinkumar-ghodake.github.io/verse-variable/#webpage
 
+    https://pravinkumar-ghodake.github.io/verse-variable/#editor
+
     https://pravinkumar-ghodake.github.io/verse-variable/entries/example/#article
+
+    https://pravinkumar-ghodake.github.io/verse-variable/weeks/week-2026-46/#webpage
 
 The identifiers should refer to real entities and remain consistent across pages.
 
@@ -129,14 +155,21 @@ For example, a homepage may describe:
 
 - The website.
 - Its main webpage.
-- Its author or editor, where appropriate.
+- Its founder and editor, where appropriate.
 
 An individual article may describe:
 
 - The article.
 - Its author.
 - The website to which it belongs.
-- The literary work discussed.
+- The original literary work being explored, where useful.
+- The relevant translator or other creative contributor, where verified.
+
+A weekly collection may describe:
+
+- The collection page.
+- Its relationship with the website.
+- Its constituent published articles.
 
 Use graph relationships only when they are meaningful.
 
@@ -152,7 +185,7 @@ The following types provide the initial vocabulary for the publication.
 | `WebPage` | Describe an individual web page |
 | `CollectionPage` | Describe a page presenting a collection of content |
 | `Article` | Describe an individual literary exploration |
-| `BlogPosting` | Alternative article type when the content genuinely fits a blog post |
+| `BlogPosting` | Alternative article type when the content genuinely fits a blog-post format |
 | `Person` | Identify a real individual |
 | `CreativeWork` | Represent an original literary or other creative work |
 | `ItemList` | Represent an ordered collection of articles |
@@ -164,6 +197,16 @@ These types are not all required on every page.
 
 Select the type that accurately represents the page's purpose.
 
+### 4.1 Publication Identity Is Not an Organization by Default
+
+An independent publication project is not automatically a registered organization or formally constituted institution.
+
+Do not create a fictitious `Organization` entity merely because the publication has a name, website and visual identity.
+
+Use `Organization` only if a genuine organization exists and its representation is accurate.
+
+The publication website can be described using `WebSite` without inventing a separate organizational entity.
+
 ## 5. Publication Website — WebSite
 
 The homepage should describe the website using the `WebSite` type.
@@ -172,15 +215,19 @@ The homepage should describe the website using the `WebSite` type.
 
 **Name:** Verse & Variable
 
+**Publication type:** Independent Indian literary journal
+
 **URL:**
 
     https://pravinkumar-ghodake.github.io/verse-variable/
 
-**Description:** An independent multilingual literary and intellectual publication exploring poetry, language, philosophy, human experience, and meaningful connections with scientific thought.
+**Description:** An independent Indian literary journal devoted to poetry, shayari, literature, language, philosophy and human experience across India's diverse literary traditions.
 
 **Tagline:** A line of verse. A line of inquiry.
 
 **Urdu expression:** لفظ سے لہر تک
+
+**Founder and editor:** Pravinkumar Ghodake
 
 ### 5.2 Suggested JSON-LD
 
@@ -192,7 +239,7 @@ The following is a proposed example for the homepage.
       "@id": "https://pravinkumar-ghodake.github.io/verse-variable/#website",
       "url": "https://pravinkumar-ghodake.github.io/verse-variable/",
       "name": "Verse & Variable",
-      "description": "An independent multilingual literary and intellectual publication exploring poetry, language, philosophy, human experience, and scientific thought.",
+      "description": "An independent Indian literary journal devoted to poetry, shayari, literature, language, philosophy and human experience across India's diverse literary traditions.",
       "inLanguage": [
         "en",
         "ur",
@@ -205,13 +252,15 @@ The following is a proposed example for the homepage.
       ]
     }
 
-This example describes the website's intended language coverage.
+This example describes the intended language coverage.
 
-Keep the language list aligned with the languages actually represented in the public archive.
+Keep the language list aligned with the languages actually represented in the public website.
 
-The primary language of individual pages should be identified separately.
+The list should not imply that every page is independently available in every language.
 
-### 5.3 Website Identity
+The principal language of individual pages should be identified separately.
+
+### 5.3 Website Identity Consistency
 
 The website's name and URL should remain consistent across:
 
@@ -222,6 +271,7 @@ The website's name and URL should remain consistent across:
 - Sitemap.
 - `llms.txt`.
 - `llms-full.txt`.
+- Citation information.
 
 Avoid creating multiple competing website identities.
 
@@ -261,9 +311,9 @@ This establishes a relationship between the page and the publication website.
 
 ### 6.2 About Pages
 
-An actual about page may use the `AboutPage` type.
+An actual About page may use the `AboutPage` type.
 
-Use this type only when the page genuinely describes the publication, its identity, or the relevant subject.
+Use this type only when the page genuinely describes the publication, its identity or the relevant subject.
 
 Do not mark an ordinary literary article as an AboutPage.
 
@@ -271,7 +321,7 @@ Do not mark an ordinary literary article as an AboutPage.
 
 Individual literary explorations are intended to be represented using the `Article` type.
 
-A `BlogPosting` subtype may be suitable where the article genuinely follows a blog-post publishing model.
+A `BlogPosting` subtype may be suitable where the published content genuinely follows a blog-post format.
 
 The initial preference is to use the general `Article` type consistently unless a more specific type is justified.
 
@@ -291,13 +341,14 @@ Potential properties include:
 | `datePublished` | Original publication date |
 | `dateModified` | Verified modification date |
 | `author` | Actual author of the commentary |
-| `inLanguage` | Principal article language |
+| `inLanguage` | Principal language of the article |
 | `articleSection` | Applicable editorial section |
 | `articleBody` | Published article body, where appropriate |
 | `image` | Relevant representative image |
 | `isPartOf` | Website or collection relationship |
 | `about` | Subject matter discussed |
 | `citation` | References to relevant sources |
+| `keywords` | Meaningful subject descriptors |
 
 Only add properties supported by the actual article.
 
@@ -316,13 +367,11 @@ Replace the example information with verified data before implementation.
         "@id": "https://pravinkumar-ghodake.github.io/verse-variable/entries/example-literary-exploration/"
       },
       "headline": "A Literary Exploration",
-      "description": "A reflective exploration of an original literary expression and its philosophical dimensions.",
+      "description": "A reflection on an original literary expression and its emotional and philosophical dimensions.",
       "url": "https://pravinkumar-ghodake.github.io/verse-variable/entries/example-literary-exploration/",
       "datePublished": "2026-11-12",
       "author": {
-        "@type": "Person",
-        "name": "Pravinkumar Ghodake",
-        "url": "https://sites.google.com/view/pravinkumarghodake"
+        "@id": "https://pravinkumar-ghodake.github.io/verse-variable/#editor"
       },
       "inLanguage": "en",
       "isPartOf": {
@@ -337,17 +386,19 @@ This is a conceptual implementation example, not a declaration that an article w
 
 The `author` property should identify the person who created the article's published commentary.
 
-For articles authored by the publication's editor, the appropriate name and profile URL may be used.
+For articles authored by the publication's editor, the appropriate name and author identity may be used.
 
 Where another person writes an article, identify the actual contributor.
 
-Do not automatically assign every article to the poet, lyricist, or performer whose work is discussed.
+Do not automatically assign every article to the poet, lyricist or performer whose work is discussed.
+
+Google's article structured-data guidance also recommends identifying article authors through reliable names and author-profile URLs.
 
 ### 7.4 Publication Date
 
 Use the actual article publication date.
 
-The date on which a poem, song, or book was originally created is not automatically the article's publication date.
+The date on which a poem, song or book was originally created is not automatically the article's publication date.
 
 ### 7.5 Modification Date
 
@@ -365,6 +416,16 @@ Do not automatically use the publication's generic social-preview artwork as the
 
 Image URLs should be absolute and accessible.
 
+### 7.7 Article Body and Keywords
+
+The `articleBody` property may be used where a meaningful representation of the actual published article is available.
+
+Do not insert incomplete, misleading or substantially different text.
+
+Likewise, `keywords` should describe the article's real subjects.
+
+Do not populate it with the editor's entire research vocabulary when those subjects do not appear in the article.
+
 ## 8. Original Literary Works — CreativeWork
 
 An individual article may discuss a literary work that has its own creator and identity.
@@ -375,7 +436,7 @@ Where structured representation is useful, the work may be described as a `Creat
 
 Potential properties include:
 
-- `@type`
+- `@id`
 - `name`
 - `author`
 - `creator`
@@ -434,13 +495,63 @@ If authorship is uncertain, do not manufacture certainty through structured data
 
 A disputed or traditional attribution should be described carefully in the visible content and represented conservatively in the markup.
 
-## 9. Weekly Collections — CollectionPage
+### 8.4 Avoid Unnecessary CreativeWork Entities
+
+Not every short quotation or literary excerpt needs its own separate structured entity.
+
+A CreativeWork representation is most useful when the original work can be identified meaningfully and the relationship with the article is clear.
+
+If a literary attribution is uncertain or the source cannot be identified reliably, visible attribution may be sufficient.
+
+## 9. Translation and Transliteration Relationships
+
+Translation and transliteration should be represented accurately and should not be confused with the article author's own commentary.
+
+### 9.1 Translator
+
+The `translator` property may be used when the structured entity is genuinely a translated creative work.
+
+An article that merely quotes or includes a few translated lines is not automatically a complete translated work.
+
+For such an article, the translator may instead be identified in the visible attribution section.
+
+### 9.2 Translation Relationships
+
+The properties `translationOfWork` and `workTranslation` may describe relationships between original creative works and their translated versions.
+
+Use these only when separate creative-work entities are actually being represented.
+
+For example, a complete published English translation of an independently identifiable Urdu work may warrant a translation relationship.
+
+Do not describe an English commentary article as a translation of an Urdu poem merely because it contains an English rendering of that poem.
+
+### 9.3 Transliteration
+
+Transliteration is not the same as translation.
+
+A Roman-script representation of an Urdu or Hindi expression should not automatically be described as a separately translated creative work.
+
+If a transliteration is included as an editorial aid within an article, visible labelling and appropriate HTML language information are generally sufficient.
+
+### 9.4 Editorial Rendering
+
+Where an English rendering is prepared by the editor rather than taken from an existing published translation, describe it accurately.
+
+Do not imply that it is an established translation by another individual.
+
+### 9.5 Technical Reference
+
+Schema.org CreativeWork documentation:
+
+https://schema.org/CreativeWork
+
+## 10. Weekly Collections — CollectionPage
 
 Weekly collections bring together three independent literary explorations.
 
 The `CollectionPage` type is suitable for representing a page whose primary purpose is to present a collection of related content.
 
-### 9.1 Recommended Properties
+### 10.1 Recommended Properties
 
 Potential properties include:
 
@@ -456,13 +567,15 @@ Potential properties include:
 
 Use only those that accurately describe the actual weekly page.
 
-### 9.2 ItemList Representation
+### 10.2 ItemList Representation
 
-The three article links may be represented through an `ItemList`.
+The article links may be represented through an `ItemList`.
 
 The `itemListElement` property can identify each article's position within the collection.
 
-### 9.3 Suggested JSON-LD
+`numberOfItems` should reflect the actual number of valid articles included in that collection.
+
+### 10.3 Suggested JSON-LD
 
     {
       "@context": "https://schema.org",
@@ -485,6 +598,7 @@ The `itemListElement` property can identify each article's position within the c
             "position": 1,
             "item": {
               "@type": "Article",
+              "@id": "https://pravinkumar-ghodake.github.io/verse-variable/entries/example-one/#article",
               "url": "https://pravinkumar-ghodake.github.io/verse-variable/entries/example-one/"
             }
           },
@@ -493,6 +607,7 @@ The `itemListElement` property can identify each article's position within the c
             "position": 2,
             "item": {
               "@type": "Article",
+              "@id": "https://pravinkumar-ghodake.github.io/verse-variable/entries/example-two/#article",
               "url": "https://pravinkumar-ghodake.github.io/verse-variable/entries/example-two/"
             }
           },
@@ -501,6 +616,7 @@ The `itemListElement` property can identify each article's position within the c
             "position": 3,
             "item": {
               "@type": "Article",
+              "@id": "https://pravinkumar-ghodake.github.io/verse-variable/entries/example-three/#article",
               "url": "https://pravinkumar-ghodake.github.io/verse-variable/entries/example-three/"
             }
           }
@@ -510,22 +626,26 @@ The `itemListElement` property can identify each article's position within the c
 
 The example URLs are placeholders.
 
-The actual collection should contain the three published article URLs associated with its `week_id`.
+The actual collection should contain the published article URLs associated with its `week_id`.
 
-### 9.4 Collection Accuracy
+### 10.4 Collection Accuracy
 
 Do not declare three items if only two valid articles are published.
 
-Do not include broken, unpublished, or unrelated article links.
+Do not include broken, unpublished or unrelated article links.
 
 The structured list must agree with the weekly collection's visible content and actual ordering.
 
-## 10. Person — Author and Contributor Identity
+The weekly collection groups independent literary works. It does not imply that the three articles share a common theme or interdisciplinary subject.
+
+## 11. Person — Author and Contributor Identity
 
 The `Person` type can be used to describe identifiable individuals associated with published content.
 
 Potential roles include:
 
+- Founder.
+- Editor.
 - Article author.
 - Original poet.
 - Writer.
@@ -533,37 +653,49 @@ Potential roles include:
 - Composer.
 - Translator.
 - Performer.
-- Editor.
 
-### 10.1 Article Author
+### 11.1 Editor and Author Identity
 
-The article's author should refer to the person responsible for creating the published commentary.
+The editor's established public identity may be represented as a `Person` entity.
 
-An appropriate representation may include:
+A suitable stable identifier may be:
+
+    https://pravinkumar-ghodake.github.io/verse-variable/#editor
+
+An illustrative representation is:
 
     {
       "@type": "Person",
+      "@id": "https://pravinkumar-ghodake.github.io/verse-variable/#editor",
       "name": "Pravinkumar Ghodake",
-      "url": "https://sites.google.com/view/pravinkumarghodake"
+      "alternateName": "Pravinkumar Ramchandra Ghodake",
+      "url": "https://sites.google.com/view/pravinkumarghodake",
+      "sameAs": [
+        "https://orcid.org/0000-0002-6755-4003"
+      ]
     }
 
-Use this identity only when it accurately describes the actual author of the article.
+Use the alternate name and other identity information only where they are appropriate and consistent with the editor's public profiles.
 
-### 10.2 Person Identifiers
+### 11.2 Person Identifiers
 
 Useful properties may include:
 
 - `name`
+- `alternateName`
 - `url`
 - `sameAs`
 - `description`
 - `jobTitle`
+- `knowsAbout`
 
-Use only properties that can be verified and are relevant.
+Use only properties that are verifiable and relevant.
 
-### 10.3 SameAs
+### 11.3 SameAs
 
 The `sameAs` property should point to an external page that genuinely identifies the same person or entity.
+
+Appropriate references may include a verified ORCID or an established public profile.
 
 Do not populate it with:
 
@@ -573,55 +705,71 @@ Do not populate it with:
 - Pages of people with similar names.
 - Websites merely because they mention the individual.
 
-### 10.4 Profile Pages
+### 11.4 Research Background
 
-If a dedicated public profile page is created for an individual, that page may be considered for the appropriate profile-page structured data.
+The editor's research areas may be represented through suitable `Person` properties where those subjects are accurately documented.
+
+For example, `knowsAbout` may include relevant areas such as:
+
+- Theoretical and computational mechanics.
+- Nonlinear vibrations.
+- Nonlinear elastic waves.
+- Nonlinear ultrasonics.
+- Mechanical and phononic metamaterials.
+- Inverse problems and inverse design.
+- Physical acoustics.
+
+These belong to the individual editor's research profile.
+
+They should not be copied wholesale into the `WebSite` description or treated as mandatory subjects of the literary archive.
+
+### 11.5 Professional and Institutional Information
+
+Do not assign a person an institutional title, university affiliation, employment relationship or professional qualification unless it is supported by reliable and current information.
+
+### 11.6 Profile Pages
+
+If a dedicated public profile page is created for an individual, that page may be considered for appropriate profile-page structured data.
 
 Do not assume that an external profile or general publication page automatically qualifies.
 
-### 10.5 No Invented Institutional Identity
-
-Do not assign a person an institutional title, university affiliation, employment relationship, or professional qualification unless it is supported by reliable information.
-
-## 11. Translator, Lyricist, Composer, and Performer
+## 12. Translator, Lyricist, Composer and Performer
 
 Creative contributors should be represented according to their actual roles.
 
 Schema.org provides properties and relationships that may be used for these purposes, depending on the type of creative work being described.
 
-### 11.1 Translator
+### 12.1 Translator
 
-The `translator` property may be used when the structured entity is genuinely a translated creative work.
+Use `translator` when the structured creative work is genuinely a translation.
 
-An article that merely quotes or includes a few translated lines is not automatically a complete translated work.
+An article containing an English rendering of a short literary excerpt is not necessarily itself a translated work.
 
 For such an article, the translator may instead be identified in the visible attribution section.
 
-### 11.2 Translation Relationships
+### 12.2 Translation Relationships
 
-The properties `translationOfWork` and `workTranslation` may describe relationships between original creative works and their translated versions.
+The properties `translationOfWork` and `workTranslation` may describe relationships between distinct original and translated creative works.
 
-Use these only when separate creative-work entities are actually being represented.
+Use these only when the separate creative-work entities actually exist and can be identified.
 
-Do not describe an English commentary article as a translation of an Urdu poem merely because it contains an English rendering of that poem.
-
-### 11.3 Lyricist and Composer
+### 12.3 Lyricist and Composer
 
 The lyricist and composer should be identified as distinct creative contributors.
 
 Where the original musical work is separately represented, use suitable creator or contributor relationships based on the actual roles.
 
-### 11.4 Performer
+### 12.4 Performer
 
 A performer should be identified as a performer rather than automatically assigned the original authorship role.
 
-### 11.5 Attribution Accuracy
+### 12.5 Attribution Accuracy
 
 Where contributors are known, use appropriate names and roles.
 
 Where information is unknown or disputed, omit uncertain structured claims rather than filling them with assumptions.
 
-## 12. Citation and Source Relationships
+## 13. Citation and Source Relationships
 
 The `citation` property may be used to identify sources that support or are referenced by a creative work.
 
@@ -632,6 +780,7 @@ For an individual article, this may include:
 - Research papers.
 - Historical documents.
 - Relevant archival resources.
+- Reliable linguistic references.
 
 Example:
 
@@ -648,11 +797,11 @@ Structured citations supplement the visible references section.
 
 They do not replace accurate bibliographic information or ordinary reader-facing citations.
 
-## 13. Language Identification
+## 14. Language Identification
 
 Language metadata is important for this multilingual publication.
 
-### 13.1 Website Language Coverage
+### 14.1 Website Language Coverage
 
 The website may identify its supported language coverage using:
 
@@ -671,19 +820,19 @@ The initial language identifiers are:
 
 Use identifiers consistent with the actual content.
 
-### 13.2 Individual Article Language
+### 14.2 Individual Article Language
 
 The `inLanguage` property should represent the actual language or languages used in the relevant creative work or page.
 
 For an article whose principal commentary is in English, `en` may be appropriate.
 
-A separate original Urdu passage should also have its Urdu language identified in the HTML.
+A separate original Urdu literary work may be represented through its own `CreativeWork` entity with `inLanguage` set to `ur`.
 
-Where the structured entity genuinely contains multiple languages, multiple language values may be used when appropriate.
+Where the article itself contains multiple substantial languages, multiple language values may be used when appropriate.
 
 Do not automatically list every supported publication language on every article.
 
-### 13.3 Language and Script
+### 14.3 Language and Script
 
 Language codes and script identifiers should not be confused.
 
@@ -691,13 +840,28 @@ Where script-specific identification is important, appropriate BCP 47 language t
 
 The existing project language codes should remain consistent with `_data/languages.yml`.
 
-### 13.4 HTML and JSON-LD Agreement
+### 14.4 HTML and JSON-LD Agreement
 
-The page's language attributes, language metadata, and structured-data descriptions should not contradict one another.
+The page's language attributes, language metadata and structured-data descriptions should not contradict one another.
 
-For right-to-left Urdu text, use appropriate direction information independently of the Schema.org language property.
+For right-to-left Urdu text, use appropriate HTML direction information independently of the Schema.org language property.
 
-## 14. BreadcrumbList
+### 14.5 Principal Language Versus Original Literary Language
+
+A page may contain original literary material in one language and editorial commentary in another.
+
+For example:
+
+- The original Urdu poem is a work in Urdu.
+- Its transliteration is an editorial representation.
+- Its English translation is a translation or editorial rendering.
+- The accompanying commentary may be an English article.
+
+Do not treat all of these as the same linguistic entity.
+
+Represent each separately where the actual structure and implementation justify it.
+
+## 15. BreadcrumbList
 
 Breadcrumb structured data may be used when the website actually displays a meaningful breadcrumb trail.
 
@@ -708,7 +872,7 @@ A breadcrumb can help describe the relationship between:
 - Weekly collection.
 - Individual article.
 
-### 14.1 Suggested Structure
+### 15.1 Suggested Structure
 
     {
       "@context": "https://schema.org",
@@ -739,19 +903,19 @@ This is illustrative.
 
 The archive URL should be checked against the actual published website before implementation.
 
-### 14.2 Visible Navigation Agreement
+### 15.2 Visible Navigation Agreement
 
 Breadcrumb structured data should describe navigation that exists and is meaningful to visitors.
 
 Do not create a fictional hierarchy that does not correspond to the site's actual information architecture.
 
-### 14.3 No Duplicate or Misleading Breadcrumbs
+### 15.3 No Duplicate or Misleading Breadcrumbs
 
 Use one coherent breadcrumb representation for the relevant page.
 
 Avoid conflicting breadcrumb paths or invalid position ordering.
 
-## 15. AboutPage and Editorial Identity
+## 16. AboutPage and Editorial Identity
 
 The publication's About page may use the `AboutPage` type.
 
@@ -764,21 +928,23 @@ Where appropriate, it can identify:
 
 The About page may also identify the founder and editor using accurate visible information.
 
-### 15.1 Organization Type
+### 16.1 Organization Type
 
-Do not create a fictitious `Organization` entity merely because the publication has a name and logo.
+Do not create a fictitious `Organization` entity merely because the publication has a name and visual identity.
 
 An independent publication project is not automatically a registered organisation or formally constituted institution.
 
 Only use an Organization entity when a genuine organisation exists and the representation accurately describes it.
 
-### 15.2 Publisher Property
+### 16.2 Publisher Property
 
 Do not automatically add a `publisher` property to every article using the publication's name as an invented organisation.
 
-The publisher should be represented only through an appropriate and truthful person or organisation entity.
+The publisher should be represented only through an appropriate and truthful Person or Organization entity.
 
-### 15.3 Editorial Independence
+Where there is no separate publisher entity, it may be better to omit the property rather than create a misleading identity.
+
+### 16.3 Editorial Independence
 
 The structured data should not imply:
 
@@ -790,7 +956,7 @@ The structured data should not imply:
 
 Such claims must correspond to real, documented relationships.
 
-## 16. Collections, Categories, and Subjects
+## 17. Collections, Categories and Subjects
 
 Structured data may describe the subjects explored by an article.
 
@@ -803,21 +969,23 @@ Relevant properties may include:
 
 Use these carefully.
 
-### 16.1 About
+### 17.1 About
 
-The `about` property identifies the subject matter of a creative work or article.
+The `about` property identifies the subject matter of an article or creative work.
 
-It may describe the principal literary work or broader subject of the published commentary.
+It may describe the principal literary work or a broader subject of the published commentary.
 
-### 16.2 Keywords
+Where the original literary work has its own identifiable entity, it may be represented through `CreativeWork`.
 
-Where applicable, `keywords` may represent a set of meaningful subject descriptors.
+### 17.2 Keywords
+
+Where applicable, `keywords` may represent meaningful subject descriptors.
 
 These should reflect the actual content.
 
-Do not add long, repetitive search phrases.
+Do not add long, repetitive search phrases or the entire research vocabulary of the editor.
 
-### 16.3 Article Sections
+### 17.3 Article Sections
 
 The `articleSection` property may be used to identify a genuine editorial section.
 
@@ -825,26 +993,27 @@ For example:
 
 - Poetry.
 - Song Lyrics.
+- Folk Literature.
 - Literary Prose.
-- Philosophical Writing.
+- Philosophical Literature.
 
 Use the actual category system rather than creating unrelated section names for every article.
 
-### 16.4 Scientific Subjects
+### 17.4 Scientific Subjects
 
 Scientific subjects may be included where they are substantively discussed.
 
 An article about a metaphorical idea of resonance should not automatically be described as a technical study of nonlinear acoustics.
 
-## 17. SearchAction and Future Search Functionality
+Scientific properties should reflect actual article content, not the editor's background alone.
+
+## 18. SearchAction and Future Search Functionality
 
 Schema.org supports properties for describing possible actions associated with a website.
 
 A `SearchAction` may be considered if a genuine site-search function is implemented.
 
-However, the publication's search functionality is still a development proposal.
-
-Do not advertise an operational search action in structured data before the search page and query mechanism actually work.
+However, the publication's search functionality should not be described as operational until the search page and query mechanism actually work.
 
 Any future search action should:
 
@@ -857,23 +1026,23 @@ Any future search action should:
 
 The presence of `SearchAction` does not guarantee a special search box in Google results.
 
-## 18. JSON-LD Integration with the Existing Website
+## 19. JSON-LD Integration with the Existing Website
 
-The current project includes:
+The current project uses:
 
-`_includes/head.html`
+    _includes/head.html
 
-This file already has responsibility for page-level SEO information and JSON-LD-related metadata.
+This file has responsibility for page-level metadata and structured-data output.
 
 Before adding more structured data, inspect the existing implementation.
 
-### 18.1 Avoid Duplicate Graphs
+### 19.1 Avoid Duplicate Graphs
 
-Do not add a second description of the same website, article, or person under a different identity without a clear reason.
+Do not add a second description of the same website, article or person under a different identity without a clear reason.
 
 Where multiple JSON-LD blocks are necessary, use stable `@id` values so that relationships can be understood consistently.
 
-### 18.2 Reusable Includes
+### 19.2 Reusable Includes
 
 The following architecture may be considered:
 
@@ -884,13 +1053,15 @@ The following architecture may be considered:
 | `_includes/schema-week.html` | Weekly collection metadata |
 | `_includes/schema-breadcrumb.html` | Breadcrumb navigation |
 
-These are proposed future component filenames, not files that currently exist.
+These are proposed future component filenames, not files that necessarily exist.
 
 The implementation should be selected according to the complexity of the existing head include.
 
 For a lightweight publication, a small number of clearly maintained includes may be sufficient.
 
-### 18.3 Conditional Rendering
+Do not introduce additional files merely to make the architecture appear more sophisticated.
+
+### 19.3 Conditional Rendering
 
 The layout should determine which structured data to render according to the page type.
 
@@ -900,23 +1071,26 @@ For example:
 - Individual entry: `Article` and relevant creative-work relationships.
 - Weekly collection: `CollectionPage` and its `ItemList`.
 - About page: `AboutPage`.
+- Custom 404 page: appropriate page metadata without misleading article markup.
 
 Do not output article structured data for a 404 page or another page type where it does not apply.
 
-### 18.4 Data Sources
+### 19.4 Data Sources
 
 Structured data should use actual Jekyll variables wherever possible.
 
-Examples include:
+Examples of potential fields include:
 
 - `page.title`
 - `page.description`
 - `page.date`
 - `page.url`
-- `page.author`
+- `page.author_name`
 - `page.language_id`
-- `page.work_title`
+- `page.language_code`
+- `page.literary_form`
 - `page.week_id`
+- `page.entry_number`
 - `site.url`
 - `site.baseurl`
 
@@ -924,9 +1098,9 @@ Use the actual fields defined and rendered by the project.
 
 Do not assume that every proposed metadata field exists in the current implementation.
 
-### 18.5 JSON Escaping
+### 19.5 JSON Escaping
 
-When Liquid values are inserted into JSON-LD, use appropriate JSON escaping.
+When Liquid values are inserted into JSON-LD, use appropriate JSON serialization or escaping.
 
 This is especially important for:
 
@@ -938,67 +1112,85 @@ This is especially important for:
 - Special characters in titles.
 - Multilingual descriptions.
 
+Jekyll's JSON-related Liquid filters may be used where appropriate.
+
 The rendered JSON must remain valid even when an article contains complex literary text.
 
-### 18.6 Multiline Original Text
+### 19.6 Multiline Original Text
 
 Do not directly insert unprocessed multiline YAML content into a JSON string.
 
 Use appropriate JSON serialization or escaping.
 
-Check that line breaks, quotation marks, and special characters remain valid.
+Check that line breaks, quotation marks and special characters remain valid.
 
-## 19. Properties That Require Special Care
+### 19.7 No Unsupported Metadata Assumptions
+
+The article metadata reference establishes the project's actual entry fields.
+
+Structured data should be derived from those established fields and verified page content.
+
+Do not introduce invented frontmatter fields solely to satisfy a proposed Schema.org example.
+
+## 20. Properties That Require Special Care
 
 Some Schema.org properties can easily be misapplied in this publication.
 
-### 19.1 Author
+### 20.1 Author
 
-The article author is the creator of the published article.
+The article author is the creator of the published commentary.
 
 The original poet should be represented as the creator of the referenced literary work, not automatically as the article author.
 
-### 19.2 Creator
+### 20.2 Creator
 
 The `creator` property should identify a genuine creator of the entity being described.
 
 Do not use it interchangeably with every person mentioned in an article.
 
-### 19.3 Translator
+### 20.3 Translator
 
 Use `translator` when the structured creative work is actually a translation.
 
 An article containing an English rendering of a short Urdu couplet is not necessarily itself a translated work.
 
-### 19.4 Publisher
+### 20.4 Publisher
 
 Identify a genuine publisher entity where applicable.
 
 Do not invent an institution or organisation simply to populate the property.
 
-### 19.5 SameAs
+### 20.5 SameAs
 
 Use `sameAs` only for authoritative or otherwise reliable identity references.
 
 A general search result or an unrelated page mentioning a name does not establish entity identity.
 
-### 19.6 DateModified
+### 20.6 DateModified
 
 Use an accurate revision date.
 
 Do not automatically update every page whenever the Jekyll site is built.
 
-### 19.7 Image
+### 20.7 Image
 
 Include relevant, publicly accessible images.
 
-Do not use a generic logo as though it were an individual article's representative photograph or illustration.
+Do not use a generic site image as though it were an individual article's representative photograph or illustration.
 
-## 20. Structured Data Validation
+### 20.8 About and Mentions
+
+Use `about` for subjects that materially define the article.
+
+Use `mentions` for entities mentioned in the content without necessarily being its principal subject.
+
+Neither property should be used to insert unrelated scientific topics or keywords.
+
+## 21. Structured Data Validation
 
 Every structured-data implementation should be checked after deployment.
 
-### 20.1 JSON Validation
+### 21.1 JSON Validation
 
 Confirm:
 
@@ -1009,7 +1201,7 @@ Confirm:
 - Valid date formats.
 - No duplicate or conflicting properties.
 
-### 20.2 Schema.org Validation
+### 21.2 Schema.org Validation
 
 Use the Schema.org validator to inspect the vocabulary and properties.
 
@@ -1017,7 +1209,7 @@ Official validator:
 
 https://validator.schema.org/
 
-### 20.3 Google Rich Results Test
+### 21.3 Google Rich Results Test
 
 Where Google supports a particular structured-data feature, use the Rich Results Test.
 
@@ -1027,13 +1219,13 @@ Not every valid Schema.org type is eligible for a Google rich result.
 
 A successful Schema.org validation does not establish eligibility for a particular search appearance.
 
-### 20.4 URL Inspection
+### 21.4 URL Inspection
 
 Where Google Search Console is configured, inspect representative published pages.
 
 Check whether the crawler can access the page and whether it sees the expected rendered structured data.
 
-### 20.5 Representative Page Testing
+### 21.5 Representative Page Testing
 
 At minimum, test:
 
@@ -1046,7 +1238,18 @@ At minimum, test:
 
 Testing should use actual published pages rather than placeholder examples.
 
-## 21. Common Structured Data Errors
+### 21.6 Validation After Changes
+
+Repeat validation when:
+
+- The head include is changed.
+- Article metadata fields are revised.
+- New layouts are introduced.
+- Weekly collection generation changes.
+- Structured-data relationships are modified.
+- Canonical URL conventions change.
+
+## 22. Common Structured Data Errors
 
 Avoid the following mistakes:
 
@@ -1062,9 +1265,10 @@ Avoid the following mistakes:
 - Including unpublished URLs.
 - Marking hidden content as visible article content.
 - Adding unsupported institutional affiliations.
+- Including scientific terms unrelated to the actual article.
 - Treating Schema.org validity as proof of search ranking or rich-result eligibility.
 
-## 22. Implementation Checklist
+## 23. Implementation Checklist
 
 Before treating structured data as ready for publication, verify the following.
 
@@ -1073,8 +1277,9 @@ Before treating structured data as ready for publication, verify the following.
 - [ ] `WebSite` describes the correct publication.
 - [ ] Website URL includes the project base path.
 - [ ] Publication name and description are accurate.
-- [ ] Website language information is appropriate.
+- [ ] Language information reflects actual website content.
 - [ ] Stable website identifier is used.
+- [ ] The editor's identity is represented separately where appropriate.
 
 ### Individual articles
 
@@ -1087,13 +1292,15 @@ Before treating structured data as ready for publication, verify the following.
 - [ ] Language is correct.
 - [ ] Image is relevant where included.
 - [ ] Canonical article URL is accurate.
+- [ ] Subject information reflects actual content.
 
 ### Literary works and contributors
 
 - [ ] Original literary work is represented accurately.
 - [ ] Original authorship is verified or qualified.
 - [ ] Translation relationships are genuine.
-- [ ] Lyricist, composer, and performer roles are separate.
+- [ ] Transliteration is distinguished from translation.
+- [ ] Lyricist, composer and performer roles are separate.
 - [ ] Sources are represented correctly.
 - [ ] No unsupported identity relationships are added.
 
@@ -1104,6 +1311,7 @@ Before treating structured data as ready for publication, verify the following.
 - [ ] Item positions are correct.
 - [ ] Collection description is accurate.
 - [ ] Visible collection agrees with structured content.
+- [ ] Item count reflects the actual published collection.
 
 ### Technical implementation
 
@@ -1115,7 +1323,7 @@ Before treating structured data as ready for publication, verify the following.
 - [ ] Page-specific schema is conditional.
 - [ ] Validation is completed after deployment.
 
-## 23. Relationship with Other Documentation
+## 24. Relationship with Other Documentation
 
 This specification should be maintained alongside:
 
@@ -1139,28 +1347,36 @@ This specification should be maintained alongside:
 
 Changes to structured metadata should be reflected in the actual templates and corresponding documentation.
 
-## 24. Future Development
+Documentation should distinguish between:
+
+- Existing implementation.
+- Proposed improvements.
+- Features that have not yet been implemented.
+
+## 25. Future Development
 
 As the archive grows, structured-data capabilities may be expanded to represent:
 
 - Verified contributor profiles.
 - More detailed literary source relationships.
-- Translation relationships between separate published works.
+- Translation relationships between separately published works.
 - Additional collection structures.
 - Author and contributor indexes.
-- More detailed subject relationships.
+- More detailed literary subject relationships.
 - Bibliographic and scholarly references.
 - Dedicated profile pages.
 
 Such additions should be made only where they describe actual content and improve the consistency of the publication's information architecture.
 
+Scientific and technical subject information may be included for individual entries when genuinely relevant. It should not become a default classification for the publication or its literary articles.
+
 Structured data should remain a faithful representation of the publication rather than a collection of search-oriented claims.
 
-The objective is to make Verse & Variable intelligible to both human readers and digital information systems without compromising authorship, literary attribution, or intellectual accuracy.
+The objective is to make Verse & Variable intelligible to both human readers and digital information systems without compromising authorship, literary attribution or intellectual accuracy.
 
 ---
 
-## 25. Authoritative Technical References
+## 26. Authoritative Technical References
 
 ### Schema.org
 
@@ -1174,12 +1390,13 @@ The objective is to make Verse & Variable intelligible to both human readers and
 - `ItemList`: https://schema.org/ItemList
 - `ListItem`: https://schema.org/ListItem
 - `BreadcrumbList`: https://schema.org/BreadcrumbList
+- `AboutPage`: https://schema.org/AboutPage
 
 ### Google Search Central
 
 - General structured-data guidelines: https://developers.google.com/search/docs/appearance/structured-data/sd-policies
 - Article structured data: https://developers.google.com/search/docs/appearance/structured-data/article
-- Search appearance and structured data: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
+- Structured-data introduction: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
 - Rich Results Test: https://search.google.com/test/rich-results
 - Search Console: https://search.google.com/search-console
 
