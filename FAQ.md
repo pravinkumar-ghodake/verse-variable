@@ -1,4 +1,3 @@
-
 # Frequently Asked Questions
 
 **Verse & Variable**  
@@ -9,11 +8,15 @@
 
 ### 1.1 What is Verse & Variable?
 
-Verse & Variable is an independent literary and interdisciplinary publication exploring the relationship between literature, language, culture, philosophy, mathematics, and scientific inquiry.
+Verse & Variable is an independent Indian literary journal founded and edited by Pravinkumar Ghodake.
 
-It brings literary expression into conversation with different forms of intellectual exploration.
+The journal explores Indian literature through poetry, shayari, ghazals, nazms, literary prose, song lyrics and other forms of expression across languages and literary traditions.
 
-The publication is particularly interested in Indian and broader South Asian literary traditions, while remaining open to meaningful connections with international literature and wider intellectual traditions.
+Its editorial focus is on the language, imagery, cultural context, philosophy and human experience found within literary works.
+
+The editor brings a much wider intellectual perspective to the publication, shaped by interests in Indian and international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience.
+
+These interests inform the editorial approach without requiring every literary work to connect with a particular discipline.
 
 Its central idea is expressed through its tagline:
 
@@ -23,11 +26,13 @@ Its central idea is expressed through its tagline:
 
 The name brings together two complementary ideas.
 
-**Verse** represents poetry, literary expression, language, imagination, rhythm, and human experience.
+**Verse** represents literary expression, poetry, language, imagination, rhythm and human experience.
 
-**Variable** represents the changing quantities, relationships, conditions, and concepts encountered in mathematics, physics, mechanics, and other scientific disciplines.
+**Variable** represents the changing, many-sided intellectual perspective through which the world is encountered and understood. It reflects an outlook shaped by scientific research, literature, philosophy, books, music, culture and everyday experience.
 
-Together, they express the publication's interest in exploring literature alongside deeper intellectual questions.
+The word also carries a familiar resonance with mathematics and scientific disciplines, reflecting the editor's research background.
+
+Together, the two words represent a literary expression and the wider perspective it may inspire.
 
 The name does not suggest that literature must be translated into mathematics or that scientific concepts can explain every aspect of human experience.
 
@@ -45,15 +50,17 @@ Its English meaning is:
 
 *From the word to the wave.*
 
-It expresses the movement from a literary expression towards a broader exploration of ideas, patterns, relationships, and physical phenomena.
+The phrase expresses the relationship between the literary expression at the heart of the journal and the wider movement of thought that it may inspire.
 
-The word and the wave belong to different domains, but both can inspire meaningful intellectual inquiry.
+The word represents language and literary expression. The wave is also a reference to the editor's scientific background and the research-inspired visual identity of the journal.
+
+It is a statement of intellectual curiosity, not a prescribed journey that every poem or reflection must follow.
 
 ### 1.4 Who founded Verse & Variable?
 
 Verse & Variable was founded by Pravinkumar Ghodake.
 
-The publication is developed as an independent literary and interdisciplinary project.
+The publication is developed as an independent literary project shaped by the founder's wider intellectual interests and research background.
 
 ### 1.5 Is Verse & Variable a university or research institution?
 
@@ -61,32 +68,33 @@ No.
 
 Verse & Variable is an independent publication.
 
-It is not a university, academic department, research institute, scientific society, or formal academic journal.
+It is not a university, academic department, research institute, scientific society or formal academic journal.
 
-References to universities, researchers, conferences, or other institutions do not imply endorsement, sponsorship, institutional affiliation, or formal collaboration.
+References to universities, researchers, conferences or other institutions do not imply endorsement, sponsorship, institutional affiliation or formal collaboration.
 
 ### 1.6 Is the publication independent?
 
 Yes.
 
-The publication maintains its own editorial direction and does not automatically represent the views of any external institution, employer, academic organisation, or professional body.
+The publication maintains its own editorial direction and does not automatically represent the views of any external institution, employer, academic organisation or professional body.
 
-Its intellectual contributions should be evaluated on their content, sources, reasoning, and editorial quality.
+Its intellectual contributions should be evaluated on their content, sources, reasoning and editorial quality.
 
 ### 1.7 What is the main objective of the publication?
 
-The objective is to build a thoughtful, multilingual archive in which literary expression and intellectual inquiry can coexist.
+The objective is to build a thoughtful, multilingual archive of Indian literature in which original literary expression can be encountered, interpreted and appreciated with care.
 
 The publication seeks to encourage:
 
 - Deeper literary interpretation.
-- Greater appreciation of multilingual traditions.
-- Responsible translation.
-- Historical and philosophical reflection.
-- Scientific curiosity.
-- Meaningful interdisciplinary connections.
-- Intellectual independence.
+- Greater appreciation of Indian multilingual traditions.
+- Responsible translation and preservation of original scripts.
+- Historical, cultural and philosophical reflection.
+- Meaningful engagement with human experience.
+- Intellectual independence and curiosity.
 - Responsible use of research and cultural material.
+
+The editor's wider intellectual interests may enrich individual reflections when appropriate, but the journal does not require scientific or interdisciplinary connections.
 
 It aims to offer more than a collection of quotations or summaries. Each exploration should give readers something meaningful to consider.
 
@@ -94,11 +102,13 @@ It aims to offer more than a collection of quotations or summaries. Each explora
 
 ### 2.1 Which literary traditions does the publication explore?
 
-The publication has a particular interest in Indian and broader South Asian literary traditions.
+The publication focuses on Indian literary traditions, from classical and historical works to contemporary expressions.
 
-These include poetry, shayari, ghazals, nazms, folk expressions, devotional literature, philosophical verse, song lyrics, and other forms of literary and cultural expression.
+These include poetry, shayari, ghazals, nazms, folk expressions, devotional literature, philosophical verse, song lyrics, literary prose and other forms of literary and cultural expression.
 
-It may also explore works from other literary traditions when they contribute meaningfully to the publication.
+The editor's personal literary interests extend to Indian and international literature. However, the present editorial scope of Verse & Variable is specifically focused on Indian literature.
+
+International literature remains part of the wider intellectual and reading background that informs the editor's perspective; it is not a separate publication category in the current archive.
 
 ### 2.2 Which languages are supported?
 
@@ -112,7 +122,7 @@ The principal language traditions currently identified for the publication are:
 - Malayalam.
 - Telugu.
 
-Other languages may be included as the archive develops.
+Other Indian languages may be included as the archive develops.
 
 ### 2.3 Why does the publication preserve original scripts?
 
@@ -120,7 +130,7 @@ Original language is an essential part of literary identity.
 
 A poem is not simply a sequence of ideas that can always be transferred without loss into another language.
 
-Its vocabulary, grammar, rhythm, sound, cultural associations, and script may all contribute to its meaning.
+Its vocabulary, grammar, rhythm, sound, cultural associations and script may all contribute to its meaning.
 
 Preserving the original script allows readers to encounter the expression in its linguistic context.
 
@@ -140,11 +150,13 @@ Transliteration is useful when readers may not be familiar with the original scr
 
 It may be included where it improves accessibility without unnecessarily complicating the article.
 
+An additional pronunciation guide may also be provided where useful.
+
 ### 2.6 How does the publication handle Urdu?
 
 Urdu material is intended to retain its original script and right-to-left reading direction.
 
-Where practical, the publication also considers Nastaliq-compatible typography, transliteration, and English translation.
+Where practical, the publication also considers Nastaliq-compatible typography, transliteration and English translation.
 
 The original wording should not be unnecessarily altered merely to simplify website presentation.
 
@@ -152,7 +164,7 @@ The original wording should not be unnecessarily altered merely to simplify webs
 
 Yes.
 
-Literary forms such as ghazal, nazm, rubai, folk poetry, devotional verse, and other expressions should be identified according to their actual characteristics.
+Literary forms such as ghazal, nazm, rubai, folk poetry, devotional verse and other expressions should be identified according to their actual characteristics.
 
 The publication should not use literary classifications interchangeably or assign a form solely on the basis of superficial similarity.
 
@@ -188,55 +200,58 @@ Yes, where appropriate sources and context are available.
 
 Traditional and oral expressions may not have a single identifiable author.
 
-In such cases, the publication should use responsible attribution, such as traditional, anonymous, or community-associated material, rather than inventing an individual creator.
+In such cases, the publication should use responsible attribution, such as traditional, anonymous or community-associated material, rather than inventing an individual creator.
 
-## 3. Literary and Scientific Connections
+## 3. The Editor's Scientific Background and Wider Perspective
 
-### 3.1 Why connect literature with science?
+### 3.1 What role does the editor's scientific background play in the journal?
 
-Literature and science offer different ways of examining the world.
+The editor's scientific research background is an important part of his intellectual identity and the perspective he brings to the publication.
 
-Literature explores experience through language, imagination, metaphor, symbolism, and human reflection.
+It has shaped his habits of observation, analytical thinking, curiosity and engagement with complex questions.
 
-Science explores physical and natural phenomena through observation, mathematics, modelling, experimentation, and evidence.
+However, this background does not define what every literary work must mean or what every reflection must discuss.
 
-Their relationship can be intellectually productive when connections are developed carefully.
+Some literary expressions invite scientific or mathematical questions. Others are best approached through language, emotion, philosophy, history, culture, relationships or human experience.
 
-The publication explores these connections without claiming that the disciplines are interchangeable.
+The literary expression itself determines the direction.
 
 ### 3.2 Does every article contain a scientific explanation?
 
 No.
 
-The publication is not intended to force scientific terminology into every literary discussion.
+The publication does not require scientific terminology or interdisciplinary comparisons in its literary articles.
 
-Some expressions invite meaningful scientific exploration. Others are better understood through literary, historical, cultural, or philosophical interpretation.
+Some expressions may invite an occasional scientific connection that genuinely enriches the interpretation.
 
-The literary work should remain central.
+Others deserve to remain entirely within their literary, emotional, cultural or philosophical context.
 
-### 3.3 What scientific fields are relevant to the publication?
+A literary work does not need a scientific connection to be selected, appreciated or explored.
 
-The publication has a particular interest in mechanics, physical acoustics, waves, nonlinear phenomena, and metamaterial research.
+### 3.3 What scientific fields form part of the editor's research background?
 
-Relevant subjects include:
+The editor's research interests include theoretical, computational and experimental mechanics, particularly:
 
 - Nonlinear vibrations.
+- Nonlinear dynamical systems.
 - Nonlinear elasticity.
-- Nonlinear waves.
-- Harmonic generation and scattering.
+- Nonlinear elastic waves.
 - Nonlinear ultrasonics.
+- Harmonic generation and scattering.
 - Hysteresis and contact nonlinearity.
-- Wave mixing.
+- Wave mixing and nonlinear interactions.
 - Mechanical and phononic metamaterials.
 - Nonlinear optics.
 - Temporal and spatiotemporal modulation.
 - Computational mechanics.
-- Inverse problems.
-- Inverse design.
-- Experimental mechanics.
+- Inverse problems and inverse design.
+- Structural health monitoring.
+- Non-destructive evaluation.
 - Physical acoustics.
 
-Other scientific and mathematical subjects may also be explored where relevant.
+These fields describe the editor's scientific and professional background.
+
+Their presence in the editor's intellectual life does not make them required topics or independent scientific publication categories within Verse & Variable.
 
 ### 3.4 Are literary metaphors treated as physical mechanisms?
 
@@ -246,13 +261,13 @@ A metaphor may inspire a scientific question, but it does not establish a physic
 
 For example, a literary description of resonance may evoke a scientific concept, but the presence of the word or image does not prove that a physical resonant process is occurring.
 
-The publication distinguishes between poetic imagery, conceptual analogy, mathematical correspondence, scientific hypothesis, and experimentally supported mechanism.
+The publication distinguishes between poetic imagery, conceptual analogy, mathematical correspondence, scientific hypothesis and experimentally supported mechanism.
 
 ### 3.5 Does the publication claim that poetry predicts scientific discoveries?
 
 No.
 
-The publication may explore suggestive relationships between literary expression and scientific ideas.
+The publication may occasionally explore suggestive relationships between literary expression and scientific ideas.
 
 However, resemblance between a poetic image and a scientific concept is not proof that the original author anticipated a modern discovery.
 
@@ -260,25 +275,27 @@ Historical and scientific claims require appropriate evidence.
 
 ### 3.6 Are mathematical equations included?
 
-Some articles may include equations where they genuinely improve the explanation.
+An article may include equations where they genuinely improve an explanation arising from the literary discussion.
 
-Variables, assumptions, units, and physical meaning should be explained where necessary.
+Variables, assumptions, units and physical meaning should be explained where necessary.
 
 Equations should not be added merely to make an article appear more technical.
 
 ### 3.7 Are computational simulations presented?
 
-Technical articles may discuss computational modelling and simulation results.
+Computational modelling and simulation results may be discussed when they are directly relevant to a particular reflection.
 
 Where simulations are discussed, the publication should distinguish numerical predictions from experimental measurements.
 
-Important assumptions, boundary conditions, material models, and methodological limitations should be identified where relevant.
+Important assumptions, boundary conditions, material models and methodological limitations should be identified where relevant.
+
+Standalone computational research is not a separate publication category of the journal.
 
 ### 3.8 Are scientific claims independently verified?
 
 Important scientific claims should be examined against appropriate sources and evidence.
 
-However, the extent of assessment varies between articles.
+The extent of assessment depends on the claims made in an individual article.
 
 The publication does not automatically certify every technical statement or claim to have independently replicated every research result.
 
@@ -286,42 +303,41 @@ The publication does not automatically certify every technical statement or clai
 
 No.
 
-Verse & Variable is not presented as a conventional scientific journal.
+Verse & Variable is an independent Indian literary journal.
 
-Its scientific discussions form part of a broader literary and interdisciplinary publication.
+Its editor has a scientific research background, and scientific knowledge may occasionally inform an individual literary reflection where it genuinely contributes.
 
-An article discussing research does not automatically constitute an original peer-reviewed research paper.
+An article discussing a scientific idea does not automatically constitute an original peer-reviewed research paper.
 
 ## 4. Article Structure and Publication Format
 
 ### 4.1 How are articles organised?
 
-The principal literary exploration format begins with the original literary or intellectual material, followed where appropriate by transliteration, translation, attribution, and supporting context.
+An individual literary exploration generally begins with the original literary expression, followed where appropriate by transliteration, pronunciation guidance, translation, attribution and supporting context.
 
-It is followed by original commentary.
+It is followed by an original editorial reflection.
 
-### 4.2 Why exactly four commentary paragraphs?
+The exact supplementary elements depend on the selected work and the information available.
 
-The standard individual literary exploration uses exactly four substantial English prose paragraphs of original commentary.
+### 4.2 How long should an individual reflection be?
 
-The structure encourages a consistent progression:
+An individual literary reflection should contain **no more than four concise English prose paragraphs**.
 
-1. **Literary and human foundation:** introducing the expression and its human significance.
-2. **Interpretation and intellectual depth:** examining its imagery, language, philosophy, and cultural context.
-3. **Scientific or interdisciplinary inquiry:** exploring an appropriate connection where one genuinely exists.
-4. **Reflection and synthesis:** bringing the discussion together.
+The purpose is to encourage thoughtful, focused writing rather than lengthy explanations or artificial expansion.
 
-The four-paragraph format provides an editorial identity across the archive without requiring every article to explore identical subjects.
+Four paragraphs are a maximum, not a target. Shorter reflections are entirely acceptable when they communicate the interpretation completely.
+
+There is no fixed paragraph-by-paragraph formula and no paragraph reserved for a scientific connection.
 
 ### 4.3 Do translations and quotations count as commentary paragraphs?
 
 No.
 
-Original literary text, transliteration, translation, quotations, metadata, headings, notes, and references are separate from the four principal commentary paragraphs.
+Original literary text, transliteration, translation, quotations, metadata, headings, notes and references are separate from the principal prose reflection.
 
 ### 4.4 How many articles are intended per week?
 
-The intended editorial format is three independent explorations per week.
+The intended editorial format is three independent literary explorations per week.
 
 Each exploration has its own permanent article page.
 
@@ -329,7 +345,7 @@ A separate weekly collection page brings the three articles together.
 
 ### 4.5 Why are individual article pages necessary?
 
-Each article should remain independently readable, linkable, citable, and discoverable.
+Each article should remain independently readable, linkable, citable and discoverable.
 
 The weekly collection provides context and organisation, but it should not replace the individual articles.
 
@@ -337,7 +353,7 @@ The weekly collection provides context and organisation, but it should not repla
 
 Three articles per week are the intended editorial format, not an unconditional guarantee.
 
-Quality, source verification, translation, permissions, technical readiness, and available editorial capacity take priority over an artificial publication deadline.
+Quality, source verification, translation, permissions, technical readiness and available editorial capacity take priority over an artificial publication deadline.
 
 An edition may be delayed when an article is not ready.
 
@@ -353,7 +369,7 @@ A weekly collection is an additional organisational layer.
 
 Yes, where appropriate.
 
-Articles may be corrected, clarified, or revised when new information or errors warrant an update.
+Articles may be corrected, clarified or revised when new information or errors warrant an update.
 
 Material changes should be handled according to the correction and content-lifecycle policies.
 
@@ -380,13 +396,15 @@ The relevance and reliability of a source should be assessed in relation to the 
 
 ### 5.2 Does the publication cite its sources?
 
-Important factual, historical, linguistic, philosophical, and scientific claims should have appropriate supporting references.
+Important factual, historical, linguistic, philosophical and scientific claims should have appropriate supporting references.
 
 The exact level of citation depends on the nature of the article.
 
+A literary reflection does not require a scientific reference section when it makes no scientific claims.
+
 ### 5.3 Does the publication use primary sources?
 
-Primary sources are preferred where practicable, particularly when verifying original literary text, historical documents, and scientific findings.
+Primary sources are preferred where practicable, particularly when verifying original literary text, historical documents and scientific findings.
 
 When a primary source has not been examined directly, the article should avoid implying otherwise.
 
@@ -394,7 +412,7 @@ When a primary source has not been examined directly, the article should avoid i
 
 Uncertainty should be communicated honestly.
 
-The publication distinguishes between established facts, interpretations, hypotheses, disputed claims, and speculation.
+The publication distinguishes between established facts, interpretations, hypotheses, disputed claims and speculation.
 
 It does not aim to create certainty where the available evidence does not support it.
 
@@ -408,7 +426,7 @@ When a specialist provides feedback, the scope and nature of that assessment sho
 
 Yes.
 
-Where appropriate, the editor may seek feedback from individuals with relevant expertise in literature, linguistics, history, philosophy, mathematics, science, or engineering.
+Where appropriate, the editor may seek feedback from individuals with relevant expertise in literature, linguistics, history, philosophy, mathematics, science or engineering.
 
 A specialist should be asked to assess only the subjects within their competence.
 
@@ -430,7 +448,7 @@ The publication seeks to distinguish disagreement supported by evidence from fac
 
 Historical claims should be evaluated using appropriate evidence.
 
-Where documentary records, oral recollections, or scholarly interpretations conflict, the article should identify relevant differences rather than force an unsupported conclusion.
+Where documentary records, oral recollections or scholarly interpretations conflict, the article should identify relevant differences rather than force an unsupported conclusion.
 
 ## 6. Contributions and Submissions
 
@@ -459,29 +477,31 @@ Potential contributors include:
 - Independent scholars.
 - Interdisciplinary thinkers.
 
-A contributor's work should be assessed on its intellectual quality and relevance rather than institutional affiliation alone.
+A contributor's work should be assessed on its literary and intellectual quality, relevance and supporting evidence rather than institutional affiliation alone.
 
 ### 6.3 Does a contributor need an academic position?
 
 No.
 
-Institutional affiliation is not a universal requirement for a meaningful literary or intellectual contribution.
+Institutional affiliation is not a universal requirement for a meaningful literary contribution.
 
-However, all contributors are expected to provide accurate information, responsible references, and appropriate supporting evidence.
+However, all contributors are expected to provide accurate information, responsible references and appropriate supporting evidence.
 
 ### 6.4 What kinds of contributions are suitable?
 
 Potential contributions include:
 
 - Literary interpretation.
-- Translation studies.
-- Linguistic discussion.
-- Historical and cultural exploration.
-- Philosophical reflection.
-- Scientific explanation.
-- Interdisciplinary commentary.
-- Interviews.
-- Oral histories.
+- Translation and linguistic exploration.
+- Historical and cultural commentary.
+- Philosophical reflection arising from a literary expression.
+- Studies of literary form, imagery and language.
+- Interviews and oral histories relating to literary traditions.
+- Scientific or mathematical context when it genuinely deepens a literary exploration.
+
+The central contribution should remain connected to Indian literature.
+
+Standalone scientific research articles are not a separate publication category.
 
 ### 6.5 What is the preferred article format?
 
@@ -495,13 +515,15 @@ No.
 
 Every submission is subject to editorial assessment.
 
-The editor may request revisions, additional sources, specialist feedback, permission documentation, or clarification.
+The editor may request revisions, additional sources, specialist feedback, permission documentation or clarification.
 
 A submission may also be declined or withdrawn.
 
 ### 6.7 Are external contributions required to follow the four-paragraph structure?
 
-Standard literary exploration articles should follow the four substantial English commentary paragraph format.
+Standard literary exploration articles should contain no more than four concise English prose paragraphs of original commentary.
+
+Fewer paragraphs are acceptable, and there is no mandatory four-part structure.
 
 Other contribution types may use a different structure where editorially appropriate.
 
@@ -509,7 +531,7 @@ Other contribution types may use a different structure where editorially appropr
 
 Previously published or publicly circulated material should be disclosed.
 
-Its suitability depends on originality, permissions, prior publication arrangements, and the intended contribution to Verse & Variable.
+Its suitability depends on originality, permissions, prior publication arrangements and the intended contribution to Verse & Variable.
 
 ### 6.9 Can multiple authors collaborate?
 
@@ -517,7 +539,7 @@ Yes.
 
 All contributors and their respective roles should be identified accurately.
 
-Author, translator, editor, researcher, and technical consultant roles should not be confused.
+Author, translator, editor, researcher and technical consultant roles should not be confused.
 
 ### 6.10 Can a submission be withdrawn?
 
@@ -531,7 +553,7 @@ Requests concerning already published material are assessed under the correction
 
 Ownership depends on the individual work and its rights arrangements.
 
-Original contributions, third-party quotations, published translations, photographs, research figures, and software may have different rights holders.
+Original contributions, third-party quotations, published translations, photographs, research figures and software may have different rights holders.
 
 The publication does not assume that every item hosted on its website belongs to the publication.
 
@@ -541,7 +563,7 @@ No.
 
 The repository has a default MIT licence for material within its applicable scope.
 
-It does not automatically grant unrestricted rights to use third-party poems, lyrics, translations, images, recordings, research figures, datasets, or other protected material.
+It does not automatically grant unrestricted rights to use third-party poems, lyrics, translations, images, recordings, research figures, datasets or other protected material.
 
 Separate rights arrangements must be respected.
 
@@ -557,15 +579,15 @@ It does not automatically authorise reproduction or modification where permissio
 
 The use of copyrighted literary material requires an appropriate legal basis.
 
-The relevant permission, licence, or applicable statutory exception must be assessed before publication.
+The relevant permission, licence or applicable statutory exception must be assessed before publication.
 
-The publication does not assume that short quotations, complete poems, or song lyrics are automatically free to reproduce.
+The publication does not assume that short quotations, complete poems or song lyrics are automatically free to reproduce.
 
 ### 7.5 Can the publication include public-domain works?
 
 Yes, where public-domain status has been established appropriately for the relevant work and jurisdiction.
 
-Separate rights in modern translations, editions, photographs, recordings, and adaptations must still be considered.
+Separate rights in modern translations, editions, photographs, recordings and adaptations must still be considered.
 
 ### 7.6 Can contributors retain ownership of their submissions?
 
@@ -575,23 +597,23 @@ Submission alone should not be interpreted as automatically transferring ownersh
 
 ### 7.7 How are third-party images and research figures handled?
 
-Their ownership, licence, permission, attribution requirements, and intended use should be checked separately.
+Their ownership, licence, permission, attribution requirements and intended use should be checked separately.
 
 ### 7.8 Can readers reuse the published material?
 
 Reuse depends on the rights associated with the specific material.
 
-Readers should check the relevant copyright notice, licence, source attribution, and third-party restrictions before reproducing material.
+Readers should check the relevant copyright notice, licence, source attribution and third-party restrictions before reproducing material.
 
 ### 7.9 What happens when a rights holder raises a concern?
 
-The publication evaluates the concern and may correct attribution, obtain additional permission, replace the material, restrict access, or remove affected content where appropriate.
+The publication evaluates the concern and may correct attribution, obtain additional permission, replace the material, restrict access or remove affected content where appropriate.
 
 ## 8. AI and Editorial Assistance
 
 ### 8.1 Does Verse & Variable permit AI assistance?
 
-AI tools may be used for appropriate tasks such as language assistance, organisation, coding, translation support, and exploratory research.
+AI tools may be used for appropriate tasks such as language assistance, organisation, coding, translation support and exploratory research.
 
 Their use must remain consistent with the publication's editorial and ethical standards.
 
@@ -601,7 +623,7 @@ No.
 
 The editor remains responsible for the published material.
 
-AI-generated statements, citations, translations, technical explanations, and other outputs require appropriate verification.
+AI-generated statements, citations, translations, technical explanations and other outputs require appropriate verification.
 
 ### 8.3 Are AI-assisted translations permitted?
 
@@ -621,11 +643,11 @@ Not without verification.
 
 References must be checked against genuine publications or original sources.
 
-Fabricated citations, quotations, historical records, and research findings are not acceptable.
+Fabricated citations, quotations, historical records and research findings are not acceptable.
 
 ### 8.6 Can private interviews or confidential manuscripts be uploaded to AI systems?
 
-Not without an appropriate basis, permission where required, and consideration of the service's privacy and data-handling terms.
+Not without an appropriate basis, permission where required and consideration of the service's privacy and data-handling terms.
 
 Confidential and sensitive information requires additional protection.
 
@@ -639,7 +661,7 @@ Interview and oral-history material may form part of the archive where appropria
 
 Yes.
 
-Participants should understand the purpose of the interview, the recording arrangements, proposed use, identification choices, and relevant privacy limitations.
+Participants should understand the purpose of the interview, the recording arrangements, proposed use, identification choices and relevant privacy limitations.
 
 ### 9.3 Are interviews recorded?
 
@@ -663,7 +685,7 @@ Such review does not automatically give them editorial control over the complete
 
 ### 9.6 How are interview recordings protected?
 
-Recordings and associated documents should be handled according to their sensitivity, consent arrangements, and the publication's privacy and retention practices.
+Recordings and associated documents should be handled according to their sensitivity, consent arrangements and the publication's privacy and retention practices.
 
 ### 9.7 Are oral histories treated as verified historical facts?
 
@@ -679,7 +701,7 @@ The publication distinguishes recollection from corroborated historical evidence
 
 No.
 
-Confidential reviewer correspondence, private consent forms, sensitive interview records, and other restricted documents should not be placed in public website directories.
+Confidential reviewer correspondence, private consent forms, sensitive interview records and other restricted documents should not be placed in public website directories.
 
 ### 10.2 Does the website use external resources?
 
@@ -693,7 +715,7 @@ Yes.
 
 Accessibility is an important design and maintenance objective.
 
-The publication considers keyboard access, readable typography, suitable contrast, assistive technologies, reduced motion, multilingual text, and other accessibility requirements.
+The publication considers keyboard access, readable typography, suitable contrast, assistive technologies, reduced motion, multilingual text and other accessibility requirements.
 
 ### 10.4 Does the publication claim formal WCAG certification?
 
@@ -719,13 +741,13 @@ Actual behaviour should be checked on relevant devices and browsers.
 
 The publication includes an archive as part of its intended information architecture.
 
-The actual filters, sorting, and discovery features depend on the website implementation.
+The actual filters, sorting and discovery features depend on the website implementation.
 
 ### 10.8 Is multilingual search available?
 
 Search functionality should only be described according to what has actually been implemented.
 
-A specification for future search features does not itself mean that original-script, transliteration-aware, or multilingual search is already operational.
+A specification for future search features does not itself mean that original-script, transliteration-aware or multilingual search is already operational.
 
 ## 11. Website, Technology, and Discovery
 
@@ -737,7 +759,7 @@ Its content and templates are maintained in a Git repository.
 
 ### 11.2 Why use a static website?
 
-A static website can provide a relatively simple, maintainable, and reliable way to publish a growing literary archive.
+A static website can provide a relatively simple, maintainable and reliable way to publish a growing literary archive.
 
 It also allows articles to have permanent pages without requiring a complex application backend.
 
@@ -757,11 +779,11 @@ Its presence does not guarantee indexing or search ranking.
 
 `llms.txt` is a machine-readable informational resource intended to provide a structured introduction to the publication for compatible AI-related and automated reading systems.
 
-Its presence does not guarantee that AI systems will access, index, or use the website.
+Its presence does not guarantee that AI systems will access, index or use the website.
 
 ### 11.6 What is `llms-full.txt`?
 
-`llms-full.txt` is intended to provide a more extensive textual description of the publication, its subject areas, editorial approach, and available resources.
+`llms-full.txt` is intended to provide a more extensive textual description of the publication, its editorial approach and available resources.
 
 It should describe actual content and avoid presenting proposed features as completed functionality.
 
@@ -769,21 +791,21 @@ It should describe actual content and avoid presenting proposed features as comp
 
 No.
 
-The website may use appropriate metadata, canonical links, sitemaps, and other discoverability practices.
+The website may use appropriate metadata, canonical links, sitemaps and other discoverability practices.
 
-Search-engine crawling, indexing, ranking, and appearance in search results remain subject to external systems.
+Search-engine crawling, indexing, ranking and appearance in search results remain subject to external systems.
 
 ### 11.8 Is the publication continuously monitored?
 
 No such claim should be made unless monitoring systems are actually configured and operating.
 
-The maintenance policy describes intended checks and procedures, including deployment verification, link maintenance, and security reviews.
+The maintenance policy describes intended checks and procedures, including deployment verification, link maintenance and security reviews.
 
 ### 11.9 Are backups maintained?
 
-The publication has a documented backup and recovery policy.
+The publication has documented backup and recovery practices.
 
-Actual backup arrangements, frequency, storage locations, and restoration testing should be established and verified separately.
+Actual backup arrangements, frequency, storage locations and restoration testing should be established and verified separately.
 
 ## 12. Corrections, Takedowns, and Editorial Concerns
 
@@ -797,8 +819,9 @@ Readers are encouraged to report material errors involving:
 - Original text.
 - Translation.
 - Historical information.
-- Scientific claims.
-- Mathematical expressions.
+- Cultural context.
+- Scientific claims, where applicable.
+- Mathematical expressions, where applicable.
 - References.
 - Copyright.
 - Privacy.
@@ -807,7 +830,7 @@ Readers are encouraged to report material errors involving:
 
 ### 12.2 How are corrections handled?
 
-The editor evaluates the concern and determines whether correction, clarification, additional context, or another appropriate response is necessary.
+The editor evaluates the concern and determines whether correction, clarification, additional context or another appropriate response is necessary.
 
 ### 12.3 Are all disagreements treated as errors?
 
@@ -819,7 +842,7 @@ The publication distinguishes interpretative differences from substantiated inac
 
 ### 12.4 Can content be removed?
 
-Content may be restricted or removed where appropriate, including cases involving rights concerns, privacy, confidentiality, safety, or other serious editorial issues.
+Content may be restricted or removed where appropriate, including cases involving rights concerns, privacy, confidentiality, safety or other serious editorial issues.
 
 ### 12.5 Are published articles silently changed?
 
@@ -831,7 +854,7 @@ The publication aims to preserve an appropriate record of material editorial cha
 
 Use the publication's designated contact channel when one is officially available.
 
-Provide the article URL, relevant passage, nature of the concern, and supporting information where possible.
+Provide the article URL, relevant passage, nature of the concern and supporting information where possible.
 
 Avoid sending unnecessary personal or confidential information through public channels.
 
@@ -841,7 +864,7 @@ Avoid sending unnecessary personal or confidential information through public ch
 
 No.
 
-Publication or acknowledgement does not automatically constitute endorsement by a university, journal, conference, research organisation, or professional body.
+Publication or acknowledgement does not automatically constitute endorsement by a university, journal, conference, research organisation or professional body.
 
 ### 13.2 Does the publication claim formal institutional backing?
 
@@ -867,7 +890,7 @@ Any specific remuneration or other contractual terms must be agreed separately b
 
 ### 14.1 Where should new readers begin?
 
-Readers may begin with the homepage, explore the latest weekly collection, browse individual articles, or use the language directory and archive where those features are available.
+Readers may begin with the homepage, explore the latest weekly collection, browse individual articles or use the language directory and archive where those features are available.
 
 There is no required reading order.
 
@@ -875,9 +898,9 @@ There is no required reading order.
 
 No.
 
-Literary exploration remains accessible independently of advanced scientific knowledge.
+The literary archive is intended to be accessible independently of advanced scientific knowledge.
 
-Technical explanations are included where they add meaningful insight, and important terminology should be explained where necessary.
+Technical explanations are included only where they add meaningful insight, and important terminology should be explained where necessary.
 
 ### 14.3 Must readers understand the original language?
 
@@ -917,9 +940,9 @@ Visit the official website:
 
 https://pravinkumar-ghodake.github.io/verse-variable/
 
-The About page provides an introduction to the publication's purpose and philosophy.
+The About page provides an introduction to the publication's purpose and editorial philosophy.
 
-The relevant policy documents describe its editorial, research, ethical, technical, and intellectual standards.
+The relevant policy documents describe its editorial, research, ethical, technical and intellectual standards.
 
 ### 15.2 Where can I find the publication's policies?
 
@@ -952,7 +975,7 @@ Do not assume that an address can be inferred from the founder's name or website
 
 Use the officially designated contact mechanism when available.
 
-For urgent privacy, security, or rights concerns, avoid posting sensitive details in public repository discussions.
+For urgent privacy, security or rights concerns, avoid posting sensitive details in public repository discussions.
 
 ### 15.5 How can readers support the publication?
 
@@ -962,21 +985,21 @@ Readers can support the project by:
 - Sharing accurate citations and sources.
 - Reporting genuine errors.
 - Respecting original creators and translators.
-- Suggesting relevant literary or intellectual material.
+- Suggesting relevant Indian literary works.
 - Supporting responsible multilingual preservation.
 - Recommending the archive to interested readers.
 
 ## 16. A Final Note
 
-Verse & Variable is an ongoing exploration of literature, language, culture, philosophy, and science.
+Verse & Variable is an ongoing exploration of Indian literature, language, culture, philosophy and human experience, shaped by a wider curiosity about the world.
 
-It begins with the belief that a literary expression can invite questions that extend far beyond its immediate wording.
+It begins with the belief that a literary expression deserves to be encountered on its own terms.
 
-A word may lead to a memory. A metaphor may open a philosophical question. A rhythm may invite mathematical curiosity. A description of change may inspire an examination of physical behaviour.
+A word may lead to a memory. An image may open a philosophical question. A line may capture an experience that ordinary language struggles to express. On occasion, a literary reflection may also invite scientific curiosity.
 
-But the journey should never erase the differences between these forms of knowledge.
+But none of these possibilities should be imposed upon a work in advance.
 
-The original expression deserves its own voice. The scientific discussion deserves its own evidence. The reader deserves honesty about where interpretation ends and established knowledge begins.
+The original expression deserves its own voice. Scientific discussion, when present, deserves its own evidence. The reader deserves honesty about where interpretation ends and established knowledge begins.
 
 That is the spirit in which this archive is being developed.
 
