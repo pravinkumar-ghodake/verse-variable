@@ -1,4 +1,3 @@
-
 # Content Lifecycle
 
 **Verse & Variable**  
@@ -9,7 +8,11 @@
 
 This document establishes the lifecycle management principles for all content published by Verse & Variable.
 
-The publication is intended to become a growing multilingual literary and intellectual archive. Its content will evolve through research, editorial development, technical maintenance, corrections, and the discovery of additional historical, linguistic, cultural, and scientific information.
+The publication is intended to become a growing multilingual archive of Indian literature and its many expressions, interpretations and connections with human experience.
+
+Its content will evolve through literary discovery, source verification, linguistic and cultural research, editorial development, technical maintenance, corrections and the discovery of additional historical information.
+
+The editor's wider intellectual interests include international literature, scientific research, mechanics, philosophy, books, music, cinema, sport and lived experience. These interests inform the perspective brought to the journal, but they do not expand the present editorial scope of the archive beyond Indian literature.
 
 A clear content lifecycle helps ensure that published material remains:
 
@@ -21,9 +24,11 @@ A clear content lifecycle helps ensure that published material remains:
 - Traceable through its publication history.
 - Maintained throughout its useful lifetime.
 
+Scientific knowledge may contribute to an individual reflection when it genuinely deepens the literary reading. It is not a separate publication requirement or a compulsory stage for every article.
+
 This document establishes how content moves from an initial idea to a published and maintained archive entry.
 
-It also addresses the circumstances in which content may require correction, revision, temporary restriction, replacement, or withdrawal.
+It also addresses the circumstances in which content may require correction, revision, temporary restriction, replacement or withdrawal.
 
 ## 2. Scope
 
@@ -34,16 +39,19 @@ The content lifecycle applies to:
 - Original literary commentary.
 - Original translations.
 - Published translations and adaptations.
-- Historical and cultural essays.
-- Scientific and interdisciplinary discussions.
-- Research-oriented articles.
+- Historical and cultural contextual material.
+- Philosophical reflections arising from literary works.
 - Supplementary illustrations and multimedia.
 - Informational and editorial pages.
 - Public documentation associated with the publication.
 
+Scientific explanations, technical discussions and research references may also form part of an individual literary exploration when they are genuinely relevant to its interpretation.
+
+They are not independent publication categories or required components of the journal's literary archive.
+
 Not every content type requires every lifecycle stage.
 
-For example, an informational page may not require literary-source verification, while an article discussing a poem may require extensive linguistic, attribution, and copyright review.
+For example, an informational page may not require literary-source verification, while an article discussing a poem may require extensive linguistic, attribution and copyright review.
 
 The lifecycle should be adapted to the nature and significance of the material.
 
@@ -53,7 +61,7 @@ The lifecycle should be adapted to the nature and significance of the material.
 
 Content should progress only when it satisfies the requirements appropriate to its subject.
 
-A publication schedule must not justify publishing incomplete, unverified, or misleading material.
+A publication schedule must not justify publishing incomplete, unverified or misleading material.
 
 ### 3.2 Traceability
 
@@ -74,7 +82,7 @@ Where appropriate, records should identify:
 
 Original literary material should be preserved carefully.
 
-Subsequent revisions to commentary, metadata, or presentation should not accidentally alter the original work.
+Subsequent revisions to commentary, metadata or presentation should not accidentally alter the original work.
 
 ### 3.4 Transparent Corrections
 
@@ -84,7 +92,7 @@ Readers should not be misled into believing that a substantially corrected artic
 
 ### 3.5 Responsible Withdrawal
 
-Removing an article may sometimes be necessary because of legal, ethical, factual, or other serious concerns.
+Removing an article may sometimes be necessary because of legal, ethical, factual or other serious concerns.
 
 Withdrawal should be handled deliberately and should not be confused with ordinary editorial revision.
 
@@ -96,11 +104,11 @@ The lifecycle should support a publication that can grow over many years without
 
 The general lifecycle is:
 
-1. Idea and discovery.
+1. Literary idea and discovery.
 2. Literary selection.
 3. Initial assessment.
-4. Source verification.
-5. Research and documentation.
+4. Source verification and relevant research.
+5. Language, cultural and contextual research.
 6. Rights and attribution review.
 7. Draft preparation.
 8. Editorial review.
@@ -114,53 +122,60 @@ The general lifecycle is:
 
 A simplified process is:
 
-    IDEA
+<escape>
+LITERARY IDEA
       |
       v
-    SELECTION
+SELECTION
       |
       v
-    INITIAL ASSESSMENT
+INITIAL ASSESSMENT
       |
       v
-    RESEARCH AND VERIFICATION
+SOURCE VERIFICATION
       |
       v
-    DRAFT PREPARATION
+LANGUAGE AND CONTEXTUAL RESEARCH
       |
       v
-    EDITORIAL REVIEW
+DRAFT PREPARATION
       |
       v
-    TECHNICAL REVIEW
+EDITORIAL REVIEW
       |
       v
-    PUBLICATION
+TECHNICAL REVIEW
       |
       v
-    MAINTENANCE
+PUBLICATION
+      |
+      v
+MAINTENANCE
       |
       +----------------------+
       |                      |
       v                      v
-    REVISION              RETENTION
+   REVISION               RETENTION
       |                      |
       v                      |
-    RE-REVIEW                |
+  RE-REVIEW                  |
       |                      |
       +----------+-----------+
                  |
                  v
-           LONG-TERM ARCHIVE
+          LONG-TERM ARCHIVE
 
-    Where necessary:
-    PUBLICATION --> WITHDRAWAL
+Where necessary:
+PUBLICATION --> WITHDRAWAL
+</escape>
+
+Optional scientific verification or specialist consultation may occur when an individual article requires it.
 
 This diagram describes the editorial process rather than an automated software workflow.
 
-## 5. Stage One — Idea and Discovery
+## 5. Stage One — Literary Idea and Discovery
 
-The lifecycle begins when a literary work, subject, expression, or intellectual question is identified for possible exploration.
+The lifecycle begins when a literary work, expression or subject is identified for possible exploration.
 
 Potential starting points include:
 
@@ -169,30 +184,36 @@ Potential starting points include:
 - A song lyric.
 - A philosophical passage.
 - A regional literary expression.
-- A historical text.
+- A historical literary text.
 - A cultural or linguistic observation.
-- A scientific concept that invites meaningful literary reflection.
+- A literary expression that raises questions about human experience.
+
+The selection may also arise from the editor's wider reading, research background or intellectual interests.
+
+However, the published exploration should begin with a literary expression rather than an independent scientific or technical subject seeking a literary connection.
 
 An idea is not automatically accepted for publication.
 
-At this stage, the purpose is to identify its potential and establish whether further research is worthwhile.
+At this stage, the purpose is to identify its literary potential and establish whether further research is worthwhile.
 
 ### 5.1 Initial Research Notes
 
 Where appropriate, record:
 
-- Proposed work or subject.
+- Proposed work or expression.
 - Original language.
 - Known author or creator.
 - Possible literary form.
 - Initial source.
 - Reason for considering the material.
-- Possible interpretative direction.
-- Potential verification issues.
+- Initial literary or emotional observations.
+- Potential interpretative direction.
+- Possible verification issues.
+- Preliminary copyright considerations.
 
 ### 5.2 Discovery Sources
 
-Discovery may begin through libraries, books, recordings, scholarly publications, archives, interviews, or other resources.
+Discovery may begin through libraries, books, recordings, scholarly publications, archives, interviews or other resources.
 
 A discovery source should not automatically become the authoritative publication source.
 
@@ -211,9 +232,14 @@ Consider:
 - Historical importance.
 - Originality of the proposed exploration.
 - Availability of reliable source material.
+- Translation and interpretation possibilities.
 - Copyright and permission considerations.
 
-The selection should provide a meaningful basis for independent commentary.
+The present editorial scope is focused on Indian literature and its diverse languages, literary forms and cultural traditions.
+
+The editor's wider interests include Indian and international literature and other intellectual disciplines. These interests may inform the perspective brought to a selection, but do not create additional publication categories for the current archive.
+
+The selection should provide a meaningful basis for independent literary commentary.
 
 ### 6.1 Selection Decisions
 
@@ -247,13 +273,19 @@ Are reliable sources available for the original wording and attribution?
 
 Can the original language be understood and translated responsibly?
 
+### Cultural and historical context
+
+Can important cultural, historical or contextual details be established sufficiently?
+
 ### Rights position
 
 Can the proposed material be reproduced lawfully and appropriately?
 
 ### Research requirements
 
-Do the intended historical, cultural, philosophical, or scientific claims have adequate supporting sources?
+Do the intended historical, linguistic or other factual claims have adequate supporting sources?
+
+Where a scientific concept genuinely arises from the literary interpretation, can it be investigated accurately without distorting the original expression?
 
 ### Editorial contribution
 
@@ -261,7 +293,7 @@ Will the article contribute something substantive and original to the archive?
 
 Where significant uncertainties remain, identify them before drafting.
 
-## 8. Stage Four — Research and Verification
+## 8. Stage Four — Source Verification and Research
 
 Once a work has been selected, conduct the research required for its publication.
 
@@ -275,8 +307,11 @@ This stage may involve:
 - Translation preparation.
 - Cultural contextualisation.
 - Philosophical research.
-- Scientific research.
+- Verification of factual statements.
+- Scientific research, where a genuine connection requires it.
 - Bibliographic documentation.
+
+The depth of research should be proportionate to the actual content and claims of the article.
 
 ### 8.1 Source Register
 
@@ -294,15 +329,25 @@ Apply:
 
 Different types of claims require different kinds of evidence.
 
-Historical claims, linguistic interpretations, scientific results, and literary commentary should not be treated as having identical evidential requirements.
+Historical claims, linguistic interpretations, scientific results and literary commentary should not be treated as having identical evidential requirements.
 
-### 8.3 Research Completion
+### 8.3 Scientific Research, Where Applicable
 
-Research should be considered sufficiently complete only when the important claims supporting the proposed article have been checked.
+Scientific research is undertaken only when the literary reflection contains substantive scientific discussion or makes specific scientific claims.
+
+It should not be initiated simply to provide an interdisciplinary component.
+
+Where such research is undertaken, distinguish established knowledge, theoretical predictions, numerical observations, experimental findings and interpretative analogies.
+
+### 8.4 Research Completion
+
+Research should be considered sufficiently complete only when the important factual claims supporting the proposed article have been checked.
 
 Some interpretative questions may remain open.
 
 Unresolved questions should be identified rather than concealed.
+
+A literary interpretation does not need to resolve every ambiguity to be suitable for publication.
 
 ## 9. Stage Five — Rights and Attribution Review
 
@@ -317,7 +362,7 @@ This includes:
 - Images.
 - Illustrations.
 - Audio and video recordings.
-- Research figures.
+- Research figures, where applicable.
 - Other third-party resources.
 
 ### 9.1 Attribution
@@ -364,23 +409,41 @@ These may include:
 - Original literary expression.
 - Original language identification.
 - Transliteration.
+- Pronunciation guidance.
 - English translation.
 - Attribution.
-- Relevant contextual information.
-- Four substantial paragraphs of original English commentary.
-- Scientific or interdisciplinary reflection, where meaningful.
+- Relevant historical, cultural or linguistic context.
+- Original editorial reflection.
+- Optional scientific context, where genuinely relevant.
 - References.
 - Supplementary notes.
 
-### 10.1 Four-Paragraph Requirement
+### 10.1 Length and Structure of the Reflection
 
-Each individual literary exploration must have exactly four substantial paragraphs of principal English commentary.
+Each individual literary exploration should contain no more than four concise paragraphs of principal English commentary.
 
-The four paragraphs form the central interpretative contribution.
+Fewer paragraphs are entirely acceptable.
 
-Headings, quotations, translations, metadata, references, and supplementary notes do not count as part of those four paragraphs.
+There is no mandatory paragraph-by-paragraph structure, and no paragraph is reserved for scientific or interdisciplinary discussion.
 
-### 10.2 Draft Integrity
+The reflection should develop naturally from the literary work, following its language, imagery, emotional movement and possibilities for interpretation.
+
+A shorter, complete reflection should not be expanded merely to reach a numerical target.
+
+### 10.2 Possible Movements of Thought
+
+The reflection may naturally move through:
+
+1. **The Encounter:** Entering the literary world through its imagery, voice, atmosphere or emotional character.
+2. **The Unfolding:** Exploring the expression's deeper meanings, tensions, contradictions and human significance.
+3. **The Personal Perspective:** Allowing the editor's observations, experience and intellectual background to contribute naturally.
+4. **The Lasting Thought:** Arriving at an honest emotional or intellectual understanding.
+
+These are possible movements of thought, not four mandatory paragraphs.
+
+A particular article may combine, omit or emphasise these movements according to the nature of its literary expression.
+
+### 10.3 Draft Integrity
 
 The draft should distinguish:
 
@@ -388,10 +451,12 @@ The draft should distinguish:
 - Direct quotations.
 - Original commentary.
 - Interpretative statements.
-- Scientific explanations.
+- Optional scientific explanations.
 - Speculative observations.
 
 Do not present sourced text as original writing.
+
+Where interpretation is uncertain, express that uncertainty appropriately.
 
 ## 11. Stage Seven — Editorial Review
 
@@ -405,6 +470,7 @@ The review should consider:
 - Does the interpretation engage meaningfully with the work?
 - Does the commentary retain its independent voice?
 - Is the cultural context respected?
+- Does the reflection preserve the emotional character of the work?
 
 ### Linguistic quality
 
@@ -417,16 +483,25 @@ The review should consider:
 ### Intellectual quality
 
 - Are philosophical interpretations reasonable?
-- Are scientific connections meaningful?
+- Are factual statements supported?
+- Are scientific connections meaningful, where present?
 - Are assumptions and limitations clear?
 - Are established findings distinguished from hypotheses?
 
+### Emotional and narrative quality
+
+- Does the reflection have a natural progression?
+- Are transitions between observations coherent?
+- Does the writing avoid unnecessary repetition?
+- Does the conclusion emerge naturally?
+- Has the reflection been kept concise without losing meaningful depth?
+
 ### Structural quality
 
-- Are exactly four principal commentary paragraphs present?
 - Does the article follow the established template?
-- Are repetitions avoided?
-- Are headings and supplementary materials appropriate?
+- Does the reflection contain no more than four concise paragraphs?
+- Are supplementary materials appropriate?
+- Is the presentation consistent with the publication's identity?
 
 ### Research integrity
 
@@ -480,7 +555,7 @@ All associated entries should use the correct shared `week_id` and distinct `ent
 
 ## 13. Stage Nine — Publication Approval
 
-An article should be approved for publication only when its editorial, research, rights, and technical requirements have been addressed.
+An article should be approved for publication only when its editorial, research, rights and technical requirements have been addressed.
 
 ### 13.1 Publication Readiness
 
@@ -491,8 +566,8 @@ Before release, verify that:
 - Translation status is clear.
 - Copyright requirements are addressed.
 - Commentary is complete.
-- Scientific claims are supported where applicable.
-- References are functional.
+- Factual and scientific claims are supported where applicable.
+- References are functional and relevant.
 - The page renders correctly.
 - The article's permanent URL is established.
 
@@ -569,10 +644,10 @@ The publication may receive new information through:
 - Corrected editions.
 - Historical discoveries.
 - Linguistic research.
-- Scientific developments.
 - Attribution clarifications.
 - Accessibility reports.
 - Copyright concerns.
+- Relevant scientific developments, where an article contains scientific discussion.
 
 Review material claims when credible new information becomes available.
 
@@ -608,7 +683,7 @@ Examples include:
 - Incorrect quotation.
 - Translation errors that change meaning.
 - Significant historical inaccuracies.
-- Scientific inaccuracies.
+- Scientific inaccuracies, where applicable.
 - Incorrect claims about research findings.
 - Misleading attribution.
 
@@ -622,11 +697,12 @@ The commentary may occasionally be improved without correcting a factual error.
 
 Examples include:
 
-- Clarifying an argument.
+- Clarifying an interpretation.
 - Improving the explanation of a metaphor.
 - Adding relevant context.
-- Refining a scientific distinction.
-- Expanding a discussion.
+- Refining an argument.
+- Improving emotional and narrative continuity.
+- Clarifying a scientific distinction, where applicable.
 
 A substantial interpretative revision should be distinguishable from a minor language edit when the difference is material to the article.
 
@@ -653,7 +729,8 @@ Feedback may concern:
 - Translation.
 - Transliteration.
 - Historical context.
-- Scientific explanations.
+- Cultural interpretation.
+- Factual or scientific explanations, where applicable.
 - Copyright.
 - Accessibility.
 - Technical presentation.
@@ -735,7 +812,7 @@ Possible reasons include:
 
 Where legally and ethically permissible, retain appropriate internal records explaining the withdrawal decision and the publication history.
 
-Do not expose confidential correspondence, personal information, or sensitive material merely to demonstrate that a withdrawal occurred.
+Do not expose confidential correspondence, personal information or sensitive material merely to demonstrate that a withdrawal occurred.
 
 ### 18.4 Public Notice
 
@@ -747,7 +824,7 @@ The notice should not reproduce the problematic material or reveal protected inf
 
 A withdrawn page may be removed or replaced with an appropriate explanatory page.
 
-Check related links, weekly collections, archive entries, sitemap information, and search metadata.
+Check related links, weekly collections, archive entries, sitemap information and search metadata.
 
 Do not leave broken navigation or continue presenting withdrawn material as an active article.
 
@@ -797,13 +874,13 @@ Avoid unnecessary rewriting or deletion of history.
 
 ### 19.4 Static Content Resilience
 
-Where practical, publish core literary content in standard, portable formats such as Markdown, text, and valid HTML.
+Where practical, publish core literary content in standard, portable formats such as Markdown, text and valid HTML.
 
 Avoid making the long-term readability of an article depend exclusively on a temporary third-party script or service.
 
 ### 19.5 External Dependencies
 
-Review external fonts, libraries, scripts, and embedded resources periodically.
+Review external fonts, libraries, scripts and embedded resources periodically.
 
 Where an external resource becomes unavailable, consider a suitable alternative while preserving the original article's meaning and presentation.
 
@@ -821,9 +898,9 @@ For consistent editorial management, the following status vocabulary is recommen
 
 | Status | Meaning |
 |---|---|
-| `idea` | Initial subject identified |
+| `idea` | Initial literary subject identified |
 | `selected` | Work accepted for further consideration |
-| `researching` | Verification and research underway |
+| `researching` | Verification and relevant research underway |
 | `drafting` | Article being prepared |
 | `in-review` | Editorial assessment underway |
 | `revision-required` | Changes required before approval |
@@ -846,7 +923,7 @@ If statuses are introduced in article frontmatter or an editorial tracking tool,
 
 Only material approved for public release should appear as published content.
 
-Drafts, internal research notes, and confidential information should not be included accidentally in public collections or generated search indexes.
+Drafts, internal research notes and confidential information should not be included accidentally in public collections or generated search indexes.
 
 ### 20.3 Archived Versus Withdrawn
 
@@ -860,7 +937,7 @@ Do not treat them as interchangeable.
 
 ## 21. Relationship with Weekly Publication Cycles
 
-The publication's intended weekly format consists of three independent literary explorations.
+The publication's intended weekly format consists of three independent literary explorations focused on Indian literature.
 
 Each article should pass through its own research and editorial process.
 
@@ -882,6 +959,12 @@ If one exploration requires further verification, the publication should priorit
 
 An incomplete article should not be treated as published merely to maintain a three-article schedule.
 
+### 21.4 No Required Scientific Balance
+
+The three articles do not need to include a scientific subject, an interdisciplinary comparison or a predetermined distribution of literary and scientific content.
+
+Their value lies in the quality and individuality of their literary expressions and reflections.
+
 ## 22. Technical and Administrative Responsibilities
 
 The lifecycle is an editorial framework, but its implementation depends on maintaining the technical publication system.
@@ -899,30 +982,34 @@ Relevant responsibilities include:
 - Accessible presentation.
 - Reliable backup and version history.
 
+The website's scientific and wave-inspired visual language may continue to express the editor's research background. It does not impose scientific content requirements on individual articles.
+
 Changes to technical infrastructure should be reflected in relevant documentation and the changelog.
 
 ## 23. Lifecycle Review Checklist
 
 Before an individual article is treated as a completed publication item, review its lifecycle.
 
-### Selection and research
+### Selection and Research
 
 - [ ] Literary selection is justified.
 - [ ] Original source is identified.
 - [ ] Original text is verified.
 - [ ] Attribution is checked.
 - [ ] Language and cultural context are researched.
-- [ ] Important scientific claims are supported where applicable.
+- [ ] Important factual and historical claims are supported.
+- [ ] Scientific claims are supported where applicable.
 
-### Rights and writing
+### Rights and Writing
 
 - [ ] Copyright position has been reviewed.
 - [ ] Translation status is identified.
 - [ ] Original commentary is complete.
-- [ ] Four principal commentary paragraphs are present.
-- [ ] Appropriate references are included.
+- [ ] Reflection contains no more than four concise paragraphs.
+- [ ] Emotional and intellectual continuity is maintained.
+- [ ] References are included where necessary and relevant.
 
-### Approval and publication
+### Approval and Publication
 
 - [ ] Editorial review is complete.
 - [ ] Technical review is complete.
@@ -969,13 +1056,13 @@ The content lifecycle connects these practices into one continuing process.
 
 A literary archive should not be regarded as a collection of pages that become irrelevant once published.
 
-Literary texts may acquire new interpretations. Historical records may be corrected. Translations may improve. Scientific explanations may require refinement. Technical presentation may evolve.
+Literary texts may acquire new interpretations. Historical records may be corrected. Translations may improve. Factual explanations may require refinement. Scientific discussions, where present, may need correction. Technical presentation may evolve.
 
 The responsibility of Verse & Variable extends beyond the first publication of an article.
 
-Its objective is to maintain an archive in which original expression is respected, research remains traceable, corrections are handled responsibly, and valuable intellectual material can remain accessible over time.
+Its objective is to maintain an archive in which original expression is respected, research remains traceable, corrections are handled responsibly, and valuable literary and intellectual material can remain accessible over time.
 
----
+Every article should be allowed to retain its own voice, language, emotional character and interpretative possibilities.
 
 **Verse & Variable**  
 *A line of verse. A line of inquiry.*  
