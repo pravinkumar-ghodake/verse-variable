@@ -1,6 +1,6 @@
 <div align="center">
 
-# VERSE & VARIABLE
+# Verse & Variable
 
 ### *A line of verse. A line of inquiry.*
 
@@ -488,7 +488,7 @@ For an individual literary exploration, cite its permanent article URL. For a we
 
 ## Colophon
 
-### VERSE & VARIABLE
+### Verse & Variable
 
 *Lafz se Lehar tak — From the word to the wave.*
 
