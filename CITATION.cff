@@ -1,12 +1,22 @@
+
 cff-version: 1.2.0
 
 message: >-
-  If you use, reference, or discuss the Verse & Variable publication,
-  please cite it using the preferred publication reference below.
-  If you use or adapt the repository's source code, cite this repository
-  as a software project.
+  If you use, reference, adapt, or build upon the software,
+  editorial infrastructure, or repository-maintained materials
+  supporting Verse & Variable, please cite this repository
+  using the software citation information below.
 
-title: "Verse & Variable"
+  If you discuss Verse & Variable as a literary publication,
+  please cite the journal website separately.
+
+  The repository may contain literary works, translations,
+  images, and other third-party material subject to separate
+  copyright, licensing, and permission requirements.
+  Citation does not grant permission to reproduce or
+  redistribute such material.
+
+title: "Verse & Variable: Publication Website and Digital Literary Archive"
 
 authors:
   - family-names: Ghodake
@@ -20,27 +30,71 @@ url: "https://pravinkumar-ghodake.github.io/verse-variable/"
 repository-code: "https://github.com/pravinkumar-ghodake/verse-variable"
 
 abstract: >-
-  This repository contains the source code, templates, configuration,
-  publication metadata, documentation and structured literary content
-  supporting Verse & Variable, an independent Indian literary journal.
-  The publication is devoted to poetry, shayari, ghazals, nazms,
-  literary prose, philosophical expressions and other forms of Indian
-  literary expression across India's diverse languages and traditions.
-  Its initial linguistic foundation comprises Urdu, Hindi, Marathi,
-  Kannada, Tamil, Malayalam and Telugu. The editorial approach
-  emphasises literary integrity, accurate attribution, cultural and
-  linguistic context, thoughtful interpretation and original English
-  commentary. The journal's publication scope is literary. Scientific
-  knowledge and specialist expertise may inform individual explorations
-  when genuinely relevant, but are not compulsory editorial elements
-  or independent publication categories. The repository supports the
-  journal's multilingual digital archive and its long-term presentation
+  This repository contains the source code, website templates,
+  configuration, publication metadata, editorial documentation,
+  and supporting materials for Verse & Variable, an independent
+  Indian literary journal.
+
+  The journal is devoted to poetry, shayari, ghazals, nazms,
+  sher and couplets, literary prose, philosophical and devotional
+  expressions, and other forms of literary expression across
+  India's diverse languages and traditions. Its initial
+  linguistic foundation comprises Urdu, Hindi, Marathi,
+  Kannada, Tamil, Malayalam, and Telugu.
+
+  The editorial approach emphasises literary integrity,
+  original language and script, accurate attribution,
+  cultural and linguistic context, thoughtful interpretation,
+  and original English commentary. Literature, language,
+  cultural traditions, and human experience remain central
+  to the publication. Scientific interpretation is neither
+  compulsory nor an independent publication category.
+
+  The founder and editor, Pravinkumar Ghodake, has a research
+  background in theoretical, computational, and experimental
+  mechanics, with interests spanning applied mechanics,
+  solid mechanics, elastodynamics, nonlinear vibrations,
+  nonlinear elastic waves, nonlinear ultrasonics, harmonic
+  generation and scattering, wave mixing, mechanical and
+  nonlinear metamaterials, acoustic metamaterials, phononic
+  crystals, guided waves, structural health monitoring,
+  non-destructive testing and evaluation, inverse problems,
+  and computational inverse design.
+
+  His methodological and computational interests include
+  finite element methods and analysis, numerical simulation,
+  COMSOL Multiphysics, MATLAB, nonlinear constitutive and
+  hysteretic modelling, optimization, uncertainty
+  quantification, Bayesian inverse methods, and machine
+  learning in mechanics. His wider research interests also
+  encompass nonlinear wave cloaking, time-modulated
+  metamaterials, harmonic suppression, damage quantification,
+  and experimental investigation of wave propagation
+  and material behaviour.
+
+  This scientific and technical background forms part of
+  the editor's wider intellectual perspective. It may inform
+  individual literary explorations when a connection has
+  genuine interpretive value, without imposing scientific
+  frameworks on literary works or altering the journal's
+  literary scope.
+
+  The repository supports the journal's multilingual digital
+  archive, editorial workflow, and long-term presentation
   through Jekyll and GitHub Pages.
 
+  The MIT licence applies to the original software code
+  covered by the repository's LICENSE file. It does not
+  override the copyright, licences, or permissions applicable
+  to literary works, translations, images, or other separately
+  protected material included in the repository.
+
 keywords:
+  # Publication identity and literary scope
   - Indian literature
   - Indian literary traditions
   - Multilingual literary archive
+  - Digital literary archive
   - Poetry
   - Urdu poetry
   - Hindi poetry
@@ -52,23 +106,57 @@ keywords:
   - Shayari
   - Ghazal
   - Nazm
+  - Sher
+  - Vachana
+  - Abhang
   - Literary studies
   - Literary interpretation
   - Philosophy
   - Human experience
   - Translation
-  - Digital literary archive
+  - Digital humanities
+
+  # Founder's research background
+  - Applied mechanics
+  - Solid mechanics
+  - Theoretical mechanics
+  - Computational mechanics
+  - Experimental mechanics
+  - Elastodynamics
+  - Nonlinear vibrations
+  - Nonlinear elastic waves
+  - Nonlinear ultrasonics
+  - Harmonic generation
+  - Harmonic scattering
+  - Wave mixing
+  - Mechanical metamaterials
+  - Nonlinear metamaterials
+  - Acoustic metamaterials
+  - Phononic crystals
+  - Nonlinear wave cloaking
+  - Time-modulated metamaterials
+  - Inverse design
+  - Computational inverse design
+  - Structural health monitoring
+  - Non-destructive evaluation
+  - Non-destructive testing
+  - Guided waves
+  - Lamb waves
+  - Shear horizontal waves
+  - Damage quantification
+  - Finite element method
+  - Finite element analysis
+  - Numerical simulation
+  - Bayesian inverse methods
+  - Machine learning in mechanics
+  - Uncertainty quantification
+  - COMSOL Multiphysics
+  - MATLAB
+
+  # Digital publication infrastructure
   - Jekyll
   - GitHub Pages
+  - Digital publishing
+  - Open scholarly infrastructure
 
 license: MIT
-
-preferred-citation:
-  type: generic
-  title: "Verse & Variable: A line of verse. A line of inquiry."
-  authors:
-    - family-names: Ghodake
-      given-names: Pravinkumar
-      orcid: "https://orcid.org/0000-0002-6755-4003"
-  year: 2026
-  url: "https://pravinkumar-ghodake.github.io/verse-variable/"
