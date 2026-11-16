@@ -18,6 +18,7 @@ An independent Indian literary journal by **Pravinkumar Ghodake**, shaped by a w
 [![Editorial Format](https://img.shields.io/badge/Editorial_Model-3_Explorations_Per_Collection-65536E?style=flat-square)](#the-weekly-reading-format)
 [![Built with Jekyll](https://img.shields.io/badge/Powered_by-Jekyll-34313A?style=flat-square&logo=jekyll&logoColor=white)](#website-and-repository)
 [![GitHub Pages](https://img.shields.io/badge/Published_with-GitHub_Pages-34313A?style=flat-square&logo=githubpages&logoColor=white)](https://pages.github.com/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24280478.svg)](https://doi.org/10.5281/zenodo.24280478)
 
 **An independent exploration of Indian literature, language and human experience.**
 
@@ -479,6 +480,18 @@ If referencing the journal as a whole, the following citation may be used:
 **Author:** Pravinkumar Ramchandra Ghodake
 
 **ORCID:** [0000-0002-6755-4003](https://orcid.org/0000-0002-6755-4003)
+
+
+### Software and Repository Citation
+
+The source code, digital publication infrastructure and editorial framework archived through Zenodo may be cited separately:
+
+> Ghodake, P. (2026). *Verse & Variable: Publication Website and Digital Literary Archive* (Version v1.0.0) [Computer software]. Zenodo.
+
+**Version-specific DOI:** [10.5281/zenodo.24280479](https://doi.org/10.5281/zenodo.24280479)
+
+**Concept DOI (all versions):** [10.5281/zenodo.24280478](https://doi.org/10.5281/zenodo.24280478)
+
 
 For an individual literary exploration, cite its permanent article URL. For a weekly collection, cite the corresponding weekly collection page.
 
