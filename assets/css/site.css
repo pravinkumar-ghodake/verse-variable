@@ -1262,7 +1262,7 @@ button {
 .original-text--kannada {
   font-family: var(--font-kannada);
 
-  font-size: clamp(1.45rem, 3vw, 1.95rem);
+  font-size: 0.93rem;
 
   line-height: 2;
 }
