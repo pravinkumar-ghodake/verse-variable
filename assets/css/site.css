@@ -1334,6 +1334,20 @@ button {
   text-align-last: right;
 }
 
+/* Remove excess spacing within English translations */
+
+.translation-text p {
+  margin: 0;
+}
+
+.translation-text p + p {
+  margin-top: 0;
+}
+
+.translation-text br + br {
+  display: none;
+}
+
 
 .transliteration {
   display: block;
