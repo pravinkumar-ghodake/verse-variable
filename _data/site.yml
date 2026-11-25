@@ -617,7 +617,7 @@ reading:
   themes:
     dark: true
     light: true
-    default: "dark"
+    default: "light"
 
 
 # ------------------------------------------------------------
