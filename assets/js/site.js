@@ -31,7 +31,7 @@
      ========================================================== */
 
   const CONFIG = {
-    defaultTheme: "dark",
+    defaultTheme: "light",
 
     maxPixelRatio: 1.75,
 
