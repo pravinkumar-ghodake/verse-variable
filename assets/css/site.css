@@ -1270,7 +1270,7 @@ button {
 .original-text--tamil {
   font-family: var(--font-tamil);
 
-  font-size: clamp(1.45rem, 3vw, 1.95rem);
+  font-size: 0.93rem;
 
   line-height: 2;
 }
@@ -1278,7 +1278,7 @@ button {
 .original-text--malayalam {
   font-family: var(--font-malayalam);
 
-  font-size: clamp(1.45rem, 3vw, 1.95rem);
+  font-size: 0.93rem;
 
   line-height: 2;
 }
@@ -1286,7 +1286,7 @@ button {
 .original-text--telugu {
   font-family: var(--font-telugu);
 
-  font-size: clamp(1.45rem, 3vw, 1.95rem);
+  font-size: 0.93rem;
 
   line-height: 2;
 }
