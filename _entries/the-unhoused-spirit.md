@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "The Unhoused Spirit"
-date: 2026-11-27
+date: 2026-11-25
 entry_number: 1
 week: "week-2026-02"
 week_id: "week-2026-02"
