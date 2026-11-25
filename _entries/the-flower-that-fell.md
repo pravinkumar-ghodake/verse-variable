@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "The Flower That Fell"
-date: 2026-11-25
+date: 2026-11-20
 entry_number: 3
 week: "week-2026-02"
 week_id: "week-2026-02"
